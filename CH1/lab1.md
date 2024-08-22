@@ -4,10 +4,12 @@
 1. Come up with a one sentence definition of the mind. Don't look it up on the internet or in a dictionary, try to come up with your own definition.
   
 2. Now that you have a definition of the mind, be a little more explicit, and cast your definition in terms of features that minds must or usually have.
+
    2.1. Make a list of 10 features of the mind. Have your features take the form of “propositions”, like “can X”, “is Y”, and “has Z”.
+
    2.2. For each feature, list whether you think that feature is a necessary feature of a mind, a sufficient feature of a mind, or a typical feature (that is neither necessary nor sufficient).
   
-3. Now we are going to apply the inductive reasoning process described in Chapter 1. We will go through a series of examples of entities.
+4. Now we are going to apply the inductive reasoning process described in Chapter 1. We will go through a series of examples of entities.
    For each example below, answer:
    - a) whether you think it has a mind,
    - b) if yes, does your definition of a mind, in terms of your list of features, allow it to be considered a mind? If not, does your definition rule it out?
@@ -29,7 +31,7 @@
    - 3.14. The Terminator (or some other advanced robot from science fiction that you are familiar with)
    - 3.15. ChatGPT
 	
-4. Imagine that you are a scientist tasked with explaining the behavior of a new organism.
+5. Imagine that you are a scientist tasked with explaining the behavior of a new organism.
    You can only find the organism in a specific kind of environment: one with abundant sources of heat.
    At the following link, you can download and run a simulation of this organism.
    The orange circles are heat sources. The turtle-shaped entities are the organism that you are studying.
