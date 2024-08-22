@@ -44,11 +44,15 @@
 
 	Using this framework, can you describe a theory you had about the organism, hypotheses you generated from the theory, and a test of the hypothesis that you performed? 
  
-6. Now imagine that you have done a dissection on one of these organisms and discovered the organization of their nervous system.
-   It is surprisingly simple! It turns out that the red and the blue turtles have slightly different nervous systems.
+6. Now imagine that you have done a dissection on one of these organisms and discovered the organization of their nervous system that controls their movement.
+   It is surprisingly simple, and is shown in the figure below:
+
+   ![Turtle Vehicle Simulation Motor Nervous System](image_url)
+
+   It turns out that the two kinsd of turtles have slightly different nervous systems.
    The blue turtles' nervous system looks like the one on the left. At the front of the organism are two neurons that are heat sensitive, one on the left,
    and one on the right (the u-shaped things in the picture). These neurons project all the way to the back of the organism and stimulate the feet
-   (the boxes on the bottom left and bottom right). As you can see in the picture, the blue organism has what is called "bilateral" organization,
+   (the boxes on the bottom left and bottom right). As you can see in the picture, the blue organism has what is called "ipsalateral" organization,
    the sensor on the left is connected to the foot on the left, and the sensor on the right is connected to the foot on the right.
 
    The red turtle, shown on the right, has was is called a "contralateral" organization.
@@ -56,10 +60,10 @@
 
    Discuss the implications of the organization of this nervous system. What does it explain about how and why the organisms behave the way that they do? 
  
-7. One of the main themes of this week is that there are many different levels of analysis, and they sometimes provide different answers.
+8. One of the main themes of this week is that there are many different levels of analysis, and they sometimes provide different answers.
    You already attempted to describe this organism's behavior at multiple levels of analysis. Now, I want you to reflect on the value of the different levels, by answering the questions below.
-   7.1. Do you think the different levels of analysis provide complimentary or contradictory explanations? Your group members may disagree on this question, feel free to document different perspectives.
-   7.2. Are some levels of analysis better or more useful than others, at least in certain circumstances? Again, your group may have differing opinions, please share them. 
+   - Do you think the different levels of analysis provide complimentary or contradictory explanations? Your group members may disagree on this question, feel free to document different perspectives.
+   - Are some levels of analysis better or more useful than others, at least in certain circumstances? Again, your group may have differing opinions, please share them. 
   
   
   
