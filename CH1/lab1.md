@@ -47,7 +47,7 @@
 6. Now imagine that you have done a dissection on one of these organisms and discovered the organization of their nervous system that controls their movement.
    It is surprisingly simple, and is shown in the figure below:
 
-   ![Turtle Vehicle Simulation Motor Nervous System](image_url)
+   ![Turtle Vehicle Simulation Motor Nervous System](../images/turtle_neuro.png)
 
    It turns out that the two kinsd of turtles have slightly different nervous systems.
    The blue turtles' nervous system looks like the one on the left. At the front of the organism are two neurons that are heat sensitive, one on the left,
