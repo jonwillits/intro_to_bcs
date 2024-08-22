@@ -8,11 +8,7 @@
    - For each feature, list whether you think that feature is a necessary feature of a mind, a sufficient feature of a mind, or a typical feature (that is neither necessary nor sufficient).
   
 3. Now we are going to apply the inductive reasoning process described in Chapter 1. We will go through a series of examples of entities.
-   For each example below, answer:
-   - a) whether you think it has a mind,
-   - b) if yes, does your definition of a mind, in terms of your list of features, allow it to be considered a mind? If not, does your definition rule it out?
-   - c) how do you need to change your definition as a result? For each one, work directly with your group.
-     
+   For each example below, answer: 1) whether you think it has a mind, 2) does your definition of a mind, in terms of your list of features, say it should be considered a mind?, and 3) how would you need to change your definition to make your definition match your intuitions.
    - A human being in a deep sleep
    - A human being with severe brain damage and who is in a vegetative state
    - A human being with dementia who cannot remember anything from their life
