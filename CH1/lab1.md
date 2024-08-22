@@ -4,8 +4,8 @@
 1. Come up with a one sentence definition of the mind. Don't look it up on the internet or in a dictionary, try to come up with your own definition.
   
 2. Now that you have a definition of the mind, be a little more explicit, and cast your definition in terms of features that minds must or usually have.
-   2.1. Make a list of 10 features of the mind. Have your features take the form of “propositions”, like “can X”, “is Y”, and “has Z”.
-   2.2. For each feature, list whether you think that feature is a necessary feature of a mind, a sufficient feature of a mind, or a typical feature (that is neither necessary nor sufficient).
+   - 2.1. Make a list of 10 features of the mind. Have your features take the form of “propositions”, like “can X”, “is Y”, and “has Z”.
+   - 2.2. For each feature, list whether you think that feature is a necessary feature of a mind, a sufficient feature of a mind, or a typical feature (that is neither necessary nor sufficient).
   
 3. Now we are going to apply the inductive reasoning process described in Chapter 1. We will go through a series of examples of entities.
    For each example below, answer:
