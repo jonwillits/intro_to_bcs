@@ -7,27 +7,27 @@
    - Make a list of 10 features of the mind. Have your features take the form of “propositions”, like “can X”, “is Y”, and “has Z”.
    - For each feature, list whether you think that feature is a necessary feature of a mind, a sufficient feature of a mind, or a typical feature (that is neither necessary nor sufficient).
   
-4. Now we are going to apply the inductive reasoning process described in Chapter 1. We will go through a series of examples of entities.
+3. Now we are going to apply the inductive reasoning process described in Chapter 1. We will go through a series of examples of entities.
    For each example below, answer:
    - a) whether you think it has a mind,
    - b) if yes, does your definition of a mind, in terms of your list of features, allow it to be considered a mind? If not, does your definition rule it out?
    - c) how do you need to change your definition as a result? For each one, work directly with your group.
      
-   - 3.1. A human being in a deep sleep
-   - 3.2. A human being with severe brain damage and who is in a vegetative state
-   - 3.3. A human being with dementia who cannot remember anything from their life
-   - 3.4. A typical one-month-old
-   - 3.5. A fetus at 8 months of gestation
-   - 3.6. A cow
-   - 3.7. A cockroach
-   - 3.8. A tree
-   - 3.9. A single living neuron kept alive and functioning in a petri dish
-   - 3.10. A single living skin cell kept alive and functioning in a petri dish
-   - 3.11. A cloud
-   - 3.12. A thermostat (a machine that can sense the temperature and changes internal and perhaps external attributes in response)
-   - 3.13. Your phone
-   - 3.14. The Terminator (or some other advanced robot from science fiction that you are familiar with)
-   - 3.15. ChatGPT
+   - A human being in a deep sleep
+   - A human being with severe brain damage and who is in a vegetative state
+   - A human being with dementia who cannot remember anything from their life
+   - A typical one-month-old human being
+   - A human fetus at 8 months of gestation
+   - A cow
+   - A cockroach
+   - A tree
+   - A single living neuron kept alive and functioning in a petri dish
+   - A single living skin cell kept alive and functioning in a petri dish
+   - A cloud
+   - A thermostat (a machine that can sense the temperature and changes internal and perhaps external attributes in response)
+   - Your phone
+   - The Terminator (or some other advanced robot from science fiction that you are familiar with)
+   - ChatGPT
 	
 5. Imagine that you are a scientist tasked with explaining the behavior of a new organism.
    You can only find the organism in a specific kind of environment: one with abundant sources of heat.
