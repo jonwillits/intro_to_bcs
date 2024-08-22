@@ -25,18 +25,16 @@
    - The Terminator (or some other advanced robot from science fiction that you are familiar with)
    - ChatGPT
 	
-5. Imagine that you are a scientist tasked with explaining the behavior of a new organism.
+4. Imagine that you are a scientist tasked with explaining the behavior of a new organism.
    You can only find the organism in a specific kind of environment: one with abundant sources of heat.
    At the following link, you can download and run a simulation of this organism.
    The orange circles are heat sources. The turtle-shaped entities are the organism that you are studying.
    You can press the start button to begin and pause the simulation. If you want to observe a new sample, you can press the “Reset” button.
    Note that you can click on and move the heat sources around to observe their effect on the organisms.
-   Watch the simulation independently for a few minutes and then jot down your thoughts about what is happening.
-
-  After observing the behavior and developing hypothses about their behavior, answer the following questions:
-  - 4.1.   Briefly describe what your group thought was happening. What levels of explanation did you come up with? 
-          Were they at the psychological level? The Neuroscience level? The Physics level? 
-  - 4.2.   How do the explanations that you used compare to the Three Levels of Analysis proposed by David Marr that were discussed in the reading and in the videos? 
+   Watch the simulation independently for a few minutes and then jot down your thoughts about what is happening. After observing the behavior and developing hypothses about their behavior, answer the following questions:
+  - Briefly describe what your group thought was happening. What levels of explanation did you come up with? 
+    Were they at the psychological level? The Neuroscience level? The Physics level? 
+  - How do the explanations that you used compare to the Three Levels of Analysis proposed by David Marr that were discussed in the reading and in the videos? 
 
 5. Did you use anything like the scientific method to answer the question? Remember, the scientific method is often described as a set of steps:
    	1) having a general theory about the nature of a system
