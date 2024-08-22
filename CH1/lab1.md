@@ -49,16 +49,9 @@ Using this framework, can you describe a theory you had about the organism, hypo
 
    ![Turtle Vehicle Simulation Motor Nervous System](../images/turtle_neuro.png)
 
-   It turns out that the two kinsd of turtles have slightly different nervous systems.
-   The blue turtles' nervous system looks like the one on the left. At the front of the organism are two neurons that are heat sensitive, one on the left,
-   and one on the right (the u-shaped things in the picture). These neurons project all the way to the back of the organism and stimulate the feet
-   (the boxes on the bottom left and bottom right). As you can see in the picture, the blue organism has what is called "ipsalateral" organization,
-   the sensor on the left is connected to the foot on the left, and the sensor on the right is connected to the foot on the right.
-
-   The red turtle, shown on the right, has was is called a "contralateral" organization.
-   It is very similar to the blue turtle, except that the left heat sensor is connected to the right foot, and the right heat sensor is connected to the left foot.
-
-   Discuss the implications of the organization of this nervous system. What does it explain about how and why the organisms behave the way that they do? 
+   It turns out that the two kinds of turtles have slightly different nervous systems. The blue turtles' nervous system looks like the one on the left. At the front of the organism near the eyes are two neurons that are heat sensitive, one on the left, and one on the right. These neurons project all the way to the back of the organism and stimulate the feet (the boxes on the bottom left and bottom right). As you can see in the picture, the blue organism has what is called "ipsalateral" organization, the sensor on the left is connected to the foot on the left, and the sensor on the right is connected to the foot on the right. The red turtle, shown on the right, has was is called a "contralateral" organization. It is very similar to the blue turtle, except that the left heat sensor is connected to the right foot, and the right heat sensor is connected to the left foot. This means that if a heat source is located ahead and to the middle of the turtles, it will stimulate the heat sensors that are closer to the heat source a little more than the sensors that are further away, causing the connected legs to move faster.  
+ 
+Discuss the implications of the organization of this nervous system. What does it explain about how and why the organisms behave the way that they do? 
  
 8. One of the main themes of this week is that there are many different levels of analysis, and they sometimes provide different answers. You already attempted to describe this organism's behavior at multiple levels of analysis. Now, I want you to reflect on the value of the different levels, by answering the questions below.
    - Do you think the different levels of analysis provide complimentary or contradictory explanations? Your group members may disagree on this question, feel free to document different perspectives.
