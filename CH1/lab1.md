@@ -40,9 +40,9 @@
    	1) having a general theory about the nature of a system
 	2) using the theory to generate hypotheses about what will happen in a specific situation 
         3)  testing the hypothesis 
-        4)  using the results of the test to evaluate your theory, and if so, update it. 
-  
-  Using this framework, can you describe a theory you had about the organism, hypotheses you generated from the theory, and a test of the hypothesis that you performed? 
+        4)  using the results of the test to evaluate your theory, and if so, update it.
+
+	Using this framework, can you describe a theory you had about the organism, hypotheses you generated from the theory, and a test of the hypothesis that you performed? 
  
 6. Now imagine that you have done a dissection on one of these organisms and discovered the organization of their nervous system.
    It is surprisingly simple! It turns out that the red and the blue turtles have slightly different nervous systems.
