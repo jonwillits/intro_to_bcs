@@ -34,15 +34,15 @@
    Watch the simulation independently for a few minutes and then jot down your thoughts about what is happening. After observing the behavior and developing hypothses about their behavior, answer the following questions:
   - Briefly describe what your group thought was happening. What levels of explanation did you come up with? 
     Were they at the psychological level? The Neuroscience level? The Physics level? 
-  - How do the explanations that you used compare to the Three Levels of Analysis proposed by David Marr that were discussed in the reading and in the videos? 
+  - How do the explanations that you used compare to the Three Levels of Analysis proposed by David Marr that were discussed in the reading and in the videos? Give reasons for your comparison of Marr’s levels to the levels you used above.
 
 5. Did you use anything like the scientific method to answer the question? Remember, the scientific method is often described as a set of steps:
-   	1) having a general theory about the nature of a system
-	2) using the theory to generate hypotheses about what will happen in a specific situation 
-        3)  testing the hypothesis 
-        4)  using the results of the test to evaluate your theory, and if so, update it.
+- having a general theory about the nature of a system
+- using the theory to generate hypotheses about what will happen in a specific situation 
+- testing the hypothesis 
+- using the results of the test to evaluate your theory, and if so, update it.
 
-	Using this framework, can you describe a theory you had about the organism, hypotheses you generated from the theory, and a test of the hypothesis that you performed? 
+Using this framework, can you describe a theory you had about the organism, hypotheses you generated from the theory, and a test of the hypothesis that you performed? 
  
 6. Now imagine that you have done a dissection on one of these organisms and discovered the organization of their nervous system that controls their movement.
    It is surprisingly simple, and is shown in the figure below:
@@ -60,8 +60,7 @@
 
    Discuss the implications of the organization of this nervous system. What does it explain about how and why the organisms behave the way that they do? 
  
-8. One of the main themes of this week is that there are many different levels of analysis, and they sometimes provide different answers.
-   You already attempted to describe this organism's behavior at multiple levels of analysis. Now, I want you to reflect on the value of the different levels, by answering the questions below.
+8. One of the main themes of this week is that there are many different levels of analysis, and they sometimes provide different answers. You already attempted to describe this organism's behavior at multiple levels of analysis. Now, I want you to reflect on the value of the different levels, by answering the questions below.
    - Do you think the different levels of analysis provide complimentary or contradictory explanations? Your group members may disagree on this question, feel free to document different perspectives.
    - Are some levels of analysis better or more useful than others, at least in certain circumstances? Again, your group may have differing opinions, please share them. 
   
