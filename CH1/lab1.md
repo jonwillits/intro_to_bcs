@@ -27,7 +27,12 @@
 	
 4. Imagine that you are a scientist tasked with explaining the behavior of a new organism.
    You can only find the organism in a specific kind of environment: one with abundant sources of heat.
-   At the following link, you can download and run a simulation of this organism.
+   At the following link, you can download and run a simulation of this organism. To run the simulation first you will need to install python on your computer, following the instructions here:
+   [Intalling Python](https://github.com/jonwillits/python_for_bcs/blob/master/ebook/CH00/0.0.%20Installing%20Python.md)
+
+   Then download the program located here:
+[Braitenberg's Vehicles #2](https://github.com/jonwillits/intro_to_bcs/blob/master/CH1/vehicles.py)
+
    The orange circles are heat sources. The turtle-shaped entities are the organism that you are studying.
    You can press the start button to begin and pause the simulation. If you want to observe a new sample, you can press the “Reset” button.
    Note that you can click on and move the heat sources around to observe their effect on the organisms.
