@@ -53,7 +53,21 @@ b. It is immoral to eat animals for food because it is wrong to cause an animal 
 <br> 
 
 ### 5. A truth table is a way that we can express all possible conditions of a set of propositions, and use it to evaluate the truth of more complex expressions. For example, we can make a truth table for the proposition “It is true that A and it is true that B”, by enumerating all possible combinations of A and B, as well as the resulting truth of the conjunction “A and B”. Complete the missing cells in the truth tables below. Reminder from the reading: the symbol "Λ" is used to mean "and", the symbol "ν" is used to mean "or, and the symbol "->" is used to mean (if, then).
-|    A     | B | A ^ |
+| A | B | A Λ B |
+|---------|---------|---------|
+| F |F|?|
+| F |T|?|
+| T |F|?|
+| T |T|?|
+
+| A | B | A v B |
+|---------|---------|---------|
+| F |F|?|
+| F |T|?|
+| T |F|?|
+| T |T|?|
+
+| A | B | A -> B |
 |---------|---------|---------|
 | F |F|?|
 | F |T|?|
