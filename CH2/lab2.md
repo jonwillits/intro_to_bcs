@@ -16,3 +16,11 @@ According to the definition above, did I have “knowledge” of the event? Why 
 - A four-year-old child who, when asked, says a bat is a mammal because bats have fur and that all mammals have fur. 
 
 - Your belief about whether the earth goes around the sun knowledge? How do you know? 
+
+### 2. The “Epistemology” video discussed the difference between rationalism and empiricism. 
+
+a. In the table below, fill in the blank cells. As the semester goes on, we are going to revisit and add to this table, so get to know it well. 
+|         | Ratiolnalism | Empirciism |
+|---------|---------|---------|
+| Definition |---------|---------|
+| Characteristic Features, Properties, or Beliefs  |---------|---------|
