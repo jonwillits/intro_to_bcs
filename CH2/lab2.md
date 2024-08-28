@@ -38,6 +38,7 @@ a. The mind and the brain are not identical. How can things be identical if they
 
 b. It is immoral to eat animals for food because it is wrong to cause an animal to suffer pain when we could eat something that wouldn’t suffer instead. It is also immoral because of the environmental consequences. 15% of greenhouse gas emissions come from meat production, and 1 lb of beef requires 20 lbs of plant feed and 2000 gallons of water to produce.
 
+<br>
 
 ### 4. Give examples of arguments that have each of the following properties: 
 - Sound 
@@ -47,4 +48,14 @@ b. It is immoral to eat animals for food because it is wrong to cause an animal 
 - Invalid, and has at least one false premise and a true conclusion 
 - Invalid, and has true premises and a true conclusion 
 - Invalid, and has true premises and a false conclusion 
-- Strong, but invalid [Hint: Think about inductive arguments.]  
+- Strong, but invalid [Hint: Think about inductive arguments.]
+
+<br> 
+
+### 5. A truth table is a way that we can express all possible conditions of a set of propositions, and use it to evaluate the truth of more complex expressions. For example, we can make a truth table for the proposition “It is true that A and it is true that B”, by enumerating all possible combinations of A and B, as well as the resulting truth of the conjunction “A and B”. Complete the missing cells in the truth tables below. Reminder from the reading: the symbol "Λ" is used to mean "and", the symbol "ν" is used to mean "or, and the symbol "->" is used to mean (if, then).
+|    A     | B | A ^ |
+|---------|---------|---------|
+| F |F|?|
+| F |T|?|
+| T |F|?|
+| T |T|?|
