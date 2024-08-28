@@ -97,7 +97,7 @@ Use a truth table to show and explain why affirming the consequent is an invalid
 
 <br>
 
-### 8. Evaluate whether the following arguments are valid or invalid. Firstly, identify their logical form, and then use truth- tables to establish their (in)validity. 
+### 8. Evaluate whether the following arguments are valid or invalid. Firstly, identify their logical form by writing out each argument as a set of symbolic propositions, and then use truth- tables to establish their (in)validity
 
 - We now know the situation. Harris either either has to beat Trump or she won’t make it to the World Series, and she won’t do the former. 
 - Sarah will only pass the discrete mathematics exam if she knows her set theory. Fortunately, she does know set theory well, so she will pass the exam. 
