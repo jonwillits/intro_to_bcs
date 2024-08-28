@@ -1,6 +1,6 @@
 # Lab 2
 
-1. Some philosophers have proposed that knowledge has three properties:
+### 1. Some philosophers have proposed that knowledge has three properties:
 - a belief,
 - that is true, and
 - which is justified (meaning that you have good reasons to believe it).
