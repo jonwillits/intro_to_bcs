@@ -60,12 +60,16 @@ b. It is immoral to eat animals for food because it is wrong to cause an animal 
 | T |F|?|
 | T |T|?|
 
+<br>
+
 | A | B | A v B |
 |---------|---------|---------|
 | F |F|?|
 | F |T|?|
 | T |F|?|
 | T |T|?|
+
+<br>
 
 | A | B | A -> B |
 |---------|---------|---------|
