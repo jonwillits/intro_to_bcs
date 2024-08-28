@@ -16,7 +16,7 @@ According to the definition above, did I have “knowledge” of the event? Why 
 - A four-year-old child who, when asked, says a bat is a mammal because bats have fur and that all mammals have fur. 
 
 - Your belief about whether the earth goes around the sun knowledge? How do you know? 
-
+<br>
 ### 2. The “Epistemology” video discussed the difference between rationalism and empiricism. 
 
 a. In the table below, fill in the blank cells. As the semester goes on, we are going to revisit and add to this table, so get to know it well. 
@@ -24,3 +24,7 @@ a. In the table below, fill in the blank cells. As the semester goes on, we are 
 |---------|---------|---------|
 | Definition |?|?|
 | Characteristic Features, Properties, or Beliefs  |?|?|
+
+b. Plato and Aristotle were described as examples of the first empiricist and rationalist. According to the video, What beliefs or arguments did they have or make for their position? 
+
+c.   Pick a very talented person with whom everyone in your group is familiar. What makes this person very talented? Do you think the person’s talents provide evidence for either the Rationalist or Empiricist perspective of the nature of knowledge? What are some arguments in favor and against both positions? 
