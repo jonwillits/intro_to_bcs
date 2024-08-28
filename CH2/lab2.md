@@ -17,6 +17,7 @@ According to the definition above, did I have “knowledge” of the event? Why 
 
 - Your belief about whether the earth goes around the sun knowledge? How do you know? 
 <br>
+
 ### 2. The “Epistemology” video discussed the difference between rationalism and empiricism. 
 
 a. In the table below, fill in the blank cells. As the semester goes on, we are going to revisit and add to this table, so get to know it well. 
