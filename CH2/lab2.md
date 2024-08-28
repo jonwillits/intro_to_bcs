@@ -93,4 +93,13 @@ b. It is immoral to eat animals for food because it is wrong to cause an animal 
   3. Therefore A 
 
 Come up with an example in real life or where people mistakenly use the affirming the consequent argument. 
-Use a truth table to show and explain why affirming the consequent is an invalid argument. 
+Use a truth table to show and explain why affirming the consequent is an invalid argument.
+
+<br>
+
+### 8. Evaluate whether the following arguments are valid or invalid. Firstly, identify their logical form, and then use truth- tables to establish their (in)validity. 
+
+- We now know the situation. Harris either either has to beat Trump or she won’t make it to the World Series, and she won’t do the former. 
+- Sarah will only pass the discrete mathematics exam if she knows her set theory. Fortunately, she does know set theory well, so she will pass the exam. 
+- It just isn’t the case that you can be a liberal and a Republican, so either you’re not a Republican or you’re not a liberal. 
+- If Dylan goes to law or medical school then he’ll be OK financially. Fortunately, he’s going to law school. 
