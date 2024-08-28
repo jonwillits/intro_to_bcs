@@ -77,3 +77,20 @@ b. It is immoral to eat animals for food because it is wrong to cause an animal 
 | F |T|?|
 | T |F|?|
 | T |T|?|
+
+<br>
+
+### 6. Create truth tables for the following propositions: 
+- I will eat the pizza if it has green peppers or mushrooms, but not both 
+- I will eat the pizza if it has green peppers or mushrooms, but not pepperoni (Hint, make sure your truth table has enough rows to cover all possible combinations of variables).
+
+<br>
+
+### 7. “Affirming the Consequent” is an example of an invalid logical argument (a logical fallacy).
+
+  1. If A then B 
+  2. B     
+  3. Therefore A 
+
+Come up with an example in real life or where people mistakenly use the affirming the consequent argument. 
+Use a truth table to show and explain why affirming the consequent is an invalid argument. 
