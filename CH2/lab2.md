@@ -29,3 +29,22 @@ a. In the table below, fill in the blank cells. As the semester goes on, we are 
 b. Plato and Aristotle were described as examples of the first empiricist and rationalist. According to the video, What beliefs or arguments did they have or make for their position? 
 
 c.   Pick a very talented person with whom everyone in your group is familiar. What makes this person very talented? Do you think the person’s talents provide evidence for either the Rationalist or Empiricist perspective of the nature of knowledge? What are some arguments in favor and against both positions? 
+
+<br>
+
+### 3. For the two arguments below, explicate each argument as a list of numbered premises and ending in the argument’s conclusion. Then diagram each argument, showing which claims depend on which other claims. In the course of making the diagram, you may notice that one or both arguments have implicit (unstated) premises. Add them to the argument. Note: in Microsoft word, you can use “Insert Shapes” to draw the diagram. 
+
+a. The mind and the brain are not identical. How can things be identical if they have different properties? There is a property that the mind and brain do not share: the brain is divisible, but the mind is not. Like all material things, the brain can be divided into parts—different halves, regions, neurons, etc. But the mind is a unity. It is my thinking essence, in which I can discern no separate parts. 
+
+b. It is immoral to eat animals for food because it is wrong to cause an animal to suffer pain when we could eat something that wouldn’t suffer instead. It is also immoral because of the environmental consequences. 15% of greenhouse gas emissions come from meat production, and 1 lb of beef requires 20 lbs of plant feed and 2000 gallons of water to produce.
+
+
+### 4. Give examples of arguments that have each of the following properties: 
+- Sound 
+- Valid, and has at least one false premise and a false conclusion 
+- Valid, and has at least one false premise and a true conclusion 
+- Invalid, and has at least one false premise and a false conclusion 
+- Invalid, and has at least one false premise and a true conclusion 
+- Invalid, and has true premises and a true conclusion 
+- Invalid, and has true premises and a false conclusion 
+- Strong, but invalid [Hint: Think about inductive arguments.]  
