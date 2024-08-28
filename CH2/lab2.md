@@ -22,5 +22,5 @@ According to the definition above, did I have “knowledge” of the event? Why 
 a. In the table below, fill in the blank cells. As the semester goes on, we are going to revisit and add to this table, so get to know it well. 
 |         | Ratiolnalism | Empirciism |
 |---------|---------|---------|
-| Definition |---------|---------|
-| Characteristic Features, Properties, or Beliefs  |---------|---------|
+| Definition |?|?|
+| Characteristic Features, Properties, or Beliefs  |?|?|
