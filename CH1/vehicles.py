@@ -241,7 +241,7 @@ class TurtleWindow:
 def main():
     num_turtles = 3
     num_heat_sources = 6
-    screen_size = (1200,800)
+    screen_size = (1100,700)
     turtle_window = TurtleWindow(num_turtles, num_heat_sources, screen_size)
     turtle_window.wn.mainloop()
 
