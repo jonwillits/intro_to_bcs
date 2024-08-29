@@ -1,12 +1,10 @@
 import tkinter as tk
 from turtle import RawTurtle, TurtleScreen
-import random, math, time
+import random, math
 
 
-###################################################################################################################
-###################################################################################################################
 class HeatSource:
-    ###############################################################################################################
+
     def __init__(self, turtle_window, id_number):
         self.turtle_window = turtle_window
         self.id_number = id_number
@@ -30,12 +28,10 @@ class HeatSource:
         self.turtle_window.wn.update()
 
 
-###################################################################################################################
-###################################################################################################################
 class Vehicle:
-    ###############################################################################################################
-    def __init__(self, turtle_window, id_number):
-        self.speed_params = [20, 0.2, 6]
+
+    def __init__(self, turtle_window, id_number, vehicle_type=None):
+        self.speed_params = [22, 0.205, 6]
         self.turn_parameters = [20]
         self.turtle_window = turtle_window
         self.max_width = int(self.turtle_window.width / 2 - 10)
@@ -43,11 +39,18 @@ class Vehicle:
         self.vehicle = RawTurtle(self.turtle_window.wn)
         self.vehicle.hideturtle()
         self.id_number = id_number
-        self.type = random.choice(["crossed", "direct"])
+
+        if vehicle_type == "crossed" or vehicle_type == "direct":
+            self.vehicle_type = vehicle_type
+        elif vehicle_type is None:
+            self.vehicle_type = random.choice(["crossed", "direct"])
+        else:
+            raise Exception(f"ERROR: Unrecognized vehicle type {vehicle_type}")
+
         self.vehicle.shape('turtle')
         self.vehicle.turtlesize(1)
         self.vehicle.penup()
-        if self.type == 'crossed':
+        if self.vehicle_type == 'crossed':
             self.vehicle.color("red", (1, 0.85, 0.85))
         else:
             self.vehicle.color("blue", (0.85, 0.85, 1))
@@ -61,7 +64,10 @@ class Vehicle:
                           random.randint(-self.max_height, self.max_height))
         self.vehicle.right(random.randint(0, 360))
 
-    ###############################################################################################################
+    def __str__(self):
+        output_string = f"Vehicle {self.id_number} {self.vehicle_type}"
+        return output_string
+
     def move(self):
         cumulative_speed = 0
         cumulative_turn_amount = 0
@@ -90,35 +96,25 @@ class Vehicle:
         x, y = self.vehicle.xcor(), self.vehicle.ycor()
         heading = self.vehicle.heading()
 
+        # Constrain x and y within the boundaries
         if x > self.max_width:
             x = self.max_width
+            self.vehicle.setheading(180 - heading)  # Reflect horizontally
         elif x < -self.max_width:
             x = -self.max_width
+            self.vehicle.setheading(180 - heading)  # Reflect horizontally
 
         if y > self.max_height:
             y = self.max_height
+            self.vehicle.setheading(-heading)  # Reflect vertically
         elif y < -self.max_height:
             y = -self.max_height
+            self.vehicle.setheading(-heading)  # Reflect vertically
 
         self.vehicle.goto(x, y)
 
-        if y in [-self.max_height, self.max_height]:
-            if 0 <= heading <= 180:
-                turn_angle = 360 - heading
-            else:
-                turn_angle = heading
-            self.vehicle.setheading(turn_angle)
-
-        if x in [-self.max_width, self.max_width]:
-            if heading <= 90 or heading > 270:
-                turn_angle = 180 - heading
-            else:
-                turn_angle = heading
-            self.vehicle.setheading(turn_angle)
-
-    ###############################################################################################################
     def compute_speed(self, left_distance, right_distance):
-        if self.type == 'crossed':
+        if self.vehicle_type == 'crossed':
             left_speed = (self.speed_params[0] / (right_distance ** self.speed_params[1])) - self.speed_params[2]
             right_speed = (self.speed_params[0] / (left_distance ** self.speed_params[1])) - self.speed_params[2]
         else:
@@ -128,10 +124,8 @@ class Vehicle:
         return left_speed, right_speed, combined_speed
 
 
-###################################################################################################################
-###################################################################################################################
 class TurtleWindow:
-    ###############################################################################################################
+
     def __init__(self, num_vehicles, num_heat_sources, screen_size):
         self.root = None
         self.canvas = None
@@ -151,6 +145,7 @@ class TurtleWindow:
         self.num_vehicles = num_vehicles
         self.vehicle_list = []
 
+        self.simulation_id = None
         self.running = False
 
         self.create_window()
@@ -159,7 +154,6 @@ class TurtleWindow:
         self.create_vehicles()
         self.wn.update()
 
-    ###############################################################################################################
     def create_window(self):
         self.root = tk.Tk()
         self.canvas = tk.Canvas(self.root, width=self.width, height=self.height)
@@ -179,17 +173,40 @@ class TurtleWindow:
         self.reset_button.pack(side=tk.LEFT)
         self.quit_button.pack(side=tk.LEFT)
 
-    ###############################################################################################################
     def create_heat_sources(self):
         for i in range(self.num_heat_sources):
             self.heat_source_list.append(HeatSource(self, i))
 
-    ###############################################################################################################
     def create_vehicles(self):
+        vehicle_count = 1
         for i in range(self.num_vehicles):
-            self.vehicle_list.append(Vehicle(self, i))
+            self.vehicle_list.append(Vehicle(self, vehicle_count, vehicle_type="crossed"))
+            vehicle_count += 1
+        for i in range(self.num_vehicles):
+            self.vehicle_list.append(Vehicle(self, vehicle_count, vehicle_type="direct"))
+            vehicle_count += 1
 
-    ###############################################################################################################
+    def reset(self):
+        # Stop the simulation if it's running
+        if self.running:
+            self.running = False
+            self.start_button.config(text="Start")
+
+        # Clear the vehicle and heat source lists
+        self.vehicle_list = []
+        self.heat_source_list = []
+
+        # Clear the screen and reset the environment
+        self.wn.clear()
+        self.wn.tracer(0, 0)
+
+        # Recreate heat sources and vehicles
+        self.create_heat_sources()
+        self.create_vehicles()
+
+        # Update the screen to reflect the changes
+        self.wn.update()
+
     def start_stop(self):
         if self.running:
             self.running = False
@@ -197,39 +214,33 @@ class TurtleWindow:
         else:
             self.running = True
             self.start_button.config(text="Pause")
+            self.run_simulation()
 
-        while self.running:
-            for i in range(self.num_vehicles):
-                self.vehicle_list[i].move()
-            self.wn.update()
-            time.sleep(0.01)
-
-    ###############################################################################################################
-    def reset(self):
-        self.vehicle_list = []
-        self.heat_source_list = []
-
-        self.wn.clear()
-        self.wn.tracer(0, 0)
-        self.create_heat_sources()
-        self.create_vehicles()
+    def run_simulation(self):
+        if not self.running:
+            return
+        for vehicle in self.vehicle_list:
+            vehicle.move()
         self.wn.update()
 
-    ###############################################################################################################
+        # Schedule the next call to run_simulation and store the ID
+        self.simulation_id = self.root.after(10, self.run_simulation)
+
     def quit(self):
         if self.running:
-            self.start_stop()
-        self.root.destroy()
+            self.running = False  # Stop the simulation loop
+            self.start_button.config(text="Start")
 
+        # Cancel the scheduled run_simulation if it exists
+        if hasattr(self, 'simulation_id'):
+            self.root.after_cancel(self.simulation_id)
 
-###################################################################################################################
-###################################################################################################################
-###################################################################################################################
-###################################################################################################################
+        self.root.destroy()  # Now it's safe to destroy the root
+
 
 def main():
     num_turtles = 3
-    num_heat_sources = 3
+    num_heat_sources = 6
     screen_size = (1200,800)
     turtle_window = TurtleWindow(num_turtles, num_heat_sources, screen_size)
     turtle_window.wn.mainloop()
