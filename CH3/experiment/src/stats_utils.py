@@ -7,7 +7,7 @@ def get_distribution_xys(mean, stdev):
     min_value = mean - 4 * stdev
     max_value = mean + 4 * stdev
 
-    x_values = values = [x for x in range(int(min_value), int(max_value) + 1, 1)]
+    x_values = [x for x in range(int(min_value), int(max_value) + 1, 1)]
     y_values = []
 
     # Calculate y values using the normal distribution formula

@@ -12,8 +12,8 @@ class OptionsFrame:
         self.option_frame_dimensions = (150, self.display.window_dimensions[1])
         self.option_start_y = 50
         self.button_height = None
-        self.button_width = 15
-        self.button_padding = 10
+        self.button_width = 10
+        self.button_padding = 5
         self.button_spacing = 10
         self.button_list = None
 
@@ -21,12 +21,13 @@ class OptionsFrame:
         self.entry_frame_list = None
         self.entry_spacing = 20
         self.entry_start_y = 50
+        self.entry_xpadding = 10
 
         self.create_options_frame()
 
     def create_options_frame(self):
 
-        self.options_frame = tk.Frame(self.display.root, width=self.option_frame_dimensions[0], bg="darkgrey")
+        self.options_frame = tk.Frame(self.display.root, width=self.option_frame_dimensions[0], bg="slategrey")
         self.options_frame.pack(side="left", fill="y")
         self.display.root.update()
 
@@ -52,15 +53,20 @@ class OptionsFrame:
         self.resize()
 
     def create_entry_frame(self, label_string):
-        entry_frame = tk.Frame(self.options_frame, bg="darkgrey")
+        entry_frame = tk.Frame(self.options_frame, bg="slategrey")
         entry_frame.place(x=0, y=0)
 
-        entry = tk.Entry(entry_frame, width=5)  # Create the Entry widget
+        entry = tk.Entry(entry_frame,
+                         width=5,
+                         bg="white",
+                         fg="black",
+                         borderwidth=1,
+                         highlightthickness=1)  # Create the Entry widget
         default_value = self.display.the_experiment.parameter_dict[label_string]
         entry.pack(side="right")
         entry.insert(0, str(default_value))  # Insert the default value into the Entry widget
 
-        label = tk.Label(entry_frame, text=label_string, bg="darkgrey")
+        label = tk.Label(entry_frame, text=label_string, bg="slategrey", font=("Helvetica", 11))
         label.pack(side="right")
 
         return entry_frame
@@ -71,10 +77,14 @@ class OptionsFrame:
                            text=button_info[0],
                            fg="black",
                            bg="lightgrey",
+                           font=("Helvetica", 12),
                            command=command_function,  # will this work, with the function passed in as a string?
                            width=self.button_width,
                            padx=self.button_padding,
-                           pady=self.button_padding)
+                           pady=self.button_padding,
+                           borderwidth=1,
+                           highlightthickness=1,
+                           relief="flat")
 
         button.place(x=0, y=0)
         return button
@@ -118,7 +128,7 @@ class OptionsFrame:
             entry_frame_width = entry_frame.winfo_width()
 
             # Calculate the x position to right-align the entry frame
-            x_position = parent_width - entry_frame_width - 20  # 10 pixels padding from the right edge
+            x_position = parent_width - entry_frame_width - self.entry_xpadding  # 10 pixels padding from the right edge
 
             # Position the entry frame
             entry_frame.place_configure(x=x_position, y=y_position + entry_height)
