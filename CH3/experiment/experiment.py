@@ -11,12 +11,14 @@ class Display:
         self.root = tk.Tk()
         self.root.title("Experiment Replication Simulation")
 
-        self.window_height = 700
+        self.window_height = 1200
+        self.window_width = 1600
+        self.option_frame_width = 200
 
         self.option_frame = None
 
-        self.option_frame_size = (200, self.window_height)
-        self.results_frame_size = (1200, self.window_height)
+        self.option_frame_size = (self.option_frame_width, self.window_height)
+        self.results_frame_size = (self.window_width - self.option_frame_width, self.window_height)
 
         self.run_experiment_button = None
         self.option_label_list = None
@@ -106,11 +108,11 @@ class Display:
             label = tk.Label(self.option_frame, text="StDev", bg="black")
             label.place(x=start_x, y=start_y + (i*y_group_spacing + 3*y_item_spacing) + 2*x_group_spacing + 50)
             self.option_label_list.append(label)
-
-            entry = tk.Entry(self.option_frame, bd=1, width=5)
-            entry.place(x=start_x, y=entry_positions[i][1])
-            entry.insert(tk.END, entry_defaults.get(i, ""))
-            self.option_dict[label] = entry
+            #
+            # entry = tk.Entry(self.option_frame, bd=1, width=5)
+            # entry.place(x=start_x, y=entry_positions[i][1])
+            # entry.insert(tk.END, entry_defaults.get(i, ""))
+            # self.option_dict[label] = entry
 
         # for i, (text, pos) in enumerate(zip(label_texts, label_positions)):
         #     label = tk.Label(self.option_frame, text=text, fg="white", bg="black")
