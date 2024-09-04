@@ -4,8 +4,24 @@ import markdown
 from markdown.treeprocessors import Treeprocessor
 from markdown.extensions import Extension
 from io import StringIO
+import os
+from pathlib import Path
 from bs4 import BeautifulSoup  # For parsing the generated HTML
 
+def load_content():
+    content_dict = {}
+    dir_name = "content"
+    content_file_list = os.listdir(dir_name)
+    for file_name in content_file_list:
+        if not file_name.startswith('.'):
+            if file_name.endswith('.txt') or file_name.endswith('.md'):
+                file_path = os.path.join(dir_name, file_name)
+                base_name = Path(file_name).stem
+                file_extension = Path(file_name).suffix[:1]
+                with open(file_path, 'r') as file:
+                    file_contents = file.read()
+                content_dict[base_name] = (file_extension, file_contents)
+    return content_dict
 
 class MarkdownToTkinter:
     def __init__(self, text_widget):
