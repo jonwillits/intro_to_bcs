@@ -1,4 +1,6 @@
 import tkinter as tk
+from tkinter import scrolledtext
+from . import markdown_support
 
 
 class ContentFrame:
@@ -12,19 +14,24 @@ class ContentFrame:
         self.inner_frame = tk.Frame(self.display.main_frame_canvas, bg="white")
 
         if self.frame_name in self.display.content_dict:
-            content = self.display.content_dict[self.frame_name]["content"]
+            ext = self.display.content_dict[self.frame_name]["file_extension"]
+
+            if ext == 'txt':
+                content = self.display.content_dict[self.frame_name]["content"]
+
+
+            elif ext == 'md':
+                content = self.display.content_dict[self.frame_name]["content"]
+
+            else:
+                content = f"Unrecognized content file type {ext} for {self.frame_name}"
+
         else:
-            content = f"No content for {self.frame_name}"
+            content = f"No content file for {self.frame_name}"
 
-        self.content_label = tk.Label(self.inner_frame,
-                                    text=content,
-                                    font=("Helvetica", 16),
-                                    bg="white",
-                                    justify="left",
-                                    fg="black")
-
-        # Use pack() instead of place() for dynamic resizing
-        self.content_label.pack(padx=10, pady=10, anchor="nw", fill="both")
+        text_widget = self.create_text_widget()
+        converter = markdown_support.MarkdownToTkinter(text_widget)
+        converter.convert_markdown_to_tkinter(content)
 
         self.inner_frame.bind("<Configure>", self.adjust_wrap_length)
 
@@ -32,6 +39,23 @@ class ContentFrame:
         self.inner_frame.update()
         self.inner_frame.update_idletasks()
 
+    def create_text_widget(self, height=None, width=None):
+        if height is None:
+            height = self.display.main_frame_dimensions[0]
+        if width is None:
+            width = self.display.main_frame_dimensions[1]
+
+        text_widget = scrolledtext.ScrolledText(self.inner_frame, wrap=tk.WORD,
+                                                height=height,
+                                                width=width,
+                                                bg="white",
+                                                fg="black")
+        text_widget.pack(expand=True, fill='both')
+        text_widget.tag_configure('heading1', font=('Helvetica', 16, 'bold'))
+        text_widget.tag_configure('heading2', font=('Helvetica', 14, 'bold'))
+        text_widget.tag_configure('bold', font=('Helvetica', 12, 'bold'))
+        text_widget.tag_configure('italic', font=('Helvetica', 12, 'italic'))
+        return text_widget
 
     def adjust_wrap_length(self, event=None):
         # Handle case where event is None (when method is called manually)
