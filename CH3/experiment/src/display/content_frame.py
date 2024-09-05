@@ -6,27 +6,40 @@ class ContentFrame:
     def __init__(self, display, frame_name):
 
         self.display = display
-        self.frame = tk.Frame(self.display.content_frame, bg="white")
-        self.display.content_frame_dict[frame_name] = self.frame
+        self.frame_name = frame_name
 
-        self.title_label = tk.Label(self.frame, text=frame_name, font=("Helvetica", 16), bg="white", fg="black")
-        self.title_label.place(x=10, y=10)
-        self.frame.place(relwidth=1, relheight=1)
+        # Set the parent as the canvas from the display
+        self.inner_frame = tk.Frame(self.display.main_frame_canvas, bg="white")
+
+        if self.frame_name in self.display.content_dict:
+            content = self.display.content_dict[self.frame_name]["content"]
+        else:
+            content = f"No content for {self.frame_name}"
+
+        self.content_label = tk.Label(self.inner_frame,
+                                    text=content,
+                                    font=("Helvetica", 16),
+                                    bg="white",
+                                    justify="left",
+                                    fg="black")
+
+        # Use pack() instead of place() for dynamic resizing
+        self.content_label.pack(padx=10, pady=10, anchor="nw", fill="both")
+
+        self.inner_frame.bind("<Configure>", self.adjust_wrap_length)
+
+        # Call geometry update
+        self.inner_frame.update()
+        self.inner_frame.update_idletasks()
 
 
-class ResizableLabel(tk.Label):
-    def __init__(self, parent, text, x=0, y=0, padding=10, **kwargs):
-        super().__init__(parent, text=text, **kwargs)
-        self.padding = padding
+    def adjust_wrap_length(self, event=None):
+        # Handle case where event is None (when method is called manually)
+        if event:
+            new_width = event.width - 20  # Subtracting padding if needed
+        else:
+            new_width = self.inner_frame.winfo_width() - 20  # Use current width if no event
 
-        # Place the label initially, expanding it to fit the parent frame
-        self.place(x=x, y=y, relwidth=1, relheight=1)
-
-        # Bind the <Configure> event of the parent to adjust wraplength on resize
-        self.bind("<Configure>", self.adjust_wraplength)
-
-    def adjust_wraplength(self, event=None):
-        # Calculate the new wraplength based on the current width minus padding
-        new_width = self.winfo_width() - 2 * self.padding
+        # Ensure that the new_width is positive before applying it
         if new_width > 0:
-            self.config(wraplength=new_width)
+            self.content_label.config(wraplength=new_width)
