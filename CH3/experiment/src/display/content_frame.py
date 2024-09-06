@@ -58,12 +58,13 @@ class ContentFrame:
         return text_widget
 
     def adjust_wrap_length(self, event=None):
-        # Handle case where event is None (when method is called manually)
-        if event:
-            new_width = event.width - 20  # Subtracting padding if needed
-        else:
-            new_width = self.inner_frame.winfo_width() - 20  # Use current width if no event
-
-        # Ensure that the new_width is positive before applying it
-        if new_width > 0:
-            self.content_label.config(wraplength=new_width)
+        pass
+        # # Handle case where event is None (when method is called manually)
+        # if event:
+        #     new_width = event.width - 20  # Subtracting padding if needed
+        # else:
+        #     new_width = self.inner_frame.winfo_width() - 20  # Use current width if no event
+        #
+        # # Ensure that the new_width is positive before applying it
+        # if new_width > 0:
+        #     self.content_label.config(wraplength=new_width)

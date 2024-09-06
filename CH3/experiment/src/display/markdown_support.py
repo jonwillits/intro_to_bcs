@@ -37,13 +37,21 @@ class MarkdownToTkinter:
 
     def convert_markdown_to_tkinter(self, markdown_text):
         html = markdown.markdown(markdown_text)
+        print()
+        print(markdown_text)
+        print(html)
         self.render_html_to_tkinter(html)
 
     def render_html_to_tkinter(self, html):
         soup = BeautifulSoup(html, 'html.parser')
         self.text_widget.delete('1.0', tk.END)
 
+        print("Soup Descendants")
+        print(soup.prettify())
+        # print()
         for element in soup.descendants:
+            # print(f"Name: {element.name}, Text: {element.get_text()}")
+
             if element.name:  # Only process elements with tags
                 if element.name == 'h1':
                     self.insert_with_tag(element.get_text(), 'heading1')
