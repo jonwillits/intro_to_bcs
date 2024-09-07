@@ -29,12 +29,7 @@ class SectionFrame:
         for i, section in enumerate(self.app.section_list):
             base_name = Path(section).stem
             if base_name in self.app.content_dict:
-                content = self.app.content_dict[base_name]['content']
-
-                if content.startswith("# "):
-                    title = f"{i + 1}. {content[2:].split('\n', 1)[0]}"
-                else:
-                    title = f"{i + 1}. {base_name}"
+                title = f"{i+1}. {self.app.content_dict[base_name]['title']}"
 
                 # Create a label to act as a button
                 label = tk.Label(self.section_frame,

@@ -1,35 +1,46 @@
+import os.path
 import tkinter as tk
 from pathlib import Path
 from . import content_frame
 from . import section_frame
+from . import markdown_support
 
 class App:
-    def __init__(self, the_experiment, section_list, content_dict, width=950, height=600):
-        self.the_experiment = the_experiment
-        self.section_list = section_list
-        self.content_dict = content_dict
-        self.window_dimensions = (width, height)
-        self.root = None
+    def __init__(self, the_params):
+        self.the_params = the_params
+        self.window_dimensions = (the_params.width, the_params.height)
         self.min_dimensions = (950, 600)
-
-        self.section_frame = None
         self.section_frame_dimensions = (150, self.window_dimensions[1])
-
         self.main_frame_dimensions = (self.window_dimensions[0] - self.section_frame_dimensions[0],
                                       self.window_dimensions[1])
 
+        self.root = None
+
+        self.section_frame = None
+        self.section_content_list = None
+
         self.main_frame_canvas = None
         self.main_frame_canvas_scrollbar = None
-        self.content_frame_dict = {}
+        self.content_frame_dict = None
         self.canvas_frame = None
         self.current_canvas_window = None
         self.current_content_frame = None
 
+        self.load_section_content()
         self.create_main_window()
         self.create_section_frame()
         self.create_main_frame()
-        self.root.update_idletasks()
-        print(self.root.winfo_width(), self.root.winfo_height())
+
+    def load_section_content(self):
+        self.section_content_list = []
+        for i, section_info in enumerate(self.the_params.section_list):
+            component_list = section_info['components']
+
+            for j, component in enumerate(component_list):
+                component_file_name = component[0]
+                component_file_path = os.path.join(self.the_params.content_path, component_file_name)
+                file_contents = markdown_support.load_content(component_file_path)
+                self.the_params.section_list[i]['components'][j]['content'] = file_contents
 
     def create_main_window(self):
         self.root = tk.Tk()
@@ -53,7 +64,7 @@ class App:
                                      highlightbackground="black",
                                      highlightthickness=2,
                                      relief="solid",
-                                     bg="white")
+                                     bg="red")
         self.canvas_frame.pack(side="right", fill="both", expand=True)  # Allow horizontal and vertical expansion
 
         # Create a canvas for the main content area inside the canvas_frame
@@ -62,7 +73,7 @@ class App:
                                            highlightthickness=0,
                                            borderwidth=0,
                                            relief="solid",
-                                           bg="white")
+                                           bg="blue")
         self.main_frame_canvas.pack(side="left", fill="both", expand=True)
 
         # Add a vertical scrollbar inside the canvas_frame (on the right)
@@ -79,9 +90,9 @@ class App:
         self.main_frame_canvas.bind("<Configure>", self.update_scroll_region)
 
         # Show the first frame by default
-        self.show_frame(Path(self.section_list[0]).stem)
+        self.show_section(Path(self.section_list[0]).stem)
 
-    def show_frame(self, frame_name):
+    def show_section(self, section_name):
         print(f"Showing frame: {frame_name}")
 
         # Remove the previous frame from the canvas
@@ -90,7 +101,7 @@ class App:
 
         # Dynamically create the content frame only if it doesn't already exist
         if frame_name not in self.content_frame_dict:
-            content_frame_instance = content_frame.ContentFrame(self, frame_name, 100)
+            content_frame_instance = content_frame.ContentFrame(self, frame_name, 1200)
             self.content_frame_dict[frame_name] = content_frame_instance
         else:
             content_frame_instance = self.content_frame_dict[frame_name]
@@ -99,7 +110,10 @@ class App:
         canvas_width = self.main_frame_canvas.winfo_width()
 
         # Use create_window() to place the new frame in the canvas
-        self.current_canvas_window = self.main_frame_canvas.create_window((0, 0), window=content_frame_instance.inner_frame, anchor="nw", width=canvas_width)
+        self.current_canvas_window = self.main_frame_canvas.create_window((0, 0),
+                                                                          window=content_frame_instance.inner_frame,
+                                                                          anchor="nw",
+                                                                          width=canvas_width)
 
         # Force geometry update
         self.main_frame_canvas.update_idletasks()
