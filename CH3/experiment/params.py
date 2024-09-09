@@ -10,7 +10,6 @@ class Params:
                 [
                     {
                         'file_name': 'overview.md',
-                        'height': 400,
                     }
                 ]
         },
@@ -20,12 +19,22 @@ class Params:
                 [
                     {
                         'file_name': 'linear_model.md',
-                        'height': 400
                     },
                     {
-                        'file_name': 'linear_model1.md',
-                        'height': 400
-                    }
+                        'file_name': 'linear_model.md',
+                    },
+                    {
+                        'file_name': 'linear_model.md',
+                    },
+                    {
+                        'file_name': 'linear_model.md',
+                    },
+                    {
+                        'file_name': 'linear_model.md',
+                    },
+                    {
+                        'file_name': 'linear_model.md',
+                    },
                 ]
         }
     ]

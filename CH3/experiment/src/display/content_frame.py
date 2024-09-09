@@ -1,45 +1,72 @@
 import tkinter as tk
-from . import markdown_support
+from tkinterweb import HtmlLabel
+from pathlib import Path
 
 class ContentFrame:
 
-    def __init__(self, app, frame_name, height):
+    def __init__(self, app, content):
         self.app = app
-        self.frame_name = frame_name
+        self.title = content['title']
+        self.component_list = content['components']
+        self.frame = None
+        self.total_height = 0  # Track total height dynamically
 
-        # Set the parent as the canvas from the display
-        self.inner_frame = tk.Frame(self.app.main_frame_canvas,
-                                    highlightbackground="white",
-                                    highlightthickness=0,
-                                    borderwidth=0,
-                                    bg="white")
+        self.create_frame()
 
-        # Place the inner_frame explicitly, initially without height constraints
-        self.inner_frame.pack(fill=tk.BOTH, expand=True)
+    def create_frame(self):
+        # Create the frame that holds the HTML content
+        self.frame = tk.Frame(self.app.main_frame_canvas,
+                              highlightbackground="white",
+                              highlightthickness=0,
+                              borderwidth=0,
+                              bg="white")
+        self.frame.pack(fill=tk.X)
 
-        # Fetch content from content_dict
-        if self.frame_name in self.app.content_dict:
-            content = self.app.content_dict[self.frame_name]["content"]
-        else:
-            content = f"No content file for {self.frame_name}"
+        # Iterate over components and add HTML content
+        for i, component in enumerate(self.component_list):
+            file_name = component['file_name']
+            file_extension = Path(file_name).suffix[1:]
 
-        # Create the HTML frame with the specified height
-        html_frame = markdown_support.create_html_frame(self.inner_frame, content, height)
+            if file_extension == 'py':
+                pass  # Skip Python components
+            else:
+                if 'content' in component:
+                    content = component['content']
+                    self.add_html_label(content)
+                else:
+                    raise Exception(f"ERROR: No content for component {self.title}-{file_name}")
 
-        # After loading the HTML content, adjust the height based on the content
-        self.adjust_inner_frame_height(html_frame)
+        # Bind the resize event to handle window resizing dynamically
+        self.app.section_content_canvas.bind("<Configure>", self.on_resize)
 
-    def adjust_inner_frame_height(self, html_frame):
-        """Adjust the height of the inner_frame based on the content of the HtmlFrame."""
-        html_frame.update_idletasks()  # Ensure the HTML frame is fully rendered
+    def add_html_label(self, content):
+        # Create the HtmlLabel and load the content
+        html_label = HtmlLabel(self.frame, messages_enabled=False, borderwidth=0)
+        html_label.load_html(content)
 
-        # Get the height of the HTML frame after the content is loaded
-        content_height = html_frame.winfo_height()
+        # Pack the HtmlLabel
+        html_label.pack(side="top", fill="x", expand=True)
 
-        print(f"Content height: {content_height}")
+        # Force the layout update and measure the height
+        html_label.update_idletasks()  # Ensure layout updates are processed
 
-        # Set the height of the inner_frame based on the content height
-        self.inner_frame.config(height=content_height)
+        # Get the height of the label and add it to the total height
+        label_height = html_label.winfo_height()
+        self.total_height += label_height  # Accumulate total height
 
+        # Print for debugging
+        print(f"Added HTML Label with height: {label_height}, Total height: {self.total_height}")
 
+        return html_label
 
+    def on_resize(self, event):
+        """Handle window resizing and adjust the content dynamically."""
+        canvas_width = event.width
+        self.app.main_frame_canvas.itemconfig(self.app.current_canvas_window, width=canvas_width)
+
+        # Recalculate total height (optional, if height adjustment is needed)
+        self.total_height = sum(child.winfo_height() for child in self.frame.winfo_children())
+        print(f"Resized Canvas - New Width: {canvas_width}, Total Height: {self.total_height}")
+
+        # Adjust the scroll region to the new total height
+        self.app.main_frame_canvas.config(scrollregion=(0, 0, canvas_width, self.total_height))
