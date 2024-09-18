@@ -40,9 +40,9 @@ For every input on the other side of the boundary, the network is guessing 0.
  
 Play around with the simulation a bit, then try to answer the following questions.
 
-## 1. Set the network to the AND logical function, and press the Reset button. (30 PTS TOTAL)
+## 1. Set the network to the AND logical function, and press the Reset button. (38 PTS TOTAL)
 
-### 1.1. Initial state of the untrained neural network
+### 1.1. Initial state of the untrained neural network (10 POINTS, 2 EACH)
 - write out the network's current "model" equation of the AND relationship (y = b0 + b1*x1 + b2*x2, but subbing in the b-values) 
 - In a table like below, write out the network's prediction for each combination of inputs
 
@@ -52,59 +52,78 @@ Play around with the simulation a bit, then try to answer the following question
 |----|----|---|---|
 | 0  | 0  | 0 |   |
 | 0  | 1  | 0 |   |
-| 1  | 0  | 0 |   
+| 1  | 0  | 0 |   |
 | 1  | 1  | 1 |   |
 
-- Look at the figure in the bottom right.
+- Look at the figure in the bottom right of the simulation window.
 It shows the four inputs as points, using color to depict the correct output category for those inputs.
 It also shows the current decision boundary, determined by the current weights.
-Describe where the boundary is.
+Describe where the boundary is relative to the four points and how it divides them.
 - Does it get all members of each category on different sides of the line?
 - How does the decision boundary need to change in order to do so?
 
-### 1.2. Now train the network for 1 epoch
-- write the new prediction table and model equation.
+### 1.2. Now train the network for 1 epoch (12 POINTS, 3 EACH)
+- write the new prediction table
+
+**LOGICAL "AND"**
+
+| x1 | x2 | y | y' |
+|----|----|---|---|
+| 0  | 0  | 0 |   |
+| 0  | 1  | 0 |   |
+| 1  | 0  | 0 |   |
+| 1  | 1  | 1 |   |
+
+- write the new model equation.
 - how have the weights changed?
 - Given your understanding of “error-driven learning” explained in class and in the reading, why does the change make sense? (5 PTS)
 - How has the decision boundary changed?
 
-### 1.3. Now train the network until it is performing well on the AND function (y' close to 1 when the answer should be 1, and close to 0 when the answer should be zero). 
-- How many epochs you had to train the network to achieve this performance? (1 PT)
-- Rewrite the equation with the parameter values. (4 PTS)
+### 1.3. Now train the network until it is performing well on the AND function (y' close to 1 when the answer should be 1, and close to 0 when the answer should be zero). (16 POINTS, 2 EACH)
+- How many epochs you had to train the network to achieve this performance?
+- Rewrite the equation with the parameter values.
 - Describe how has the decision boundary has changed.
-- Describe how have the weights changed? (1 PT)
-- Do the values of the weights make sense to you given the function that is being performed? (2 PTS)
-- How do the weights for the inputs (b1 and b2) compare to one another, and why does this make sense? (1 PT)
-- How do the weights for the inputs compare to the weight for the bias (b0) and why does this make sense? (1 PT)
-- Can you make a general statement about what the relationship between the weights for the inputs and the weights for the bias need to be, in order for neurons to compute an AND function? (5 PT)
+- Describe how have the weights changed?
+- Do the values of the weights make sense to you given the function that is being performed?
+- How do the weights for the inputs (b1 and b2) compare to one another, and why does this make sense?
+- How do the weights for the inputs compare to the weight for the bias (b0) and why does this make sense?
+- Can you make a general statement about what the relationship between the weights for the inputs and the weights for the bias need to be, in order for neurons to compute an AND function?
 
-## 2. Now, change the network to the OR function, but DO NOT reset the network.
+## 2. Now, change the network to the OR function, but DO NOT reset the network. (29 POINTS TOTAL)
 
-### 2.1. How does the network that was trained on the AND function do on the OR function? Explain why its performance makes sense. (5 PTS)
+### 2.1. How does the network that was trained on the AND function do on the OR function? Explain why its performance makes sense. (2 PTS)
 
-### 2.2. Now reset the weights back to random values. How does the network perform now, and why does that make sense? (3 PT) 
+### 2.2. Now reset the weights back to random values. How does the network perform now, and why does that make sense? (3 PTS) 
 
-### 2.3 Train the network until it achieves good performance on the OR function.
-- How many epochs did it take to achieve good performance? (1 PTS)
+### 2.3 Train the network until it achieves good performance on the OR function. (18 POINTS, 3 EACH)
+- How many epochs did it take to achieve good performance?
 - Write out the equation for the well-performing OR network (like you did in 1b).
-- How have the weights changed? Do the values of the weights make sense to you given the function that is being performed? (3 PT)
-- How do the weights for the inputs (b1 and b2) compare to one another, and why does this make sense? (2 PTS)
-- How do the weights for the inputs compare to the weight for the bias (b0) and why does this make sense? (2 PTS)
-- Can you make a general statement about what the relationship between the weights for the inputs and the weights for the bias need to be, in order for neurons to compute an OR function? (3 PT)
+- How have the weights changed? Do the values of the weights make sense to you given the function that is being performed?
+- How do the weights for the inputs (b1 and b2) compare to one another, and why does this make sense?
+- How do the weights for the inputs compare to the weight for the bias (b0) and why does this make sense?
+- Can you make a general statement about what the relationship between the weights for the inputs and the weights for the bias need to be, in order for neurons to compute an OR function?
 
-### 2.4 Compare the AND and OR network
+### 2.4 Compare the AND and OR network (6 POINTS, 2 EACH)
 - Rewrite the AND and the OR equations here next to each other.
 - Describe the difference between the two equations. Can you explain how their differences make sense? (10 PTS)
 - Compare the two decision boundaries. How are they different, and how does the difference make sense?
 
-## 3. Now, change the network to the XOR function, and reset the network, but do not train it. (35 PTS TOTAL)
+## 3. Now, change the network to the XOR function, and reset the network, but do not train it. (31 POINTS TOTAL)
 
-### 3.1. How does the network perform now, and why does that make sense? (5 PTS)
+### 3.1. The XOR Problem (11 POINTS)
+- The xor problem is a famous issue with neural networks, as it is hard to solve with certain kinds of neural networks.
+Can you think of three situations where you need to learn that some outcome (y) depends on either one thing (x1) or another thing (x2),
+BUT NOT BOTH, being true in order for y to be true? (6 POINTS)
+- Can you describe why it might be harder, in general, to learn or represent XOR relationships compared to AND or OR relationships? (5 POINTS)
+
+### 3.2. How does the network perform now, and why does that make sense? (4 PTS, 2 EACH)
 - How does the network perform before training?
 - Where is the decision boundary, and how does it need to change to correctly classify all four sets of inputs. 
 
-### 3.2. Train the network for as many epochs as it took to solve the AND or OR dataset.
-- How have the weights, decision boundary, or performance changed?
+### 3.3. Train the network for as many epochs as it took to solve the AND or OR dataset. (9 POINTS, 3 EACH)
+- How have the weights changed?
+- How has the decision boundary changed?
+- How has the performance changed?
 
-### 3.3. Train it for 10x as many epochs as you did previously.
-- The network will still be performing poorly. Explain why. Try to use the decision boundary graphic in your explanation.
+### 3.4. Train it for 10x as many epochs as you did previously.
+- The network will still be performing poorly. Explain why. Try to use the decision boundary graphic in your explanation. Note the large number of points here. Please try to give this a thoughtful answer (10 POINTS).
