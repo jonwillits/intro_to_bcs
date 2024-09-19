@@ -4,6 +4,7 @@ import itertools
 class Dataset:
 
     def __init__(self, x_size=2, dataset_type=None):
+        self.dataset_name = None
         self.dataset_type = dataset_type
         self.n = None
         self.x = None
@@ -18,7 +19,6 @@ class Dataset:
             self.y_size = self.x_size
             self.generate_x_lists()
             self.generate_y_lists()
-
         else:
             raise Exception("ERROR, x_size must be a positive integer")
 
@@ -31,18 +31,25 @@ class Dataset:
     def generate_y_lists(self):
         if self.dataset_type == 'and':
             self.y = self.generate_and_y()
+            self.dataset_name = "AND"
         elif self.dataset_type == 'or':
             self.y = self.generate_or_y()
+            self.dataset_name = "OR"
         elif self.dataset_type == 'xor':
             self.y = self.generate_xor_y()
+            self.dataset_name = "XOR"
         elif self.dataset_type == 'random':
             self.y = self.generate_random_y()
+            self.dataset_name = "Random"
         elif self.dataset_type == 'x1':
             self.y = self.generate_x1_y()
+            self.dataset_name = "x1"
         elif self.dataset_type == 'x2':
             self.y = self.generate_x2_y()
+            self.dataset_name = "x2"
         elif self.dataset_type is None:
             self.y = self.generate_random_y()
+            self.dataset_name = "Random"
         else:
             raise ValueError(f"Unknown dataset_type: {self.dataset_type}")
 
