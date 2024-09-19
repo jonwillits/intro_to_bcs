@@ -16,8 +16,8 @@ class NeuralNetwork:
         self.init_network()
 
     def init_network(self):
-        self.y_bias = np.random.normal(0, 0.5, [1, self.output_size])
-        self.y_x = np.random.normal(0, 0.5, [self.output_size, self.input_size])
+        self.y_bias = np.random.normal(0, 0.10, [1, self.output_size])
+        self.y_x = np.random.normal(0, 0.10, [self.output_size, self.input_size])
 
     def net_input(self, x):
         z = np.dot(x, self.y_x.transpose()) + self.y_bias

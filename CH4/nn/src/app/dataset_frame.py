@@ -35,6 +35,38 @@ class DatasetFrame:
         self.canvas.create_text(start_x + 50, start_y + 35, text=header, font="Arial 16 bold", fill="black",
                                 anchor="nw")
 
+
+
+        # Add text items for each row of data and bind click events
+        for i in range(self.app.dataset.n):
+            start_y_position = start_y + 35 + (i + 1) * 30  # Calculate the Y position for each row
+
+            # Check if the current row matches the specified index to draw a background
+            if i == self.app.current_item_index:
+                bg_color = "#DDDDDD"
+                # Draw the background rectangle
+                self.canvas.create_rectangle(start_x + 40, start_y_position - 10,
+                                             start_x + 300, start_y_position + 20,
+                                             fill=bg_color, outline="")
+
+            # Retrieve data for the row
+            x = self.app.dataset.x[i]
+            y = self.app.dataset.y[i]
+            z, y_predict = self.app.network.forward(x)
+            y_predict = y_predict[0, 0]
+            guess = np.round(y_predict)
+            items = f"{x[0]}       {x[1]}        {y[0]}       {y_predict:0.3f}          {guess:0.0f}"
+            tag = "item" + str(i)
+
+            # Create text item and bind it to a click event
+            text_id = self.canvas.create_text(start_x + 50, start_y_position,
+                                              text=items,
+                                              font="Arial 16 bold", fill="black", anchor="nw",
+                                              tags=tag)
+
+            # Bind the click event to update current_index when this row is clicked
+            self.canvas.tag_bind(text_id, "<Button-1>", lambda event, index=i: self.on_text_click(index))
+
         self.canvas.create_line(start_x + 39, start_y + 55, start_x + 300, start_y + 55, width=self.thickness,
                                 fill="black")
         self.canvas.create_line(start_x + 40, start_y + 55, start_x + 40, start_y + 175, width=self.thickness,
@@ -49,23 +81,3 @@ class DatasetFrame:
                                 fill="black")
         self.canvas.create_line(start_x + 38, start_y + 175, start_x + 300, start_y + 175, width=self.thickness,
                                 fill="black")
-
-        # Add text items for each row of data and bind click events
-        for i in range(self.app.dataset.n):
-            x = self.app.dataset.x[i]
-            y = self.app.dataset.y[i]
-            z, y_predict = self.app.network.forward(x)
-            y_predict = y_predict[0, 0]
-            guess = np.round(y_predict)
-            items = f"{x[0]}       {x[1]}        {y[0]}       {y_predict:0.3f}          {guess:0.0f}"
-            tag = "item" + str(i)
-
-            # Create text item and bind it to a click event
-            text_id = self.canvas.create_text(start_x + 50, start_y + 35 + (i + 1) * 30,
-                                              text=items,
-                                              font="Arial 16 bold", fill="black", anchor="nw",
-                                              tags=tag)
-
-            # Bind the click event to update current_index when this row is clicked
-            self.canvas.tag_bind(text_id, "<Button-1>", lambda event, index=i: self.on_text_click(index))
-

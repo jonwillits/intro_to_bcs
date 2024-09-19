@@ -7,6 +7,6 @@ class App:
 class Network:
     input_size = 2
     output_size = 1
-    learning_rate = 0.01
+    learning_rate = 0.05
     activation_function = "sigmoid"
     hidden_size_list = ()

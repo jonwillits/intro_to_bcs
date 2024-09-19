@@ -28,9 +28,9 @@ class ClassificationFrame:
         self.canvas.create_text(start_x + 10, start_y + 10, text="Decision Boundary:", font="Arial 16 bold",
                                 fill="#000000", anchor="nw")
 
-        x_is_0 = 50  # X origin on canvas
-        y_is_0 = 150  # Y origin on canvas
-        scale = 100  # Scaling factor for drawing
+        x_is_0 = 100  # X origin on canvas
+        y_is_0 = 180  # Y origin on canvas
+        scale = 125  # Scaling factor for drawing
 
         # Find y-values for the decision boundary at x=0 and x=1
         y1 = self.find_decision_boundary(0)
@@ -40,13 +40,21 @@ class ClassificationFrame:
         m = (y2 - y1)  # Slope
         b = y1         # Intercept
 
-        # Calculate the points of the line on the canvas
-        x1_canvas = x_is_0
-        y1_canvas = y_is_0 - scale * y1
-        x2_canvas = x_is_0 + scale  # x2 is x=1 on the canvas
-        y2_canvas = y_is_0 - scale * y2
+        # Extend the line beyond the normal range
+        x_min = -10  # Start of extended x range
+        x_max = 10   # End of extended x range
 
-        # Draw the decision boundary line
+        # Calculate y values for the extended x range
+        y_min = m * x_min + b
+        y_max = m * x_max + b
+
+        # Scale the coordinates for the canvas
+        x1_canvas = x_is_0 + scale * x_min
+        y1_canvas = y_is_0 - scale * y_min
+        x2_canvas = x_is_0 + scale * x_max
+        y2_canvas = y_is_0 - scale * y_max
+
+        # Draw the extended decision boundary line
         self.canvas.create_line(x1_canvas, y1_canvas, x2_canvas, y2_canvas, width=self.thickness, fill='yellow')
 
         # Draw dataset points

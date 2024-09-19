@@ -58,7 +58,7 @@ class ActivationFrame:
         b1 = self.app.network.y_x[0, 0]
         b2 = self.app.network.y_x[0, 1]
 
-        self.canvas.create_text(x_is_min+x_scale*0.5, y_is_0 + 35, text="z = b0*1 + b1*x1 + b2*x2", font="Arial 11 bold",
+        self.canvas.create_text(x_is_min+x_scale*0.5, y_is_0 + 35, text="z = b0*1 + b1*x1 + b2*x2", font="Arial 12 bold",
                                         fill="#000000")
         self.canvas.create_text(x_is_min+x_scale*0.5, y_is_0 + 50,
                                         text=f"z = {b0:0.2f}*{1} + {b1:0.2f}*{x[0]} + {b2:0.2f}*{x[1]}",

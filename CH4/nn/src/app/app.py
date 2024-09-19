@@ -127,7 +127,6 @@ class App:
             if self.total_epochs % 5 == 0:
                 print(self.total_epochs, percent_correct, mean_cost)
             self.draw_main_frame()
-            self.wait_and_do_nothing()
 
     def reset(self):
         self.network.init_network()

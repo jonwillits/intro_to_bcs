@@ -20,8 +20,9 @@ class NetworkFrame:
 
     def draw_frame(self):
         self.canvas.delete("all")
-        self.draw_nodes()
         self.draw_weights()
+        self.draw_nodes()
+
 
     def draw_nodes(self):
         x = self.app.dataset.x[self.app.current_item_index]
