@@ -1,6 +1,7 @@
 import tkinter as tk
 import math
 import numpy as np
+from . import activation_frame
 
 class App:
     def __init__(self, params, network, dataset):
@@ -34,18 +35,18 @@ class App:
         self.network_canvas = None
         self.activation_canvas = None
         self.classification_canvas = None
+        self.performance_frame = None
+        self.performance_canvas = None
 
         self.current_item_index = 0
-        self.current_x = None
-        self.current_y = None
         self.total_epochs = 0
-
-        self.node_radius = 30
-        self.thickness = 3
-        self.y0_pos = (350, 200)
-        self.x0_pos = (100, 350)
-        self.x1_pos = (250, 500)
-        self.x2_pos = (450, 500)
+        #
+        # self.node_radius = 30
+        # self.thickness = 3
+        # self.y0_pos = (350, 200)
+        # self.x0_pos = (100, 350)
+        # self.x1_pos = (250, 500)
+        # self.x2_pos = (450, 500)
 
         self.create_main_window()
         self.create_interface_frame()
@@ -78,7 +79,7 @@ class App:
 
         self.dataset_option_menu = tk.OptionMenu(self.interface_frame, self.selected_dataset, *self.dataset_list,
                                                  command=self.change_dataset)
-        self.dataset_option_menu.config(width=10)
+        self.dataset_option_menu.config(width=10, bg="white", fg="black")
         self.dataset_option_menu.pack(side=tk.LEFT, padx=5)
 
         # create and pack the num epochs label
@@ -123,23 +124,30 @@ class App:
         self.draw_main_frame()
 
     def init_main_frame(self):
-        # Make the network frame fills the rest of the available space
         self.main_frame = tk.Frame(self.root, bg="grey")
-
-        # Use pack with fill="both" and expand=True to make it fill remaining space
         self.main_frame.pack(fill=tk.BOTH, expand=True, side=tk.TOP)
 
-        self.activation_frame = tk.Frame(self.main_frame, bg="blue", height=100, width=100)
-        self.activation_frame.place(x=0, y=0)
+        self.activation_frame = activation_frame.ActivationFrame(self)
 
         self.item_frame = tk.Frame(self.main_frame, bg="red", height=100, width=100)
-        self.item_frame.place(x=self.main_frame_dimensions[0]//2, y=0)
+        # self.item_frame.place(x=self.main_frame_dimensions[0]//2, y=0)
+        self.item_canvas = tk.Canvas(self.item_frame, bg="#BBBBBB", height=100, width=100, borderwidth=0, highlightthickness=0)
+        # self.item_canvas.pack(fill=tk.BOTH, expand=True)
 
         self.network_frame = tk.Frame(self.main_frame, bg="green", height=100, width=100)
-        self.network_frame.place(x=0, y=self.main_frame_dimensions[1]//2)
+        # self.network_frame.place(x=0, y=self.main_frame_dimensions[1]//2)
+        self.network_canvas = tk.Canvas(self.network_frame, bg="#BBBBBB", height=100, width=100, borderwidth=0, highlightthickness=0)
+        # self.network_canvas.pack(fill=tk.BOTH, expand=True)
 
         self.classification_frame = tk.Frame(self.main_frame, bg="yellow", height=100, width=100)
-        self.classification_frame.place(x=self.main_frame_dimensions[0]//2, y=self.main_frame_dimensions[1]//2)
+        # self.classification_frame.place(x=2*self.main_frame_dimensions[0]//3, y=self.main_frame_dimensions[1]//2)
+        self.classification_canvas = tk.Canvas(self.classification_frame, bg="#BBBBBB", height=100, width=100, borderwidth=0, highlightthickness=0)
+        # self.classification_canvas.pack(fill=tk.BOTH, expand=True)
+
+        self.performance_frame = tk.Frame(self.main_frame, bg="purple", height=100, width=100)
+        # self.performance_frame.place(x=1*self.main_frame_dimensions[0]//3, y=self.main_frame_dimensions[1]//2)
+        self.performance_canvas = tk.Canvas(self.performance_frame, bg="#BBBBBB", height=100, width=100, borderwidth=0, highlightthickness=0)
+        # self.performance_canvas.pack(fill=tk.BOTH, expand=True)
 
     def wait_and_do_nothing(self):
         for button in self.button_list:
@@ -170,52 +178,42 @@ class App:
             self.total_epochs += 1
             output_array, rounded_output, agreement, percent_correct, mean_cost = self.network.train(x, y)
             if self.total_epochs % 5 == 0:
-                print(self.total_epochs, rounded_output, agreement, percent_correct, mean_cost)
-                print(output_array)
-                print(rounded_output)
-                print(y)
-                print(agreement)
-        #     self.draw_network_frame()
+                print(self.total_epochs, percent_correct, mean_cost)
+        self.draw_main_frame()
 
     def reset(self):
-        # self.network.init_network()
-        # self.draw_network_frame()
+        self.network.init_network()
+        self.draw_main_frame()
         self.root.update()
 
     def quit(self):
         self.root.quit()
 
     def draw_main_frame(self):
-        # self.network_canvas.delete("all")
-        # self.draw_weights()
-        # self.draw_nodes()
-        # self.draw_items()
-        # self.draw_boundary()
-        # self.draw_activation_functions()
-        # self.root.update()
-        # self.network_canvas = tk.Canvas(self.network_frame,
-        #                                 height=self.params['dimensions'][1],
-        #                                 width=self.params['dimensions'][0],
-        #                                 bg="grey", bd=0,
-        #                                 highlightthickness=0, relief='ridge')
-        # self.network_canvas.pack()
-        # self.network_canvas.bind("<Button-1>", self.network_click)
-
+        self.draw_network_frame()
+        self.activation_frame.draw_frame()
+        self.draw_classification_frame()
+        self.draw_performance_frame()
         self.draw_item_frame()
+        self.root.update()
 
+    def draw_network_frame(self):
+        self.network_canvas.delete("all")
+
+    def draw_classification_frame(self):
+        self.classification_canvas.delete("all")
+
+    def draw_performance_frame(self):
+        self.performance_canvas.delete("all")
 
     def draw_item_frame(self):
+        self.item_canvas.delete("all")
+        start_x = 50
+        start_y = 10
+        button_height = 32
+        button_width = 60
 
-        pass
-        # self.item_canvas = tk.Canvas(self.item_frame)
-        # self.item_canvas.pack()
-        #
-        # start_x = 50
-        # start_y = 50
-        # button_height = 32
-        # button_width = 60
-        #
-        # self.network_canvas.create_text(start_x, start_y, text="Dataset:", font="Arial 20 bold", fill="#000000")
+        self.item_canvas.create_text(start_x, start_y, text="Dataset:", font="Arial 20 bold", fill="#000000")
         # self.network_canvas.create_rectangle(start_x+50,
         #                                      start_y-10,
         #                                      start_x+button_width+50,
@@ -240,71 +238,6 @@ class App:
         #     self.network_canvas.create_text(start_x+40, start_y+35+(i+1)*30, text=items, font="Arial 16 bold", fill="black", tags=tag)
         #
         #
-
-    #
-    # def draw_nodes(self):
-    #     x = self.current_x
-    #     y = self.network.forward(x, self.params['activation_function'])
-    #     self.y0 = self.network_canvas.create_oval(self.y0_pos[0]-self.node_radius, self.y0_pos[1]-self.node_radius,
-    #                                               self.y0_pos[0]+self.node_radius, self.y0_pos[1]+self.node_radius,
-    #                                               width=self.thickness, fill=self.get_hex_color(y[0][0]))
-    #     self.network_canvas.create_text(self.y0_pos[0], self.y0_pos[1]-self.node_radius*1.5,
-    #                                     text="y".format(y[0][0]), font="Arial 16 bold")
-    #     self.network_canvas.create_text(self.y0_pos[0], self.y0_pos[1],
-    #                                     text="{:0.3f}".format(y[0][0]), font="Arial 16 bold")
-    #
-    #     self.x0 = self.network_canvas.create_oval(self.x0_pos[0] - self.node_radius, self.x0_pos[1] - self.node_radius,
-    #                                               self.x0_pos[0] + self.node_radius, self.x0_pos[1] + self.node_radius,
-    #                                               width=self.thickness, fill=self.get_hex_color(1))
-    #     self.network_canvas.create_text(self.x0_pos[0], self.x0_pos[1]+self.node_radius*1.5,
-    #                                     text="x0 (bias)", font="Arial 16 bold")
-    #     self.network_canvas.create_text(self.x0_pos[0], self.x0_pos[1],
-    #                                     text="1", font="Arial 16 bold")
-    #
-    #
-    #     self.x1 = self.network_canvas.create_oval(self.x1_pos[0] - self.node_radius, self.x1_pos[1] - self.node_radius,
-    #                                               self.x1_pos[0] + self.node_radius, self.x1_pos[1] + self.node_radius,
-    #                                               width=self.thickness, fill=self.get_hex_color(x[0]))
-    #     self.network_canvas.create_text(self.x1_pos[0], self.x1_pos[1]+self.node_radius*1.5,
-    #                                     text="x1", font="Arial 16 bold")
-    #     self.network_canvas.create_text(self.x1_pos[0], self.x1_pos[1],
-    #                                     text="{:0.0f}".format(x[0]), font="Arial 16 bold")
-    #
-    #     self.x2 = self.network_canvas.create_oval(self.x2_pos[0] - self.node_radius, self.x2_pos[1] - self.node_radius,
-    #                                               self.x2_pos[0] + self.node_radius, self.x2_pos[1] + self.node_radius,
-    #                                               width=self.thickness, fill=self.get_hex_color(x[1]))
-    #     self.network_canvas.create_text(self.x2_pos[0], self.x2_pos[1]+self.node_radius*1.5,
-    #                                     text="x2", font="Arial 16 bold")
-    #     self.network_canvas.create_text(self.x2_pos[0], self.x2_pos[1],
-    #                                     text="{:0.0f}".format(x[1]), font="Arial 16 bold")
-    #
-    # def draw_weights(self):
-    #     b0_x1 = self.x0_pos[0]+(self.node_radius/(2**0.5))
-    #     b0_x2 = self.y0_pos[0]
-    #     b0_y1 = self.x0_pos[1]-(self.node_radius/(2**0.5))
-    #     b0_y2 = self.y0_pos[1]+self.node_radius
-    #     self.b0 = self.network_canvas.create_line(b0_x1, b0_y1, b0_x2, b0_y2,
-    #                                               width=self.thickness,
-    #                                               fill=self.get_hex_color(self.network.y_bias[0][0]))
-    #
-    #     self.network_canvas.create_text(self.y0_pos[0]-160, self.y0_pos[1]+80,
-    #                                     text="b0 = {:0.3f}".format(self.network.y_bias[0][0]),
-    #                                     font="Arial 16 bold", fill="black", tags='b0')
-    #
-    #     self.b1 = self.network_canvas.create_line(self.x1_pos[0], self.x1_pos[1]-self.node_radius,
-    #                                               self.y0_pos[0], self.y0_pos[1]+self.node_radius,
-    #                                               width=self.thickness, fill=self.get_hex_color(self.network.y_x[0][0]))
-    #     self.network_canvas.create_text(self.y0_pos[0]-80, self.y0_pos[1]+150,
-    #                                     text="b1 = {:0.3f}".format(self.network.y_x[0][0]),
-    #                                     font="Arial 16 bold", fill="black", tags='b1')
-    #
-    #
-    #     self.b2 = self.network_canvas.create_line(self.x2_pos[0], self.x2_pos[1]-self.node_radius,
-    #                                               self.y0_pos[0], self.y0_pos[1]+self.node_radius,
-    #                                               width=self.thickness, fill=self.get_hex_color(self.network.y_x[0][1]))
-    #     self.network_canvas.create_text(self.y0_pos[0]+80, self.y0_pos[1]+150,
-    #                                     text="b2 = {:0.3f}".format(self.network.y_x[0][1]),
-    #                                     font="Arial 16 bold", fill="black", tags='b2')
 
     # def draw_boundary(self):
     #
@@ -374,62 +307,8 @@ class App:
     #         label = "({},{})".format(x1, x2)
     #         self.network_canvas.create_text(590 + 150 * x1, 420 + 140 * abs(x2 - 1), text=label, font="Arial 14 bold",
     #                                         fill="#000000")
-    #
-    # def draw_activation_functions(self):
-    #     x_is_min = 40
-    #     y_is_0 = 140
-    #     x_scale = 200
-    #     y_scale = 100
-    #
-    #     intervals = np.linspace(-5, 5, 100)
-    #     curve_list = []
-    #     for z in intervals:
-    #         y = 1 / (1 + math.exp(-z))
-    #         curve_list.append((z, y))
-    #         print(z, y)
-    #     for i in range(len(intervals)-1):
-    #         x1 = x_is_min + (x_scale * (curve_list[i][0] + 5)) / 10
-    #         y1 = y_is_0 - curve_list[i][1] * y_scale
-    #         x2 = x_is_min + (x_scale * (curve_list[i+1][0] + 5)) / 10
-    #         y2 = y_is_0 - curve_list[i+1][1] * y_scale
-    #         self.network_canvas.create_line(x1, y1, x2, y2, width=self.thickness, fill='yellow')
-    #
-    #     x = self.current_x
-    #     z = self.network.net_input(x)[0,0]
-    #     y = self.network.forward(x, self.params['activation_function'])[0,0]
-    #     print(x, z, y)
-    #     print('x1={} + {}*({}+5)'.format(x_is_min, x_scale, z))
-    #     x1 = x_is_min + (x_scale*(z+5))/10
-    #     y1 = y_is_0 - y*y_scale
-    #     x2 = x_is_min + (x_scale*(z+5))/10
-    #     y2 = y_is_0 - y*y_scale
-    #     print((x1, y1), (x2, y2))
-    #     self.network_canvas.create_line(x1, y_is_0, x2, y_is_0-y_scale, width=self.thickness, fill='orange')
-    #     self.network_canvas.create_line(x_is_min, y1, x_is_min+x_scale, y2, width=self.thickness, fill='orange')
-    #
-    #     self.network_canvas.create_text(x_is_min+x_scale*0.5, y_is_0-y_scale-30, text="y Activation Function", font="Arial 14 bold", fill="#000000")
-    #     self.network_canvas.create_text(x_is_min+x_scale*0.5, y_is_0-y_scale-15, text="y = 1 / (1 + e^-z)", font="Arial 12 bold",
-    #                                     fill="#000000")
-    #     self.network_canvas.create_text(x_is_min+x_scale*0.5, y_is_0+10, text="z = 0", font="Arial 11 bold", fill="#000000")
-    #     self.network_canvas.create_text(x_is_min+x_scale, y_is_0+10, text="z = +5", font="Arial 11 bold", fill="#000000")
-    #     self.network_canvas.create_text(x_is_min, y_is_0+10, text="z = -5", font="Arial 11 bold", fill="#000000")
-    #     self.network_canvas.create_text(x_is_min+x_scale*0.5-13, y_is_0-10, text="y=0", font="Arial 11 bold", fill="#000000")
-    #     self.network_canvas.create_text(x_is_min+x_scale*0.5 - 16, y_is_0 - 0.5*y_scale, text="y=0.5", font="Arial 11 bold", fill="#000000")
-    #     self.network_canvas.create_text(x_is_min+x_scale*0.5 - 13, y_is_0 - y_scale, text="y=1", font="Arial 11 bold", fill="#000000")
-    #     self.network_canvas.create_text(x_is_min+x_scale*0.5, y_is_0 + 25, text="z = b0*1 + b1*x1 + b2*x2", font="Arial 11 bold",
-    #                                     fill="#000000")
-    #
-    #     b0 = self.network.y_bias[0, 0]
-    #     b1 = self.network.y_x[0, 0]
-    #     b2 = self.network.y_x[0, 1]
-    #     self.network_canvas.create_text(x_is_min+x_scale*0.5, y_is_0 + 40,
-    #                                     text="z = {:0.2f} + {:0.2f} + {:0.2f} = {:0.2f}".format(b0, b1*x[0], b2*x[1], z),
-    #                                     font="Arial 11 bold",
-    #                                     fill="#000000")
-    #
-    #     self.network_canvas.create_line(x_is_min+x_scale*0.5, y_is_0, x_is_min+x_scale*0.5, y_is_0-y_scale, width=self.thickness)
-    #     self.network_canvas.create_line(x_is_min, y_is_0, x_is_min+x_scale, y_is_0, width=self.thickness)
-    #
+
+
     # def network_click(self, event):
     #     x, y = event.x, event.y
     #     ids = self.network_canvas.find_overlapping(x-5, y-5, x+5, y+5)

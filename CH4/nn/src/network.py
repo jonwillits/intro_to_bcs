@@ -33,7 +33,7 @@ class NeuralNetwork:
             y = z
         else:
             raise Exception(f'Activation function {self.activation_function} not supported')
-        return y
+        return z, y
 
     def train(self, x, y):
 
@@ -44,7 +44,7 @@ class NeuralNetwork:
             xi = x[i]
             yi = y[i]
 
-            y_predict = self.forward(xi)
+            z, y_predict = self.forward(xi)
             y_cost = yi - y_predict
             cost_sum += y_cost
             output_array[i] = y_predict
