@@ -6,21 +6,19 @@
 
 ### 2.1. Does the scene from “The Office” demonstrates operant conditioning or classical conditioning? Explain why. (2 PTS)
 
-### 2.2. If the scene is classical conditioning, label what elements represent the
+### 2.2. Are the scenes from “The Big Bang Theory” demonstrating operant conditioning or classical conditioning? (2 PTS)
+
+### 2.3. For the movie that was classical conditioning, label what elements represent the
 - unconditioned stimulus (US) (2 PTS)
 - unconditioned response (UR) (2 PTS)
 - conditioned stimulus (CS) (2 PTS)
 - conditioned response (CR) (2 PTS)
 
-### 2.2 continued. If the scene is operant conditioning, which of the followiing does it demonstrate (2 POINTS), and why? (6 POINTS)
+### 2.4 For the movie that was operant conditioning, which of the followiing does it demonstrate (2 POINTS), and why? (6 POINTS)
 - positive reinforcement
 - positive punishment
 - negative reinforcement
 - negative punishment
-
-### 2.3. Are the scenes from “The Big Bang Theory” demonstrating operant conditioning or classical conditioning? (2 PTS)
-
-### 2.4. Based on your answer to 2.3, label the parts and explain the way you did for either 2.2 (8 POINTS)
 
 ## 3.	Personal conditioning (30 PTS TOTAL)
 ### 3.1.	Describe a behavior of your own, and how you would like it to change (2 PTS)
