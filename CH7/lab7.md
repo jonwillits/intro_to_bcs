@@ -14,7 +14,7 @@ Many behaviorists were fiercely resistant to theories that contained elements th
 
 ## 3. The following questions all come from the experiment we took in class
 
-In the experiment there were three different study lists: 1) images, 2) words, and 3) nonwords.
+In the experiment there were three different study lists: 1) images, 2) words, and 3) nonwords. In class you had 4 items in each list to give you a feel for the kind of experiment experience and data. In this lab, we are going to be looking at simulated data from a version of this experiment where:
 For each stimulus type, you were shown a study list of 20 items.
 Then you were shown a test list.
 The test list contained 10 "old" items from your study list, and 10 "new" items.
