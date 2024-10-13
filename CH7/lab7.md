@@ -14,29 +14,31 @@ Many behaviorists were fiercely resistant to theories that contained elements th
 
 ## 3. The following questions all come from the experiment we took in class
 
-In the experiment there were three different study lists: 1) images, 2) words, and 3) nonwords.
+In the experiment there were three different study lists: 1) images, 2) words, and 3) nonwords. In class you had 4 items in each list to give you a feel for the kind of experiment experience and data. In this lab, we are going to be looking at simulated data from a version of this experiment where:
 For each stimulus type, you were shown a study list of 20 items.
 Then you were shown a test list.
 The test list contained 10 "old" items from your study list, and 10 "new" items.
 Your job was to guess, as quickly and accurately as possible, whether the item was "old" or "new".
 
-### 3.1. Describe your experience (5 POINTS TOTAL)
+### 3.1. Describe your experience (4 POINTS TOTAL)
 - Which of the three kinds of stimuli was the easiest? Which was the hardest? (2 PTS)
-- Why do you think that was? (3 PTS)
+- Why do you think that was? (2 PTS)
 
-### 3.2. Experimental hypotheses (15 POINTS TOTAL)
+### 3.2. Experimental hypotheses (12 POINTS TOTAL)
 After hearing about the three hypotheses, state your opinion about whether each hypothesis is true or not. Explain why.
 
-- Hypothesis 1: (5 PTS)
-- Hypothesis 2: (5 PTS)
-- Hypothesis 3: (5 PTS)
+- Hypothesis 1: (3 PTS)
+- Hypothesis 2: (3 PTS)
+- Hypothesis 3: (3 PTS)
+- Hypothesis 4: (3 PTS)
 
-### 3.3. Results (15 POINTS TOTAL)
+### 3.3. Results (16 POINTS TOTAL)
 After seeing the results from the experiment, decide whether there was evidence to support each hypothesis. Explain why.
 
-- Hypothesis 1: (5 PTS)
-- Hypothesis 2: (5 PTS)
-- Hypothesis 3: (5 PTS)
+- Hypothesis 1: (4 PTS)
+- Hypothesis 2: (4 PTS)
+- Hypothesis 3: (4 PTS)
+- Hypothesis 4: (4 PTS)
 
 ### 3.4. Interpreting the results (20 PTS TOTAL)
 Cognitive psychology is about trying to propose a theory about how information is processed:
