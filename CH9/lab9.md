@@ -1,7 +1,10 @@
 # Lab 9: Symbolic Computation
 
 The first part of this lab will be based on downloading and running the rock-paper-scissors game. Download and play
-for a few minutes to see how you do before we start the lab questions.
+for a few minutes to see how you do before we start the lab questions. You can find the game at:
+[rock_paper_scissors.zip](rock_paper_scissors.zip). Unzip the directory and then run the run.py file in your terminal.
+You may need to install the Pillow library for python if you havent already. using: "python -m pip install Pillow" on 
+windows or "python3 -m pip install Pillow" on MacOS.
 
 ## 1. Initial Attempt to Win (14 PTS TOTAL)
 
@@ -11,7 +14,6 @@ Restart the game, and have each member in your group play for 30 rounds. Record 
 ### 1.2. Discuss Your Strategies (7 PTS)
 Discuss with your group what strategy you might have been using. Did anybody find a successful strategy? 
 Whose strategy was the best?
-
 
 ## 2. Algorithmic Comparison
 
