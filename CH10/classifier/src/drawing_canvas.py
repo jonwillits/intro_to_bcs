@@ -1,8 +1,6 @@
 import tkinter as tk
 import numpy as np
-import os
-import tempfile
-from PIL import Image, ImageOps, ImageChops, ImageGrab
+from PIL import ImageGrab
 
 class DrawingCanvas:
     def __init__(self, parent, image_size):
@@ -10,7 +8,8 @@ class DrawingCanvas:
         self.parent = parent
         # Create a canvas widget
         self.image_size = image_size
-        self.canvas = tk.Canvas(parent, bg="white", width=image_size, height=image_size, highlightthickness=0, bd=0)
+        self.canvas = tk.Canvas(parent, bg="white", width=image_size, height=image_size,
+                                highlightthickness=2, bd=2, borderwidth=2, relief="flat", highlightbackground="black")
 
         # Initialize variables to track the position and eraser mode
         self.last_x = None

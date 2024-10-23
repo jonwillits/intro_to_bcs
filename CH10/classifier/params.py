@@ -8,4 +8,4 @@ class Shapes:
 
 
 class Network:
-    hidden_size = 16
+    hidden_size = 32
