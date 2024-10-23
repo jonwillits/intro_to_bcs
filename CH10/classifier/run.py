@@ -1,5 +1,5 @@
 from src import datasets
-from src import app
+from src.app import app
 from src import network
 import params
 

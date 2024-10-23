@@ -1,8 +1,6 @@
 import tkinter as tk
 import math
-import numpy as np
-from torch.fx.experimental.migrate_gradual_types.constraint_generator import reshape_inference_rule
-
+from . import interface_frame
 from . import drawing_canvas
 
 class App:
@@ -14,8 +12,6 @@ class App:
         self.root = None
 
         self.app_dimensions = (1100, 650)
-        self.interface_frame_height = 30
-        self.main_frame_height = self.app_dimensions[0] - self.interface_frame_height
 
         self.interface_frame = None
         self.current_shape_label = None
@@ -34,7 +30,6 @@ class App:
 
         self.input_position = (self.starting_x,
                                int(self.hidden_layer_rows*(self.hidden_cell_size+self.hidden_cell_spacing)/2))
-        print(self.input_position)
 
         self.hidden_bias_position = (self.input_position[0] + int(self.dataset.image_size/2),
                                      self.input_position[1] - int(self.dataset.image_size) - 20)
@@ -46,6 +41,7 @@ class App:
         self.create_app_window()
         self.create_interface_frame()
         self.create_main_frame()
+        self.current_instance_index = tk.IntVar(value=0)
 
     def create_app_window(self):
         """
@@ -56,28 +52,14 @@ class App:
         self.root.title("Shape Classifier")
         self.root.geometry(f"{self.app_dimensions[0]}x{self.app_dimensions[1]}")
         self.root.config(bg="black")
+        self.root.update()
 
     def create_interface_frame(self):
-        self.interface_frame = tk.Frame(self.root, bg="#222222",
-                                        height=self.interface_frame_height, width=self.app_dimensions[0])
-        self.interface_frame.pack_propagate(False)
-        self.interface_frame.pack(side=tk.TOP, fill=tk.X)
-
-        self.current_shape_label = tk.Label(self.interface_frame, text="Current Shape Instance", fg="white",
-                                            bg="#222222")
-        self.current_shape_label.pack(side=tk.LEFT, padx=10, pady=5)
-
-        # Add the entry widget
-        self.current_instance_index = tk.IntVar(value=0)
-        self.shape_instance_entry = tk.Entry(self.interface_frame, textvariable=self.current_instance_index, width=10)
-        self.shape_instance_entry.pack(side=tk.LEFT, padx=10, pady=5)
-
-        self.show_instance_button = tk.Button(self.interface_frame, text="Show!", command=self.show_instance)
-        self.show_instance_button.pack(side=tk.LEFT, padx=10, pady=5)
+        self.interface_frame = interface_frame.InterfaceFrame(self, self.root)
 
     def create_main_frame(self):
         # Main frame
-        self.main_frame = tk.Frame(self.root, bg="#4574a3", height=self.main_frame_height, width=self.app_dimensions[0])
+        self.main_frame = tk.Frame(self.root, bg="#4574a3", width=self.app_dimensions[0])
         self.main_frame.pack_propagate(False)
         self.main_frame.pack(side=tk.LEFT, fill=tk.Y)
 
@@ -88,27 +70,6 @@ class App:
         self.drawing_canvas = drawing_canvas.DrawingCanvas(self.main_frame, self.dataset.image_size)
         self.drawing_canvas.canvas.place(x=self.input_position[0], y=self.input_position[1])
         self.drawing_canvas.draw_matrix(self.dataset.x_list[5])
-
-    def show_instance(self):
-        # Get the value from the entry widget
-        try:
-            self.current_instance_index = int(self.shape_instance_entry.get())
-        except ValueError:
-            print("Invalid input. Please enter a valid integer.")
-            return
-
-        # Check if the index is in the valid range
-        if 0 <= self.current_instance_index < self.dataset.dataset_size:
-            try:
-                # Clear the canvas
-                self.drawing_canvas.canvas.delete("all")
-
-                # Draw the matrix corresponding to the current index
-                self.drawing_canvas.draw_matrix(self.dataset.x_list[self.current_instance_index])
-            except IndexError:
-                print(f"Index {self.current_instance_index} is out of range.")
-        else:
-            print(f"Index {self.current_instance_index} is out of range. Valid range: 0 to {self.dataset.dataset_size - 1}")
 
     def draw_network_visualization(self):
         self.draw_layer(self.main_frame, 1, self.hidden_bias_position, 1, self.hidden_cell_size)

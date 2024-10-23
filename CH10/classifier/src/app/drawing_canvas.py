@@ -88,13 +88,11 @@ class DrawingCanvas:
 
         # Convert boolean array (True/False) to 1/0
         canvas_array = canvas_array.astype(np.uint8)
-        np.set_printoptions(threshold=np.inf, linewidth=np.inf)
-        print(canvas_array)  # You can print the array to verify its content, or store it as needed.
 
         return canvas_array  # Return the NumPy array for further use.
 
     def draw_matrix(self, flattened_array):
-
+        self.canvas.delete("all")
         matrix = np.reshape(flattened_array, (self.image_size, self.image_size))
         """Draw a NumPy matrix to the canvas."""
         rows, cols = matrix.shape
