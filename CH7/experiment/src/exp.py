@@ -154,22 +154,24 @@ class Exp:
                                 "rt"])
 
         # now we need to go through each trial, and create a list with those 8 items listed above
+        print(self.familiarization_list)
         for i, trial_data in enumerate(self.data_list):  # for each trial in self.data_list
 
             stimulus_type = trial_data[0]
             block_number = trial_data[1]
             trial_number = trial_data[2]
             stimulus = trial_data[3]
+            response_key = trial_data[4]
             rt =f"{trial_data[5]:0.3f}"
 
-            if trial_data[0] in self.familiarization_list:
+            if stimulus in self.familiarization_list:
                 condition = 1
                 old_trial_number = self.familiarization_list.index(trial_data[0]) + 1
             else:
                 condition = 0
                 old_trial_number = 0
 
-            if trial_data[4] == "j":
+            if response_key == "j":
                 response = 1
             else:
                 response = 0
