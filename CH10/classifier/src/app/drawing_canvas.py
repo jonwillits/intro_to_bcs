@@ -3,13 +3,15 @@ import numpy as np
 from PIL import ImageGrab
 
 class DrawingCanvas:
-    def __init__(self, parent, image_size):
+    def __init__(self, parent, image_size, layer_border):
 
         self.parent = parent
         # Create a canvas widget
         self.image_size = image_size
+        self.layer_border = layer_border
         self.canvas = tk.Canvas(parent, bg="white", width=image_size, height=image_size,
-                                highlightthickness=2, bd=2, borderwidth=2, relief="flat", highlightbackground="black")
+                                highlightthickness=0, bd=self.layer_border, borderwidth=self.layer_border,
+                                relief="solid", highlightbackground="black")
 
         # Initialize variables to track the position and eraser mode
         self.last_x = None
