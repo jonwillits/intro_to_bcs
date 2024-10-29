@@ -1,18 +1,18 @@
 class Shapes:
 
-    instances_per_category = 100
-    noise = .3
+    instances_per_category = 500
+    noise = .4
     image_size = 64
     category_list = ['triangle', 'rectangle', 'square', 'rhombus', 'trapezoid',
                      'pentagon', 'hexagon', 'circle', 'oval', 'star']
 
 class Network:
-    hidden_size = 8
-    num_epochs = 20
-    learning_rate = 0.001
-    output_freq = 5
-    l2_lambda = .001
-    batch_size = 128
+    hidden_size = 64
+    num_epochs = 2000
+    learning_rate = 0.0001
+    output_freq = 1
+    l2_lambda = .05
+    batch_size = 256
 
 class App:
     network_frame_padding = 20

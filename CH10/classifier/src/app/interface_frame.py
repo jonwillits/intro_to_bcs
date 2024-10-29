@@ -60,7 +60,7 @@ class InterfaceFrame:
         self.train_button = tk.Button(self.frame, text="Train!", command=self.train)
         self.train_button.pack(side=tk.LEFT, padx=10, pady=5)
 
-        self.reset_button =  tk.Button(self.frame, text="Reset", command=self.reset)
+        self.reset_button =  tk.Button(self.frame, text="Reset Network", command=self.reset_network)
         self.reset_button.pack(side=tk.LEFT, padx=10, pady=5)
 
     def train(self):
@@ -76,19 +76,26 @@ class InterfaceFrame:
         self.current_instance_index = 0
         self.current_category = self.selected_category_stringvar.get()
         self.selected_category_index_list = self.app.training_set.category_index_list_dict[self.current_category]
+        x_index = self.selected_category_index_list[self.current_instance_index]
+        x = self.app.training_set.x_list[x_index]
+        self.app.network_frame.input_frame.set_current_input(x)
         self.app.network_frame.update_network_frame()
 
     def increment_instance(self):
         self.current_instance_index += 1
         if (self.current_instance_index + 1) == len(self.selected_category_index_list):
             self.current_instance_index = 0
+        x_index = self.selected_category_index_list[self.current_instance_index]
+        x = self.app.training_set.x_list[x_index]
+        self.app.network_frame.input_frame.set_current_input(x)
         self.app.network_frame.update_network_frame()
 
-    def reset(self):
+    def reset_network(self):
         self.app.network.init_network()
         self.app.network_frame.update_network_frame()
 
     def clear_canvas(self):
         x = np.zeros([self.params.Shapes.image_size, self.params.Shapes.image_size], int)
-        self.app.network_frame.update_network_frame(x)
+        self.app.network_frame.input_frame.set_current_input(x)
+        self.app.network_frame.update_network_frame()
 

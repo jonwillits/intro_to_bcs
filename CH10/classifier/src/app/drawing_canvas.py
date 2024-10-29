@@ -21,8 +21,7 @@ class DrawingCanvas:
         self.canvas.pack()
 
         # Reference to the current input array, reshaped to match the canvas
-        self.current_input = self.app.training_set.x_list[self.app.interface_frame.selected_category_index_list[0]]
-        self.current_input = self.current_input.reshape((self.params.Shapes.image_size, self.params.Shapes.image_size))
+        self.set_current_input(self.app.training_set.x_list[self.app.interface_frame.selected_category_index_list[0]])
 
         # Bind mouse events to handle drawing
         self.canvas.bind("<Button-1>", self.on_draw)
@@ -31,7 +30,6 @@ class DrawingCanvas:
     def set_current_input(self, current_input_array):
         """Set the current input and draw it on the canvas."""
         self.current_input = current_input_array.reshape((self.params.Shapes.image_size, self.params.Shapes.image_size))
-        self.draw_matrix()
 
     def draw_matrix(self):
         """Draw a NumPy matrix to the canvas."""
@@ -47,7 +45,6 @@ class DrawingCanvas:
                     self.canvas.create_rectangle(
                         col + offset, row + offset, col + 1 + offset, row + 1 + offset, fill="black", outline=""
                     )
-
         self.canvas.update_idletasks()
 
     def on_draw(self, event):
@@ -80,4 +77,4 @@ class DrawingCanvas:
                             self.current_input[row, col] = 1
 
             # Redraw the matrix to reflect the changes
-            self.draw_matrix()
+            self.network_frame.update_network_frame()

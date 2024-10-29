@@ -1,4 +1,7 @@
 import numpy as np
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
 
 class Network:
 
@@ -90,16 +93,23 @@ class Network:
         num_samples = len(training_set.x_list)
         num_batches = num_samples // batch_size
 
+        # Shuffle indices for the current epoch
+        shuffled_indices = np.random.permutation(num_samples)
+
         for batch_idx in range(num_batches):
-            batch_x = training_set.x_list[batch_idx * batch_size:(batch_idx + 1) * batch_size]
-            batch_y = training_set.y_list[batch_idx * batch_size:(batch_idx + 1) * batch_size]
+            # Select a batch based on the shuffled indices
+            batch_indices = shuffled_indices[batch_idx * batch_size:(batch_idx + 1) * batch_size]
+            batch_x = [training_set.x_list[i] for i in batch_indices]
+            batch_y = [training_set.y_list[i] for i in batch_indices]
 
             # Accumulate gradients and apply updates for each mini-batch
             for x, y in zip(batch_x, batch_y):
                 x = training_set.add_noise(x)  # Apply noise if needed
                 h, o = self.forward(x)
                 self.backpropagation(x, o, h, y, learning_rate)
+
         self.epoch += 1
+
         # Regularly output progress
         if self.epoch % self.params.Network.output_freq == 0:
             self.evaluate(training_set, test_set)

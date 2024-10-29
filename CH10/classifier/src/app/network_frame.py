@@ -244,15 +244,11 @@ class NetworkFrame:
     def create_output_graph(self):
         pass
 
-    def update_network_frame(self, x=None):
+    def update_network_frame(self):
         if self.hidden_layer_frame is not None:
-            if x is None:
-                category_index = self.app.interface_frame.current_instance_index
-                x_index = self.app.interface_frame.selected_category_index_list[category_index]
-                x = self.app.training_set.x_list[x_index]
-            self.input_frame.set_current_input(x)
+            self.input_frame.draw_matrix()
             self.epochs_label.config(text=f"Epoch: {self.app.network.epoch}")
-            h, o = self.app.network.forward(x.flatten())
+            h, o = self.app.network.forward(self.input_frame.current_input.flatten())
             h_colors = self.array_to_hex_color_list(h)
             bias_color = self.array_to_hex_color_list([1])
             self.update_units(self.hidden_layer_frame.unit_list, h_colors)

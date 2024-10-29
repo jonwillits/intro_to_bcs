@@ -1,6 +1,8 @@
 import random
 import math
 import numpy as np
+import torch
+from torch.utils.data import Dataset, DataLoader
 
 class Shapes:
 
@@ -140,9 +142,7 @@ class Shapes:
             self.x_list.append(image.flatten())
 
             # Append the category index for "circle" to y_list
-            y = np.zeros([self.num_categories], dtype=np.float32)
-            y[self.category_index_list['circle']] = 1
-            self.y_list.append(y)
+            self.y_list.append(self.category_index_list['circle'])
             self.category_index_list_dict['circle'].append(len(self.x_list) - 1)
 
     def generate_oval_instances(self):
@@ -192,9 +192,7 @@ class Shapes:
             # Flatten the image to a 1D array and append to x_list
             self.x_list.append(image.flatten())
 
-            y = np.zeros([self.num_categories], dtype=np.float32)
-            y[self.category_index_list['oval']] = 1
-            self.y_list.append(y)
+            self.y_list.append(self.category_index_list['oval'])
             self.category_index_list_dict['oval'].append(len(self.x_list) - 1)
 
     def generate_polygon_instances(self, shape):
@@ -219,10 +217,7 @@ class Shapes:
 
                 # Flatten the image to a 1D array and append to x_list
                 self.x_list.append(image.flatten())
-
-                y = np.zeros([self.num_categories], dtype=np.float32)
-                y[self.category_index_list[shape]] = 1
-                self.y_list.append(y)
+                self.y_list.append(self.category_index_list[shape])
                 self.category_index_list_dict[shape].append(len(self.x_list) - 1)
 
     def generate_points_for_shape(self, shape):
@@ -354,3 +349,49 @@ class Shapes:
             p1 = points[i]
             p2 = points[(i + 1) % len(points)]  # Connect the last point to the first to close the shape
             self.draw_line(image, int(p1[0]), int(p1[1]), int(p2[0]), int(p2[1]), thickness=thickness)
+
+
+import torch
+from torch.utils.data import Dataset, DataLoader
+
+import numpy as np
+import torch
+from torch.utils.data import Dataset, DataLoader
+
+
+class ShapesDataset(Dataset):
+    def __init__(self, shapes):
+        """
+        Initializes the dataset.
+
+        Parameters:
+            shapes (Shapes): An instance of the custom Shapes class with pre-generated data.
+        """
+        self.shapes = shapes
+
+        # Convert x_list to a single NumPy array, then to a PyTorch tensor
+        x_array = np.array(self.shapes.x_list, dtype=np.float32)
+        self.x_data = torch.tensor(x_array)
+
+        # Convert y_list directly to a tensor, assuming it’s already a list of integer labels
+        self.y_data = torch.tensor(self.shapes.y_list, dtype=torch.long)
+
+    def __len__(self):
+        """
+        Returns the size of the dataset.
+        """
+        return len(self.y_data)
+
+    def __getitem__(self, idx):
+        """
+        Returns a single sample from the dataset.
+
+        Parameters:
+            idx (int): The index of the sample to retrieve.
+
+        Returns:
+            Tuple containing the sample image and label.
+        """
+        x = self.x_data[idx]
+        y = self.y_data[idx]
+        return x, y
