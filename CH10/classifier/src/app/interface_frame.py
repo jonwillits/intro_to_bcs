@@ -1,19 +1,34 @@
 import tkinter as tk
+import numpy as np
 
 class InterfaceFrame:
 
-    def __init__(self, app, parent):
+    def __init__(self, app, parent, params):
 
         self.app = app
         self.parent = parent
+        self.params = params
 
         self.height = 30
         self.width = parent.winfo_width()
 
         self.frame = None
-        self.current_shape_label = None
-        self.shape_instance_entry = None
-        self.show_instance_button = None
+        self.next_instance_button = None
+        self.num_epochs_label =None
+        self.num_epochs_entry = None
+        self.train_button = None
+        self.reset_button = None
+        self.clear_canvas_button = None
+        self.category_list = params.Shapes.category_list
+
+        # Variable to hold the selected item from the drop-down
+        self.category_menu = None
+        self.current_category = self.category_list[0]
+        self.selected_category_stringvar = tk.StringVar()
+        self.selected_category_stringvar.set(self.current_category)
+        self.selected_category_stringvar.trace("w", self.on_category_selected)
+        self.selected_category_index_list = self.app.training_set.category_index_list_dict[self.current_category]
+        self.current_instance_index = 0
 
         self.create_frame()
         self.add_widgets()
@@ -23,35 +38,57 @@ class InterfaceFrame:
                  height=self.height, width=self.width)
         self.frame.pack_propagate(False)
 
-        self.current_shape_label = tk.Label(self.frame, text="Current Shape Instance", fg="white",
-                                            bg="#222222")
-        self.current_shape_label.pack(side=tk.LEFT, padx=10, pady=5)
-
     def add_widgets(self):
         # Add the entry widget
+        self.category_menu = tk.OptionMenu(self.frame, self.selected_category_stringvar, *self.category_list)
+        self.category_menu.config(width=10)  # Adjust width as needed
+        self.category_menu.pack(side=tk.LEFT, padx=10, pady=5)
 
-        self.shape_instance_entry = tk.Entry(self.frame, textvariable=self.app.current_instance_index, width=10)
-        self.shape_instance_entry.pack(side=tk.LEFT, padx=10, pady=5)
-        self.shape_instance_entry.insert(0, self.app.current_instance_index)
+        self.next_instance_button = tk.Button(self.frame, text="Next Shape", command=self.increment_instance)
+        self.next_instance_button.pack(side=tk.LEFT, padx=10, pady=5)
 
-        self.show_instance_button = tk.Button(self.frame, text="Show!", command=self.show_instance)
-        self.show_instance_button.pack(side=tk.LEFT, padx=10, pady=5)
+        self.clear_canvas_button = tk.Button(self.frame, text="Clear Input", command=self.clear_canvas)
+        self.clear_canvas_button.pack(side=tk.LEFT, padx=10, pady=5)
 
-    def show_instance(self):
-        # Get the value from the entry widget
-        try:
-            self.app.displayed_current_instance_index.set(int(self.shape_instance_entry.get()))
-            self.app.current_instance_index = self.app.displayed_current_instance_index.get()
-        except ValueError:
-            print("Invalid input. Please enter a valid integer.")
-            return
+        self.num_epochs_label = tk.Label(self.frame, text="Num Epochs", fg="white", bg="#222222")
+        self.num_epochs_label.pack(side=tk.LEFT, padx=5, pady=5)
 
-        # Check if the index is in the valid range
-        if 0 <= self.app.current_instance_index < self.app.dataset.dataset_size:
-            try:
-                # Draw the matrix corresponding to the current index
-                self.app.network_frame.drawing_canvas.draw_matrix(self.app.dataset.x_list[self.app.current_instance_index])
-            except IndexError:
-                print(f"Index {self.parent.current_instance_index} is out of range.")
-        else:
-            print(f"Index {self.parent.current_instance_index} is out of range. Valid range: 0 to {self.app.dataset.dataset_size - 1}")
+        self.num_epochs_entry = tk.Entry(self.frame, textvariable=self.app.num_epochs, width=10)
+        self.num_epochs_entry.pack(side=tk.LEFT, padx=10, pady=5)
+        self.num_epochs_entry.insert(0, self.app.num_epochs)
+
+        self.train_button = tk.Button(self.frame, text="Train!", command=self.train)
+        self.train_button.pack(side=tk.LEFT, padx=10, pady=5)
+
+        self.reset_button =  tk.Button(self.frame, text="Reset", command=self.reset)
+        self.reset_button.pack(side=tk.LEFT, padx=10, pady=5)
+
+    def train(self):
+        self.app.num_epochs_intvar.set(int(self.num_epochs_entry.get()))
+        self.app.num_epochs = self.app.num_epochs_intvar.get()
+        for i in range(self.app.num_epochs):
+            self.app.network.train(self.app.training_set, self.params.Network.learning_rate, self.params.Network.batch_size,
+                                   self.app.test_set)
+            self.app.network_frame.update_network_frame()
+
+    def on_category_selected(self, *args):
+        # This function will be called whenever a new category is selected
+        self.current_instance_index = 0
+        self.current_category = self.selected_category_stringvar.get()
+        self.selected_category_index_list = self.app.training_set.category_index_list_dict[self.current_category]
+        self.app.network_frame.update_network_frame()
+
+    def increment_instance(self):
+        self.current_instance_index += 1
+        if (self.current_instance_index + 1) == len(self.selected_category_index_list):
+            self.current_instance_index = 0
+        self.app.network_frame.update_network_frame()
+
+    def reset(self):
+        self.app.network.init_network()
+        self.app.network_frame.update_network_frame()
+
+    def clear_canvas(self):
+        x = np.zeros([self.params.Shapes.image_size, self.params.Shapes.image_size], int)
+        self.app.network_frame.update_network_frame(x)
+

@@ -17,6 +17,7 @@ class Shapes:
         self.instances_per_category = getattr(params, 'instances_per_category', Shapes.instances_per_category)
         self.noise = getattr(params, 'noise', Shapes.noise)
         self.category_list = getattr(params, 'category_list', Shapes.category_list)
+        self.category_index_list_dict = {}
 
         # Initialize data storage for x and y coordinates
         self.x_list = []
@@ -32,6 +33,9 @@ class Shapes:
 
     def generate_dataset(self):
         for category in self.category_list:
+            if category not in self.category_index_list_dict:
+                self.category_index_list_dict[category] = []
+
             if category == "circle":
                 self.generate_circle_instances()
             elif category == "oval":
@@ -40,36 +44,41 @@ class Shapes:
                 self.generate_polygon_instances(category)
         self.dataset_size = len(self.x_list)
 
-    def print_shape(self, instance):
+
+    def print_shape_from_array(self, instance):
         image_2d = instance.reshape((self.image_size, self.image_size))
         for row in image_2d:
             line = ' '.join('O' if pixel > 0 else '.' for pixel in row)
             print(line)
 
-    def add_noise(self):
+    @staticmethod
+    def print_shape_from_matrix(instance):
+        for row in instance:
+            line = ' '.join('O' if pixel > 0 else '.' for pixel in row)
+            print(line)
+
+    def add_noise(self, image):
         """
         Adds noise to each image in x_list.
         - Pixels with value 1 have a probability of self.noise to flip to 0.
         - Pixels with value 0 have a probability of self.noise * 0.1 to flip to 1.
         """
-        for i in range(len(self.x_list)):
-            noisy_image = self.x_list[i].copy()  # Copy the original image to avoid modifying in-place
+        noisy_image = image.copy()
 
-            for j in range(len(noisy_image)):
-                pixel = noisy_image[j]
+        for j in range(len(image)):
+            pixel = image[j]
 
-                if pixel == 1.0:
-                    # With probability self.noise, change 1 to 0
-                    if random.random() < self.noise:
-                        noisy_image[j] = 0.0
+            if pixel == 1.0:
+                # With probability self.noise, change 1 to 0
+                if random.random() < self.noise:
+                    noisy_image[j] = 0.0
 
-                elif pixel == 0.0:
-                    # With probability self.noise * 0.1, change 0 to 1
-                    if random.random() < self.noise * 0.1:
-                        noisy_image[j] = 1.0
+            elif pixel == 0.0:
+                # With probability self.noise * 0.1, change 0 to 1
+                if random.random() < self.noise * 0.1:
+                    noisy_image[j] = 1.0
 
-            # Replace the original image with the noisy image in x_list
-            self.x_list[i] = noisy_image
+        return noisy_image
 
     @staticmethod
     def draw_line(image, x1, y1, x2, y2, thickness=1):
@@ -131,7 +140,10 @@ class Shapes:
             self.x_list.append(image.flatten())
 
             # Append the category index for "circle" to y_list
-            self.y_list.append(self.category_index_list['circle'])
+            y = np.zeros([self.num_categories], dtype=np.float32)
+            y[self.category_index_list['circle']] = 1
+            self.y_list.append(y)
+            self.category_index_list_dict['circle'].append(len(self.x_list) - 1)
 
     def generate_oval_instances(self):
         for _ in range(self.instances_per_category):
@@ -180,8 +192,10 @@ class Shapes:
             # Flatten the image to a 1D array and append to x_list
             self.x_list.append(image.flatten())
 
-            # Append the category index for "oval" to y_list
-            self.y_list.append(self.category_index_list['oval'])
+            y = np.zeros([self.num_categories], dtype=np.float32)
+            y[self.category_index_list['oval']] = 1
+            self.y_list.append(y)
+            self.category_index_list_dict['oval'].append(len(self.x_list) - 1)
 
     def generate_polygon_instances(self, shape):
         for _ in range(self.instances_per_category):
@@ -206,8 +220,10 @@ class Shapes:
                 # Flatten the image to a 1D array and append to x_list
                 self.x_list.append(image.flatten())
 
-                # Append the category index for the shape to y_list
-                self.y_list.append(self.category_index_list[shape])
+                y = np.zeros([self.num_categories], dtype=np.float32)
+                y[self.category_index_list[shape]] = 1
+                self.y_list.append(y)
+                self.category_index_list_dict[shape].append(len(self.x_list) - 1)
 
     def generate_points_for_shape(self, shape):
         """Generate the base points for a given shape."""

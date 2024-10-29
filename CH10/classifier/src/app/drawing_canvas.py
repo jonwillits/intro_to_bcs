@@ -1,105 +1,83 @@
 import tkinter as tk
 import numpy as np
-from PIL import ImageGrab
 
 class DrawingCanvas:
-    def __init__(self, parent, image_size, layer_border):
-
+    def __init__(self, parent, app, network_frame, params):
         self.parent = parent
-        # Create a canvas widget
-        self.image_size = image_size
-        self.layer_border = layer_border
-        self.canvas = tk.Canvas(parent, bg="white", width=image_size, height=image_size,
-                                highlightthickness=0, bd=self.layer_border, borderwidth=self.layer_border,
+        self.network_frame = network_frame
+        self.app = app
+        self.params = params
+        self.bg_color = "white"
+
+        # Set thickness for the brush (1 = 1-pixel radius, 2 = 3x3 area, etc.)
+        self.thickness = 2  # Adjust thickness as needed
+
+        # Create the canvas widget
+        self.canvas = tk.Canvas(parent, bg=self.bg_color, width=self.params.Shapes.image_size,
+                                height=self.params.Shapes.image_size,
+                                highlightthickness=self.params.App.input_layer_highlight_thickness,
+                                bd=self.params.App.input_layer_border, borderwidth=self.params.App.input_layer_border,
                                 relief="solid", highlightbackground="black")
+        self.canvas.pack()
 
-        # Initialize variables to track the position and eraser mode
-        self.last_x = None
-        self.last_y = None
-        self.eraser_mode = False
-        self.bg_color = "white"  # Background color for eraser
+        # Reference to the current input array, reshaped to match the canvas
+        self.current_input = self.app.training_set.x_list[self.app.interface_frame.selected_category_index_list[0]]
+        self.current_input = self.current_input.reshape((self.params.Shapes.image_size, self.params.Shapes.image_size))
 
-        # Bind mouse events
-        self.canvas.bind("<Button-1>", self.on_button_press)  # Left-click to start drawing
-        self.canvas.bind("<B1-Motion>", self.on_mouse_drag)  # Mouse drag to draw
-        self.canvas.bind("<ButtonRelease-1>", self.on_button_release)  # Release to stop drawing
+        # Bind mouse events to handle drawing
+        self.canvas.bind("<Button-1>", self.on_draw)
+        self.canvas.bind("<B1-Motion>", self.on_draw)
 
-        self.canvas.bind("<Button-2>", self.on_button_press_eraser)  # Middle button for eraser
-        self.canvas.bind("<B2-Motion>", self.on_mouse_drag)  # Mouse drag for erasing
-        self.canvas.bind("<ButtonRelease-2>", self.on_button_release)  # Release to stop erasing
+    def set_current_input(self, current_input_array):
+        """Set the current input and draw it on the canvas."""
+        self.current_input = current_input_array.reshape((self.params.Shapes.image_size, self.params.Shapes.image_size))
+        self.draw_matrix()
 
-        # Detect CTRL key with Button-1 for eraser
-        self.canvas.bind("<Control-B1-Motion>", self.on_mouse_drag_eraser)  # CTRL + Left mouse drag
-
-    def on_button_press(self, event):
-        """Handle mouse button press event (start drawing)."""
-        self.last_x, self.last_y = event.x, event.y  # Track the initial click position
-        self.eraser_mode = False  # Not in eraser mode for normal drawing
-
-    def on_button_press_eraser(self, event):
-        """Handle mouse button press event (start erasing with Button-2)."""
-        self.last_x, self.last_y = event.x, event.y  # Track the initial click position
-        self.eraser_mode = True  # Enter eraser mode
-
-    def on_mouse_drag(self, event):
-        """Handle mouse drag event (draw or erase while dragging)."""
-        if self.last_x is not None and self.last_y is not None:
-            # Determine the color based on whether we're in eraser mode or drawing mode
-            color = self.bg_color if self.eraser_mode else "black"
-            # Draw a line from the last position to the current mouse position
-            self.canvas.create_line(self.last_x, self.last_y, event.x, event.y, fill=color, width=5)
-            # Update the last position to the current position
-            self.last_x, self.last_y = event.x, event.y
-
-        # Record the canvas after every mouse drag
-        self.record_canvas()
-
-    def on_mouse_drag_eraser(self, event):
-        """Handle mouse drag event when CTRL is held (erase with CTRL + Button-1)."""
-        if self.last_x is not None and self.last_y is not None:
-            # Eraser mode: set color to the background color
-            color = self.bg_color
-            # Draw a line that "erases"
-            self.canvas.create_line(self.last_x, self.last_y, event.x, event.y, fill=color, width=5)
-            # Update the last position to the current position
-            self.last_x, self.last_y = event.x, event.y
-
-        # Record the canvas after every mouse drag
-        self.record_canvas()
-
-    def on_button_release(self, event):
-        """Handle mouse button release event (stop drawing or erasing)."""
-        self.last_x, self.last_y = None, None  # Reset the tracking when the mouse button is released
-
-    def record_canvas(self):
-        """Capture the canvas to a NumPy matrix with 1s and 0s."""
-        # Get the coordinates of the canvas on the screen
-        x = self.parent.winfo_rootx() + self.canvas.winfo_x()
-        y = self.parent.winfo_rooty() + self.canvas.winfo_y()
-        x1 = x + self.canvas.winfo_width()
-        y1 = y + self.canvas.winfo_height()
-
-        # Capture the canvas as an image using ImageGrab
-        img = ImageGrab.grab((x, y, x1, y1))
-
-        # Convert the image to grayscale and then to black-and-white (1 for drawn areas, 0 for background)
-        bw_img = img.convert('L').point(lambda x: 0 if x > 150 else 1, mode='1')
-
-        # Convert the PIL image to a NumPy array (which will initially be True/False)
-        canvas_array = np.array(bw_img)
-
-        # Convert boolean array (True/False) to 1/0
-        canvas_array = canvas_array.astype(np.uint8)
-
-        return canvas_array  # Return the NumPy array for further use.
-
-    def draw_matrix(self, flattened_array):
-        self.canvas.delete("all")
-        matrix = np.reshape(flattened_array, (self.image_size, self.image_size))
+    def draw_matrix(self):
         """Draw a NumPy matrix to the canvas."""
-        rows, cols = matrix.shape
+        self.canvas.delete("all")
+
+        # Offset to account for highlight thickness
+        offset = self.params.App.input_layer_highlight_thickness
+        rows, cols = self.current_input.shape
+
         for row in range(rows):
             for col in range(cols):
-                if matrix[row, col] == 1:  # Draw for value 1 (you can modify this for different values)
-                    # Draw a pixel as a small rectangle or point
-                    self.canvas.create_rectangle(col, row, col + 1, row + 1, outline="", fill="black")
+                if self.current_input[row, col] == 1:
+                    self.canvas.create_rectangle(
+                        col + offset, row + offset, col + 1 + offset, row + 1 + offset, fill="black", outline=""
+                    )
+
+        self.canvas.update_idletasks()
+
+    def on_draw(self, event):
+        """Handle drawing on the canvas with the left mouse button, with adjustable thickness."""
+        # Calculate the offset due to border and highlight thickness
+        border_width = int(self.canvas.cget('borderwidth'))
+        highlight_thickness = int(self.canvas.cget('highlightthickness'))
+        offset = border_width + highlight_thickness
+
+        # Get the canvas coordinates of the click, adjusted for the offset
+        x = event.x - offset
+        y = event.y - offset
+
+        # Ensure the coordinates are within bounds
+        if 0 <= x < self.params.Shapes.image_size and 0 <= y < self.params.Shapes.image_size:
+            # Convert the canvas coordinates to array indices
+            center_row = int(y)
+            center_col = int(x)
+
+            # Update all pixels within the specified thickness radius
+            for dy in range(-self.thickness, self.thickness + 1):
+                for dx in range(-self.thickness, self.thickness + 1):
+                    # Check if within the circular brush radius
+                    if dx**2 + dy**2 <= self.thickness**2:
+                        row = center_row + dy
+                        col = center_col + dx
+                        # Make sure we stay within bounds
+                        if 0 <= row < self.params.Shapes.image_size and 0 <= col < self.params.Shapes.image_size:
+                            # Set the pixel to black in the input array
+                            self.current_input[row, col] = 1
+
+            # Redraw the matrix to reflect the changes
+            self.draw_matrix()
