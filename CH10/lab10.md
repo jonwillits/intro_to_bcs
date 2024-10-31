@@ -78,8 +78,8 @@ Feel free to change the definitions of the features to something other than heal
 - Can the single layer network learn this grouping? Explain?  (3 PTS)
 
 ## 3.2. Adding 1 hidden layer (9 POINTS TOTAL)
-Stay on the circle dataset.
-- Add a single hidden layer, with two hidden units. Train Dataset 2 and 3. Can it solve the problem now? Explain. (2 POINTS)
+Stay on the circle dataset 3.
+- Add a single hidden layer, with two hidden units. Train Dataset 3. Can it solve the problem now? Explain. (2 POINTS)
 - Continue to add hidden units (just units, not more layers) until it can solve the problem. How many did you need? (2 POINTS)
 - What pattern did you notice for when it can solve the problem? Hint: In class we talked about two interpretations of hidden layers and what they do. (2 POINTS)
 - Given your explanation, how many hidden units do you think you should need to solve Dataset 2? Why (2 POINTS)
