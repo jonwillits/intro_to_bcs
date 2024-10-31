@@ -34,5 +34,10 @@ What would that model need to be like? Answer the same five questions as above.
 ## 2.3. Comparison to symbolic model. (8 PTS)
 What are 2 ways in which these neural network models would be similar to, and different from, the symbolic model we used last week.
 
-# 3. Shape Classifier Lab (43 PTS TOTAL)
-Questions available Thursday.
+# 3. Classifier Lab (43 PTS TOTAL)
+The following questions all involving using this website: [Tensorflow Playground](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.33221&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false ) On this website, you can play around with neural networks to better understand hwo they work. To start off, make the following changes to the 
+
+
+All of these neural networks have 2 input features, x1 and x2, and are trying to use them to correct 
+
+
