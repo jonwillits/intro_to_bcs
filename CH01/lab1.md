@@ -1,53 +1,30 @@
 # Lab 1
 
+This lab involves a simulation of an organism, whose behavior you will try to understand.
 
-1. Come up with a one sentence definition of the mind. Don't look it up on the internet or in a dictionary, try to come up with your own definition.
-  
-2. Now that you have a definition of the mind, be a little more explicit, and cast your definition in terms of features that minds must or usually have.
-   - Make a list of 10 features of the mind. Have your features take the form of “propositions”, like “can X”, “is Y”, and “has Z”.
-   - For each feature, list whether you think that feature is a necessary feature of a mind, a sufficient feature of a mind, or a typical feature (that is neither necessary nor sufficient).
-  
-3. Now we are going to apply the inductive reasoning process described in Chapter 1. We will go through a series of examples of entities.
-   For each example below, answer: 1) whether you think it has a mind, 2) does your definition of a mind, in terms of your list of features, say it should be considered a mind?, and 3) how would you need to change your definition to make your definition match your intuitions.
-   - A human being in a deep sleep
-   - A human being with severe brain damage and who is in a vegetative state
-   - A human being with dementia who cannot remember anything from their life
-   - A typical one-month-old human being
-   - A human fetus at 8 months of gestation
-   - A cow
-   - A cockroach
-   - A tree
-   - A single living neuron kept alive and functioning in a petri dish
-   - A single living skin cell kept alive and functioning in a petri dish
-   - A cloud
-   - A thermostat (a machine that can sense the temperature and changes internal and perhaps external attributes in response)
-   - Your phone
-   - The Terminator (or some other advanced robot from science fiction that you are familiar with)
-   - ChatGPT
-	
-4. Imagine that you are a scientist tasked with explaining the behavior of a new organism.
-   You can only find the organism in a specific kind of environment: one with abundant sources of heat.
-   At the following link, you can download and run a simulation of this organism. To run the simulation first you will need to install python on your computer, following the instructions here:
-   [Intalling Python](https://github.com/jonwillits/python_for_bcs/blob/master/ebook/CH00/0.0.%20Installing%20Python.md)
+   - To run the simulation first you will need to install python on your computer, 
+following the instructions here: [Intalling Python](https://github.com/jonwillits/python_for_bcs/blob/master/ebook/CH00/0.0.%20Installing%20Python.md)
 
-   Then download the program located here:
-[Braitenberg's Vehicles #2](https://github.com/jonwillits/intro_to_bcs/blob/master/CH1/vehicles.py)
+   - Then download the program located here: [Braitenberg's Vehicles #2](https://github.com/jonwillits/intro_to_bcs/blob/master/CH1/vehicles.py)
 
-   The orange circles are heat sources. The turtle-shaped entities are the organism that you are studying.
-   You can press the start button to begin and pause the simulation. If you want to observe a new sample, you can press the “Reset” button.
-   Note that you can click on and move the heat sources around to observe their effect on the organisms.
-   Watch the simulation independently for a few minutes and then jot down your thoughts about what is happening. After observing the behavior and developing hypothses about their behavior, answer the following questions:
-  - Briefly describe what your group thought was happening. What levels of explanation did you come up with? 
-    Were they at the psychological level? The Neuroscience level? The Physics level? 
-  - How do the explanations that you used compare to the Three Levels of Analysis proposed by David Marr that were discussed in the reading and in the videos? Give reasons for your comparison of Marr’s levels to the levels you used above.
+In this simulation, you will imagine you are a scientist who has discovered a new organism. 
+You are interested in trying to understand its behavior.
+When you load the simulation, you will see some and orange circles that represent heat sources. 
+The turtle-shaped entities are the organism that you are studying.
+You can press the start button to begin and pause the simulation. 
+If you want to observe a new sample, you can press the “Reset” button.
+Note that you can click on and move the heat sources around to observe their effect on the organisms.
 
-5. Did you use anything like the scientific method to answer the question? Remember, the scientific method is often described as a set of steps:
-- having a general theory about the nature of a system
-- using the theory to generate hypotheses about what will happen in a specific situation 
-- testing the hypothesis 
-- using the results of the test to evaluate your theory, and if so, update it.
+1. Watch the simulation independently for a few minutes and then jot down your thoughts about what is happening. 
+After observing the behavior and developing hypotheses about their behavior, answer the following questions:
+   - Briefly describe what your group thought was happening. What were your first impressions about how the organism was behaving?
 
-Using this framework, can you describe a theory you had about the organism, hypotheses you generated from the theory, and a test of the hypothesis that you performed? 
+
+2. Recall from this week's readings, we talked about Marr's three levels of analysis. 
+   - Define the three levels.
+   - In your description of the organism's behavior above, what level of explanation did your description correspond to? Why?
+   - For the two levels your description did not match, give an example of the kind of explanation you would need to give
+   to explain the organism's behavior at that level.
  
 6. Now imagine that you have done a dissection on one of these organisms and discovered the organization of their nervous system that controls their movement.
    It is surprisingly simple, and is shown in the figure below:
