@@ -12,7 +12,7 @@ class HeatSource:
         self.heat_source.hideturtle()
         self.heat_source.shape('circle')
         self.heat_source.penup()
-        self.heat_source.color("orange")
+        self.heat_source.color("gold")
         self.place()
         self.heat_source.showturtle()
 
@@ -51,7 +51,7 @@ class Vehicle:
         self.vehicle.turtlesize(1)
         self.vehicle.penup()
         if self.vehicle_type == 'crossed':
-            self.vehicle.color("red", (1, 0.85, 0.85))
+            self.vehicle.color("orange", (1, 0.85, 0.85))
         else:
             self.vehicle.color("blue", (0.85, 0.85, 1))
 
