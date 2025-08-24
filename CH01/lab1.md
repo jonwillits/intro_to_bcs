@@ -1,19 +1,40 @@
 # Lab 1
 
-This lab involves a simulation of an organism, whose behavior you will try to understand.
+In this lab, you will explore a simulation of simple agents called Braitenberg vehicles. 
+In this simulation, you will imagine you are a scientist who has discovered a new organism.
+We are calling the organism "Vehicle 2".
+You are interested in trying to understand Vehicle 2's behavior.
+One thing we know: Vehicle 2 can sense heat and move in response to it. 
+Some vehicles (2A) are colored blue, the other (2B) is colored red. 
+Your task is to observe, explore, and describe what vehicle 2A and 2B do.
 
-   - To run the simulation first you will need to install python on your computer, 
-following the instructions here: [Intalling Python](https://github.com/jonwillits/python_for_bcs/blob/master/ebook/CH00/0.0.%20Installing%20Python.md)
+### Part 0: Installing the Python and Downloading the Simulation (≈15 minutes)
 
-   - Then download the program located here: [Braitenberg's Vehicles #2](https://github.com/jonwillits/intro_to_bcs/blob/master/CH1/vehicles.py)
+To run the simulation first you will need to install Python 3.13 on your computer, 
+following the instructions here: [Installing Python](https://github.com/jonwillits/python_for_bcs/blob/master/ebook/CH00/0.0.%20Installing%20Python.md).
+Once you have successfully installed Python, then download the program located here: [Braitenberg's Vehicles #2](https://github.com/jonwillits/intro_to_bcs/blob/master/CH1/vehicles.py).
 
-In this simulation, you will imagine you are a scientist who has discovered a new organism. 
-You are interested in trying to understand its behavior.
-When you load the simulation, you will see some and orange circles that represent heat sources. 
-The turtle-shaped entities are the organism that you are studying.
-You can press the start button to begin and pause the simulation. 
-If you want to observe a new sample, you can press the “Reset” button.
-Note that you can click on and move the heat sources around to observe their effect on the organisms.
+### Part 1: First Impressions
+
+**Instructions**
+1. Start the simulation and watch the vehicles for a few moments without doing anything. Notice how they move.
+2. Experiment by moving the heat sources to different positions in the space. Place them close to the vehicles, far away, or in clusters. Watch carefully how the red and blue vehicles respond.
+3. Reset and restart the simulation as often as you’d like. Try out different arrangements of the heat sources.
+
+**What to Record**
+
+Write down your first impressions. For now, don’t worry about being technical or precise — just describe the behaviors in everyday language.
+- How would you describe what the blue vehicles seem to be doing?
+- How would you describe what the red vehicles seem to be doing?
+- If you were telling a friend about this, what kinds of words would you use? 
+Don’t be afraid to use “mentalistic” language like curious, afraid, aggressive — that’s part of the exercise!
+
+**Goal of Part 1**
+
+The purpose of this stage is to notice patterns and give them names. Later, we will step back and consider what might actually be happening under the hood.
+
+
+
 
 1. Watch the simulation independently for a few minutes and then jot down your thoughts about what is happening. 
 After observing the behavior and developing hypotheses about their behavior, answer the following questions:
