@@ -90,7 +90,7 @@ Remember that k refers to the degree, so we are creating a chart of how often ea
 
 ### 2.3. Network Architecture (10 PTS TOTAL)
 - Which of the following network architectures does our network resemble? Why? (4 PTS)
-![network_structures.png](../images/network_structures.png)
+![network_structures.png](images/network_structures.png)
 
 - Which nodes are good candidates for being network hubs based on this metric? (1 PT)
 - What are likely provincial hubs in your brain network? Provincial hubs act as hubs within a module. (1 PT)

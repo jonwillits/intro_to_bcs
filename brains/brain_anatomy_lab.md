@@ -12,20 +12,20 @@ First, get oriented to the views. With the structure box set on “The Brain”,
 Turn the brain so you are seeing it from the front (as if you were facing the person whose brain you are viewing).  
 It should look like this:
 
-![Front View Brain](../images/brain1.png)
+![Front View Brain](images/brain1.png)
 
 Note that the folded lobes (the cerebrum) are at the top and the brain stem, which connects to the spinal cord, is at 
 the bottom and toward the back.
 
 Turn the brain around so that you can see the back.  It should look like this:
 
-![Back View Brain](../images/brain2.png)
+![Back View Brain](images/brain2.png)
 
 In this view, below the cerebrum and above the brain stem, you can see the cerebellum (in the front view, it can also 
 be seen, but behind the structure known as the pons).
 
 Finally, turn the brain so you can see the bottom.  Orient it so that the brainstem is at the bottom of the image, like this:
-![Bottom View Brain](../images/brain3.png)
+![Bottom View Brain](images/brain3.png)
 
 In this view, you are looking at the brain as if you were standing at the feet of someone lying on their back and 
 looking through their body.  The top of their head is away from you.  Their eyes are facing up, toward the top of this 
@@ -117,16 +117,16 @@ Make sure you can generally tell which view is top, bottom, or side.
 See if you can find some of the same general structures you looked at on the human brain:  
 cerebral hemispheres? cerebellum? brain stem? olfactory bulb?
 
-| 1. <br/>![Animal Brain 1](../images/animal_brain1.png)    | 2. <br/>![Animal Brain 2](../images/animal_brain2.png)    |
+| 1. <br/>![Animal Brain 1](images/animal_brain1.png)    | 2. <br/>![Animal Brain 2](images/animal_brain2.png)    |
 |-----------------------------------------------------------|-----------------------------------------------------------|
-| 3. <br/>![Animal Brain 3](../images/animal_brain3.png)    | 4. <br/>![Animal Brain 4](../images/animal_brain4.png)    |
-| 5. <br/>![Animal Brain 5](../images/animal_brain5.png)    | 6. <br/>![Animal Brain 6](../images/animal_brain6.png)    |
-| 7. <br/>![Animal Brain 7](../images/animal_brain7.png)    | 8. <br/>![Animal Brain 8](../images/animal_brain8.png)    |
-| 9. <br/>![Animal Brain 9](../images/animal_brain9.png)    | 10. <br/>![Animal Brain 10](../images/animal_brain10.png) |
-| 11. <br/>![Animal Brain 11](../images/animal_brain11.png) | 12. <br/>![Animal Brain 12](../images/animal_brain12.png) |
-| 13. <br/>![Animal Brain 13](../images/animal_brain13.png) | 14. <br/>![Animal Brain 14](../images/animal_brain14.png) |
-| 15. <br/>![Animal Brain 15](../images/animal_brain15.png) | 16. <br/>![Animal Brain 16](../images/animal_brain16.png) |
-| 17. <br/>![Animal Brain 17](../images/animal_brain17.png) | 18. <br/>![Animal Brain 18](../images/animal_brain18.png) |
+| 3. <br/>![Animal Brain 3](images/animal_brain3.png)    | 4. <br/>![Animal Brain 4](images/animal_brain4.png)    |
+| 5. <br/>![Animal Brain 5](images/animal_brain5.png)    | 6. <br/>![Animal Brain 6](images/animal_brain6.png)    |
+| 7. <br/>![Animal Brain 7](images/animal_brain7.png)    | 8. <br/>![Animal Brain 8](images/animal_brain8.png)    |
+| 9. <br/>![Animal Brain 9](images/animal_brain9.png)    | 10. <br/>![Animal Brain 10](images/animal_brain10.png) |
+| 11. <br/>![Animal Brain 11](images/animal_brain11.png) | 12. <br/>![Animal Brain 12](images/animal_brain12.png) |
+| 13. <br/>![Animal Brain 13](images/animal_brain13.png) | 14. <br/>![Animal Brain 14](images/animal_brain14.png) |
+| 15. <br/>![Animal Brain 15](images/animal_brain15.png) | 16. <br/>![Animal Brain 16](images/animal_brain16.png) |
+| 17. <br/>![Animal Brain 17](images/animal_brain17.png) | 18. <br/>![Animal Brain 18](images/animal_brain18.png) |
 
 ### 1. What are some characteristics or brain regions that seem to be common across all or most of the brains? Name at least 2. (2 POINTS)
 

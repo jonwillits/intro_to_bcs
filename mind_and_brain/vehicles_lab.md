@@ -13,12 +13,12 @@ To do this lab, you'll need to do three things.
 1. First you will need to install Python 3.13 on your computer, 
 following the instructions here: [Installing Python](https://github.com/jonwillits/python_for_bcs/blob/master/ebook/CH00/0.0.%20Installing%20Python.md).
 2. Once you have successfully installed Python,
-then download the program located here: [Braitenberg's Vehicles #2](https://github.com/jonwillits/intro_to_bcs/blob/master/CH1/vehicles.py).
+then download the program located here: [Braitenberg's Vehicles #2](https://github.com/jonwillits/intro_to_bcs/blob/master/mind_and_brain/vehicles.py).
 You can run the program by double-clicking on the vehicles.py file.
 You can also run the program by opening in your Terminal (Mac) or Command (Windows) app,
-using the instructions here: [Running Python Programs](http://)
+using the instructions here: [Running Python Programs](https://github.com/jonwillits/python_for_bcs/blob/master/ebook/CH00/0.1.%20Creating%20%26%20Running%20Python%20Programs.md)
 3. Finally, make sure to download the lab report Microsoft Word document.
-It is available here: [Lab 1 Report](https://github.com/jonwillits/intro_to_bcs/blob/master/CH1/Lab1_Report.docx)
+It is available here: [Lab 1 Report](https://github.com/jonwillits/intro_to_bcs/blob/master/mind_and_brain/vehicles_lab_report.docx)
 This document is what you will turn in to the course website.
 
 ## Part 1: First Impressions  (≈5 minutes)
@@ -85,7 +85,7 @@ The other vehicle has what is called "Contralateral" connectivity.
 Contralateral means "opposite side" (contra = opposite, lateral = side).
 This means that each of the vehicle's sensors are connected to the actuators on the opposite side of its body as the sensor.
 
-![Turtle Vehicle Simulation Motor Nervous System](../images/turtle_neuro.png)
+![Turtle Vehicle Simulation Motor Nervous System](images/turtle_neuro.png)
 
 Compare the wiring diagrams to the behaviors you observed in Part 2.
 
