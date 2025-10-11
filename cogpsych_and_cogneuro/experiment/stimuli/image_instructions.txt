@@ -1,6 +1,0 @@
-In this part of the experiment you are going to be shown a sequence of items to study, one at a time. After seeing the entire study sequence, there will be a brief delay. Then you will be give a memory test. When you are ready to begin, press the SPACE BAR.
-READY
-SET
-GO!
-Now you will have a memory test, using the keyboard to respond. Please rest your right hand on the keyboard on the "j" and "k" keys. If you saw the item in the study list, press the "j" key. If you did NOT see the string in the study list, press the "k" key.  Please try to respond as quickly and as accurately as you can. Press the SPACE BAR when you are ready to begin.
-You have completed the experiment. Thank you for your participation. Please press the SPACE BAR to quit.
