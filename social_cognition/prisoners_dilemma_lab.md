@@ -118,7 +118,7 @@ repeat the process at least two times until you think you've figured that AI out
 - Report back your hypotheses and how you tested them, and your final conclusions. (8 PTS, 2 for each AI)
 
 ### 3. Reason About Counter-Strategies (15 PTS)
-Once you are done with part 2, you can view the AI descriptions to see an exact report of their strategies.
+Once you are done with part 2, you can view the [AI descriptions](ai_descriptions.md) to see an exact report of their strategies.
 How did you do?
 
 Now imagine you could design a perfect strategy to play against each AI.
@@ -161,10 +161,10 @@ The results table will show you how many points each AI got against each other A
 
 Prediction Task (4 pts)
 Answer before running:
-	1.	Which strategy do you predict will score highest overall? Why?
-	2.	Which strategy do you predict will do worst? Why?
-	3.	Do you think any strategy will tie? If so, which ones and why?
-	4.	Which strategy do you think is evolutionarily stable in this environment? Explain.
+1.	Which strategy do you predict will score highest overall? Why?
+2.	Which strategy do you predict will do worst? Why?
+3.	Do you think any strategy will tie? If so, which ones and why?
+4.	Which strategy do you think is evolutionarily stable in this environment? Explain.
 
 Use what you learned in Part 1 — especially about reciprocity and punishment.
 
