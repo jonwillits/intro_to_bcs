@@ -24,7 +24,7 @@ Pam used a classic reciprocity rule:
 - Every subsequent move: Repeat the opponent’s last move (if noise = 0)
 
 Pam effectively “mirrors” others:
-- With Kevin or another TFT agent, she cooperates indefinitely
+- With Kevin or another TFT agent, she coopcd erates indefinitely
 - With Angela, she cooperates only once, then defects forever
 - Withh Michael, she appears random, because she copies his chaotic play
 This strategy rewards cooperation and punishes defection 
