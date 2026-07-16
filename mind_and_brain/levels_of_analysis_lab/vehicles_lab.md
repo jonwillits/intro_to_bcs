@@ -1,11 +1,11 @@
 # Lab 1
 In this lab, you will explore a simulation of simple agents called Braitenberg vehicles.
 In the simulation, you will imagine you are a scientist who has discovered a new kind of organism.
-You have found four varieties, which have been named 2a, 2b, 3a, and 3b.
+You have found six varieties, which have been named 2a, 2b, 2c, 3a, 3b, and 3c.
 Each variety is a different color, and the key is shown in the panel on the left of the simulation.
 One thing we know: these organisms can sense heat and move in response to it.
 In the simulation, heat sources appear as glowing gold orbs.
-Your task is to observe, explore, and describe what each of the four varieties does,
+Your task is to observe, explore, and describe what each of the six varieties does,
 and then to work out why they do it.
 
 ## Part 0: Opening the Simulation (≈2 minutes)
@@ -22,8 +22,8 @@ A few things that will help before you start:
 - The **Lab** button at the top of the simulation opens these instructions next to the simulation,
 so you can read and experiment at the same time.
 - The buttons along the bottom let you **play/pause**, **step** forward one moment at a time,
-**reset**, and change the **speed**.
-- **Left-click the ground** to add a heat source, and **right-click** to remove the nearest one.
+**reset** the simulation, and change the **speed**.
+- You can **Left-click the ground** to add a heat source, and **right-click** to remove the nearest one.
 The **Clear lights** button removes all of them at once.
 - **Click and drag** to move the camera around the world, and scroll to zoom in and out.
 
@@ -43,16 +43,16 @@ Write down your first impressions.
 For now, don’t worry about being technical or precise.
 Just describe the behaviors in everyday language.
 Don’t be afraid to use “mentalistic” language like curious, afraid, aggressive — that’s part of the exercise!
-How would you describe what each of the four varieties seems to be doing?
+How would you describe what each of the six varieties seems to be doing?
 
 ## Part 2: Systematic Compare and Contrast (≈15 minutes)
 
 ### Goal
-Now that you’ve had a chance to freely explore, your task is to compare the four varieties systematically.
+Now that you’ve had a chance to freely explore, your task is to compare the six varieties systematically.
 Instead of describing them in everyday language, focus on how their behaviors differ when you change the environment.
 
 ### Instructions
-1. Run the simulation again, this time paying attention to the differences between the four varieties.
+1. Run the simulation again, this time paying attention to the differences between the six varieties.
 2. Change the world and see what happens.
 Press **Clear lights** to empty it, then left-click to place a single heat source.
 Watch what each variety does when there is only one thing to react to.
@@ -65,10 +65,11 @@ Move sources gradually closer or farther by removing and re-adding them.
 If you want, feel free to draw a picture of what you are observing.
 
 ### What to Record
-- What are the consistent differences you notice among the four varieties?
+- What are the consistent differences you notice among the six varieties?
 - How does the distance to the heat source change each variety’s behavior?
 - Do they respond the same way to a single source as they do to multiple sources?
 - What happens when there are no heat sources at all? Which vehicles still move, and how?
+- Do all six varieties steer? Are there any that never seem to turn toward or away from anything, no matter where you put a heat source?
 - Which behaviors seem predictable and which seem surprising?
 
 ## Part 3: Reverse Engineering the Mind (≈15 minutes)
@@ -81,43 +82,50 @@ Your task is to connect what you observed in the simulation with how the wiring 
 ### Instructions
 **Click on any vehicle** in the simulation.
 A panel will open showing that vehicle's wiring diagram,
-along with live readings from its sensors and motors.
+along with live readings from its sensors and actuators.
 
 Each vehicle has two heat sensors, one on the right and left sides of its head (marked **S**).
-And each vehicle has two motors, one on the right and left sides of its body (marked **M**).
-Motor is a word for a part of an entity that helps it move, like a foot or a wheel.
-The lines in the diagram show you which sensor is connected to which motor.
+And each vehicle has two actuators, one on the right and left sides of its body (marked **A**).
+Actuator is a word for a part of an entity that helps it move, like a foot, wheel, or flagellum.
+The lines in the diagram show you which sensor is connected to which actuator.
 
 The wiring of these organisms differs in two ways.
 
-The first is *which* motor a sensor is connected to.
+The first is *which* actuator a sensor is connected to.
+There are three kinds.
 One kind of wiring is called "Ipsilateral".
 Ipsilateral is a Latin word you see in brain science meaning "same side" (ipsi = same, lateral = side).
-This means that each of the vehicle's sensors is connected to the motor on the same side of its body as the sensor.
-The other kind is called "Contralateral".
+This means that each of the vehicle's sensors is connected to the actuator on the same side of its body as the sensor.
+Another kind is called "Contralateral".
 Contralateral means "opposite side" (contra = opposite, lateral = side).
-This means that each of the vehicle's sensors is connected to the motor on the opposite side of its body.
+This means that each of the vehicle's sensors is connected to the actuator on the opposite side of its body.
+The third kind is "fully connected".
+This means that each sensor is connected to *both* actuators,
+so every sensor can drive every actuator at once.
+Notice that ipsilateral and contralateral are really just this same wiring with half of the connections missing.
 
 The second is *what the connection does* when the sensor detects heat.
 Some connections are **excitatory**, and are drawn in green:
-the more heat that sensor receives, the faster it makes that motor go.
+the more heat that sensor receives, the faster it makes that actuator go.
 Others are **inhibitory**, and are drawn in red:
-the more heat that sensor receives, the slower it makes that motor go.
+the more heat that sensor receives, the slower it makes that actuator go.
 
-The four varieties cover every combination of these two choices.
+The six varieties cover every combination of these two choices:
+three wiring patterns, each of which can be excitatory or inhibitory.
 
-In the panel, the thickness of each line shows how strongly that sensor is driving its motor right now.
+In the panel, the thickness of each line shows how strongly that sensor is driving its actuator right now.
 The plot shows how each sensor's activation changes over time,
-and the numbers underneath show the live sensor and motor values.
+and the numbers underneath show the live sensor and actuator values.
 Pause the simulation, or use step, if you want to study a single moment closely.
 
-Work with your group to inspect all four varieties.
+Work with your group to inspect all six varieties.
 For each one, note how it is wired, and then compare that wiring to the behavior you described in Part 2.
 
 ### What to Record
 
-- For each variety (2a, 2b, 3a, 3b), record whether its wiring is ipsilateral or contralateral, and whether its connections are excitatory or inhibitory.
+- For each variety (2a, 2b, 2c, 3a, 3b, 3c), record whether its wiring is ipsilateral, contralateral, or fully connected, and whether its connections are excitatory or inhibitory.
 - How does the wiring explain the way each variety moves around the heat sources?
+- Some varieties never steer at all, no matter where you put a heat source. Find them, and compare their two actuator values as they move. What is it about their wiring that makes turning impossible?
 - Some of these varieties differ from each other in only one of the two wiring choices. Why do such small differences in wiring lead to such different “psychological-looking” behaviors?
 
 ## Part 4: Philosophical Reflection (≈20 minutes)
