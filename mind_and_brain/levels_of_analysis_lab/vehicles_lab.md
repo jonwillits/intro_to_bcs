@@ -3,8 +3,8 @@ In this lab, you will explore a simulation of simple agents called Braitenberg v
 In the simulation, you will imagine you are a scientist who has discovered a new kind of organism.
 You have found six varieties, which have been named 2a, 2b, 2c, 3a, 3b, and 3c.
 Each variety is a different color, and the key is shown in the panel on the left of the simulation.
-One thing we know: these organisms can sense heat and move in response to it.
-In the simulation, heat sources appear as glowing gold orbs.
+One thing we know: these organisms can sense light and move in response to it.
+In the simulation, light sources appear as glowing gold orbs.
 Your task is to observe, explore, and describe what each of the six varieties does,
 and then to work out why they do it.
 
@@ -23,7 +23,7 @@ A few things that will help before you start:
 so you can read and experiment at the same time.
 - The buttons along the bottom let you **play/pause**, **step** forward one moment at a time,
 **reset** the simulation, and change the **speed**.
-- You can **Left-click the ground** to add a heat source, and **right-click** to remove the nearest one.
+- You can **Left-click the ground** to add a light source, and **right-click** to remove the nearest one.
 The **Clear lights** button removes all of them at once.
 - **Click and drag** to move the camera around the world, and scroll to zoom in and out.
 
@@ -36,7 +36,7 @@ Later, we will step back and consider what might actually be happening under the
 ### Instructions
 1. Start the simulation and watch the vehicles for a few moments without doing anything. Notice how they move.
 2. Keep track of which color is doing what. The key in the left panel tells you which color is which variety.
-3. Reset and restart the simulation as often as you’d like. Try out different arrangements of the heat sources.
+3. Reset and restart the simulation as often as you’d like. Try out different arrangements of the light sources.
 
 ### What to Record
 Write down your first impressions.
@@ -54,7 +54,7 @@ Instead of describing them in everyday language, focus on how their behaviors di
 ### Instructions
 1. Run the simulation again, this time paying attention to the differences between the six varieties.
 2. Change the world and see what happens.
-Press **Clear lights** to empty it, then left-click to place a single heat source.
+Press **Clear lights** to empty it, then left-click to place a single light source.
 Watch what each variety does when there is only one thing to react to.
 Then add more sources, placing them in different corners.
 3. Try placing a source right in front of a vehicle, and try placing one far away.
@@ -66,10 +66,10 @@ If you want, feel free to draw a picture of what you are observing.
 
 ### What to Record
 - What are the consistent differences you notice among the six varieties?
-- How does the distance to the heat source change each variety’s behavior?
+- How does the distance to the light source change each variety’s behavior?
 - Do they respond the same way to a single source as they do to multiple sources?
-- What happens when there are no heat sources at all? Which vehicles still move, and how?
-- Do all six varieties steer? Are there any that never seem to turn toward or away from anything, no matter where you put a heat source?
+- What happens when there are no light sources at all? Which vehicles still move, and how?
+- Do all six varieties steer? Are there any that never seem to turn toward or away from anything, no matter where you put a light source?
 - Which behaviors seem predictable and which seem surprising?
 
 ## Part 3: Reverse Engineering the Mind (≈15 minutes)
@@ -84,7 +84,7 @@ Your task is to connect what you observed in the simulation with how the wiring 
 A panel will open showing that vehicle's wiring diagram,
 along with live readings from its sensors and actuators.
 
-Each vehicle has two heat sensors, one on the right and left sides of its head (marked **S**).
+Each vehicle has two light sensors, one on the right and left sides of its head (marked **S**).
 And each vehicle has two actuators, one on the right and left sides of its body (marked **A**).
 Actuator is a word for a part of an entity that helps it move, like a foot, wheel, or flagellum.
 The lines in the diagram show you which sensor is connected to which actuator.
@@ -104,11 +104,11 @@ This means that each sensor is connected to *both* actuators,
 so every sensor can drive every actuator at once.
 Notice that ipsilateral and contralateral are really just this same wiring with half of the connections missing.
 
-The second is *what the connection does* when the sensor detects heat.
+The second is *what the connection does* when the sensor detects light.
 Some connections are **excitatory**, and are drawn in green:
-the more heat that sensor receives, the faster it makes that actuator go.
+the more light that sensor receives, the faster it makes that actuator go.
 Others are **inhibitory**, and are drawn in red:
-the more heat that sensor receives, the slower it makes that actuator go.
+the more light that sensor receives, the slower it makes that actuator go.
 
 The six varieties cover every combination of these two choices:
 three wiring patterns, each of which can be excitatory or inhibitory.
@@ -124,8 +124,8 @@ For each one, note how it is wired, and then compare that wiring to the behavior
 ### What to Record
 
 - For each variety (2a, 2b, 2c, 3a, 3b, 3c), record whether its wiring is ipsilateral, contralateral, or fully connected, and whether its connections are excitatory or inhibitory.
-- How does the wiring explain the way each variety moves around the heat sources?
-- Some varieties never steer at all, no matter where you put a heat source. Find them, and compare their two actuator values as they move. What is it about their wiring that makes turning impossible?
+- How does the wiring explain the way each variety moves around the light sources?
+- Some varieties never steer at all, no matter where you put a light source. Find them, and compare their two actuator values as they move. What is it about their wiring that makes turning impossible?
 - Some of these varieties differ from each other in only one of the two wiring choices. Why do such small differences in wiring lead to such different “psychological-looking” behaviors?
 
 ## Part 4: Philosophical Reflection (≈20 minutes)
