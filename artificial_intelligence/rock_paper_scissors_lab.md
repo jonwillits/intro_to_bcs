@@ -3,8 +3,8 @@
 The first part of this lab will be based on downloading and running the rock-paper-scissors game. Download and play
 for a few minutes to see how you do before we start the lab questions. You can find the game at:
 [rock_paper_scissors.zip](rock_paper_scissors.zip). Unzip the directory and then run the run.py file in your terminal.
-You may need to install the Pillow library for python if you havent already. using: "python -m pip install Pillow" on 
-windows or "python3 -m pip install Pillow" on MacOS.
+You may need to install the Pillow library for python if you havent already. using: "python -m pip install Pillow" in your Command App on 
+windows or "python3 -m pip install Pillow" in your Terminal App on MacOS.
 
 ## 1. Initial Attempt to Win (10 PTS TOTAL)
 
