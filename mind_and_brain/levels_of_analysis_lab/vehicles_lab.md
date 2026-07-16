@@ -5,6 +5,7 @@ You have found six varieties, which have been named 2a, 2b, 2c, 3a, 3b, and 3c.
 Each variety is a different color, and the key is shown in the panel on the left of the simulation.
 One thing we know: these organisms can sense light and move in response to it.
 In the simulation, light sources appear as glowing gold orbs.
+The organisms live at the bottom of a pit with steep walls, which they cannot climb.
 Your task is to observe, explore, and describe what each of the six varieties does,
 and then to work out why they do it.
 
@@ -25,6 +26,7 @@ so you can read and experiment at the same time.
 **reset** the simulation, and change the **speed**.
 - You can **Left-click the ground** to add a light source, and **right-click** to remove the nearest one.
 The **Clear lights** button removes all of them at once.
+You can place lights on the floor of the pit, or up on the flat rim outside its walls.
 - **Click and drag** to move the camera around the world, and scroll to zoom in and out.
 
 ## Part 1: First Impressions  (≈5 minutes)
@@ -60,7 +62,7 @@ Then add more sources, placing them in different corners.
 3. Try placing a source right in front of a vehicle, and try placing one far away.
 Move sources gradually closer or farther by removing and re-adding them.
 4. Use **pause** and **step** to slow down a moment that happens too quickly to see.
-5. Try the **Sensor gain** and **Base drive** sliders and notice what each one changes.
+5. Try putting one or more lights up on the rim, outside the walls of the pit, and watch what the vehicles do.
 6. Reset and restart as often as needed. Keep experimenting until you feel you’ve seen enough patterns.
 If you want, feel free to draw a picture of what you are observing.
 
@@ -70,6 +72,7 @@ If you want, feel free to draw a picture of what you are observing.
 - Do they respond the same way to a single source as they do to multiple sources?
 - What happens when there are no light sources at all? Which vehicles still move, and how?
 - Do all six varieties steer? Are there any that never seem to turn toward or away from anything, no matter where you put a light source?
+- What happens when you put a light up on the rim, where no vehicle can reach it? Does it still affect them? Does a light up there seem to pull as strongly as one down on the floor?
 - Which behaviors seem predictable and which seem surprising?
 
 ## Part 3: Reverse Engineering the Mind (≈15 minutes)
@@ -113,10 +116,23 @@ the more light that sensor receives, the slower it makes that actuator go.
 The six varieties cover every combination of these two choices:
 three wiring patterns, each of which can be excitatory or inhibitory.
 
-In the panel, the thickness of each line shows how strongly that sensor is driving its actuator right now.
-The plot shows how each sensor's activation changes over time,
-and the numbers underneath show the live sensor and actuator values.
+The panel also shows you the numbers behind the behavior.
+Each sensor and actuator is labelled with its live value,
+and the thickness of each line shows how strongly that sensor is driving its actuator right now.
+Underneath, the panel writes out the arithmetic for each actuator, which looks something like this:
+
+`A_L = 0.60 + (−2.40 × 0.31)`
+`    = −0.14`
+
+Read that as: the actuator starts from the vehicle's **actuator bias** (its resting drive, what it does with no light at all),
+and then each connection adds its **connection strength** multiplied by what that sensor currently senses.
+The plot shows how each sensor's activation changes over time.
 Pause the simulation, or use step, if you want to study a single moment closely.
+
+At the bottom of the panel are two sliders that change **only the vehicle you have selected**,
+leaving the other five exactly as they were:
+- **Connection strength** — how strongly each connection drives its actuator.
+- **Actuator bias** — how fast the vehicle moves when it senses nothing at all.
 
 Work with your group to inspect all six varieties.
 For each one, note how it is wired, and then compare that wiring to the behavior you described in Part 2.
@@ -127,6 +143,7 @@ For each one, note how it is wired, and then compare that wiring to the behavior
 - How does the wiring explain the way each variety moves around the light sources?
 - Some varieties never steer at all, no matter where you put a light source. Find them, and compare their two actuator values as they move. What is it about their wiring that makes turning impossible?
 - Some of these varieties differ from each other in only one of the two wiring choices. Why do such small differences in wiring lead to such different “psychological-looking” behaviors?
+- Put a light up on the rim, select a vehicle that is drawn toward it, and raise its **connection strength**. What changes, and what does the vehicle end up doing? Using the numbers in the panel, explain why a light up on the rim pulls more weakly than one on the floor, even from the same spot on the map.
 
 ## Part 4: Philosophical Reflection (≈20 minutes)
 
