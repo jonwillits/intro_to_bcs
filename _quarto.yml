@@ -14,10 +14,10 @@
 project:
   type: website
   output-dir: _site
-  # Slide PDFs (and any future per-module PDFs named *_lecture*.pdf) are
-  # copied into the built site so their links resolve.
+  # Copy each module folder's PDFs (your pipeline's downloadable reading PDF,
+  # plus the lecture-slide PDFs) into the built site so their links resolve.
   resources:
-    - "*/*_lecture*.pdf"
+    - "*/*.pdf"
   render:
     - index.qmd
     - course_overview/course_overview_reading.md
@@ -78,6 +78,8 @@ website:
           - text: "0 · Course Overview"
             href: course_overview/course_overview_reading.md
             contents:
+              - text: "Reading — download PDF"
+                href: course_overview/course_overview_reading.pdf
               - text: "Lecture 1 — slides (PDF)"
                 href: course_overview/course_overview_lecture1.pdf
               - text: "Lecture 2 — slides (PDF)"
@@ -124,9 +126,11 @@ website:
           - text: "15 · Culture & Cognition"
             # href: culture_and_cognition/culture_and_cognition_reading.md
 
-# Every reading renders to BOTH an HTML page and a downloadable PDF from
-# the same markdown source. Quarto auto-adds an "Other Formats → PDF"
-# link in the page margin (styled in styles.css).
+# The site renders each reading to an HTML page only. The downloadable PDF
+# is the one produced by YOUR separate pipeline (it lives in the module
+# folder as <name>_reading.pdf and is linked from the sidebar), so Quarto
+# does NOT generate its own PDF — that avoids two PDFs fighting over the
+# same filename. `format-links` is off for the same reason.
 format:
   html:
     theme: cosmo          # Bootstrap base; overrides live in styles.css
@@ -137,13 +141,5 @@ format:
     smooth-scroll: true
     anchor-sections: true
     link-external-newwindow: true
-  pdf:
-    documentclass: scrartcl
-    papersize: letter
-    geometry: [margin=1in]
-    fontsize: 11pt
-    toc: false
-    colorlinks: true
-    linkcolor: "RoyalBlue"
 
-format-links: [pdf]
+format-links: false

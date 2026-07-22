@@ -19,8 +19,8 @@
 :root {
 
   /* ---- FONTS -------------------------------------------------------------- */
-  --body-font:      Cambria, Georgia, "Times New Roman", serif;   /* main reading text  */
-  --heading-font:   Calibri, "Helvetica Neue", Arial, sans-serif; /* titles & headers   */
+  --body-font:      Cambria, Calibri, Arial, sans-serif;   /* main reading text  */
+  --heading-font:   Cambria, Calibri, Arial, sans-serif; /* titles & headers   */
   --base-font-size: 11pt;      /* size of normal paragraph text                */
   --line-height:    1.2;       /* 1.0 = single spaced, 1.5 = a touch of air    */
 
@@ -55,13 +55,36 @@
      0 to make the text and the boxes exactly the same width. */
   --text-inset:          0.75rem;
 
+  /* ---- PARAGRAPHS -------------------------------------------------------- */
+  /* Book style: no blank line between paragraphs, each one's first line
+     indented instead. Set --para-indent to 0 (and see the note below) if you
+     ever want blank-line-separated paragraphs back. */
+  --para-indent:         1.5em;   /* first-line indent; em scales with font size */
+  --para-gap:            0;       /* vertical space between paragraphs           */
+
   /* ---- CALLOUT / HIGHLIGHT BOX (optional, see note at bottom) ------------- */
   --callout-background:  #f4f6fb;  /* soft tinted panel                       */
   --callout-border:      #13294b;
 
   /* ---- PAGE GEOMETRY (PDF only) ------------------------------------------- */
-  --page-size:    letter;   /* letter, a4, legal ...                          */
-  --page-margin:  0.9in;    /* margin on all four sides of the printed page   */
+  --page-size:           letter;  /* letter, a4, legal ...                     */
+  --page-margin-top:     0.8in;   /* top margin — also the band the HEADER sits in    */
+  --page-margin-bottom:  0.8in;   /* bottom margin — also the band the FOOTER sits in */
+  --page-margin-side:    0.75in;   /* left and right margins                            */
+
+  /* ---- RUNNING HEADER / FOOTER (page title + "Page X of Y") --------------- */
+  /* The browser draws the PDF header/footer in an isolated context that
+     ignores the rest of this stylesheet, so ONLY these three simple values
+     reach them (the build script reads them and injects them). Keep them
+     basic — a font stack, a size, and a color. */
+  --hf-font:   Cambria, Calibri, Arial, sans-serif;
+  --hf-size:   9pt;
+  --hf-color:  #555555;
+  /* Nudge the header DOWN from the top edge and the footer UP from the bottom
+     edge, WITHOUT moving the body text. These add space inside the header/footer
+     bands only. Keep each smaller than its page margin so they aren't clipped. */
+  --hf-top-offset:     0.3in;   /* larger = header further below the top edge   */
+  --hf-bottom-offset:  0.3in;   /* larger = footer further above the bottom edge */
 }
 
 /* ============================================================================
@@ -82,7 +105,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-p { margin: 0 var(--text-inset) 0.85rem var(--text-inset); }
+p { margin: 0 var(--text-inset) var(--para-gap) var(--text-inset); text-indent: var(--para-indent); }
+
+/* The first paragraph after any heading is NOT indented (typographic norm). */
+h1 + p, h2 + p, h3 + p { text-indent: 0; }
 
 /* --- Title (H1) --- */
 h1 {
@@ -168,7 +194,8 @@ mjx-container[display="true"] { overflow-x: auto; overflow-y: hidden; margin: 0.
    ============================================================================ */
 @page {
   size:   var(--page-size);
-  margin: var(--page-margin);
+  margin: var(--page-margin-top) var(--page-margin-side)
+          var(--page-margin-bottom) var(--page-margin-side);
 }
 
 @media print {
@@ -576,7 +603,7 @@ must draw on many disciplines, the computational language that lets
 those disciplines speak, the levels of analysis that organize their
 questions, and the big puzzles that drive the whole effort. All that
 remains is to say where the course goes from here.</p>
-<h2 id="where-this-goes-next">§0.7 — Where This Goes Next</h2>
+<h2 id="where-we-go-from-here">§0.7 — Where We Go From Here</h2>
 <p>We have framed brain and cognitive science as an ambition more than a
 settled field. It is an interdisciplinary, computational attempt to
 understand mind and brain. Its many questions sort into a small number
@@ -609,9 +636,6 @@ for.</p>
 short, accessible entry points. Each later module carries its own, more
 topic-specific list.</p>
 <ul>
-<li><strong>Paul Thagard, <em>Mind: Introduction to Cognitive
-Science.</em></strong> A brief, readable overview of the field and the
-computational approach to the mind.</li>
 <li><strong>Andy Clark, <em>Mindware: An Introduction to the Philosophy
 of Cognitive Science.</em></strong> An accessible introduction that
 weighs the computational view of mind against its embodied and situated
@@ -619,6 +643,9 @@ critics — the debate opened in §0.4.</li>
 <li><strong>David Marr, <em>Vision</em> (Chapter 1).</strong> The origin
 of the levels of analysis previewed in §0.5. More technical, and taken
 up properly in Module 1.</li>
+<li><strong>Paul Thagard, <em>Mind: Introduction to Cognitive
+Science.</em></strong> A brief, readable overview of the field and the
+computational approach to the mind.</li>
 </ul>
 <h2 id="glossary">Glossary</h2>
 <p><strong>Brain and cognitive science</strong> — The interdisciplinary,

@@ -22,8 +22,8 @@
   --bcog-border:      #e2e6ec;   /* hairlines                          */
 
   /* ---------- typography ---------- */
-  --bcog-font-body:   Georgia, "Iowan Old Style", "Times New Roman", serif;
-  --bcog-font-head:   "Helvetica Neue", Arial, system-ui, sans-serif;
+  --bcog-font-body:   Cambria, Calibri, Arial, sans-serif;
+  --bcog-font-head:   Cambria, Calibri, Arial, sans-serif;
   --bcog-font-size:   1.075rem;
   --bcog-line:        1.72;
 

@@ -93,7 +93,7 @@ These questions are also what hold the field together. A neuroscientist, a psych
 
 We now have the shape of the field in view: what it studies, why it must draw on many disciplines, the computational language that lets those disciplines speak, the levels of analysis that organize their questions, and the big puzzles that drive the whole effort. All that remains is to say where the course goes from here.
 
-## §0.7 — Where This Goes Next
+## §0.7 — Where We Go From Here
 
 We have framed brain and cognitive science as an ambition more than a settled field. It is an interdisciplinary, computational attempt to understand mind and brain. Its many questions sort into a small number of levels of analysis. This book will pursue those questions at each level, attempting to weave the disciplines together rather than keeping them apart. That is our goal.
 
@@ -107,9 +107,9 @@ And so we end where we began, with the ordinary miracle of a mind at work. The f
 
 This chapter introduces the field as a whole; the readings below are short, accessible entry points. Each later module carries its own, more topic-specific list.
 
-- **Paul Thagard, *Mind: Introduction to Cognitive Science.*** A brief, readable overview of the field and the computational approach to the mind.
 - **Andy Clark, *Mindware: An Introduction to the Philosophy of Cognitive Science.*** An accessible introduction that weighs the computational view of mind against its embodied and situated critics — the debate opened in §0.4.
 - **David Marr, *Vision* (Chapter 1).** The origin of the levels of analysis previewed in §0.5. More technical, and taken up properly in Module 1.
+- **Paul Thagard, *Mind: Introduction to Cognitive Science.*** A brief, readable overview of the field and the computational approach to the mind.
 
 ## Glossary
 
