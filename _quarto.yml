@@ -1,0 +1,149 @@
+# ======================================================================
+# Quarto project config for the BCOG 100 interactive textbook.
+#
+# FINISH A MODULE (uncomment 2 lines when its reading is done):
+#   1. Under  project: render:      uncomment that module's reading path.
+#   2. Under  website: sidebar:     replace the module's placeholder
+#      `text:` entry with the `href:` line sitting commented beneath it.
+#   (Add slide PDFs the same way Module 0 does — as nested `contents:`.)
+#
+# `render:` is an allow-list: only files named here become pages, so
+# labs, .pptx, and READMEs elsewhere in the repo are never touched.
+# ======================================================================
+
+project:
+  type: website
+  output-dir: _site
+  # Slide PDFs (and any future per-module PDFs named *_lecture*.pdf) are
+  # copied into the built site so their links resolve.
+  resources:
+    - "*/*_lecture*.pdf"
+  render:
+    - index.qmd
+    - course_overview/course_overview_reading.md
+    # --- uncomment each as its reading is finished ---
+    # - mind_and_brain/mind_and_brain_reading.md
+    # - comparative_approaches/comparative_approaches_reading.md
+    # - neurons_and_neural_communication/neurons_and_neural_communication_reading.md
+    # - neural_circuits_affect_and_valence/neural_circuits_affect_and_valence_reading.md
+    # - learning_and_plasticity/learning_and_plasticity_reading.md
+    # - vertebrate_neural_architecture/vertebrate_neural_architecture_reading.md
+    # - pattern_recognition/pattern_recognition_reading.md
+    # - perception_and_action/perception_and_action_reading.md
+    # - spatial_cognition/spatial_cognition_reading.md
+    # - memory_and_generative_models/memory_and_generative_models_reading.md
+    # - social_cognition/social_cognition_reading.md
+    # - planning_and_decisionmaking/planning_and_decisionmaking_reading.md
+    # - language/language_reading.md
+    # - symbolic_cognition/symbolic_cognition_reading.md
+    # - culture_and_cognition/culture_and_cognition_reading.md
+
+website:
+  title: "Brain & Cognitive Science I"
+  site-url: "https://jonwillits.github.io/intro_to_bcs/"
+  repo-url: "https://github.com/jonwillits/intro_to_bcs"
+  description: "An interactive textbook for BCOG 100, University of Illinois."
+  reader-mode: true
+  page-navigation: true
+  navbar:
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Interactive Labs"
+        href: "https://jonwillits.github.io/bcogapp/"
+        target: _blank
+    right:
+      - icon: github
+        href: "https://github.com/jonwillits/intro_to_bcs"
+        aria-label: "Source on GitHub"
+
+  # --------------------------------------------------------------------
+  # SIDEBAR = the table of contents for the whole book.
+  # The four section names below are a suggested grouping — rename or
+  # flatten them however you like. Modules with a live `href:` are built;
+  # the rest are placeholders with their future `href:` commented beneath,
+  # ready to switch on (see the instructions at the top of this file).
+  # --------------------------------------------------------------------
+  sidebar:
+    style: docked
+    search: true
+    collapse-level: 2
+    contents:
+      - text: "Welcome"
+        href: index.qmd
+
+      - section: "Foundations"
+        contents:
+          - text: "0 · Course Overview"
+            href: course_overview/course_overview_reading.md
+            contents:
+              - text: "Lecture 1 — slides (PDF)"
+                href: course_overview/course_overview_lecture1.pdf
+              - text: "Lecture 2 — slides (PDF)"
+                href: course_overview/course_overview_lecture2.pdf
+              - text: "Lecture 3 — slides (PDF)"
+                href: course_overview/course_overview_lecture3.pdf
+          - text: "1 · Mind & Brain"
+            # href: mind_and_brain/mind_and_brain_reading.md
+          - text: "2 · Comparative Approaches"
+            # href: comparative_approaches/comparative_approaches_reading.md
+
+      - section: "The First Nervous Systems"
+        contents:
+          - text: "3 · Neurons & Neural Communication"
+            # href: neurons_and_neural_communication/neurons_and_neural_communication_reading.md
+          - text: "4 · Neural Circuits, Affect & Valence"
+            # href: neural_circuits_affect_and_valence/neural_circuits_affect_and_valence_reading.md
+          - text: "5 · Learning & Plasticity"
+            # href: learning_and_plasticity/learning_and_plasticity_reading.md
+          - text: "6 · Vertebrate Neural Architecture"
+            # href: vertebrate_neural_architecture/vertebrate_neural_architecture_reading.md
+
+      - section: "Perceiving & Modeling the World"
+        contents:
+          - text: "7 · Pattern Recognition"
+            # href: pattern_recognition/pattern_recognition_reading.md
+          - text: "8 · Perception & Action"
+            # href: perception_and_action/perception_and_action_reading.md
+          - text: "9 · Spatial Cognition"
+            # href: spatial_cognition/spatial_cognition_reading.md
+          - text: "10 · Memory, Imagination & Generative Models"
+            # href: memory_and_generative_models/memory_and_generative_models_reading.md
+
+      - section: "Social & Symbolic Minds"
+        contents:
+          - text: "11 · Social Cognition"
+            # href: social_cognition/social_cognition_reading.md
+          - text: "12 · Planning & Decision-Making"
+            # href: planning_and_decisionmaking/planning_and_decisionmaking_reading.md
+          - text: "13 · Language"
+            # href: language/language_reading.md
+          - text: "14 · Symbolic Cognition"
+            # href: symbolic_cognition/symbolic_cognition_reading.md
+          - text: "15 · Culture & Cognition"
+            # href: culture_and_cognition/culture_and_cognition_reading.md
+
+# Every reading renders to BOTH an HTML page and a downloadable PDF from
+# the same markdown source. Quarto auto-adds an "Other Formats → PDF"
+# link in the page margin (styled in styles.css).
+format:
+  html:
+    theme: cosmo          # Bootstrap base; overrides live in styles.css
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    toc-title: "On this page"
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-newwindow: true
+  pdf:
+    documentclass: scrartcl
+    papersize: letter
+    geometry: [margin=1in]
+    fontsize: 11pt
+    toc: false
+    colorlinks: true
+    linkcolor: "RoyalBlue"
+
+format-links: [pdf]

@@ -1,0 +1,36 @@
+---
+title: "Brain & Cognitive Science I"
+subtitle: "An interactive textbook · BCOG 100 · University of Illinois"
+format:
+  html:
+    toc: false
+    format-links: false   # the landing page needs no PDF of itself
+---
+
+Welcome. This is the online textbook for **BCOG 100 — Introduction to Brain
+and Cognitive Science**. The course studies the human mind and brain through
+the lens of its evolutionary development: each module shows how a step in
+evolution added a capacity that solved a problem for the organism, with
+parallels to artificial intelligence drawn throughout.
+
+Each module gives you three things: a **reading** you can view here or
+[download as a PDF](course_overview/course_overview_reading.pdf), the
+lecture **slides**, and a hands-on **interactive lab** that runs in your
+browser on any device.
+
+## Start here
+
+- [**Module 0 · Course Overview**](course_overview/course_overview_reading.md) —
+  what brain and cognitive science is, and how this course approaches it.
+
+## The interactive labs
+
+The simulations and lab activities live in a companion app that runs in any
+browser — Mac, Windows, Linux, or Chromebook, with nothing to install.
+
+[Open the interactive labs →](https://jonwillits.github.io/bcogapp/){.btn-pdf}
+
+---
+
+*This textbook is open source (GPL v3). Source and issues on
+[GitHub](https://github.com/jonwillits/intro_to_bcs).*

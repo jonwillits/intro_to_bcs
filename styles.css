@@ -1,0 +1,117 @@
+/* =====================================================================
+   BCOG 100 — Interactive Textbook  ·  EDITABLE STYLESHEET
+   ---------------------------------------------------------------------
+   This is the ONE file to edit to restyle the whole site.
+   Change the values in the :root block below — colors, fonts, and the
+   reading column width — and every page updates. You should rarely need
+   to touch anything under the "RULES" divider further down.
+
+   Tip: to try a new look, just change the hex colors or the font stacks
+   and re-render (`quarto preview`) — the page reloads live.
+   ===================================================================== */
+
+:root {
+  /* ---------- palette (change these first) ---------- */
+  --bcog-ink:         #1a1a1a;   /* body text                         */
+  --bcog-primary:     #13294B;   /* Illinois blue — headings + navbar  */
+  --bcog-accent:      #FF5F05;   /* Illinois orange — links + rules    */
+  --bcog-accent-dark: #b8460a;   /* link hover (darker for contrast)   */
+  --bcog-muted:       #5b6470;   /* subtitles, captions                */
+  --bcog-bg:          #ffffff;   /* page background                    */
+  --bcog-panel:       #f4f7fb;   /* glossary / callout background      */
+  --bcog-border:      #e2e6ec;   /* hairlines                          */
+
+  /* ---------- typography ---------- */
+  --bcog-font-body:   Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --bcog-font-head:   "Helvetica Neue", Arial, system-ui, sans-serif;
+  --bcog-font-size:   1.075rem;
+  --bcog-line:        1.72;
+
+  /* ---------- layout ---------- */
+  --bcog-measure:     40rem;     /* width of the reading column        */
+}
+
+/* ============================ RULES ============================ */
+/* Usually leave everything below alone — it just applies the values
+   you set above. Edit only if you want to change layout behavior.   */
+
+body {
+  color: var(--bcog-ink);
+  background: var(--bcog-bg);
+  font-family: var(--bcog-font-body);
+  font-size: var(--bcog-font-size);
+  line-height: var(--bcog-line);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, .navbar-brand, .sidebar-title {
+  font-family: var(--bcog-font-head);
+  color: var(--bcog-primary);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+h1 { font-size: 2.1rem; margin-bottom: .35rem; }
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  padding-top: .5rem;
+  border-top: 2px solid var(--bcog-border);
+}
+h3 { font-size: 1.2rem; margin-top: 1.8rem; }
+
+/* Comfortable reading measure for the article body only */
+main.content, #quarto-document-content, .reading {
+  max-width: var(--bcog-measure);
+  margin-left: auto;
+  margin-right: auto;
+}
+main.content p, .reading p { margin-bottom: 1.05rem; }
+
+/* Links */
+a { color: var(--bcog-accent); text-decoration: none; }
+a:hover { color: var(--bcog-accent-dark); text-decoration: underline; }
+
+/* Navbar */
+.navbar { background: var(--bcog-primary) !important; }
+.navbar .navbar-brand,
+.navbar .nav-link { color: #ffffff !important; }
+.navbar .nav-link:hover { color: var(--bcog-accent) !important; }
+
+/* Block quotes / asides */
+blockquote {
+  border-left: 3px solid var(--bcog-accent);
+  background: var(--bcog-panel);
+  padding: .7rem 1.1rem;
+  margin: 1.4rem 0;
+  color: var(--bcog-muted);
+}
+
+/* The italic "Module 0 — Course Overview" line under the title */
+main.content > p:first-of-type em,
+.reading > p:first-child em {
+  font-family: var(--bcog-font-head);
+  font-style: normal;
+  font-size: .95rem;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--bcog-muted);
+}
+
+/* Glossary + Further Reading breathe a little */
+h2#glossary ~ p { padding-left: .2rem; }
+h2#glossary ~ p strong { color: var(--bcog-primary); }
+
+/* Download-PDF button (Quarto's "Other Formats" link, restyled) */
+.quarto-other-links a,
+a.btn-pdf {
+  display: inline-block;
+  font-family: var(--bcog-font-head);
+  font-size: .9rem;
+  color: var(--bcog-primary);
+  border: 1px solid var(--bcog-border);
+  border-radius: 6px;
+  padding: .3rem .7rem;
+}
+.quarto-other-links a:hover,
+a.btn-pdf:hover { background: var(--bcog-panel); text-decoration: none; }
