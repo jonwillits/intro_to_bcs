@@ -22,8 +22,9 @@
   --bcog-border:      #e2e6ec;   /* hairlines                          */
 
   /* ---------- typography ---------- */
-  --bcog-font-body:   Cambria, Calibri, Arial, sans-serif;
-  --bcog-font-head:   Cambria, Calibri, Arial, sans-serif;
+  --bcog-font-body:   Wingdings, cursive;
+  --bcog-font-head:   Wingdings, cursive;
+  /*--bcog-font-head:   Cambria, Calibri, Arial, sans-serif;*/
   --bcog-font-size:   1.075rem;
   --bcog-line:        1.72;
 
