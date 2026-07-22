@@ -1,11 +1,20 @@
 # ======================================================================
 # Quarto project config for the BCOG 100 interactive textbook.
 #
-# FINISH A MODULE (uncomment 2 lines when its reading is done):
-#   1. Under  project: render:      uncomment that module's reading path.
-#   2. Under  website: sidebar:     replace the module's placeholder
-#      `text:` entry with the `href:` line sitting commented beneath it.
-#   (Add slide PDFs the same way Module 0 does — as nested `contents:`.)
+# FINISH A MODULE (when its reading is done):
+#   1. Under  project: render:   uncomment that module's reading path.
+#   2. Under  website: sidebar:  replace the module's placeholder `text:`
+#      entry with the `href:` line sitting commented beneath it.
+#   3. Drop a `_metadata.yml` in that module's folder listing its PDF,
+#      slide decks, and lab as `other-links` (copy course_overview/
+#      _metadata.yml as the template).
+#
+# WHY the sidebar lists ONLY readings: Quarto's Next/Previous buttons walk
+# the sidebar in order, so a module's downloads must NOT live in the sidebar
+# (landing on a PDF would dead-end the flow). Instead each module surfaces
+# its reading PDF / slides / lab via `other-links` on the page itself — see
+# `_metadata.yml` in the module folder — which keeps them out of the linear
+# Next/Previous chain. Result: readings form one continuous spine.
 #
 # `render:` is an allow-list: only files named here become pages, so
 # labs, .pptx, and READMEs elsewhere in the repo are never touched.
@@ -77,15 +86,6 @@ website:
         contents:
           - text: "0 · Course Overview"
             href: course_overview/course_overview_reading.md
-            contents:
-              - text: "Reading — download PDF"
-                href: course_overview/course_overview_reading.pdf
-              - text: "Lecture 1 — slides (PDF)"
-                href: course_overview/course_overview_lecture1.pdf
-              - text: "Lecture 2 — slides (PDF)"
-                href: course_overview/course_overview_lecture2.pdf
-              - text: "Lecture 3 — slides (PDF)"
-                href: course_overview/course_overview_lecture3.pdf
           - text: "1 · Mind & Brain"
             # href: mind_and_brain/mind_and_brain_reading.md
           - text: "2 · Comparative Approaches"

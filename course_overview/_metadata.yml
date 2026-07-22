@@ -1,0 +1,28 @@
+# Per-module resources for Module 0 (Course Overview).
+#
+# These render in the page margin (under "On this page") as an "Other Links"
+# list — NOT in the sidebar, so they stay OUT of the Next/Previous flow.
+# Paths are relative to this folder. Copy this file into each new module's
+# folder and adjust the filenames; add a "Lab" entry (with target: _blank)
+# for modules that have one.
+
+format:
+  html:
+    other-links:
+      - text: "Download reading (PDF)"
+        href: course_overview_reading.pdf
+        icon: file-earmark-pdf
+      - text: "Lecture 1 — slides"
+        href: course_overview_lecture1.pdf
+        icon: file-earmark-slides
+      - text: "Lecture 2 — slides"
+        href: course_overview_lecture2.pdf
+        icon: file-earmark-slides
+      - text: "Lecture 3 — slides"
+        href: course_overview_lecture3.pdf
+        icon: file-earmark-slides
+      # Modules with a lab add it like this (opens the app in a new tab):
+      # - text: "Interactive lab"
+      #   href: "https://jonwillits.github.io/bcogapp/#/m01-vehicles"
+      #   icon: box-arrow-up-right
+      #   target: _blank

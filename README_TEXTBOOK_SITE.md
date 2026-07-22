@@ -45,11 +45,14 @@ The site will live at `https://jonwillits.github.io/intro_to_bcs/`.
 ## Add a new module (3 steps)
 
 1. Finish its reading at `<module_folder>/<name>_reading.md` (same as Module 0).
-2. In `_quarto.yml`, add that path under `project: → render:`.
-3. In `_quarto.yml`, add a sidebar entry under `website: → sidebar: → contents:`.
+2. In `_quarto.yml`, uncomment that reading's path under `project: → render:`,
+   and swap the module's placeholder `text:` entry for the `href:` line
+   commented beneath it under `website: → sidebar:`.
+3. Copy `course_overview/_metadata.yml` into the new module's folder and edit
+   the filenames — this is what lists the module's reading PDF, slide decks,
+   and lab as on-page links.
 
-That's it — the PDF link and page appear automatically. There are commented-out
-example lines for both steps already in `_quarto.yml`.
+Commented example lines for step 2 are already in `_quarto.yml`.
 
 ## Change the look
 
@@ -59,12 +62,19 @@ colors (currently Illinois blue + orange), the two font stacks, and
 whole site restyles. You rarely need to touch anything below the `RULES`
 divider.
 
-## How the per-reading PDF works
+## How module resources (PDF / slides / lab) are linked
 
-Each reading is rendered to both `html` and `pdf` (configured once in
-`_quarto.yml`). Quarto automatically adds an "Other Formats → PDF" link in the
-page margin — no per-page editing. The reading's title comes from its first `#`
-heading, so your `.md` files need no special front matter.
+The sidebar lists **readings only** — one entry per module — so Quarto's
+Next/Previous buttons flow reading → reading with no dead ends. Each module's
+downloads instead appear on its page (in the right margin under "On this page")
+via `other-links` in that module's `_metadata.yml`. That keeps them clickable
+but out of the linear Next/Previous chain.
+
+The downloadable **reading PDF** is the one your own pipeline generates into the
+module folder (`<name>_reading.pdf`); Quarto does not make its own. The
+`resources: ["*/*.pdf"]` line in `_quarto.yml` copies every module PDF into the
+published site so those links resolve. The reading's title comes from its first
+`#` heading, so your `.md` files need no special front matter.
 
 ## Slides (the working pattern)
 
@@ -80,8 +90,9 @@ every module:
 
    *(If you ever want to do it yourself, LibreOffice is free and converts from
    the command line: `soffice --headless --convert-to pdf deck.pptx`. Optional.)*
-2. Link them as nested `contents:` under that module in the sidebar — copy the
-   three lines under Module 0 in `_quarto.yml` and change the module name.
+2. Link them from the module's `_metadata.yml` as `other-links` — copy the
+   `Lecture 1/2/3` entries in `course_overview/_metadata.yml` and change the
+   filenames. They then show on the page, not in the sidebar.
 
 Later, authoring *new* decks directly in Quarto's `revealjs` format gives you
 web slides + PDF + `.pptx` from one markdown source — the point you eventually
