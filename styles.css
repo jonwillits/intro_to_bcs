@@ -27,6 +27,11 @@
   --bcog-font-size:   1.075rem;
   --bcog-line:        1.72;
 
+  /* Also hand these fonts to the Bootstrap theme, which otherwise sets
+     its own body font and would override ours.                        */
+  --bs-body-font-family:     var(--bcog-font-body);
+  --bs-headings-font-family: var(--bcog-font-head);
+
   /* ---------- layout ---------- */
   --bcog-measure:     40rem;     /* width of the reading column        */
 }
@@ -43,9 +48,23 @@ body {
   line-height: var(--bcog-line);
 }
 
+/* Apply the site font to ALL text — page body, sidebar, table of contents,
+   navbar, tables, and form controls — so the theme can't substitute its
+   own anywhere. `!important` guarantees it wins over the Bootstrap theme.
+   (Icons and code blocks are deliberately left in their own fonts; to put
+   code in the site font too, add `code, pre, kbd, samp,` to this list.)   */
+body, p, li, ol, ul, dl, dt, dd, blockquote, figcaption, caption,
+table, th, td, label, input, select, textarea, button, .btn,
+.navbar, .navbar-brand, .nav-link, .dropdown-item,
+.sidebar, .sidebar-item, .sidebar-item-text, .sidebar-title, .sidebar-section,
+.quarto-title-block, .quarto-title, .subtitle, .description,
+#TOC, nav[role="doc-toc"], .toc-actions, .page-navigation,
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--bcog-font-body) !important;
+}
+
 /* Headings */
 h1, h2, h3, h4, h5, .navbar-brand, .sidebar-title {
-  font-family: var(--bcog-font-head);
   color: var(--bcog-primary);
   font-weight: 700;
   line-height: 1.25;
@@ -90,7 +109,6 @@ blockquote {
 /* The italic "Module 0 — Course Overview" line under the title */
 main.content > p:first-of-type em,
 .reading > p:first-child em {
-  font-family: var(--bcog-font-head);
   font-style: normal;
   font-size: .95rem;
   letter-spacing: .04em;
@@ -106,7 +124,6 @@ h2#glossary ~ p strong { color: var(--bcog-primary); }
 .quarto-other-links a,
 a.btn-pdf {
   display: inline-block;
-  font-family: var(--bcog-font-head);
   font-size: .9rem;
   color: var(--bcog-primary);
   border: 1px solid var(--bcog-border);
