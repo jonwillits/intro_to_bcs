@@ -1,0 +1,20 @@
+# Per-module resources for Module 1 (Mind & Brain).
+# Shown on the page (right margin, under "On this page"), NOT in the sidebar,
+# so they stay out of the Next/Previous flow. Paths are relative to this folder.
+
+format:
+  html:
+    other-links:
+      - text: "Download reading (PDF)"
+        href: mind_and_brain_reading.pdf
+        icon: file-earmark-pdf
+      - text: "Slides — The Mind–Body Problem"
+        href: mind_and_brain_lecture2_mind_body_problem.pdf
+        icon: file-earmark-slides
+      - text: "Slides — Levels of Analysis"
+        href: mind_and_brain_lecture3_levels_of_analysis.pdf
+        icon: file-earmark-slides
+      - text: "Interactive lab — Braitenberg Vehicles"
+        href: "https://jonwillits.github.io/bcogapp/#/m01-vehicles"
+        icon: box-arrow-up-right
+        target: _blank

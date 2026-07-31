@@ -30,8 +30,8 @@ project:
   render:
     - index.qmd
     - course_overview/course_overview_reading.md
+    - mind_and_brain/mind_and_brain_reading.md
     # --- uncomment each as its reading is finished ---
-    # - mind_and_brain/mind_and_brain_reading.md
     # - comparative_approaches/comparative_approaches_reading.md
     # - neurons_and_neural_communication/neurons_and_neural_communication_reading.md
     # - neural_circuits_affect_and_valence/neural_circuits_affect_and_valence_reading.md
@@ -87,7 +87,7 @@ website:
           - text: "0 · Course Overview"
             href: course_overview/course_overview_reading.md
           - text: "1 · Mind & Brain"
-            # href: mind_and_brain/mind_and_brain_reading.md
+            href: mind_and_brain/mind_and_brain_reading.md
           - text: "2 · Comparative Approaches"
             # href: comparative_approaches/comparative_approaches_reading.md
 
