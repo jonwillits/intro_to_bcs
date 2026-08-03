@@ -143,3 +143,8 @@ format:
     link-external-newwindow: true
 
 format-links: false
+
+# Cross-link glossary terms to/from their first bold use in the prose.
+# Shared with the PDF pipeline — build_reading.py runs the same filter.
+filters:
+  - glossary_links.lua
