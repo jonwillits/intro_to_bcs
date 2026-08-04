@@ -1,51 +1,62 @@
 # ======================================================================
 # Quarto project config for the BCOG 100 interactive textbook.
 #
-# FINISH A MODULE (when its reading is done):
-#   1. Under  project: render:   uncomment that module's reading path.
-#   2. Under  website: sidebar:  replace the module's placeholder `text:`
-#      entry with the `href:` line sitting commented beneath it.
-#   3. Drop a `_metadata.yml` in that module's folder listing its PDF,
-#      slide decks, and lab as `other-links` (copy course_overview/
-#      _metadata.yml as the template).
+# TWO BLOCKS IN THIS FILE ARE GENERATED. The module lists under
+# `project: render:` and under `website: sidebar: contents:` each sit between a
+# pair of marker comments (look for BUILD:render and BUILD:sidebar below), and
+# are rewritten every time you run
 #
-# WHY the sidebar lists ONLY readings: Quarto's Next/Previous buttons walk
-# the sidebar in order, so a module's downloads must NOT live in the sidebar
-# (landing on a PDF would dead-end the flow). Instead each module surfaces
-# its reading PDF / slides / lab via `other-links` on the page itself — see
-# `_metadata.yml` in the module folder — which keeps them out of the linear
-# Next/Previous chain. Result: readings form one continuous spine.
+#     python3 ../course_creation/tools/build/build_course.py
 #
-# `render:` is an allow-list: only files named here become pages, so
-# labs, .pptx, and READMEs elsewhere in the repo are never touched.
+# Do not hand-edit inside the markers; the next build overwrites it. Everything
+# outside them is yours. Note that a marker only counts when it is alone on its
+# line, which is why this comment spells the names out rather than quoting them.
+#
+# TO PUBLISH A MODULE you no longer edit this file at all. A module's reading
+# goes live automatically once the reading exists and passes the audit script;
+# until then the builder writes a "coming soon" stub at <module>/index.qmd and
+# points the sidebar there. Slides and labs appear in a module's page margin
+# only when they are listed in course_creation/tools/build/site_manifest.yml —
+# that list is the record of what has been reworked to agree with the chapter.
+#
+# WHY the sidebar lists ONLY readings and stubs: Quarto's Next/Previous buttons
+# walk the sidebar in order, so a module's downloads must NOT live in the
+# sidebar (landing on a PDF would dead-end the flow). Each module surfaces its
+# reading PDF / slides / lab via `other-links` on the page itself — see the
+# generated `_metadata.yml` in the module folder — which keeps them out of the
+# linear Next/Previous chain. Result: readings form one continuous spine.
+#
+# `render:` is an allow-list: only files named here become pages, so labs,
+# .pptx, and READMEs elsewhere in the repo are never touched.
 # ======================================================================
 
 project:
   type: website
   output-dir: _site
-  # Copy each module folder's PDFs (your pipeline's downloadable reading PDF,
-  # plus the lecture-slide PDFs) into the built site so their links resolve.
+  # Copy each module folder's PDFs (the downloadable reading PDF from the build
+  # script, plus the lecture-slide PDFs) into the built site so links resolve.
   resources:
     - "*/*.pdf"
   render:
+    # <<< BUILD:render >>>
     - index.qmd
     - course_overview/course_overview_reading.md
     - mind_and_brain/mind_and_brain_reading.md
-    # --- uncomment each as its reading is finished ---
-    # - comparative_approaches/comparative_approaches_reading.md
-    # - neurons_and_neural_communication/neurons_and_neural_communication_reading.md
-    # - neural_circuits_affect_and_valence/neural_circuits_affect_and_valence_reading.md
-    # - learning_and_plasticity/learning_and_plasticity_reading.md
-    # - vertebrate_neural_architecture/vertebrate_neural_architecture_reading.md
-    # - pattern_recognition/pattern_recognition_reading.md
-    # - perception_and_action/perception_and_action_reading.md
-    # - spatial_cognition/spatial_cognition_reading.md
-    # - memory_and_generative_models/memory_and_generative_models_reading.md
-    # - social_cognition/social_cognition_reading.md
-    # - planning_and_decisionmaking/planning_and_decisionmaking_reading.md
-    # - language/language_reading.md
-    # - symbolic_cognition/symbolic_cognition_reading.md
-    # - culture_and_cognition/culture_and_cognition_reading.md
+    - comparative_approaches/index.qmd
+    - neurons_and_neural_communication/index.qmd
+    - neural_circuits_affect_and_valence/index.qmd
+    - learning_and_plasticity/index.qmd
+    - vertebrate_neural_architecture/index.qmd
+    - pattern_recognition/index.qmd
+    - perception_and_action/index.qmd
+    - spatial_cognition/index.qmd
+    - memory_and_generative_models/index.qmd
+    - social_cognition/index.qmd
+    - planning_and_decisionmaking/index.qmd
+    - language/index.qmd
+    - symbolic_cognition/index.qmd
+    - culture_and_cognition/index.qmd
+    # <<< /BUILD:render >>>
 
 website:
   title: "Brain & Cognitive Science I"
@@ -69,16 +80,16 @@ website:
 
   # --------------------------------------------------------------------
   # SIDEBAR = the table of contents for the whole book.
-  # The four section names below are a suggested grouping — rename or
-  # flatten them however you like. Modules with a live `href:` are built;
-  # the rest are placeholders with their future `href:` commented beneath,
-  # ready to switch on (see the instructions at the top of this file).
+  # Generated — the section groupings live in SIDEBAR_SECTIONS in
+  # course_creation/tools/build/build_course.py, the titles and the
+  # "coming soon" dates in tools/build/site_manifest.yml.
   # --------------------------------------------------------------------
   sidebar:
     style: docked
     search: true
     collapse-level: 2
     contents:
+      # <<< BUILD:sidebar >>>
       - text: "Welcome"
         href: index.qmd
 
@@ -88,49 +99,51 @@ website:
             href: course_overview/course_overview_reading.md
           - text: "1 · Mind & Brain"
             href: mind_and_brain/mind_and_brain_reading.md
-          - text: "2 · Comparative Approaches"
-            # href: comparative_approaches/comparative_approaches_reading.md
+          - text: "2 · Comparative Approaches — coming soon"
+            href: comparative_approaches/index.qmd
 
       - section: "The First Nervous Systems"
         contents:
-          - text: "3 · Neurons & Neural Communication"
-            # href: neurons_and_neural_communication/neurons_and_neural_communication_reading.md
-          - text: "4 · Neural Circuits, Affect & Valence"
-            # href: neural_circuits_affect_and_valence/neural_circuits_affect_and_valence_reading.md
-          - text: "5 · Learning & Plasticity"
-            # href: learning_and_plasticity/learning_and_plasticity_reading.md
-          - text: "6 · Vertebrate Neural Architecture"
-            # href: vertebrate_neural_architecture/vertebrate_neural_architecture_reading.md
+          - text: "3 · Neurons & Neural Communication — coming soon"
+            href: neurons_and_neural_communication/index.qmd
+          - text: "4 · Neural Circuits, Affect & Valence — coming soon"
+            href: neural_circuits_affect_and_valence/index.qmd
+          - text: "5 · Learning & Plasticity — coming soon"
+            href: learning_and_plasticity/index.qmd
+          - text: "6 · Vertebrate Neural Architecture — coming soon"
+            href: vertebrate_neural_architecture/index.qmd
 
       - section: "Perceiving & Modeling the World"
         contents:
-          - text: "7 · Pattern Recognition"
-            # href: pattern_recognition/pattern_recognition_reading.md
-          - text: "8 · Perception & Action"
-            # href: perception_and_action/perception_and_action_reading.md
-          - text: "9 · Spatial Cognition"
-            # href: spatial_cognition/spatial_cognition_reading.md
-          - text: "10 · Memory, Imagination & Generative Models"
-            # href: memory_and_generative_models/memory_and_generative_models_reading.md
+          - text: "7 · Pattern Recognition — coming soon"
+            href: pattern_recognition/index.qmd
+          - text: "8 · Perception & Action — coming soon"
+            href: perception_and_action/index.qmd
+          - text: "9 · Spatial Cognition — coming soon"
+            href: spatial_cognition/index.qmd
+          - text: "10 · Memory, Imagination & Generative Models — coming soon"
+            href: memory_and_generative_models/index.qmd
 
       - section: "Social & Symbolic Minds"
         contents:
-          - text: "11 · Social Cognition"
-            # href: social_cognition/social_cognition_reading.md
-          - text: "12 · Planning & Decision-Making"
-            # href: planning_and_decisionmaking/planning_and_decisionmaking_reading.md
-          - text: "13 · Language"
-            # href: language/language_reading.md
-          - text: "14 · Symbolic Cognition"
-            # href: symbolic_cognition/symbolic_cognition_reading.md
-          - text: "15 · Culture & Cognition"
-            # href: culture_and_cognition/culture_and_cognition_reading.md
+          - text: "11 · Social Cognition — coming soon"
+            href: social_cognition/index.qmd
+          - text: "12 · Planning & Decision-Making — coming soon"
+            href: planning_and_decisionmaking/index.qmd
+          - text: "13 · Language — coming soon"
+            href: language/index.qmd
+          - text: "14 · Symbolic Cognition — coming soon"
+            href: symbolic_cognition/index.qmd
+          - text: "15 · Culture & Cognition — coming soon"
+            href: culture_and_cognition/index.qmd
+      # <<< /BUILD:sidebar >>>
 
-# The site renders each reading to an HTML page only. The downloadable PDF
-# is the one produced by YOUR separate pipeline (it lives in the module
-# folder as <name>_reading.pdf and is linked from the sidebar), so Quarto
-# does NOT generate its own PDF — that avoids two PDFs fighting over the
-# same filename. `format-links` is off for the same reason.
+# The site renders each reading to an HTML page only. The downloadable PDF is
+# the one produced by build_course.py (it lives in the module folder as
+# <name>_reading.pdf and is linked from that module's `_metadata.yml`, in the
+# page margin — not the sidebar), so Quarto does NOT generate its own PDF.
+# That avoids two PDFs fighting over the same filename. `format-links` is off
+# for the same reason.
 format:
   html:
     theme: cosmo          # Bootstrap base; overrides live in styles.css
