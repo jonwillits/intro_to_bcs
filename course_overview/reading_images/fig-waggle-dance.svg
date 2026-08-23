@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 330" width="840" height="330" font-family="Cambria, Calibri, Arial, sans-serif" role="img">
+<rect x="30" y="30" width="320" height="250" fill="#f4f7fb" stroke="#e2e6ec"/>
+<text x="190" y="22" font-size="14" fill="#5b6470" text-anchor="middle">on the honeycomb, in the dark</text>
+<line x1="190" y1="55" x2="190" y2="275" stroke="#e2e6ec" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="196" y="68" font-size="12.5" fill="#5b6470">straight up</text>
+<path d="M 237.6 108.3 A 84 84 0 0 0 142.4 221.7" fill="none" stroke="#13294B" stroke-width="2"/>
+<path d="M 237.6 108.3 A 84 84 0 0 1 142.4 221.7" fill="none" stroke="#13294B" stroke-width="2"/>
+<circle cx="154.8" cy="135.4" r="3.5" fill="#13294B"/>
+<circle cx="225.2" cy="194.6" r="3.5" fill="#13294B"/>
+<polyline points="142.4 221.7 152.6 220.5 146.6 205.9 162.1 209.2 156.1 194.5 171.6 197.8 165.6 183.2 181.1 186.5 175.1 171.8 190.6 175.2 184.6 160.5 200.1 163.8 194.2 149.2 209.6 152.5 203.7 137.8 219.1 141.2 213.2 126.5 228.7 129.8 222.7 115.2 238.2 118.5 237.6 108.3" fill="none" stroke="#FF5F05" stroke-width="3"/>
+<path d="M 190 113 A 52 52 0 0 1 223.4 125.2" fill="none" stroke="#FF5F05" stroke-width="1.5"/>
+<text x="206" y="107" font-size="15" fill="#FF5F05" font-weight="bold">θ</text>
+<text x="190" y="273" font-size="13.5" fill="#1a1a1a" text-anchor="middle">the waggle run, at θ from vertical</text>
+<rect x="470" y="30" width="340" height="250" fill="#ffffff" stroke="#e2e6ec"/>
+<text x="640" y="22" font-size="14" fill="#5b6470" text-anchor="middle">outside, in the world</text>
+<line x1="620" y1="250" x2="620" y2="70" stroke="#e2e6ec" stroke-width="1.5" stroke-dasharray="4 4"/>
+<circle cx="620" cy="62" r="13" fill="#FF5F05"/>
+<text x="620" y="48" font-size="12.5" fill="#5b6470" text-anchor="middle">the sun</text>
+<line x1="620" y1="250" x2="716.4181414529809" y2="135.09333353215328" stroke="#FF5F05" stroke-width="3.5"/>
+<path d="M 620 180 A 70 70 0 0 1 664.9951326780578 196.37688898167153" fill="none" stroke="#FF5F05" stroke-width="1.5"/>
+<text x="640" y="174" font-size="15" fill="#FF5F05" font-weight="bold">θ</text>
+<circle cx="716.4181414529809" cy="135.09333353215328" r="9" fill="#13294B"/>
+<text x="730.4181414529809" y="139.09333353215328" font-size="13.5" fill="#1a1a1a">the flowers</text>
+<rect x="594" y="250" width="52" height="24" fill="#13294B" rx="3"/>
+<text x="620" y="267" font-size="12.5" fill="#ffffff" text-anchor="middle">hive</text>
+<text x="420.0" y="316" font-size="14.5" fill="#1a1a1a" text-anchor="middle">the same angle — and the longer she waggles, the further away it is</text>
+</svg>

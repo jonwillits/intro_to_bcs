@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 248" width="760" height="248" font-family="Cambria, Calibri, Arial, sans-serif" role="img">
+<rect x="0" y="0" width="760" height="76" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1"/>
+<rect x="0" y="0" width="6" height="76" fill="#13294B"/>
+<text x="24" y="43.0" font-size="17" font-weight="bold" fill="#13294B">Computational</text>
+<text x="208" y="43.0" font-size="16" fill="#1a1a1a">What problem is this system solving, and why?</text>
+<rect x="0" y="86" width="760" height="76" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1"/>
+<rect x="0" y="86" width="6" height="76" fill="#FF5F05"/>
+<text x="24" y="129.0" font-size="17" font-weight="bold" fill="#b8460a">Algorithmic</text>
+<text x="208" y="129.0" font-size="16" fill="#1a1a1a">How does it solve that problem?</text>
+<rect x="0" y="172" width="760" height="76" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1"/>
+<rect x="0" y="172" width="6" height="76" fill="#6B7280"/>
+<text x="24" y="215.0" font-size="17" font-weight="bold" fill="#6B7280">Implementational</text>
+<text x="208" y="215.0" font-size="16" fill="#1a1a1a">What is it physically made of, and how does that stuff do the work?</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 714 360" width="714" height="360" font-family="Cambria, Calibri, Arial, sans-serif" role="img">
+  <defs>
+    <radialGradient id="sphere" cx="50%" cy="28%" r="72%">
+      <stop offset="0%"   stop-color="#ffffff"/>
+      <stop offset="42%"  stop-color="#dfe4ea"/>
+      <stop offset="78%"  stop-color="#a9b1bd"/>
+      <stop offset="100%" stop-color="#7c8593"/>
+    </radialGradient>
+  </defs>
+  <circle cx="62" cy="62" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/>
+  <circle cx="180" cy="62" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/>
+  <circle cx="298" cy="62" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/>
+  <circle cx="416" cy="62" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/>
+  <circle cx="534" cy="62" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/>
+  <circle cx="652" cy="62" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/>
+  <g transform="rotate(180 62 180)"><circle cx="62" cy="180" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/></g>
+  <g transform="rotate(180 180 180)"><circle cx="180" cy="180" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/></g>
+  <g transform="rotate(180 298 180)"><circle cx="298" cy="180" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/></g>
+  <g transform="rotate(180 416 180)"><circle cx="416" cy="180" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/></g>
+  <g transform="rotate(180 534 180)"><circle cx="534" cy="180" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/></g>
+  <g transform="rotate(180 652 180)"><circle cx="652" cy="180" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/></g>
+  <circle cx="62" cy="298" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/>
+  <circle cx="180" cy="298" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/>
+  <circle cx="298" cy="298" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/>
+  <circle cx="416" cy="298" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/>
+  <circle cx="534" cy="298" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/>
+  <circle cx="652" cy="298" r="46" fill="url(#sphere)" stroke="#e2e6ec" stroke-width="1"/>
+</svg>

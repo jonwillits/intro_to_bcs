@@ -8,11 +8,24 @@
   for case, surrounding punctuation, and simple singular/plural); anything that
   doesn't cleanly match is REPORTED to stderr, never guessed at.
 
-  Used by both the PDF pipeline (build_reading.py, via --lua-filter) and the
-  website (Quarto, via `filters:` in _quarto.yml), so links appear in both.
+  This is the ONLY implementation of the glossary rule. It is run by both the
+  PDF pipeline (build_reading.py) and the website (Quarto), both of which take
+  their filter list from the `filters:` block of intro_to_bcs/_quarto.yml. There
+  is deliberately no second copy of this file and no parallel implementation in
+  Python: the two used to disagree about the HTML they emitted, which broke the
+  PDF's glossary styling in a way that looked like a filter bug.
+
+  The HTML contract (style.css and styles.css depend on it):
+    first prose use   ->  <a id="ref-SLUG"   class="gloss-link" href="#gloss-SLUG">
+    glossary headword ->  <a id="gloss-SLUG" class="gloss-back" href="#ref-SLUG">
+  The glossary entry paragraph carries NO class. It is styled structurally, via
+  `h2#glossary ~ p`, because a Pandoc Para cannot carry attributes and wrapping
+  each entry in a Div would break that same sibling selector on the website.
 
   Sections named "Further Reading" (and the "Glossary" itself) are excluded from
   the prose search, so bold book citations there are never linked.
+
+  Pass -M glossary-links=false to skip the linking; the report still runs.
 ]]--
 
 local stringify = pandoc.utils.stringify
@@ -45,7 +58,7 @@ end
 
 -- collected state
 local section = "prose"                 -- prose | frontmatter | glossary
-local prose_strongs = {}                -- {list, idx, norm} in document order
+local prose_strongs = {}                -- {list, idx, norm, text, linked} in document order
 local prose_bold = {}                   -- {norm, text} for the report
 local terms, term_by_norm = {}, {}      -- glossary headwords
 
@@ -61,9 +74,11 @@ end
 local function scan_inlines(list)
   for i, el in ipairs(list) do
     if el.t == "Strong" then
-      local nrm = normalize(stringify(el))
-      prose_bold[#prose_bold + 1] = { norm = nrm, text = stringify(el) }
-      prose_strongs[#prose_strongs + 1] = { list = list, idx = i, norm = nrm }
+      local txt = stringify(el)
+      local nrm = normalize(txt)
+      prose_bold[#prose_bold + 1] = { norm = nrm, text = txt }
+      prose_strongs[#prose_strongs + 1] = { list = list, idx = i, norm = nrm,
+                                            text = txt, linked = false }
     elseif el.content and type(el.content) == "table" then
       scan_inlines(el.content)
     end
@@ -100,57 +115,84 @@ local function walk(blocks)
   end
 end
 
+local function q(s) return '"' .. s .. '"' end
+
 function Pandoc(doc)
   walk(doc.blocks)
+
+  local add_links = true
+  local flag = doc.meta["glossary-links"]
+  if flag ~= nil then
+    local v = lower(stringify(flag))
+    if v == "false" or v == "no" or v == "0" then add_links = false end
+  end
 
   -- assign slugs now (document order of glossary)
   for _, term in ipairs(terms) do term.slug = slugify(term.display) end
 
-  -- forward links: first prose bold use of each term
+  -- match each term to its first, not-yet-claimed bold use in the prose
   for _, ps in ipairs(prose_strongs) do
     local term = term_by_norm[ps.norm]
     if term and not term.matched then
       term.matched = true
-      local inner = ps.list[ps.idx].content
-      ps.list[ps.idx] = pandoc.Link({ pandoc.Strong(inner) }, "#gloss-" .. term.slug, "",
-                          pandoc.Attr("term-" .. term.slug, { "glossary-ref" }, {}))
+      ps.linked = true
+      if add_links then
+        local inner = ps.list[ps.idx].content
+        ps.list[ps.idx] = pandoc.Link({ pandoc.Strong(inner) }, "#gloss-" .. term.slug, "",
+                            pandoc.Attr("ref-" .. term.slug, { "gloss-link" }, {}))
+      end
     end
   end
 
   -- back links: glossary headword -> first use (only for matched terms)
-  for _, term in ipairs(terms) do
-    if term.matched then
-      local head = term.head_list[term.head_idx]
-      term.head_list[term.head_idx] = pandoc.Link({ pandoc.Strong(head.content) },
-                          "#term-" .. term.slug, "",
-                          pandoc.Attr("gloss-" .. term.slug, { "glossary-entry" }, {}))
+  if add_links then
+    for _, term in ipairs(terms) do
+      if term.matched then
+        local head = term.head_list[term.head_idx]
+        term.head_list[term.head_idx] = pandoc.Link({ pandoc.Strong(head.content) },
+                            "#ref-" .. term.slug, "",
+                            pandoc.Attr("gloss-" .. term.slug, { "gloss-back" }, {}))
+      end
     end
   end
 
-  -- report the cases we did NOT link
-  local no_bold, embedded = {}, {}
+  -- ---------------------------------------------------------------- report
+  local linked = 0
+  for _, term in ipairs(terms) do if term.matched then linked = linked + 1 end end
+
+  if #terms > 0 then
+    io.stderr:write(string.format("  glossary: linked %d/%d terms to their in-text use%s\n",
+      linked, #terms, add_links and "" or "  (linking disabled; report only)"))
+  end
+
+  -- terms with no usable first bold use
   for _, term in ipairs(terms) do
     if not term.matched then
       local emb
       for _, pb in ipairs(prose_bold) do
         if pb.norm ~= term.norm and pb.norm:find(term.norm, 1, true) then emb = pb.text; break end
       end
-      if emb then embedded[#embedded + 1] = string.format("%q only inside bold %q", term.display, emb)
-      else no_bold[#no_bold + 1] = string.format("%q", term.display) end
+      if emb then
+        io.stderr:write("            (" .. q(term.display) ..
+                        " appears only inside the longer bold phrase " .. q(emb) .. ")\n")
+      else
+        io.stderr:write("            (no bolded in-text use found for: " .. term.display .. ")\n")
+      end
     end
   end
-  if #no_bold > 0 or #embedded > 0 then
-    io.stderr:write("\n[glossary-links] " .. #terms .. " terms; " ..
-      (#terms - #no_bold - #embedded) .. " linked.\n")
-    if #no_bold > 0 then
-      io.stderr:write("  not bolded anywhere in the prose (no link made):\n")
-      for _, m in ipairs(no_bold) do io.stderr:write("    - " .. m .. "\n") end
+
+  -- stray bold: prose bold that is NOT a first-use glossary term. The house rule
+  -- is that bold means a glossary term at its first use and nothing else, so a
+  -- second mention or a bolded-for-emphasis phrase is a defect worth reporting.
+  local seen_stray = {}
+  for _, ps in ipairs(prose_strongs) do
+    if not ps.linked then
+      local key = lower(ps.text)
+      if not seen_stray[key] then
+        seen_stray[key] = true
+        io.stderr:write("  stray bold (not a first-use glossary term): " .. q(ps.text) .. "\n")
+      end
     end
-    if #embedded > 0 then
-      io.stderr:write("  only found inside a larger bold phrase (no link made):\n")
-      for _, m in ipairs(embedded) do io.stderr:write("    - " .. m .. "\n") end
-    end
-    io.stderr:write("\n")
   end
 
   return doc

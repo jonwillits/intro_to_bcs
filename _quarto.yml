@@ -157,7 +157,15 @@ format:
 
 format-links: false
 
-# Cross-link glossary terms to/from their first bold use in the prose.
-# Shared with the PDF pipeline — build_reading.py runs the same filter.
+# The reading filters. THIS LIST IS THE SINGLE SOURCE OF TRUTH: the website
+# applies it here, and build_reading.py reads this same block and passes each
+# entry to pandoc as --lua-filter, so the PDF and the site can never drift.
+# build_course.py hashes whatever is listed here for its staleness check.
+#
+# ORDER MATTERS. figures.lua must run first: it resolves the .if-figure /
+# .no-figure conditional blocks, and until it has, a bold glossary term that
+# appears in both halves of a conditional pair would be counted twice by
+# glossary_links.lua and reported as a stray bold.
 filters:
+  - figures.lua
   - glossary_links.lua

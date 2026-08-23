@@ -172,6 +172,11 @@ cython_debug/
 # and PowerPoint drop a "~$name.docx" stub next to any file that is open.
 ~$*
 
+# LibreOffice lock/owner files. soffice drops a ".~lock.name.pdf#" beside any
+# file it has open, and the slide leg of the build runs soffice over this repo,
+# so these turn up in student-facing module folders.
+.~lock.*#
+
 # Windows equivalents of .DS_Store (macOS's is covered above)
 Thumbs.db
 desktop.ini
@@ -179,3 +184,13 @@ desktop.ini
 # Quarto build output
 _site/
 .quarto/
+
+# --- Never publish -----------------------------------------------------------
+# build_reading.py writes a dot-prefixed temp HTML next to the reading and
+# removes it when the run succeeds. A CRASHED run leaves it behind, and since
+# --push runs `git add -A`, an orphan would be committed to the live site. This
+# has already happened twice.
+.*_reading_*.html
+
+# Scratch that lives inside the site repo but must never reach the website.
+_to_delete/

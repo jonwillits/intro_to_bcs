@@ -32,6 +32,17 @@
   --bs-body-font-family:     var(--bcog-font-body);
   --bs-headings-font-family: var(--bcog-font-head);
 
+  /* ---------- figures & tables ---------- */
+  /* Kept in step with the PDF stylesheet (course_creation/tools/reading_pdf/
+     style.css), which has the same five knobs under the same names. Table and
+     caption text sit one notch under the body, written as a calculation so
+     they follow --bcog-font-size if you change it. */
+  --bcog-table-font-size:   calc(var(--bcog-font-size) - 1pt);
+  --bcog-caption-font-size: calc(var(--bcog-font-size) - 1pt);
+  --bcog-float-gap-above:   2rem;    /* text above -> figure/table   */
+  --bcog-float-gap-below:   2rem;    /* figure/table -> text below   */
+  --bcog-caption-gap:       0.6rem;  /* caption -> the thing it labels */
+
   /* ---------- layout ---------- */
   --bcog-measure:     40rem;     /* width of the reading column        */
 }
@@ -132,3 +143,29 @@ a.btn-pdf {
 }
 .quarto-other-links a:hover,
 a.btn-pdf:hover { background: var(--bcog-panel); text-decoration: none; }
+
+/* ============================ FIGURE AND TABLE CAPTIONS ====================
+   Same intent as the PDF stylesheet: a float wants air around it, and the
+   generated label wants to be findable at a glance. Quarto emits the number in
+   its own span, so the label can be bold while the caption itself stays
+   italic. */
+figure, .quarto-float, .quarto-figure {
+  margin-block: var(--bcog-float-gap-above) var(--bcog-float-gap-below);
+}
+/* Captions are LEFT aligned, figures and tables alike. Quarto's own theme
+   centers figure captions, so this has to say so explicitly rather than relying
+   on inheritance -- the `text-align` here is what keeps the site and the PDF
+   showing the same thing. */
+figcaption, .quarto-float-caption, caption {
+  font-size: var(--bcog-caption-font-size); line-height: 1.5;
+  color: var(--bcog-muted); font-style: italic;
+  text-align: left; margin-top: var(--bcog-caption-gap);
+}
+.quarto-float-caption-prefix, figcaption strong:first-child, caption strong:first-child {
+  font-style: normal; font-weight: 700; color: var(--bcog-primary);
+}
+caption { caption-side: top; margin-bottom: var(--bcog-caption-gap); margin-top: 0; }
+table {
+  font-size: var(--bcog-table-font-size);
+  margin-block: var(--bcog-float-gap-above) var(--bcog-float-gap-below);
+}

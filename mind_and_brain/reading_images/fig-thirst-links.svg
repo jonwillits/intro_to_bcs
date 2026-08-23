@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 470" width="1120" height="470" font-family="Cambria, Calibri, Georgia, serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7a8697"/>
+    </marker>
+    <marker id="ahb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#13294b"/>
+    </marker>
+    <style>
+      .cause  { fill:#eef1f6; stroke:#8c98aa; stroke-width:1.2; }
+      .behav  { fill:#eef1f6; stroke:#8c98aa; stroke-width:1.2; }
+      .inner  { fill:#13294b; stroke:#13294b; }
+      .lbl    { font-size:16px; fill:#1a1a1a; }
+      .lblw   { font-size:19px; fill:#ffffff; font-weight:600; letter-spacing:.02em; }
+      .edge   { stroke:#a7b1c0; stroke-width:1.3; fill:none; marker-end:url(#ah); }
+      .edgeb  { stroke:#13294b; stroke-width:1.7; fill:none; marker-end:url(#ahb); }
+      .ttl    { font-size:18px; fill:#1a1a1a; font-weight:600; }
+      .cnt    { font-size:16px; fill:#5b6675; font-style:italic; }
+      .col    { font-size:13px; fill:#7a8697; letter-spacing:.09em; }
+    </style>
+  </defs>
+
+  <!-- ================= LEFT PANEL: 9 links ================= -->
+  <text class="ttl" x="30" y="30">Three causes, three behaviors, tracked separately</text>
+  <text class="cnt" x="30" y="54">nine connections to keep straight</text>
+  <text class="col" x="30" y="92">CAUSES</text>
+  <text class="col" x="330" y="92" text-anchor="end">BEHAVIORS</text>
+
+  <g class="edge">
+    <path d="M164 130 L206 130"/><path d="M164 134 L206 216"/><path d="M164 138 L206 302"/>
+    <path d="M164 212 L206 134"/><path d="M164 216 L206 216"/><path d="M164 220 L206 302"/>
+    <path d="M164 294 L206 138"/><path d="M164 298 L206 220"/><path d="M164 302 L206 302"/>
+  </g>
+
+  <g>
+    <rect class="cause" x="14" y="110" width="150" height="40" rx="7"/>
+    <text class="lbl" x="89" y="135" text-anchor="middle">time since drink</text>
+    <rect class="cause" x="14" y="196" width="150" height="40" rx="7"/>
+    <text class="lbl" x="89" y="221" text-anchor="middle">salt intake</text>
+    <rect class="cause" x="14" y="282" width="150" height="40" rx="7"/>
+    <text class="lbl" x="89" y="307" text-anchor="middle">water lost</text>
+
+    <rect class="behav" x="206" y="110" width="150" height="40" rx="7"/>
+    <text class="lbl" x="281" y="135" text-anchor="middle">amount drunk</text>
+    <rect class="behav" x="206" y="196" width="150" height="40" rx="7"/>
+    <text class="lbl" x="281" y="221" text-anchor="middle">seeking water</text>
+    <rect class="behav" x="206" y="282" width="150" height="40" rx="7"/>
+    <text class="lbl" x="281" y="307" text-anchor="middle">dry mouth</text>
+  </g>
+  <text class="cnt" x="185" y="386" text-anchor="middle" font-size="26" fill="#8c98aa">9</text>
+  <text class="col" x="185" y="410" text-anchor="middle">LINKS</text>
+
+  <line x1="440" y1="80" x2="440" y2="420" stroke="#d7dce4" stroke-width="1"/>
+
+  <!-- ================= RIGHT PANEL: 6 links ================= -->
+  <text class="ttl" x="520" y="30">The same causes and behaviors, via one inner variable</text>
+  <text class="cnt" x="520" y="54">six connections, and the same predictions</text>
+  <text class="col" x="520" y="92">CAUSES</text>
+  <text class="col" x="1106" y="92" text-anchor="end">BEHAVIORS</text>
+
+  <g class="edgeb">
+    <path d="M670 130 L757 200"/><path d="M670 216 L757 216"/><path d="M670 302 L757 232"/>
+    <path d="M863 200 L950 130"/><path d="M863 216 L950 216"/><path d="M863 232 L950 302"/>
+  </g>
+
+  <g>
+    <rect class="cause" x="520" y="110" width="150" height="40" rx="7"/>
+    <text class="lbl" x="595" y="135" text-anchor="middle">time since drink</text>
+    <rect class="cause" x="520" y="196" width="150" height="40" rx="7"/>
+    <text class="lbl" x="595" y="221" text-anchor="middle">salt intake</text>
+    <rect class="cause" x="520" y="282" width="150" height="40" rx="7"/>
+    <text class="lbl" x="595" y="307" text-anchor="middle">water lost</text>
+
+    <rect class="inner" x="757" y="191" width="106" height="50" rx="9"/>
+    <text class="lblw" x="810" y="222" text-anchor="middle">thirst</text>
+
+    <rect class="behav" x="950" y="110" width="150" height="40" rx="7"/>
+    <text class="lbl" x="1025" y="135" text-anchor="middle">amount drunk</text>
+    <rect class="behav" x="950" y="196" width="150" height="40" rx="7"/>
+    <text class="lbl" x="1025" y="221" text-anchor="middle">seeking water</text>
+    <rect class="behav" x="950" y="282" width="150" height="40" rx="7"/>
+    <text class="lbl" x="1025" y="307" text-anchor="middle">dry mouth</text>
+  </g>
+  <text class="cnt" x="810" y="386" text-anchor="middle" font-size="26" fill="#13294b">6</text>
+  <text class="col" x="810" y="410" text-anchor="middle">LINKS</text>
+</svg>
