@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330" font-family="Cambria, Calibri, Arial, sans-serif" role="img">
+<rect x="6" y="6" width="748" height="258" rx="14" fill="#f4f7fb" stroke="#13294B" stroke-width="1.6"/>
+<text x="34" y="44" font-size="18" font-weight="bold" fill="#13294B">Mind</text>
+<text x="34" y="72" font-size="14" fill="#5b6470">perceiving · recognizing · learning</text>
+<text x="34" y="93" font-size="14" fill="#5b6470">remembering · reasoning · deciding</text>
+<text x="34" y="114" font-size="14" fill="#5b6470">communicating</text>
+<ellipse cx="520" cy="140" rx="196" ry="94" fill="#ffffff" stroke="#6B7280" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="520" y="86" font-size="16" font-weight="bold" fill="#4b5563" text-anchor="middle">Consciousness</text>
+<text x="520" y="107" font-size="13" fill="#5b6470" text-anchor="middle">awake, aware, knowing that one knows</text>
+<ellipse cx="520" cy="166" rx="122" ry="46" fill="#f7f2ea" stroke="#b8460a" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="520" y="164" font-size="15" font-weight="bold" fill="#b8460a" text-anchor="middle">Qualia</text>
+<text x="520" y="184" font-size="13" fill="#5b6470" text-anchor="middle">the raw feel of an experience</text>
+<text x="6" y="288" font-size="13.5" fill="#5b6470" font-style="italic">The dashed boundaries are contested: some views treat qualia as the whole of consciousness, and</text>
+<text x="6" y="307" font-size="13.5" fill="#5b6470" font-style="italic">some hold that mind simply is consciousness.</text>
+</svg>

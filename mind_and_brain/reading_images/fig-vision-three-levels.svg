@@ -1,25 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 332" width="760" height="332" font-family="Cambria, Calibri, Arial, sans-serif" role="img">
-<rect x="0" y="0" width="760" height="104" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1"/>
-<rect x="0" y="0" width="6" height="104" fill="#13294B"/>
-<text x="24" y="36" font-size="17" font-weight="bold" fill="#13294B">Computational</text>
-<text x="24" y="60" font-size="13.5" fill="#5b6470" font-style="italic">What problem is being</text>
-<text x="24" y="79" font-size="13.5" fill="#5b6470" font-style="italic">solved, and why?</text>
-<text x="228" y="46.0" font-size="16.5" fill="#1a1a1a">Recover the three-dimensional world from a flat image,</text>
-<text x="228" y="70.0" font-size="16.5" fill="#1a1a1a">which the light alone cannot settle.</text>
-<rect x="0" y="114" width="760" height="104" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1"/>
-<rect x="0" y="114" width="6" height="104" fill="#FF5F05"/>
-<text x="24" y="150" font-size="17" font-weight="bold" fill="#b8460a">Algorithmic</text>
-<text x="24" y="174" font-size="13.5" fill="#5b6470" font-style="italic">By what strategy, over</text>
-<text x="24" y="193" font-size="13.5" fill="#5b6470" font-style="italic">what representations?</text>
-<text x="228" y="148.0" font-size="16.5" fill="#1a1a1a">Find sharp brightness changes, recover depth from</text>
-<text x="228" y="172.0" font-size="16.5" fill="#1a1a1a">disparity and texture, group fragments into surfaces,</text>
-<text x="228" y="196.0" font-size="16.5" fill="#1a1a1a">match against things seen before.</text>
-<rect x="0" y="228" width="760" height="104" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1"/>
-<rect x="0" y="228" width="6" height="104" fill="#6B7280"/>
-<text x="24" y="264" font-size="17" font-weight="bold" fill="#6B7280">Implementational</text>
-<text x="24" y="288" font-size="13.5" fill="#5b6470" font-style="italic">In what physical stuff,</text>
-<text x="24" y="307" font-size="13.5" fill="#5b6470" font-style="italic">and how?</text>
-<text x="228" y="262.0" font-size="16.5" fill="#1a1a1a">Retina, then a relay station deep in the brain, then</text>
-<text x="228" y="286.0" font-size="16.5" fill="#1a1a1a">primary visual cortex, then areas tuned to progressively</text>
-<text x="228" y="310.0" font-size="16.5" fill="#1a1a1a">more complex things.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 366" width="760" height="366" font-family="Cambria, Calibri, Arial, sans-serif" role="img">
+<text x="0" y="19" font-size="17" font-weight="bold" fill="#13294B">Vision at Three Levels</text>
+<rect x="0" y="34" width="760" height="104" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1"/>
+<rect x="0" y="34" width="6" height="104" fill="#13294B"/>
+<text x="24" y="70" font-size="17" font-weight="bold" fill="#13294B">Computational</text>
+<text x="24" y="94" font-size="13.5" fill="#5b6470" font-style="italic">What problem is being</text>
+<text x="24" y="113" font-size="13.5" fill="#5b6470" font-style="italic">solved, and why?</text>
+<text x="228" y="80.0" font-size="16.5" fill="#1a1a1a">Recover the three-dimensional world from a flat image,</text>
+<text x="228" y="104.0" font-size="16.5" fill="#1a1a1a">which the light alone cannot settle.</text>
+<rect x="0" y="148" width="760" height="104" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1"/>
+<rect x="0" y="148" width="6" height="104" fill="#FF5F05"/>
+<text x="24" y="184" font-size="17" font-weight="bold" fill="#b8460a">Algorithmic</text>
+<text x="24" y="208" font-size="13.5" fill="#5b6470" font-style="italic">By what strategy?</text>
+<text x="228" y="182.0" font-size="16.5" fill="#1a1a1a">Find sharp brightness changes, recover depth from</text>
+<text x="228" y="206.0" font-size="16.5" fill="#1a1a1a">disparity and texture, group fragments into surfaces,</text>
+<text x="228" y="230.0" font-size="16.5" fill="#1a1a1a">match against things seen before.</text>
+<rect x="0" y="262" width="760" height="104" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1"/>
+<rect x="0" y="262" width="6" height="104" fill="#6B7280"/>
+<text x="24" y="298" font-size="17" font-weight="bold" fill="#6B7280">Implementational</text>
+<text x="24" y="322" font-size="13.5" fill="#5b6470" font-style="italic">In what physical stuff,</text>
+<text x="24" y="341" font-size="13.5" fill="#5b6470" font-style="italic">and how?</text>
+<text x="228" y="296.0" font-size="16.5" fill="#1a1a1a">Retina, then a relay station deep in the brain, then</text>
+<text x="228" y="320.0" font-size="16.5" fill="#1a1a1a">primary visual cortex, then areas tuned to progressively</text>
+<text x="228" y="344.0" font-size="16.5" fill="#1a1a1a">more complex things.</text>
 </svg>

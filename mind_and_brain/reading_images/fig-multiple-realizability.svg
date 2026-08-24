@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="Cambria, Calibri, Arial, sans-serif" role="img">
+<text x="0" y="18" font-size="14.5" font-weight="bold" fill="#13294B">One temperature, many arrangements of molecules</text>
+<rect x="29.0" y="30" width="226" height="128" rx="8" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.2"/>
+<text x="142.0" y="180" font-size="14" fill="#1a1a1a" text-anchor="middle">20 °C</text>
+<circle cx="89.0" cy="56" r="5.5" fill="#9aa4b2"/>
+<circle cx="115.0" cy="92" r="5.5" fill="#9aa4b2"/>
+<circle cx="149.0" cy="60" r="5.5" fill="#9aa4b2"/>
+<circle cx="175.0" cy="100" r="5.5" fill="#9aa4b2"/>
+<circle cx="129.0" cy="126" r="5.5" fill="#9aa4b2"/>
+<circle cx="199.0" cy="74" r="5.5" fill="#9aa4b2"/>
+<circle cx="165.0" cy="138" r="5.5" fill="#9aa4b2"/>
+<circle cx="101.0" cy="114" r="5.5" fill="#9aa4b2"/>
+<rect x="287.0" y="30" width="226" height="128" rx="8" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.2"/>
+<text x="400.0" y="180" font-size="14" fill="#1a1a1a" text-anchor="middle">20 °C</text>
+<circle cx="353.0" cy="114" r="5.5" fill="#9aa4b2"/>
+<circle cx="381.0" cy="60" r="5.5" fill="#9aa4b2"/>
+<circle cx="415.0" cy="126" r="5.5" fill="#9aa4b2"/>
+<circle cx="447.0" cy="88" r="5.5" fill="#9aa4b2"/>
+<circle cx="395.0" cy="96" r="5.5" fill="#9aa4b2"/>
+<circle cx="363.0" cy="74" r="5.5" fill="#9aa4b2"/>
+<circle cx="457.0" cy="130" r="5.5" fill="#9aa4b2"/>
+<circle cx="427.0" cy="52" r="5.5" fill="#9aa4b2"/>
+<rect x="545.0" y="30" width="226" height="128" rx="8" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.2"/>
+<text x="658.0" y="180" font-size="14" fill="#1a1a1a" text-anchor="middle">20 °C</text>
+<circle cx="617.0" cy="90" r="5.5" fill="#9aa4b2"/>
+<circle cx="647.0" cy="130" r="5.5" fill="#9aa4b2"/>
+<circle cx="679.0" cy="74" r="5.5" fill="#9aa4b2"/>
+<circle cx="709.0" cy="120" r="5.5" fill="#9aa4b2"/>
+<circle cx="635.0" cy="52" r="5.5" fill="#9aa4b2"/>
+<circle cx="671.0" cy="106" r="5.5" fill="#9aa4b2"/>
+<circle cx="703.0" cy="56" r="5.5" fill="#9aa4b2"/>
+<circle cx="607.0" cy="134" r="5.5" fill="#9aa4b2"/>
+<line x1="0" y1="200" x2="800" y2="200" stroke="#e2e6ec" stroke-width="1"/>
+<text x="0" y="228" font-size="14.5" font-weight="bold" fill="#13294B">One mental state, many kinds of matter — the claim of multiple realizability</text>
+<rect x="29.0" y="248" width="226" height="96" rx="8" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.2"/>
+<text x="142.0" y="366" font-size="14" fill="#1a1a1a" text-anchor="middle">a human brain</text>
+<ellipse cx="142.0" cy="296" rx="42" ry="29" fill="#dfe6f0" stroke="#8c98aa" stroke-width="1.4"/>
+<path d="M 124.0 274 c 10 12, 10 30, -2 42 M 148.0 272 c 12 14, 12 34, -2 46" fill="none" stroke="#8c98aa" stroke-width="1.2"/>
+<rect x="287.0" y="248" width="226" height="96" rx="8" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.2"/>
+<text x="400.0" y="366" font-size="14" fill="#1a1a1a" text-anchor="middle">an octopus</text>
+<ellipse cx="400.0" cy="284" rx="27" ry="23" fill="#dfe6f0" stroke="#8c98aa" stroke-width="1.4"/>
+<path d="M 380.0 300 c -6 14, -14 18, -22 21 M 392.0 306 c -4 14, -8 18, -13 22 M 408.0 306 c 4 14, 8 18, 13 22 M 420.0 300 c 6 14, 14 18, 22 21" fill="none" stroke="#8c98aa" stroke-width="1.6"/>
+<rect x="545.0" y="248" width="226" height="96" rx="8" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.2"/>
+<text x="658.0" y="366" font-size="14" fill="#1a1a1a" text-anchor="middle">a silicon chip</text>
+<rect x="630.0" y="268" width="56" height="56" rx="5" fill="#dfe6f0" stroke="#8c98aa" stroke-width="1.4"/>
+<rect x="645.0" y="283" width="26" height="26" rx="3" fill="#ffffff" stroke="#8c98aa" stroke-width="1.2"/>
+<path d="M 642.0 268 v -9 m 16 9 v -9 m 16 9 v -9 M 642.0 324 v 9 m 16 -9 v 9 m 16 -9 v 9" stroke="#8c98aa" stroke-width="1.4" fill="none"/>
+<text x="400.0" y="392" font-size="13.5" fill="#5b6470" font-style="italic" text-anchor="middle">the claim is that all three could be in the same functional state</text>
+</svg>

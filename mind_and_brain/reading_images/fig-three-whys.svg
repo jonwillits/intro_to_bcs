@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 270" width="800" height="270" font-family="Cambria, Calibri, Arial, sans-serif" role="img">
+<rect x="0.0" y="0" width="260.0" height="214" rx="8" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1"/>
+<rect x="0.0" y="0" width="260.0" height="38" rx="8" fill="#e7ecf4"/>
+<rect x="0.0" y="30" width="260.0" height="8" fill="#e7ecf4"/>
+<text x="130.0" y="25" font-size="16" font-weight="bold" fill="#13294B" text-anchor="middle">A designer’s intent</text>
+<text x="130.0" y="80.0" font-size="14.5" fill="#1a1a1a" text-anchor="middle">A calculator does addition</text>
+<text x="130.0" y="102.0" font-size="14.5" fill="#1a1a1a" text-anchor="middle">because its makers wanted a tool</text>
+<text x="130.0" y="124.0" font-size="14.5" fill="#1a1a1a" text-anchor="middle">for arithmetic.</text>
+<line x1="18.0" y1="156" x2="242.0" y2="156" stroke="#e2e6ec" stroke-width="1"/>
+<text x="130.0" y="190.0" font-size="14" fill="#5b6470" text-anchor="middle">for an artifact</text>
+<rect x="270.0" y="0" width="260.0" height="214" rx="8" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1"/>
+<rect x="270.0" y="0" width="260.0" height="38" rx="8" fill="#e7ecf4"/>
+<rect x="270.0" y="30" width="260.0" height="8" fill="#e7ecf4"/>
+<text x="400.0" y="25" font-size="16" font-weight="bold" fill="#13294B" text-anchor="middle">Natural selection</text>
+<text x="400.0" y="80.0" font-size="14.5" fill="#1a1a1a" text-anchor="middle">An eye recovers the world because</text>
+<text x="400.0" y="102.0" font-size="14.5" fill="#1a1a1a" text-anchor="middle">ancestors who saw it survived and</text>
+<text x="400.0" y="124.0" font-size="14.5" fill="#1a1a1a" text-anchor="middle">reproduced.</text>
+<line x1="288.0" y1="156" x2="512.0" y2="156" stroke="#e2e6ec" stroke-width="1"/>
+<text x="400.0" y="179.0" font-size="14" fill="#5b6470" text-anchor="middle">for a biological trait — the</text>
+<text x="400.0" y="200.0" font-size="14" fill="#5b6470" text-anchor="middle">adaptive why</text>
+<rect x="540.0" y="0" width="260.0" height="214" rx="8" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1"/>
+<rect x="540.0" y="0" width="260.0" height="38" rx="8" fill="#e7ecf4"/>
+<rect x="540.0" y="30" width="260.0" height="8" fill="#e7ecf4"/>
+<text x="670.0" y="25" font-size="16" font-weight="bold" fill="#13294B" text-anchor="middle">A cultural practice</text>
+<text x="670.0" y="80.0" font-size="14.5" fill="#1a1a1a" text-anchor="middle">Reading and handling money are</text>
+<text x="670.0" y="102.0" font-size="14.5" fill="#1a1a1a" text-anchor="middle">goals set by a practice and</text>
+<text x="670.0" y="124.0" font-size="14.5" fill="#1a1a1a" text-anchor="middle">handed down socially.</text>
+<line x1="558.0" y1="156" x2="782.0" y2="156" stroke="#e2e6ec" stroke-width="1"/>
+<text x="670.0" y="190.0" font-size="14" fill="#5b6470" text-anchor="middle">for a learned human skill</text>
+<rect x="0" y="224" width="800" height="46" rx="8" fill="#eef3fa" stroke="#e2e6ec" stroke-width="1"/>
+<text x="400.0" y="253.0" font-size="15" fill="#1a1a1a" text-anchor="middle">A human mind draws on all three at once.</text>
+</svg>
