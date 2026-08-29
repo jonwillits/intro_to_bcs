@@ -194,3 +194,6 @@ _site/
 
 # Scratch that lives inside the site repo but must never reach the website.
 _to_delete/
+
+/.quarto/
+**/*.quarto_ipynb

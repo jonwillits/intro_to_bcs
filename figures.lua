@@ -158,6 +158,24 @@ end
 
 -- ------------------------------------------------------- pass 1: collect
 
+-- Where the module number comes from, and why there are two sources.
+--
+-- The PDF leg keeps the reading's "# 2. Comparative Approaches" as a level-1
+-- Header in the body, so the walk below finds it. The SITE leg does not: Quarto
+-- promotes a leading H1 to the document title and removes it from the body, so
+-- by the time this filter runs there is no Header of level 1 to find, module_no
+-- stays nil, and every label falls back to the unqualified form. The result was
+-- a site that said "Figure 2" for the same float the PDF called "Figure 2.2" —
+-- one filter, one rule, two disagreeing outputs, which is exactly what putting
+-- the logic in a shared filter was supposed to prevent.
+--
+-- So: try the H1, then the title metadata Quarto moved it into. Strictly
+-- additive — if neither yields a number the old behaviour is unchanged.
+local function module_from_meta(meta)
+  if not meta or not meta.title then return nil end
+  return stringify(meta.title):match("^%s*(%d+)%.")
+end
+
 local function collect(doc)
   doc:walk {
     Header = function(h)
@@ -212,8 +230,12 @@ local function collect(doc)
       tbl_order[#tbl_order + 1] = id
     end,
   }
+  if module_no == nil then
+    module_no = module_from_meta(doc.meta)
+  end
   if module_no == nil and (#fig_order > 0 or #tbl_order > 0) then
-    problem("no module number found in the H1 (expected \"# 1. Title\") — "
+    problem("no module number found in the H1 or the title metadata "
+            .. "(expected \"# 1. Title\") — "
             .. "labels will be unqualified, e.g. \"Figure 1\" rather than \"Figure 1.1\"")
   end
 
