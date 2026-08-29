@@ -117,7 +117,7 @@ The six varieties cover every combination of these two choices:
 three wiring patterns, each of which can be excitatory or inhibitory.
 
 The panel also shows you the numbers behind the behavior.
-Each sensor and actuator is labelled with its live value,
+Each sensor and actuator is labeled with its live value,
 and the thickness of each line shows how strongly that sensor is driving its actuator right now.
 Underneath, the panel writes out the arithmetic for each actuator, which looks something like this:
 

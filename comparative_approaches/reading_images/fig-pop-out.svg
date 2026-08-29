@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 682 416" width="682" height="416" font-family="Cambria, Calibri, Arial, sans-serif" role="img">
+  <rect x="196" y="26" width="232" height="164" rx="4" fill="#ffffff" stroke="#e2e6ec"/>
+  <circle cx="280" cy="89" r="9" fill="#13294B"/>
+  <circle cx="315" cy="93" r="9" fill="#13294B"/>
+  <circle cx="348" cy="92" r="9" fill="#13294B"/>
+  <circle cx="281" cy="128" r="9" fill="#13294B"/>
+  <circle cx="310" cy="125" r="9" fill="#D50032"/>
+  <circle cx="347" cy="122" r="9" fill="#13294B"/>
+  <text x="312" y="205" font-size="13" fill="#5b6470" text-anchor="middle">6 items</text>
+  <rect x="450" y="26" width="232" height="164" rx="4" fill="#ffffff" stroke="#e2e6ec"/>
+  <circle cx="481" cy="60" r="9" fill="#13294B"/>
+  <circle cx="518" cy="60" r="9" fill="#13294B"/>
+  <circle cx="550" cy="58" r="9" fill="#13294B"/>
+  <circle cx="585" cy="55" r="9" fill="#13294B"/>
+  <circle cx="615" cy="56" r="9" fill="#13294B"/>
+  <circle cx="654" cy="54" r="9" fill="#13294B"/>
+  <circle cx="480" cy="93" r="9" fill="#13294B"/>
+  <circle cx="513" cy="90" r="9" fill="#13294B"/>
+  <circle cx="547" cy="90" r="9" fill="#13294B"/>
+  <circle cx="583" cy="94" r="9" fill="#13294B"/>
+  <circle cx="620" cy="91" r="9" fill="#13294B"/>
+  <circle cx="651" cy="90" r="9" fill="#13294B"/>
+  <circle cx="484" cy="125" r="9" fill="#13294B"/>
+  <circle cx="518" cy="126" r="9" fill="#13294B"/>
+  <circle cx="552" cy="124" r="9" fill="#13294B"/>
+  <circle cx="580" cy="126" r="9" fill="#13294B"/>
+  <circle cx="620" cy="125" r="9" fill="#13294B"/>
+  <circle cx="650" cy="127" r="9" fill="#D50032"/>
+  <circle cx="478" cy="160" r="9" fill="#13294B"/>
+  <circle cx="512" cy="161" r="9" fill="#13294B"/>
+  <circle cx="548" cy="159" r="9" fill="#13294B"/>
+  <circle cx="585" cy="158" r="9" fill="#13294B"/>
+  <circle cx="617" cy="160" r="9" fill="#13294B"/>
+  <circle cx="654" cy="162" r="9" fill="#13294B"/>
+  <text x="566" y="205" font-size="13" fill="#5b6470" text-anchor="middle">24 items</text>
+  <rect x="196" y="232" width="232" height="164" rx="4" fill="#ffffff" stroke="#e2e6ec"/>
+  <circle cx="278" cy="296" r="9" fill="#13294B"/>
+  <circle cx="315" cy="294" r="9" fill="#13294B"/>
+  <rect x="337" y="287" width="18" height="18" fill="#D50032"/>
+  <rect x="272" y="322" width="18" height="18" fill="#D50032"/>
+  <circle cx="310" cy="329" r="9" fill="#D50032"/>
+  <rect x="337" y="321" width="18" height="18" fill="#D50032"/>
+  <text x="312" y="411" font-size="13" fill="#5b6470" text-anchor="middle">6 items</text>
+  <rect x="450" y="232" width="232" height="164" rx="4" fill="#ffffff" stroke="#e2e6ec"/>
+  <circle cx="479" cy="260" r="9" fill="#13294B"/>
+  <circle cx="518" cy="261" r="9" fill="#13294B"/>
+  <rect x="539" y="251" width="18" height="18" fill="#D50032"/>
+  <rect x="571" y="251" width="18" height="18" fill="#D50032"/>
+  <rect x="606" y="253" width="18" height="18" fill="#D50032"/>
+  <rect x="644" y="253" width="18" height="18" fill="#D50032"/>
+  <rect x="471" y="291" width="18" height="18" fill="#D50032"/>
+  <rect x="507" y="287" width="18" height="18" fill="#D50032"/>
+  <circle cx="546" cy="294" r="9" fill="#13294B"/>
+  <rect x="572" y="287" width="18" height="18" fill="#D50032"/>
+  <circle cx="616" cy="299" r="9" fill="#13294B"/>
+  <circle cx="651" cy="296" r="9" fill="#13294B"/>
+  <rect x="475" y="323" width="18" height="18" fill="#D50032"/>
+  <rect x="505" y="321" width="18" height="18" fill="#D50032"/>
+  <circle cx="548" cy="329" r="9" fill="#13294B"/>
+  <rect x="573" y="324" width="18" height="18" fill="#D50032"/>
+  <rect x="611" y="324" width="18" height="18" fill="#D50032"/>
+  <circle cx="652" cy="329" r="9" fill="#D50032"/>
+  <circle cx="479" cy="366" r="9" fill="#13294B"/>
+  <circle cx="518" cy="367" r="9" fill="#13294B"/>
+  <circle cx="546" cy="366" r="9" fill="#13294B"/>
+  <rect x="572" y="357" width="18" height="18" fill="#D50032"/>
+  <rect x="608" y="359" width="18" height="18" fill="#D50032"/>
+  <rect x="641" y="354" width="18" height="18" fill="#D50032"/>
+  <text x="566" y="411" font-size="13" fill="#5b6470" text-anchor="middle">24 items</text>
+  <text x="180" y="104" font-size="14" fill="#1a1a1a" text-anchor="end" font-weight="bold">Feature search</text>
+  <text x="180" y="122" font-size="12" fill="#5b6470" text-anchor="end">one property differs</text>
+  <text x="180" y="310" font-size="14" fill="#1a1a1a" text-anchor="end" font-weight="bold">Conjunction search</text>
+  <text x="180" y="328" font-size="12" fill="#5b6470" text-anchor="end">only the combination differs</text>
+</svg>

@@ -42,7 +42,7 @@ project:
     - index.qmd
     - course_overview/course_overview_reading.md
     - mind_and_brain/mind_and_brain_reading.md
-    - comparative_approaches/index.qmd
+    - comparative_approaches/comparative_approaches_reading.md
     - neurons_and_neural_communication/index.qmd
     - neural_circuits_affect_and_valence/index.qmd
     - learning_and_plasticity/index.qmd
@@ -99,8 +99,8 @@ website:
             href: course_overview/course_overview_reading.md
           - text: "1 · Mind & Brain"
             href: mind_and_brain/mind_and_brain_reading.md
-          - text: "2 · Comparative Approaches — coming soon"
-            href: comparative_approaches/index.qmd
+          - text: "2 · Comparative Approaches"
+            href: comparative_approaches/comparative_approaches_reading.md
 
       - section: "The First Nervous Systems"
         contents:

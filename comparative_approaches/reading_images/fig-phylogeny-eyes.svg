@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="660" height="400" font-family="Cambria, Calibri, Arial, sans-serif" role="img">
+  <line x1="98" y1="30" x2="470" y2="30" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="247" y1="64" x2="470" y2="64" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="322" y1="98" x2="470" y2="98" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="322" y1="132" x2="470" y2="132" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="322" y1="166" x2="470" y2="166" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="322" y1="200" x2="470" y2="200" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="322" y1="98" x2="322" y2="200" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="247" y1="149" x2="322" y2="149" stroke="#5b6470" stroke-width="1.4"/>
+  <circle cx="322" cy="149" r="3.2" fill="#ffffff" stroke="#5b6470" stroke-width="1.2"/>
+  <line x1="247" y1="64" x2="247" y2="149" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="173" y1="106" x2="247" y2="106" stroke="#5b6470" stroke-width="1.4"/>
+  <circle cx="247" cy="106" r="3.2" fill="#ffffff" stroke="#5b6470" stroke-width="1.2"/>
+  <line x1="322" y1="234" x2="470" y2="234" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="396" y1="268" x2="470" y2="268" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="396" y1="302" x2="470" y2="302" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="396" y1="268" x2="396" y2="302" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="322" y1="285" x2="396" y2="285" stroke="#5b6470" stroke-width="1.4"/>
+  <circle cx="396" cy="285" r="3.2" fill="#ffffff" stroke="#5b6470" stroke-width="1.2"/>
+  <line x1="322" y1="234" x2="322" y2="285" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="247" y1="260" x2="322" y2="260" stroke="#5b6470" stroke-width="1.4"/>
+  <circle cx="322" cy="260" r="3.2" fill="#ffffff" stroke="#5b6470" stroke-width="1.2"/>
+  <line x1="322" y1="336" x2="470" y2="336" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="322" y1="370" x2="470" y2="370" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="322" y1="336" x2="322" y2="370" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="247" y1="353" x2="322" y2="353" stroke="#5b6470" stroke-width="1.4"/>
+  <circle cx="322" cy="353" r="3.2" fill="#ffffff" stroke="#5b6470" stroke-width="1.2"/>
+  <line x1="247" y1="260" x2="247" y2="353" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="173" y1="306" x2="247" y2="306" stroke="#5b6470" stroke-width="1.4"/>
+  <circle cx="247" cy="306" r="3.2" fill="#ffffff" stroke="#5b6470" stroke-width="1.2"/>
+  <line x1="173" y1="106" x2="173" y2="306" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="98" y1="206" x2="173" y2="206" stroke="#5b6470" stroke-width="1.4"/>
+  <circle cx="173" cy="206" r="3.2" fill="#ffffff" stroke="#5b6470" stroke-width="1.2"/>
+  <line x1="98" y1="30" x2="98" y2="206" stroke="#5b6470" stroke-width="1.4"/>
+  <line x1="24" y1="118" x2="98" y2="118" stroke="#5b6470" stroke-width="1.4"/>
+  <circle cx="98" cy="118" r="3.2" fill="#ffffff" stroke="#5b6470" stroke-width="1.2"/>
+  <circle cx="470" cy="30" r="6" fill="#ffffff" stroke="#5b6470" stroke-width="1.5"/>
+  <text x="494" y="34" font-size="13.5" fill="#1a1a1a">Jellyfish</text>
+  <circle cx="470" cy="64" r="6" fill="#ffffff" stroke="#5b6470" stroke-width="1.5"/>
+  <text x="494" y="68" font-size="13.5" fill="#1a1a1a">Sea star</text>
+  <circle cx="470" cy="98" r="6" fill="#13294B" stroke="#13294B" stroke-width="1.5"/>
+  <text x="494" y="102" font-size="13.5" fill="#1a1a1a">Lamprey</text>
+  <circle cx="470" cy="132" r="6" fill="#13294B" stroke="#13294B" stroke-width="1.5"/>
+  <text x="494" y="136" font-size="13.5" fill="#1a1a1a">Frog</text>
+  <circle cx="470" cy="166" r="6" fill="#13294B" stroke="#13294B" stroke-width="1.5"/>
+  <text x="494" y="170" font-size="13.5" fill="#1a1a1a">Crow</text>
+  <circle cx="470" cy="200" r="6" fill="#13294B" stroke="#13294B" stroke-width="1.5"/>
+  <text x="494" y="204" font-size="13.5" fill="#1a1a1a">Human</text>
+  <circle cx="470" cy="234" r="6" fill="#ffffff" stroke="#5b6470" stroke-width="1.5"/>
+  <text x="494" y="238" font-size="13.5" fill="#1a1a1a">Earthworm</text>
+  <circle cx="470" cy="268" r="6" fill="#ffffff" stroke="#5b6470" stroke-width="1.5"/>
+  <text x="494" y="272" font-size="13.5" fill="#1a1a1a">Snail</text>
+  <circle cx="470" cy="302" r="6" fill="#13294B" stroke="#13294B" stroke-width="1.5"/>
+  <text x="494" y="306" font-size="13.5" fill="#1a1a1a">Octopus</text>
+  <circle cx="470" cy="336" r="6" fill="#ffffff" stroke="#5b6470" stroke-width="1.5"/>
+  <text x="494" y="340" font-size="13.5" fill="#1a1a1a">Fly</text>
+  <circle cx="470" cy="370" r="6" fill="#ffffff" stroke="#5b6470" stroke-width="1.5"/>
+  <text x="494" y="374" font-size="13.5" fill="#1a1a1a">Crab</text>
+  <circle cx="30" cy="382" r="6" fill="#13294B"/>
+  <text x="42" y="386" font-size="12" fill="#5b6470">has a camera-type eye</text>
+  <circle cx="200" cy="382" r="6" fill="#ffffff" stroke="#5b6470" stroke-width="1.5"/>
+  <text x="212" y="386" font-size="12" fill="#5b6470">does not</text>
+</svg>

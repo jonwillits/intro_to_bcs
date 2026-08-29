@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 614 290" width="614" height="290" font-family="Cambria, Calibri, Arial, sans-serif" role="img">
+  <rect x="18" y="111" width="136" height="68" rx="5" fill="#f4f7fb" stroke="#e2e6ec"/>
+  <text x="86" y="137" font-size="13.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold">One observed</text>
+  <text x="86" y="157" font-size="13.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold">resemblance</text>
+  <path d="M 168 145 H 182 V 55 H 196" fill="none" stroke="#5b6470" stroke-width="1.4"/>
+  <rect x="196" y="18" width="400" height="74" rx="5" fill="#ffffff" stroke="#e2e6ec"/>
+  <text x="210" y="38" font-size="11.5" fill="#5b6470" letter-spacing="0.4">THE FIRST QUESTION</text>
+  <text x="210" y="59" font-size="14" fill="#1a1a1a" font-weight="bold">Where did the similarity come from?</text>
+  <text x="210" y="79" font-size="12.5" fill="#5b6470">shared origin  ·  shared problem  ·  coincidence</text>
+  <path d="M 168 145 H 182 V 145 H 196" fill="none" stroke="#5b6470" stroke-width="1.4"/>
+  <rect x="196" y="108" width="400" height="74" rx="5" fill="#ffffff" stroke="#e2e6ec"/>
+  <text x="210" y="128" font-size="11.5" fill="#5b6470" letter-spacing="0.4">THE SECOND QUESTION</text>
+  <text x="210" y="149" font-size="14" fill="#1a1a1a" font-weight="bold">How deep does the similarity go?</text>
+  <text x="210" y="169" font-size="12.5" fill="#5b6470">outward behavior  ·  the procedure  ·  the machinery</text>
+  <path d="M 168 145 H 182 V 235 H 196" fill="none" stroke="#5b6470" stroke-width="1.4"/>
+  <rect x="196" y="198" width="400" height="74" rx="5" fill="#ffffff" stroke="#e2e6ec"/>
+  <text x="210" y="218" font-size="11.5" fill="#5b6470" letter-spacing="0.4">THE THIRD QUESTION</text>
+  <text x="210" y="239" font-size="14" fill="#1a1a1a" font-weight="bold">How precisely can it be stated?</text>
+  <text x="210" y="259" font-size="12.5" fill="#5b6470">loose resemblance  ·  same conditions  ·  same failures</text>
+</svg>
