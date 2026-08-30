@@ -11,7 +11,7 @@ title: "7. Pattern Recognition"
 
 The problem of recognizing the same thing twice — far harder than it feels from the inside — and how both the cortex and artificial neural networks go about solving it.
 
-**Expected on the site:** September 28
+**Expected on the site:** October 2
 :::
 
 In the meantime, the [interactive labs](https://jonwillits.github.io/bcogapp/) are available for the modules that have them.

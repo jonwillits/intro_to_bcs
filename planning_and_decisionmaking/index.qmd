@@ -11,7 +11,7 @@ title: "12. Planning & Decision-Making"
 
 Choosing among futures you have never experienced — how a mind models consequences, weighs them against each other, and commits to one.
 
-**Expected on the site:** November 2
+**Expected on the site:** November 6
 :::
 
 In the meantime, the [interactive labs](https://jonwillits.github.io/bcogapp/) are available for the modules that have them.

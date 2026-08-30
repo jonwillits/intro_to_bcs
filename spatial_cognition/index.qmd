@@ -11,7 +11,7 @@ title: "9. Spatial Cognition"
 
 How an animal knows where it is and how it gets somewhere else: maps, landmarks, routes, and the cells that turn out to represent them.
 
-**Expected on the site:** October 12
+**Expected on the site:** October 16
 :::
 
 In the meantime, the [interactive labs](https://jonwillits.github.io/bcogapp/) are available for the modules that have them.

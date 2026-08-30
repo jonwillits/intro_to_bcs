@@ -11,7 +11,7 @@ title: "14. Symbolic Cognition"
 
 Symbols, logic, and abstraction: how minds came to manipulate things that stand for other things, and what that capacity buys them.
 
-**Expected on the site:** November 16
+**Expected on the site:** November 20
 :::
 
 In the meantime, the [interactive labs](https://jonwillits.github.io/bcogapp/) are available for the modules that have them.

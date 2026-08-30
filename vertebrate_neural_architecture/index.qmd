@@ -11,7 +11,7 @@ title: "6. Vertebrate Neural Architecture"
 
 What the vertebrate brain added to the nervous systems that came before it, which of its structures are oldest, and how its anatomy maps onto what it does.
 
-**Expected on the site:** September 21
+**Expected on the site:** September 25
 :::
 
 In the meantime, the [interactive labs](https://jonwillits.github.io/bcogapp/) are available for the modules that have them.

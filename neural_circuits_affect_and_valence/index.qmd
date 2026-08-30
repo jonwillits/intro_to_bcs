@@ -11,7 +11,7 @@ title: "4. Neural Circuits, Affect & Valence"
 
 The first nervous systems — jellyfish, anemones, worms — and how a handful of connected neurons is enough to compute, to value some outcomes over others, and to act on the difference.
 
-**Expected on the site:** September 7
+**Expected on the site:** September 11
 :::
 
 In the meantime, the [interactive labs](https://jonwillits.github.io/bcogapp/) are available for the modules that have them.

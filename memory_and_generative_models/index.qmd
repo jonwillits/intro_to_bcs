@@ -11,7 +11,7 @@ title: "10. Memory, Imagination & Generative Models"
 
 Memory as reconstruction rather than playback — and what follows once you notice that remembering the past and imagining the future run on the same machinery.
 
-**Expected on the site:** October 19
+**Expected on the site:** October 23
 :::
 
 In the meantime, the [interactive labs](https://jonwillits.github.io/bcogapp/) are available for the modules that have them.

@@ -11,7 +11,7 @@ title: "5. Learning & Plasticity"
 
 Why it pays for an organism to change, and the three families of learning that make it possible: associative, error-driven, and reinforcement. Then what actually changes in a synapse.
 
-**Expected on the site:** September 14
+**Expected on the site:** September 18
 :::
 
 In the meantime, the [interactive labs](https://jonwillits.github.io/bcogapp/) are available for the modules that have them.

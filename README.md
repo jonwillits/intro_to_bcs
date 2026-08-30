@@ -16,9 +16,9 @@ Organizationally, the first three modules (0,1, and 2) set the stage for what th
 - Marr's Three Levels — and how they organize the rest of the course (computational/evolutionary, algorithmic/cognitive & AI, implementational/neuroscience)
 
 2. Comparative Approaches
-- Evolution and Comparisons Across Species
-- Comparing Natural and Artificial Intelligence
-- Neuroscience and Cognitive Psychology
+- The Comparative Method
+- Comparisons Across Species
+- Comparing Minds, Machines, and Methods
 
 3. Neurons and Neural Communication
 - Computational: The Evolutionary Function of Neurons

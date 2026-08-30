@@ -11,7 +11,7 @@ title: "15. Culture & Cognition"
 
 Literacy, numerical cognition, and art — capacities no individual brain evolved to have, but which reshape the brains that acquire them.
 
-**Expected on the site:** November 23
+**Expected on the site:** December 4
 :::
 
 In the meantime, the [interactive labs](https://jonwillits.github.io/bcogapp/) are available for the modules that have them.

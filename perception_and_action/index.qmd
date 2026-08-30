@@ -11,7 +11,7 @@ title: "8. Perception & Action"
 
 How perceptual and motor systems evolved together in vertebrates, mammals, and primates, and why perception is inseparable from what the organism is about to do.
 
-**Expected on the site:** October 5
+**Expected on the site:** October 9
 :::
 
 In the meantime, the [interactive labs](https://jonwillits.github.io/bcogapp/) are available for the modules that have them.

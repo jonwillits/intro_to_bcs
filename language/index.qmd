@@ -11,7 +11,7 @@ title: "13. Language"
 
 What makes human language different from every other communication system we know of, how it is structured, and how it is learned and understood.
 
-**Expected on the site:** November 9
+**Expected on the site:** November 13
 :::
 
 In the meantime, the [interactive labs](https://jonwillits.github.io/bcogapp/) are available for the modules that have them.

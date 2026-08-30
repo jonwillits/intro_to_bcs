@@ -11,7 +11,7 @@ title: "3. Neurons & Neural Communication"
 
 Why animals evolved neurons at all, how a neuron turns its inputs into an all-or-nothing signal, and what it costs the body to run one. The artificial neuron appears here too, as a deliberate point of comparison.
 
-**Expected on the site:** August 31
+**Expected on the site:** September 4
 :::
 
 In the meantime, the [interactive labs](https://jonwillits.github.io/bcogapp/) are available for the modules that have them.

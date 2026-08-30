@@ -11,7 +11,7 @@ title: "11. Social Cognition"
 
 What changes when the most important thing in your environment is another mind: cooperation, competition, and the problem of reading intentions you cannot observe.
 
-**Expected on the site:** October 26
+**Expected on the site:** October 30
 :::
 
 In the meantime, the [interactive labs](https://jonwillits.github.io/bcogapp/) are available for the modules that have them.
