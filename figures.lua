@@ -14,7 +14,7 @@
 
   ---------------------------------------------------------------- DECLARING
 
-    ![The caption.](images/thing.png){#fig-thing alt="What a reader who cannot
+    ![The caption.](images/thing.png){#f-thing alt="What a reader who cannot
     see the figure needs to know."}
 
   Caption and alt text are separate on purpose: the caption says what the figure
@@ -24,7 +24,7 @@
 
   A table is declared the same way, with the id in its caption:
 
-    : The caption. {#tbl-thing}
+    : The caption. {#t-thing}
 
   ------------------------------------------------------------- REFERENCING
 
@@ -32,14 +32,14 @@
   parentheses are generated here, never typed, so nothing is left stranded when
   the figure is absent:
 
-    ...count as the same temperature [](#fig-thing).
+    ...count as the same temperature [](#f-thing).
        present -> ...count as the same temperature (Figure 1.4).
        absent  -> ...count as the same temperature.
 
   Tier 2 — a reference with fallback text. The link text is what survives if the
   figure is missing:
 
-    Compare [the reconstructionist proposal](#fig-thing) and the difference...
+    Compare [the reconstructionist proposal](#f-thing) and the difference...
        present -> Compare Figure 1.4 and the difference...
        absent  -> Compare the reconstructionist proposal and the difference...
 
@@ -86,6 +86,7 @@ local function file_exists(path)
   return false
 end
 
+
 local function is_remote(src)
   return src:match("^https?://") ~= nil or src:match("^data:") ~= nil
 end
@@ -93,6 +94,18 @@ end
 -- ------------------------------------------------------------------ state
 
 local base_dir = input_dir()
+
+-- Two places a relative image path can be right, because the two pipelines
+-- disagree about where "here" is. build_reading.py hands pandoc the reading
+-- itself, so input_files[1] is the real file and base_dir is its folder. Quarto
+-- renders a preprocessed copy from a temp directory, so input_files[1] points
+-- somewhere reading_images/ does not exist — but it sets the working directory
+-- to the document's own folder, so the bare relative path resolves. Accept
+-- either. Measured 2026-08-29: without this every figure on the site is judged
+-- missing and dropped.
+local function src_exists(src)
+  return file_exists(base_dir .. "/" .. src) or file_exists(src)
+end
 local module_no = nil          -- "1" from "# 1. Mind and Brain"
 local figs = {}                -- id -> {id, src, exists, num, refs, declared_order}
 local fig_order = {}
@@ -108,6 +121,29 @@ local function problem(msg)
   problems[#problems + 1] = msg
 end
 
+-- WHY THE IDS ARE "f-" AND "t-" RATHER THAN "fig-" AND "tbl-"
+--
+-- Quarto owns "fig-", "tbl-", "lst-", "sec-", "eq-" and the theorem prefixes:
+-- its native crossref claims any float carrying one, wraps it in its own
+-- quarto-float markup, and numbers it per-document — before this filter ever
+-- sees a Figure node. The result was a site that numbered every float bare
+-- while the PDF numbered it per module, and, worse, dropped every bare
+-- reference on the floor, because an empty link is not Quarto's "@fig-x"
+-- syntax and it has no use for one.
+--
+-- Measured 2026-08-29 (course_creation/tools/reading_pdf/crossref_test): with
+-- "fig-"/"tbl-" ids Quarto produced 12 float wrappers and swallowed the
+-- references; with "f-"/"t-" it produced none and left everything to this
+-- filter, which then numbered correctly and per module. Positioning the filter
+-- earlier with `at: pre-quarto` changed nothing, so the prefix is the whole
+-- lever. figure_pipeline_proposal.md Part 3 called this collision and proposed
+-- exactly this remedy — "a deliberately distinct syntax that Quarto's crossref
+-- will never claim" — which is what these two constants are.
+--
+-- Do not change them back to anything Quarto reserves.
+local FIG_PREFIX, TBL_PREFIX = "f-", "t-"
+local FIG_PAT, TBL_PAT = "^f%-", "^t%-"
+
 -- A non-breaking space keeps "Figure 1.4" from splitting across a line break,
 -- which otherwise happens often enough to notice in a two-column-ish measure.
 local NBSP = "\u{00A0}"
@@ -117,7 +153,7 @@ local function label(kind, num)
   return string.format("%s%s%d", kind, NBSP, num)
 end
 
--- A trailing {#tbl-xxx} on a table caption. Pandoc does not parse an attribute
+-- A trailing {#t-xxx} on a table caption. Pandoc does not parse an attribute
 -- there (that is a Quarto crossref extension, and the PDF path is plain pandoc),
 -- so it arrives as a single Str at the end of the caption.
 --
@@ -135,13 +171,13 @@ end
 local function peek_table_id(inlines)
   local i = last_content_index(inlines)
   if not i or inlines[i].t ~= "Str" then return nil end
-  return inlines[i].text:match("^{#(tbl%-[%w%-_]+)}$")
+  return inlines[i].text:match("^{#(" .. TBL_PREFIX:gsub("%-", "%%-") .. "[%w%-_]+)}$")
 end
 
 local function strip_table_id(inlines)
   local i = last_content_index(inlines)
   if not i or inlines[i].t ~= "Str" then return end
-  if not inlines[i].text:match("^{#tbl%-[%w%-_]+}$") then return end
+  if not inlines[i].text:match("^{#" .. TBL_PREFIX:gsub("%-", "%%-") .. "[%w%-_]+}$") then return end
   for j = #inlines, i, -1 do table.remove(inlines, j) end
   if inlines[#inlines] and inlines[#inlines].t == "Space" then
     table.remove(inlines, #inlines)
@@ -158,24 +194,6 @@ end
 
 -- ------------------------------------------------------- pass 1: collect
 
--- Where the module number comes from, and why there are two sources.
---
--- The PDF leg keeps the reading's "# 2. Comparative Approaches" as a level-1
--- Header in the body, so the walk below finds it. The SITE leg does not: Quarto
--- promotes a leading H1 to the document title and removes it from the body, so
--- by the time this filter runs there is no Header of level 1 to find, module_no
--- stays nil, and every label falls back to the unqualified form. The result was
--- a site that said "Figure 2" for the same float the PDF called "Figure 2.2" —
--- one filter, one rule, two disagreeing outputs, which is exactly what putting
--- the logic in a shared filter was supposed to prevent.
---
--- So: try the H1, then the title metadata Quarto moved it into. Strictly
--- additive — if neither yields a number the old behaviour is unchanged.
-local function module_from_meta(meta)
-  if not meta or not meta.title then return nil end
-  return stringify(meta.title):match("^%s*(%d+)%.")
-end
-
 local function collect(doc)
   doc:walk {
     Header = function(h)
@@ -186,12 +204,12 @@ local function collect(doc)
     Figure = function(f)
       local id = f.identifier
       if id == "" then
-        problem('a figure has no id — add {#fig-something} so it can be referenced: "'
+        problem('a figure has no id — add {#' .. FIG_PREFIX .. 'something} so it can be referenced: "'
                 .. stringify(f.caption.long):sub(1, 60) .. '"')
         return
       end
-      if not id:match("^fig%-") then
-        problem('figure id "' .. id .. '" does not start with "fig-"')
+      if not id:match(FIG_PAT) then
+        problem('figure id "' .. id .. '" does not start with "' .. FIG_PREFIX .. '"')
       end
       if figs[id] then
         problem('duplicate figure id "' .. id .. '"')
@@ -199,7 +217,7 @@ local function collect(doc)
       end
       local im = image_in(f.content)
       local src = im and im.src or ""
-      local exists = src ~= "" and (is_remote(src) or file_exists(base_dir .. "/" .. src))
+      local exists = src ~= "" and (is_remote(src) or src_exists(src))
       if #f.caption.long == 0 then
         problem('figure "' .. id .. '" has no caption')
       elseif im then
@@ -224,18 +242,14 @@ local function collect(doc)
       if #t.caption.long == 0 then return end     -- uncaptioned tables are unnumbered
       local cap = t.caption.long[1]
       local id = (cap.content and peek_table_id(cap.content)) or nil
-      id = id or ("tbl-anon-" .. (#tbl_order + 1))
+      id = id or (TBL_PREFIX .. "anon-" .. (#tbl_order + 1))
       if tbls[id] then problem('duplicate table id "' .. id .. '"'); return end
       tbls[id] = { id = id, refs = 0 }
       tbl_order[#tbl_order + 1] = id
     end,
   }
-  if module_no == nil then
-    module_no = module_from_meta(doc.meta)
-  end
   if module_no == nil and (#fig_order > 0 or #tbl_order > 0) then
-    problem("no module number found in the H1 or the title metadata "
-            .. "(expected \"# 1. Title\") — "
+    problem("no module number found in the H1 (expected \"# 1. Title\") — "
             .. "labels will be unqualified, e.g. \"Figure 1\" rather than \"Figure 1.1\"")
   end
 
@@ -269,7 +283,7 @@ local function resolve_link(lk)
   local rec, kind
   if figs[target] then rec, kind = figs[target], "Figure"
   elseif tbls[target] then rec, kind = tbls[target], "Table"
-  elseif target:match("^fig%-") or target:match("^tbl%-") then
+  elseif target:match(FIG_PAT) or target:match(TBL_PAT) then
     problem('reference to "#' .. target .. '" but nothing declares that id')
     return { present = false, inlines = lk.content }
   else
@@ -345,7 +359,7 @@ local function rewrite(doc)
         problem("an if-figure/no-figure block has no fig= attribute")
         return nil
       end
-      local id = key:match("^fig%-") and key or ("fig-" .. key)
+      local id = key:match(FIG_PAT) and key or (FIG_PREFIX .. key)
       local rec = figs[id]
       if not rec then
         problem('conditional block refers to "' .. id .. '" but nothing declares it')
