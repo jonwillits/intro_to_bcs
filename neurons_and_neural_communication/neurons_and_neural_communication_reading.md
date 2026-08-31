@@ -1,5 +1,35 @@
 # 3. Neurons and Neural Communication
 
+This module is about the neuron: the cell that turns an event into a fast, precisely aimed signal, and the first piece of biological machinery this course examines at all three of Marr’s levels. While reading, look for the beginnings of answers to these:
+
+- What problem were neurons the solution to, and why did only some kinds of living thing ever need to solve it?
+- What does a single neuron actually compute, and how much of a mind could be built out of something that simple?
+- If every signal a neuron sends is identical to every other one, where is the information?
+- What does it cost to think, and who pays the bill?
+- The unit at the center of modern artificial intelligence is named after this cell. How close is the resemblance, and where does it break down?
+
+By the end we should have a working answer to each, and the beginning of a habit: three questions that can be asked of anything this course puts in front of us.
+
+Most of us learn at some point that a cell has parts. A nucleus holding its DNA. Mitochondria supplying its energy. A membrane holding the whole thing together, and small machines inside it that build proteins to order. The list is familiar enough that it is easy to stop finding it strange, and it is very strange. Somewhere in this planet’s first billion years or so, lifeless chemistry became organized into something that maintains itself, powers itself, repairs itself, and makes more of itself. Nothing about chemistry suggests it should do any of that. Two questions grow out of the strangeness, and this chapter is built on both: where did that complexity come from, and how could life ever afford it?
+
+Of all the kinds of cell that complexity eventually produced, one is responsible for minds. It senses, it signals, and in a small way it decides. Something like eighty-six billion of them, wired to one another, are doing the reading that is going on right now.
+
+The first three modules built the frame this course reasons inside. Module 0 asked what brain and cognitive science is. Module 1 asked how mind relates to brain, and adopted three levels of explanation for answering questions about either. Module 2 asked what can be learned by setting two systems side by side, and laid down the evolutionary spine the rest of the course walks along. From here we walk it, and the first step is the cell that makes minds physically possible. Two things about that cell organize this chapter. It is the animal’s answer to a problem that ordinary chemical signaling could not solve fast enough. And it is the body’s first great metabolic outlier, extraordinarily expensive to run.
+
+Module 1 adopted Marr’s three levels and promised that from there on the course would take one capacity at a time and work it at all three. Module 2 handed that promise directly to this module, and this is where it comes due. So this chapter has three sections, one for each level, matching the week’s three class meetings [](#t-levels-neuron). §3.1 asks why neurons evolved. §3.2 asks what a neuron computes. §3.3 asks how a living cell physically manages it, and what it costs to run. That is the shape every remaining module of this course takes, and this is the first time it appears.
+
+: Marr’s three levels, the question each asks, the discipline that asks it, and this module’s example. Every module from here on reprints this table with its own example in the last column. {#t-levels-neuron}
+
+| Level | The question it asks | Discipline | This module’s example: the neuron |
+|---|---|---|---|
+| Computational | What problem is being solved, and why does solving it matter? | Evolution and ecology | Fast, long-distance, reliable signaling, for an animal that must sense, decide, and act before something else does |
+| Algorithmic | What is represented, and by what procedure? | Cognitive psychology and AI | Receive, integrate, transmit; a threshold, and an all-or-nothing spike |
+| Implementational | By what physical means, and at what cost? | Neuroscience | Ion gradients across a membrane, the sodium-potassium pump, and the action potential |
+
+One thread runs through all three levels, and it is worth watching for deliberately. Neurons are expensive. Animals could afford them only after a revolution in the way living things capture energy, and the price of running them still shapes how brains are built today. The story that opens §3.1, about how life became rich enough to build neurons at all, is the same story that closes §3.3, about why the brain is the most expensive organ in the body.
+
+A second thread starts here and runs to the end of the course: the comparison between natural and artificial minds. It begins at the smallest scale available, a single cell, because the unit at the heart of modern artificial intelligence is also called a neuron and was built as a stripped-down copy of this one. We will set the two beside each other as we go, and look hardest at the place where they turn out to differ most, which is not what they compute but what they are made of.
+
 ## §3.1 — Computational: Why Neurons Evolved
 
 ### §3.1.1 — The Computational Question
@@ -254,3 +284,13 @@ The energy figures make the divergence concrete. Eighty-six billion neurons run 
 Which closes the arc this chapter opened. §3.1 began with life that was too poor to afford much of anything, and traced how a chemical accident, oxygen, made an expensive kind of cell possible for the first time. §3.3 ends with the organ that spends more of that inheritance than any other. It is one continuous story: neurons exist because life became rich enough to run them, and they are built the way they are because even now, life cannot quite afford to run them carelessly. That cost is not only a constraint on brains, either. It is also how we see them working, since functional brain imaging does not detect thought or activity directly. What the *BOLD* signal in an fMRI scan tracks is blood delivering oxygen to regions that are spending it, which means every image of a working brain anyone has ever shown you is, underneath, a picture of where the energy is going.
 
 We have now built a neuron three times over: once as a solution to a problem, once as a function, and once as a physical machine with a running cost.
+
+## Close — From a Neuron to a Nervous System
+
+One cell, examined three times. We asked why it evolved, and the answer was a problem: animals make a living by moving through a world that moves back, and the animal that senses, decides, and acts a fraction of a second sooner is the one that eats rather than being eaten. We asked what it computes, and the answer was three verbs and a threshold — receive, integrate, transmit, then fire or stay silent. We asked how biology manages it, and the answer was a set of gradients held under tension by a pump that never stops, and a self-propagating collapse that runs the length of an axon in a millisecond. Three questions, one cell, three answers that do not resemble one another in the slightest and do not compete. That is a full turn of the wheel Module 1 promised, and it will now turn once per module for the rest of this course.
+
+Energy ran the whole length of it. Neurons became affordable only after oxygen made life rich enough to pay for them, and the brain still spends a fifth of the body’s resting budget staying ready and cleaning up after itself. The artificial parallel ran the whole length of it too, from a unit named after this cell and modeled on it to the one place where the comparison genuinely strains, which is not the algorithm but the substrate.
+
+A neuron on its own, though, does very little. It sums what arrives and answers a single yes-or-no question, and even a loose net of such cells can do no more than connect a sensation to a movement. It cannot weigh two goals against each other. It cannot hold a state that outlasts the input that caused it. It cannot treat one thing as worth approaching and another as worth fleeing, and it has no way to change that verdict when the animal grows hungry. None of those abilities comes from building a better neuron. They come from arranging ordinary ones into circuits.
+
+Which is where Module 4 begins: neurons wired into the first nervous systems, and the origin of value — how an arrangement of cells comes to treat some things as good and others as bad, and to act differently depending on the state it is in. Further out, Module 5 asks how a synapse changes with experience, Module 6 scales this plan up into a vertebrate brain, and Module 7 asks what a nervous system built this way is able to perceive.
