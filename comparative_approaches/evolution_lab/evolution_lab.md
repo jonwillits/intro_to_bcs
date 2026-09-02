@@ -9,10 +9,12 @@ Your job in this lab is to watch that happen, take the process apart to see what
 1. Open the simulation in your web browser: [Evolving Vehicles](https://jonwillits.github.io/bcogapp/#/m02-evolution). As before, it runs in any modern browser, and there is nothing to install.
 2. Download the lab report Microsoft Word document. It is available here: [Lab 2 Report](https://github.com/jonwillits/intro_to_bcs/blob/master/comparative_approaches/evolution_lab/evolution_lab_report.docx) This document is what you will turn in to the course website.
 
-Most of the controls are the ones you already know. You can still left-click the ground to add a light and right-click to remove one, still drag to move the camera, and still click a vehicle to open its wiring panel. Four things are new:
+Most of the controls are the ones you already know. You can still left-click the ground to add a light and right-click to remove one, still drag to move the camera, and still click a vehicle to open its wiring panel. Five things are new:
 
-- **A light is now food.** A vehicle gains energy while it sits in the light, and loses it otherwise.
-- **The population breeds.** The simulation runs in **generations**. At the end of each one, the vehicles that gathered the most energy leave offspring and the rest do not. Offspring inherit their parent's wiring, with small random changes.
+- **Food is four patches that drift.** Each one gives out a steady trickle of energy and never runs out, but it wanders slowly across the floor, so a vehicle has to keep up with it. A patch's energy is **shared among everyone feeding on it**, and the closer you are the bigger your share — so crowding onto one patch costs you.
+- **Moving costs energy.** The faster a vehicle's actuators are driven, the more it spends. A vehicle that races around the arena without finding anything will run itself down, and one that sits still spends almost nothing — but food drifts away from whoever is not following it.
+- **There are no generations.** Nothing happens in rounds and nothing is reset. Each vehicle is born, lives about a minute, and dies of old age. The arena holds a fixed number at a time, so a new vehicle is born only when one dies — and the slot goes to whichever adult has stored the most energy. Offspring inherit their parent's wiring, with small random changes.
+- **Colour now tells you the wiring.** In Lab 1 colour was a label for the variety. Here a vehicle's body colour is computed from its connection strengths, so two vehicles of the same colour really are wired alike. The trait that is *inherited but has nothing to do with behaviour* is the **mark** — the small bead each vehicle carries. Keep the two apart; you will need the difference later.
 - **You cannot set the wiring by hand any more.** The sliders from Lab 1 are gone. Wiring is now something a vehicle inherits.
 - **There is a panel showing the whole population at once**, not just one vehicle: where every individual's wiring sits, how much energy the population is gathering, and what colors the vehicles are.
 
@@ -22,13 +24,13 @@ Most of the controls are the ones you already know. You can still left-click the
 Before taking anything apart, see what the process does.
 
 ### Instructions
-1. Press **Reset**, leave every control at its default, and place three or four lights around the floor of the pit.
-2. Turn the speed up and let it run for **50 generations**. It should take a minute or two.
-3. Watch the world, and watch the population panel beside it.
+1. Press **Reset simulation** and leave every control at its default. The world already starts with food in it, so do not add any of your own for this part — how much food there is turns out to matter, and you want the default amount.
+2. Turn the speed up and let it run until about **150 vehicles have been born**. The panel counts them for you under **Born since the start**. It should take a minute or two.
+3. Watch the world, and watch the population panel beside it — especially the cloud showing where every individual's wiring sits, and the **mark** distribution underneath it.
 
 ### What to Record
-- **Q1.** Describe what happened over those 50 generations, in everyday language. Don't try to be technical. Write it the way you would tell a friend what you just watched.
-- **Q2.** Write down the **generation number** you stopped at, the **average energy** the population was gathering at generation 1 and at generation 50, and the **body color** of most of the population at the end.
+- **Q1.** Describe what happened over that run, in everyday language. Don't try to be technical. Write it the way you would tell a friend what you just watched.
+- **Q2.** From the population panel, write down **how many were born** by the time you stopped, **births per minute early on** and **now**, and — from the mark distribution — **which mark most of the population ends up wearing**, and what percentage wear it.
 
 > Keep your answer to Q1 exactly as you first wrote it. You will be asked to come back to it in Part 4.
 
@@ -38,13 +40,13 @@ Before taking anything apart, see what the process does.
 The reading says evolution by natural selection needs three things to be true of a population: **variation**, **inheritance**, and **differential reproduction**. That is a claim you can test, because this simulation lets you switch each one off.
 
 ### Instructions
-Run each of the following as a separate experiment. Each time, press **Reset (same seed)** first, so that you start from the identical founding population and the only thing that differs is the switch you threw. Run each one for about 30 generations.
+Run each of the following as a separate experiment. Each time, press **Reset simulation** first — it redraws the *identical* founding population, so the only thing that differs is the switch you threw. (The button beside it, **New seed**, draws a different founding population; do not use it here, and remember that it exists — Q20 comes back to this.) Run each one until about 100 vehicles have been born.
 
 1. **Take away variation.** Set the **mutation rate** to **0** and run.
 2. **Take away inheritance.** Restore mutation, set **inheritance** to **off** (offspring now get random wiring), and run.
 3. **Take away selection.** Restore inheritance, set **selection** to **off** (parents are now chosen at random), and run. Then run it a **second time from the same starting population** and compare the two outcomes.
-4. **Shrink the population.** Turn selection back on and set **population size** to its smallest value. Run a few times.
-5. **Change the world.** Restore all the defaults and evolve a well-adapted population for 30 generations. Then, without resetting, switch the **light regime** from **food** to **poison** and keep running.
+4. **Shrink the population.** Turn selection back on and set **How many the arena holds** to its smallest value. Run it a few times. A population this small can die out altogether — if your arena empties, that is a result, not a crash, and it is worth recording how often it happened.
+5. **Change the world.** Restore all the defaults and let a population evolve until about 100 have been born. Then, without resetting, switch the **Light regime** from **Food** to **Poison** and keep running.
 
 ### What to Record
 - **Q3.** With mutation set to zero, what happened? Did the population improve at all, and did it keep improving? Explain what this tells you about where the wiring the population ends up with *came from*.
@@ -59,25 +61,27 @@ Run each of the following as a separate experiment. Each time, press **Reset (sa
 ### Goal
 This is the part the week's reading is about. Two things are alike. Why?
 
-Open the **Lineages** tab. It holds four populations — **W**, **X**, **Y**, and **Z** — that were evolved before you got here. You can run them, put lights wherever you want, and watch them. What you cannot see yet is their wiring or their ancestry. Both are hidden, and you will unhide them in stages. **Do not unhide anything until the step that tells you to.**
+Open the **Lineages** tab. It holds four populations — **W**, **X**, **Y**, and **Z** — that were evolved before you got here. Nothing evolves in this tab: these populations are finished, they do not breed, and the food does not run out, so a light you place stays where you put it for as long as you want to watch. You can run them, put lights wherever you want, and watch them. What you cannot see yet is their wiring or their ancestry. Both are hidden, and you will unhide them in stages. **Do not unhide anything until the step that tells you to.**
 
 ### Instructions and What to Record
 
-**Step 1 — Sort them by behavior.** Put a single light in the middle of the floor and watch all four.
-- **Q9.** Describe what each of W, X, Y and Z does. Then group them: which ones behave alike?
+**Step 1 — What is each one doing?** Put a single light in the middle of the floor and watch all four.
+- **Q9.** Describe what each of W, X, Y and Z does. Then group them by **job**: which of them are getting to the light and staying there, and which is not?
+- **Q9b.** One of the populations that gets to the light does it in a way the others plainly do not. Which one is it, and describe how it moves. Does it still count as doing the same job as the others? Say why or why not.
 
 **Step 2 — Commit to an answer.** For every pair you grouped together in Q9, you now have to say why they are alike, using this week's vocabulary, *before* you are allowed to look.
 - **Q10.** For each similar pair, say whether you think the resemblance is a **homology**, an **analogy**, or a **coincidence**, and give your reason. Guessing is fine. Committing to a guess is the point.
+- **Q10b.** Is there anything *other* than how they behave that makes any two of these four look like they belong together? Write down what you notice, and say whether you think it means anything.
 
 **Step 3 — Look inside.** Now press **Reveal wiring** and click into each population's vehicles, using the same panel you used in Lab 1.
 - **Q11.** For each of W, X, Y and Z, record whether the wiring is ipsilateral, contralateral or fully connected, and whether the connections are excitatory or inhibitory.
-- **Q12.** At least two populations that behave the same way are wired differently. Which ones, and what does that tell you? Answer using the reading's terms **behavioral equivalence** and **mechanistic equivalence**.
+- **Q12.** At least two populations that **do the same job** are wired differently. Which ones, and what does that tell you? Answer using the reading's terms **behavioral equivalence** and **mechanistic equivalence**. Then look back at your answer to Q9b: does the wiring explain the way that population moves?
 
 **Step 4 — Look at the history.** Now press **Reveal tree**, and then open **True history** to see all four on one tree with their founders.
 - **Q13.** Which resemblance turned out to be homology, which turned out to be analogy, and which turned out to be neither? For each, say how the tree tells you so. Then go back to your Q10 answers. Which did you get right, and what misled you on the ones you got wrong?
 
-**Step 5 — Break them.** The reading gives a rule for finding out whether two systems really do the same thing: find out whether they **break the same way**. Two of these populations behave almost identically in the world you have been using. Your job is to design a world in which they do not. Things you can change: where the lights are, how many there are, whether a light sits on the floor or up on the rim, whether a light disappears part-way through, and how much **sensor noise** there is.
-- **Q14.** Describe the test you designed, say what you predicted before running it, and report what happened. Did the two populations come apart? If your first test failed to separate them, describe that one too, and what you tried next.
+**Step 5 — Break them.** The reading gives a rule for finding out whether two systems really do the same thing: find out whether they **break the same way**. You now know that one of these populations is wired differently from the other two. In the world you have been using, that difference shows up as exactly one thing — the way it travels. Your job is to find a world where it shows up as something more. Things you can change: where the lights are and how many, whether a light sits on the floor or out on the raised ground beyond the arena wall, whether you remove a light part-way through while they are heading for it, and how much **sensor noise** there is. **Left-click the ground to add a light, right-click to remove one.** Unlike the food in the other tab, lights here stay where you put them and never run out, which is what makes a test you design repeatable.
+- **Q14.** Describe the test you designed, say what you predicted before running it, and report what happened. Did the odd population do something the other two did not, beyond travelling the way it does? If your first test failed to separate them, describe that one too, and what you tried next.
 
 ## Part 4: What the Comparison Licenses (≈16 minutes)
 
@@ -86,18 +90,18 @@ Step back from the simulation and ask what this hour actually established, and w
 
 ### Instructions and What to Record
 
-**Q15 — The color.** Look again at the body color you recorded in Q2. Nearly the whole population ended up that color. Write the best explanation you can for why that color was favored in that world. Make it a good one — give the argument you would give if you had to defend it.
+**Q15 — The mark.** Look again at the mark you recorded in Q2. Nearly the whole population ended up wearing it. Write the best explanation you can for why that mark was favored in that world. Make it a good one — give the argument you would give if you had to defend it.
 
 *(Do not read ahead until you have written Q15.)*
 
-**Q16.** Body color in this simulation does nothing at all. It is not sensed by anything, it does not affect energy, and it changes nothing about how a vehicle moves. It became common because it happened to belong to the individual whose *wiring* was winning, and it was carried along for the ride.
+**Q16.** The mark does nothing at all. It is not sensed by anything, it does not affect energy, and it changes nothing about how a vehicle moves. (Body **colour** is a different matter — that is computed from the wiring, so it means a great deal. The mark is the one that means nothing.) It became common because it happened to belong to the individual whose *wiring* was winning, and it was carried along for the ride.
 - Given that, what was wrong with the explanation you just wrote — not with your reasoning, but with the question?
 - The reading calls this kind of explanation a **just-so story**, and describes Gould and Lewontin's argument that not every trait is an adaptation. Explain their point using your own Q15 as the example.
 - Here you were told the answer. In real biology, nobody tells you. What follows from that?
 
 **Q17 — Your own words.** Copy the three sentences from your Q1 answer that come closest to describing the population as though it wanted something, tried something, learned something, or was heading somewhere. Then rewrite each one so that it says the same true thing without any of that. If you find you wrote no such sentences, say so, and write the three sentences you were most tempted to write.
 
-**Q18 — Which population is better?** Population **Z** was evolved in a world where light is poison, and it flees light. Population **W** was evolved in a world where light is food, and it approaches light. Put Z into W's world, and W into Z's world, and watch. Then answer: which of the two populations is *better adapted*? Which one is *better*? Explain why those are not the same question, using what the reading says about the ladder of intelligence.
+**Q18 — Which population is better?** Population **Z** was evolved in a world where the lights were dangerous and food was spread everywhere, and it flees light. Population **W** was evolved in a world where the lights *were* the food, and it approaches light. You cannot move these two populations between worlds — the Lineages tab has no light regime — so answer it from what you have already seen: you watched a light-approaching population meet a poison world in Part 2, experiment 5. Which of the two populations is *better adapted*? Which one is *better*? Explain why those are not the same question, using what the reading says about the ladder of intelligence.
 
 **Q19 — Turn it on the simulation.** You have spent an hour calling this evolution. It is a computer program with a few dozen dots in it. The reading gives three senses in which an artificial system can match a natural one: **behavioral equivalence**, **mechanistic equivalence**, and **engineering convenience**. Which one is this simulation, and how do you know? What did using it let you learn that you could not have learned by reading about evolution, and what would you be wrong to conclude from it?
 
