@@ -14,7 +14,7 @@ Most of the controls are the ones you already know. You can still left-click the
 - **Food is four patches that drift.** Each one gives out a steady trickle of energy and never runs out, but it wanders slowly across the floor, so a vehicle has to keep up with it. A patch's energy is **shared among everyone feeding on it**, and the closer you are the bigger your share — so crowding onto one patch costs you.
 - **Moving costs energy.** The faster a vehicle's actuators are driven, the more it spends. A vehicle that races around the arena without finding anything will run itself down, and one that sits still spends almost nothing — but food drifts away from whoever is not following it.
 - **There are no generations.** Nothing happens in rounds and nothing is reset. Each vehicle is born, lives about a minute, and dies of old age. The arena holds a fixed number at a time, so a new vehicle is born only when one dies — and the slot goes to whichever adult has stored the most energy. Offspring inherit their parent's wiring, with small random changes.
-- **Colour now tells you the wiring.** In Lab 1 colour was a label for the variety. Here a vehicle's body colour is computed from its connection strengths, so two vehicles of the same colour really are wired alike. The trait that is *inherited but has nothing to do with behaviour* is the **mark** — the small bead each vehicle carries. Keep the two apart; you will need the difference later.
+- **Colour now tells you the wiring.** In Lab 1 color was a label for the variety. Here a vehicle's body color is computed from its connection strengths, so two vehicles of the same color really are wired alike. The trait that is *inherited but has nothing to do with behavior* is the **mark** — the small bead each vehicle carries. Keep the two apart; you will need the difference later.
 - **You cannot set the wiring by hand any more.** The sliders from Lab 1 are gone. Wiring is now something a vehicle inherits.
 - **There is a panel showing the whole population at once**, not just one vehicle: where every individual's wiring sits, how much energy the population is gathering, and what colors the vehicles are.
 
@@ -94,7 +94,7 @@ Step back from the simulation and ask what this hour actually established, and w
 
 *(Do not read ahead until you have written Q15.)*
 
-**Q16.** The mark does nothing at all. It is not sensed by anything, it does not affect energy, and it changes nothing about how a vehicle moves. (Body **colour** is a different matter — that is computed from the wiring, so it means a great deal. The mark is the one that means nothing.) It became common because it happened to belong to the individual whose *wiring* was winning, and it was carried along for the ride.
+**Q16.** The mark does nothing at all. It is not sensed by anything, it does not affect energy, and it changes nothing about how a vehicle moves. (Body **color** is a different matter — that is computed from the wiring, so it means a great deal. The mark is the one that means nothing.) It became common because it happened to belong to the individual whose *wiring* was winning, and it was carried along for the ride.
 - Given that, what was wrong with the explanation you just wrote — not with your reasoning, but with the question?
 - The reading calls this kind of explanation a **just-so story**, and describes Gould and Lewontin's argument that not every trait is an adaptation. Explain their point using your own Q15 as the example.
 - Here you were told the answer. In real biology, nobody tells you. What follows from that?
