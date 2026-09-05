@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 424" width="780" height="424" font-family="Cambria, Calibri, Arial, sans-serif" role="img">
+<rect x="0" y="0" width="780" height="424" fill="#ffffff"/>
+<rect x="110.0" y="52.0" width="590.0" height="248.0" rx="3" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.0"/>
+<rect x="110.0" y="244.9" width="590.0" height="55.1" fill="#eef3f9"/>
+<line x1="110.0" y1="244.9" x2="700.0" y2="244.9" stroke="#13294B" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="6 4"/>
+<text x="690.0" y="263.9" font-size="12.5" fill="#13294B" text-anchor="end" font-weight="normal" font-style="normal">fast enough to matter to an animal</text>
+<line x1="110.0" y1="52.0" x2="110.0" y2="300.0" stroke="#eef1f5" stroke-width="1" stroke-linecap="round"/>
+<text x="110.0" y="320.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">1 µm</text>
+<line x1="208.3" y1="52.0" x2="208.3" y2="300.0" stroke="#eef1f5" stroke-width="1" stroke-linecap="round"/>
+<text x="208.3" y="320.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">10 µm</text>
+<line x1="306.7" y1="52.0" x2="306.7" y2="300.0" stroke="#eef1f5" stroke-width="1" stroke-linecap="round"/>
+<text x="306.7" y="320.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">100 µm</text>
+<line x1="405.0" y1="52.0" x2="405.0" y2="300.0" stroke="#eef1f5" stroke-width="1" stroke-linecap="round"/>
+<text x="405.0" y="320.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">1 mm</text>
+<line x1="503.3" y1="52.0" x2="503.3" y2="300.0" stroke="#eef1f5" stroke-width="1" stroke-linecap="round"/>
+<text x="503.3" y="320.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">1 cm</text>
+<line x1="601.7" y1="52.0" x2="601.7" y2="300.0" stroke="#eef1f5" stroke-width="1" stroke-linecap="round"/>
+<text x="601.7" y="320.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">10 cm</text>
+<line x1="700.0" y1="52.0" x2="700.0" y2="300.0" stroke="#eef1f5" stroke-width="1" stroke-linecap="round"/>
+<text x="700.0" y="320.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">1 m</text>
+<line x1="110.0" y1="281.6" x2="700.0" y2="281.6" stroke="#eef1f5" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="285.6" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal" font-style="normal">1 ms</text>
+<line x1="110.0" y1="226.5" x2="700.0" y2="226.5" stroke="#eef1f5" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="230.5" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal" font-style="normal">1 s</text>
+<line x1="110.0" y1="189.8" x2="700.0" y2="189.8" stroke="#eef1f5" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="193.8" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal" font-style="normal">2 min</text>
+<line x1="110.0" y1="153.0" x2="700.0" y2="153.0" stroke="#eef1f5" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="157.0" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal" font-style="normal">3 hours</text>
+<line x1="110.0" y1="116.3" x2="700.0" y2="116.3" stroke="#eef1f5" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="120.3" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal" font-style="normal">12 days</text>
+<line x1="110.0" y1="79.6" x2="700.0" y2="79.6" stroke="#eef1f5" stroke-width="1" stroke-linecap="round"/>
+<text x="100.0" y="83.6" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal" font-style="normal">3 years</text>
+<path d="M 110.0 290.4 L 114.9 288.6 L 119.8 286.7 L 124.8 284.9 L 129.7 283.0 L 134.6 281.2 L 139.5 279.4 L 144.4 277.5 L 149.3 275.7 L 154.2 273.9 L 159.2 272.0 L 164.1 270.2 L 169.0 268.4 L 173.9 266.5 L 178.8 264.7 L 183.8 262.8 L 188.7 261.0 L 193.6 259.2 L 198.5 257.3 L 203.4 255.5 L 208.3 253.7 L 213.2 251.8 L 218.2 250.0 L 223.1 248.1 L 228.0 246.3 L 232.9 244.5 L 237.8 242.6 L 242.7 240.8 L 247.7 239.0 L 252.6 237.1 L 257.5 235.3 L 262.4 233.4 L 267.3 231.6 L 272.3 229.8 L 277.2 227.9 L 282.1 226.1 L 287.0 224.3 L 291.9 222.4 L 296.8 220.6 L 301.8 218.8 L 306.7 216.9 L 311.6 215.1 L 316.5 213.2 L 321.4 211.4 L 326.3 209.6 L 331.2 207.7 L 336.2 205.9 L 341.1 204.1 L 346.0 202.2 L 350.9 200.4 L 355.8 198.5 L 360.8 196.7 L 365.7 194.9 L 370.6 193.0 L 375.5 191.2 L 380.4 189.4 L 385.3 187.5 L 390.2 185.7 L 395.2 183.8 L 400.1 182.0 L 405.0 180.2 L 409.9 178.3 L 414.8 176.5 L 419.8 174.7 L 424.7 172.8 L 429.6 171.0 L 434.5 169.2 L 439.4 167.3 L 444.3 165.5 L 449.3 163.6 L 454.2 161.8 L 459.1 160.0 L 464.0 158.1 L 468.9 156.3 L 473.8 154.5 L 478.8 152.6 L 483.7 150.8 L 488.6 148.9 L 493.5 147.1 L 498.4 145.3 L 503.3 143.4 L 508.2 141.6 L 513.2 139.8 L 518.1 137.9 L 523.0 136.1 L 527.9 134.2 L 532.8 132.4 L 537.8 130.6 L 542.7 128.7 L 547.6 126.9 L 552.5 125.1 L 557.4 123.2 L 562.3 121.4 L 567.2 119.6 L 572.2 117.7 L 577.1 115.9 L 582.0 114.0 L 586.9 112.2 L 591.8 110.4 L 596.8 108.5 L 601.7 106.7 L 606.6 104.9 L 611.5 103.0 L 616.4 101.2 L 621.3 99.3 L 626.2 97.5 L 631.2 95.7 L 636.1 93.8 L 641.0 92.0 L 645.9 90.2 L 650.8 88.3 L 655.8 86.5 L 660.7 84.6 L 665.6 82.8 L 670.5 81.0 L 675.4 79.1 L 680.3 77.3 L 685.2 75.5 L 690.2 73.6 L 695.1 71.8 L 700.0 70.0" fill="none" stroke="#13294B" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="110.0" cy="290.4" r="5.5" fill="#13294B" stroke="#ffffff" stroke-width="2"/>
+<text x="124.0" y="266.4" font-size="13.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">about 0.3 ms</text>
+<text x="124.0" y="282.4" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="normal">across a bacterium</text>
+<circle cx="405.0" cy="180.2" r="5.5" fill="#13294B" stroke="#ffffff" stroke-width="2"/>
+<text x="419.0" y="156.2" font-size="13.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">about 6 minutes</text>
+<text x="419.0" y="172.2" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="normal">across a thick tissue</text>
+<circle cx="700.0" cy="70.0" r="5.5" fill="#13294B" stroke="#ffffff" stroke-width="2"/>
+<text x="686.0" y="90.0" font-size="13.5" fill="#1a1a1a" text-anchor="end" font-weight="bold" font-style="normal">about 11 years</text>
+<text x="686.0" y="107.0" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal" font-style="normal">the length of a large animal</text>
+<text x="110.0" y="36.0" font-size="13" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="normal">time for a small molecule to diffuse the distance</text>
+<text x="405.0" y="348.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">distance</text>
+<text x="405.0" y="390.0" font-size="12.5" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">Both scales are logarithmic. Time grows with the square of the distance, so every</text>
+<text x="405.0" y="409.0" font-size="12.5" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">doubling of distance quadruples the wait — which is why the line leaves the plate.</text>
+</svg>

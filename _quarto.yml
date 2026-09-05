@@ -43,7 +43,7 @@ project:
     - course_overview/course_overview_reading.md
     - mind_and_brain/mind_and_brain_reading.md
     - comparative_approaches/comparative_approaches_reading.md
-    - neurons_and_neural_communication/index.qmd
+    - neurons_and_neural_communication/neurons_and_neural_communication_reading.md
     - neural_circuits_affect_and_valence/index.qmd
     - learning_and_plasticity/index.qmd
     - vertebrate_neural_architecture/index.qmd
@@ -104,8 +104,8 @@ website:
 
       - section: "The First Nervous Systems"
         contents:
-          - text: "3 · Neurons & Neural Communication — coming soon"
-            href: neurons_and_neural_communication/index.qmd
+          - text: "3 · Neurons & Neural Communication"
+            href: neurons_and_neural_communication/neurons_and_neural_communication_reading.md
           - text: "4 · Neural Circuits, Affect & Valence — coming soon"
             href: neural_circuits_affect_and_valence/index.qmd
           - text: "5 · Learning & Plasticity — coming soon"

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 452" width="780" height="452" font-family="Cambria, Calibri, Arial, sans-serif" role="img">
+<rect x="0" y="0" width="780" height="452" fill="#ffffff"/>
+<text x="60.0" y="44.0" font-size="13.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">All the energy used by the brain's gray matter</text>
+<rect x="60.0" y="58.0" width="495.0" height="46.0" rx="2" fill="#dfe7f1" stroke="#13294B" stroke-width="1.4"/>
+<rect x="555.0" y="58.0" width="165.0" height="46.0" rx="2" fill="#f2f2f2" stroke="#5b6470" stroke-width="1.4"/>
+<text x="307.5" y="87.0" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">signaling — about three-quarters</text>
+<text x="637.5" y="87.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">housekeeping</text>
+<line x1="60.0" y1="104.0" x2="60.0" y2="146.0" stroke="#5b6470" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<line x1="555.0" y1="104.0" x2="720.0" y2="146.0" stroke="#5b6470" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="60.0" y="162.0" font-size="13.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">the signaling share, opened out</text>
+<rect x="60.0" y="176.0" width="310.2" height="46.0" rx="2" fill="#6B7280" stroke="#ffffff" stroke-width="1.4"/>
+<text x="215.1" y="205.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold" font-style="normal">47%</text>
+<rect x="370.2" y="176.0" width="224.4" height="46.0" rx="2" fill="#13294B" stroke="#ffffff" stroke-width="1.4"/>
+<text x="482.4" y="205.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold" font-style="normal">34%</text>
+<rect x="594.6" y="176.0" width="85.8" height="46.0" rx="2" fill="#D50032" stroke="#ffffff" stroke-width="1.4"/>
+<text x="637.5" y="205.0" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold" font-style="normal">13%</text>
+<rect x="680.4" y="176.0" width="19.8" height="46.0" rx="2" fill="#5b6470" stroke="#ffffff" stroke-width="1.4"/>
+<rect x="700.2" y="176.0" width="19.8" height="46.0" rx="2" fill="#9aa3ae" stroke="#ffffff" stroke-width="1.4"/>
+<rect x="60.0" y="242.0" width="13.0" height="13.0" rx="2" fill="#6B7280" stroke="none" stroke-width="0"/>
+<text x="82.0" y="252.0" font-size="13" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">47%  action potentials</text>
+<rect x="60.0" y="264.0" width="13.0" height="13.0" rx="2" fill="#13294B" stroke="none" stroke-width="0"/>
+<text x="82.0" y="274.0" font-size="13" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">34%  effects at the receiving side of synapses</text>
+<rect x="60.0" y="286.0" width="13.0" height="13.0" rx="2" fill="#D50032" stroke="none" stroke-width="0"/>
+<text x="82.0" y="296.0" font-size="13" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">13%  holding the resting potential — doing nothing at all</text>
+<rect x="60.0" y="308.0" width="13.0" height="13.0" rx="2" fill="#5b6470" stroke="none" stroke-width="0"/>
+<text x="82.0" y="318.0" font-size="13" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">3%  presynaptic calcium</text>
+<rect x="60.0" y="330.0" width="13.0" height="13.0" rx="2" fill="#9aa3ae" stroke="none" stroke-width="0"/>
+<text x="82.0" y="340.0" font-size="13" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">3%  transmitter recycling</text>
+<text x="60.0" y="372.0" font-size="12.5" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="normal">Almost all of the signaling share is spent by the sodium-potassium pump,</text>
+<text x="60.0" y="390.0" font-size="12.5" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="normal">restoring the gradients that signaling ran down.</text>
+<text x="60.0" y="414.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="italic">A modeled budget at an assumed mean rate of 4 spikes per second, not a</text>
+<text x="60.0" y="431.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="italic">measurement. After Attwell &amp; Laughlin (2001).</text>
+</svg>

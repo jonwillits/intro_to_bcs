@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 320" width="780" height="320" font-family="Cambria, Calibri, Arial, sans-serif" role="img">
+<rect x="0" y="0" width="780" height="320" fill="#ffffff"/>
+<text x="46.0" y="78.0" font-size="17" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">x₁</text>
+<line x1="70.0" y1="72.0" x2="206.0" y2="72.0" stroke="#b8460a" stroke-width="1.8" stroke-linecap="round"/><polygon points="215.0,72.0 206.0,75.8 206.0,68.2" fill="#b8460a"/>
+<circle cx="236.0" cy="72.0" r="21.0" fill="#ffffff" stroke="#b8460a" stroke-width="1.8"/>
+<text x="236.0" y="78.0" font-size="15" fill="#b8460a" text-anchor="middle" font-weight="bold" font-style="normal">b₁</text>
+<text x="236.0" y="43.0" font-size="16" fill="#b8460a" text-anchor="middle" font-weight="bold" font-style="normal">+</text>
+<line x1="257.0" y1="72.0" x2="429.6" y2="136.0" stroke="#b8460a" stroke-width="1.8" stroke-linecap="round"/><polygon points="438.0,139.1 428.2,139.5 430.9,132.4" fill="#b8460a"/>
+<text x="46.0" y="156.0" font-size="17" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">x₂</text>
+<line x1="70.0" y1="150.0" x2="206.0" y2="150.0" stroke="#D50032" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="7 4"/><polygon points="215.0,150.0 206.0,153.8 206.0,146.2" fill="#D50032"/>
+<circle cx="236.0" cy="150.0" r="21.0" fill="#ffffff" stroke="#D50032" stroke-width="1.8"/>
+<text x="236.0" y="156.0" font-size="15" fill="#D50032" text-anchor="middle" font-weight="bold" font-style="normal">b₂</text>
+<text x="236.0" y="121.0" font-size="16" fill="#D50032" text-anchor="middle" font-weight="bold" font-style="normal">−</text>
+<line x1="257.0" y1="150.0" x2="429.0" y2="150.0" stroke="#D50032" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="7 4"/><polygon points="438.0,150.0 429.0,153.8 429.0,146.2" fill="#D50032"/>
+<text x="46.0" y="234.0" font-size="17" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">x₃</text>
+<line x1="70.0" y1="228.0" x2="206.0" y2="228.0" stroke="#b8460a" stroke-width="1.8" stroke-linecap="round"/><polygon points="215.0,228.0 206.0,231.8 206.0,224.2" fill="#b8460a"/>
+<circle cx="236.0" cy="228.0" r="21.0" fill="#ffffff" stroke="#b8460a" stroke-width="1.8"/>
+<text x="236.0" y="234.0" font-size="15" fill="#b8460a" text-anchor="middle" font-weight="bold" font-style="normal">b₃</text>
+<text x="236.0" y="199.0" font-size="16" fill="#b8460a" text-anchor="middle" font-weight="bold" font-style="normal">+</text>
+<line x1="257.0" y1="228.0" x2="429.6" y2="164.0" stroke="#b8460a" stroke-width="1.8" stroke-linecap="round"/><polygon points="438.0,160.9 430.9,167.6 428.2,160.5" fill="#b8460a"/>
+<text x="46.0" y="268.0" font-size="12.5" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="normal">input rates</text>
+<text x="236.0" y="292.0" font-size="12.5" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">each connection has a strength and a sign</text>
+<circle cx="468.0" cy="150.0" r="30.0" fill="#f4f7fb" stroke="#FF5F05" stroke-width="2.2"/>
+<text x="468.0" y="159.0" font-size="26" fill="#b8460a" text-anchor="middle" font-weight="normal" font-style="normal">Σ</text>
+<text x="468.0" y="284.0" font-size="16" fill="#5b6470" text-anchor="middle" font-weight="bold" font-style="normal">b₀</text>
+<text x="468.0" y="302.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">baseline rate</text>
+<line x1="468.0" y1="268.0" x2="468.0" y2="193.0" stroke="#5b6470" stroke-width="1.8" stroke-linecap="round"/><polygon points="468.0,184.0 471.8,193.0 464.2,193.0" fill="#5b6470"/>
+<rect x="566.0" y="108.0" width="92.0" height="84.0" rx="3" fill="#ffffff" stroke="#FF5F05" stroke-width="2.0"/>
+<line x1="574.0" y1="180.0" x2="650.0" y2="180.0" stroke="#e2e6ec" stroke-width="1" stroke-linecap="round"/>
+<line x1="574.0" y1="120.0" x2="650.0" y2="120.0" stroke="#e2e6ec" stroke-width="1" stroke-linecap="round"/>
+<path d="M 576.0 179.9 L 577.5 179.8 L 579.0 179.8 L 580.5 179.7 L 582.0 179.6 L 583.5 179.5 L 585.0 179.3 L 586.5 179.2 L 588.0 178.9 L 589.5 178.6 L 591.0 178.2 L 592.5 177.8 L 594.0 177.2 L 595.5 176.4 L 597.0 175.4 L 598.5 174.3 L 600.0 172.8 L 601.5 171.1 L 603.0 169.1 L 604.5 166.6 L 606.0 163.9 L 607.5 160.8 L 609.0 157.3 L 610.5 153.7 L 612.0 150.0 L 613.5 146.3 L 615.0 142.7 L 616.5 139.2 L 618.0 136.1 L 619.5 133.4 L 621.0 130.9 L 622.5 128.9 L 624.0 127.2 L 625.5 125.7 L 627.0 124.6 L 628.5 123.6 L 630.0 122.8 L 631.5 122.2 L 633.0 121.8 L 634.5 121.4 L 636.0 121.1 L 637.5 120.8 L 639.0 120.7 L 640.5 120.5 L 642.0 120.4 L 643.5 120.3 L 645.0 120.2 L 646.5 120.2 L 648.0 120.1" fill="none" stroke="#b8460a" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="498.0" y1="150.0" x2="557.0" y2="150.0" stroke="#b8460a" stroke-width="1.8" stroke-linecap="round"/><polygon points="566.0,150.0 557.0,153.8 557.0,146.2" fill="#b8460a"/>
+<text x="612.0" y="212.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">a floor at zero,</text>
+<text x="612.0" y="228.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">and a ceiling</text>
+<line x1="658.0" y1="150.0" x2="717.0" y2="150.0" stroke="#b8460a" stroke-width="1.8" stroke-linecap="round"/><polygon points="726.0,150.0 717.0,153.8 717.0,146.2" fill="#b8460a"/>
+<text x="736.0" y="156.0" font-size="17" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">y</text>
+<text x="736.0" y="176.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">output rate</text>
+</svg>

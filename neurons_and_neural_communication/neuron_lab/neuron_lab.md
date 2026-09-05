@@ -12,10 +12,10 @@ This week's reading looks at that cell three times: once as the answer to a prob
 The pit and the vehicle are the ones you already know. What is new is the three tabs along the top:
 
 - **World** — one vehicle in the pit, with lights that move. The connection between its sensor and its actuator is now a neuron with a length, and the panel reports how long the vehicle takes to react to something.
-- **Unit** — that neuron as an input-output device: rates coming in, a strength on each connection, a total, and a rate going out. This is the description in §3.2 of the reading.
-- **Membrane** — the same neuron as a piece of biology: a membrane, ion channels, the sodium-potassium pump, a voltage trace, and a counter showing what it is all costing in ATP. This is §3.3.
+- **Unit** — that neuron as an input-output device: rates coming in, a strength on each connection, a total, and a rate going out. Its parts are named by the job each one does — an input surface, an integrator, an output line, and a junction — because a job is all the algorithmic level needs. This is the description in §3.2 of the reading.
+- **Membrane** — the same neuron as a piece of biology, where the four jobs are done by four named parts: dendrites, a soma, an axon and a synapse. Alongside them, a membrane, ion channels, the sodium-potassium pump, a voltage trace, and a counter showing what it is all costing in ATP. This is §3.3.
 
-**One cell, three tabs.** Nothing is duplicated between them. If you break something on the Membrane tab, the Unit tab and the World tab are showing you the consequences.
+**One cell, three tabs.** Nothing is duplicated between them. If you break something on the Membrane tab, the Unit tab and the World tab are showing you the consequences. Switching between the Unit tab and the Membrane tab also swaps one vocabulary for another, since the four jobs become the four parts that do them. Watching that swap happen is worth a moment on its own.
 
 The Membrane tab also has a small area marked **Things to try**. Nothing in this lab asks about anything in it, and nothing in your report depends on it. It is there because a neuron is a more interesting object than any one lab has room to ask about, and because some of you will read §3.3.5 of the chapter and want to see it happen.
 
@@ -56,7 +56,7 @@ Now open the cell. The **Unit** tab tells you what it computes. The **Membrane**
 - **Q7.** Describe the shape of that curve. It is flat at both ends and rising in between. Say what the flat part on the left means about the cell, and what the flat part on the right means. The reading gives a reason for each — give both. Then answer this: if the curve were a straight line the whole way, with no flat parts at all, what would this cell be doing that a real neuron cannot?
 
 **Step 2 — The same output, two ways.** Leave the vehicle running and find the **time window** slider under the spike display. Slide it from one millisecond to one second and back.
-- **Q8.** Describe what the output looks like at each end of that slider. At one end you are looking at something that is either there or not there. At the other you are looking at a number that can land anywhere in a range. Are those two competing descriptions of the neuron? Answer using what §3.2.5 of the reading says about time scales.
+- **Q8.** Describe what the output looks like at each end of that slider. At one end you are looking at something that is either there or not there. At the other you are looking at a number that can land anywhere in a range. Are those two competing descriptions of the neuron? Answer using what §3.2.6 of the reading says about time scales.
 
 **Step 3 — Watch one spike.** Open the **Membrane** tab and let a single action potential run, using the step control if it goes by too fast. Three gate meters run beside the voltage trace: sodium activation, sodium inactivation, and potassium.
 - **Q9.** Describe the order of events. Which gate opens first, which one closes during the spike, and which one is slow to arrive and slow to leave? Match each phase you describe to the rising and falling parts of the voltage trace.
@@ -70,8 +70,8 @@ Now open the cell. The **Unit** tab tells you what it computes. The **Membrane**
 **Step 6 — Remove the refractory period.** Restore the sodium channels. Set **sodium inactivation recovery** to instant.
 - **Q12.** What happened to the highest firing rate the cell could reach, and what happened to spikes travelling along the axon? The reading uses the refractory period to explain two separate things about neurons. Name both, and say which one you just watched break. Then look at the input–output curve from Q7. One of its two flat parts is now gone. Say which one, and why removing the refractory period is what removed it.
 
-**Step 7 — Flip a sign.** Return to the **Unit** tab and change the second connection from inhibitory to excitatory, leaving every input exactly where it was.
-- **Q13.** The vehicle's behaviour changed although nothing about its inputs changed. Explain what happened, using the reading's word **integration**. Then say why a cell that can only add would be less useful than one that can add and subtract.
+**Step 7 — Change what a connection does.** Return to the **Unit** tab and change the second connection from inhibitory to excitatory, leaving every input exactly where it was. Then switch to the **Membrane** tab and find what changed there.
+- **Q13.** The vehicle's behaviour changed although nothing about its inputs changed. Explain what happened, using the reading's word **integration**. Then say why a cell that can only add would be less useful than one that can add and subtract. Finally, look at what the Membrane tab changed when you flipped that connection. It did not change which neurotransmitter arrives. Using §3.3.5 of the reading, say what it did change, and explain how the same neurotransmitter can excite one cell and inhibit another.
 
 ## Part 3: Four Sick Neurons (≈25 minutes)
 
@@ -106,13 +106,13 @@ Four vehicles — **N1**, **N2**, **N3** and **N4** — are all bad at finding l
 - **Q18.** For each of the four, state what was actually wrong and which of the three levels the fault lives at. Then compare against your Q16 answers: which did you get right, and for the ones you got wrong, what misled you?
 - **Q19.** One of the four had nothing wrong with it. Which one, and why is a cell that fires very rarely not a broken cell? Your answer to this question is the beginning of Part 4.
 
-## Part 4: What It Costs, and What Three Descriptions Are For (≈18 minutes)
+## Part 4: What It Costs, and What Three Descriptions Are For (≈20 minutes)
 
 ### Instructions and What to Record
 
 **Q20 — Do the arithmetic.** The **Membrane** tab reports what a single action potential costs in molecules of ATP. Open the **energy calculator** and give it the number of neurons in a human brain, which the panel supplies. Set the average firing rate to **10 spikes per second** — roughly what you have been watching all hour — and record the power the calculator returns, in watts. Then work backwards: adjust the firing rate until the power comes out at about twenty watts, which is what a real brain actually uses, and record the rate you needed.
 
-**Q21 — What follows from it.** The rate you just recorded is very low. Say what it implies about how many neurons in a brain can be firing at any one moment, and give the reading's term for activity that thin. Then answer this: is a brain in which most neurons fired most of the time a *better* brain that evolution failed to build? Explain.
+**Q21 — What follows from it.** The rate you just recorded is very low. Say what it implies about how many neurons in a brain can be firing at any one moment, and give the reading's term for activity that thin. Then answer this: is a brain in which most neurons fired most of the time a *better* brain that evolution failed to build? The reading gives two reasons the answer is no, and only one of the two is about energy — give both. Finally, most of us have heard that people use only ten percent of their brains. Using the number you just computed, say what is false in that claim, and what nearby true thing the claim appears to be a mangled version of.
 
 **Q22 — Why a fifth.** *Write this answer before reading the next question.* A human brain is about two percent of body weight and uses about twenty percent of the body's energy at rest. Write the best explanation you can for why humans invest that much. Give the argument you would defend.
 
@@ -120,7 +120,9 @@ Four vehicles — **N1**, **N2**, **N3** and **N4** — are all bad at finding l
 
 **Q24 — Which vehicle is better.** In Part 1 you ran a vehicle that signalled by diffusing chemical, in a slow world, and it did fine — at a fraction of the energy cost. You also ran a spiking vehicle in a fast world. Which of the two is **better adapted**? Which is **better**? Explain why those are not the same question. Then apply the same reasoning to the figures in Q23: humans spend about a fifth of the body's resting energy on the brain, other primates about a tenth, and other mammals less than that. Is that a ranking of anything?
 
-**Q25 — Two curves.** Go back to the **Unit** tab and switch on **Show measured**. The panel now draws two curves on the same axes: the one the arithmetic predicts, and the one measured from the membrane simulation as the cell actually fires. Describe where the two agree and where they part company. Then answer this: is the measured curve the *right* one, with the predicted curve a rough approximation of it? Or is that the wrong way to describe how the two are related? Use what the reading says in §3.3.4 about Hodgkin and Huxley's model of a neuron sitting beside the model in §3.2.7.
+**Q25 — Two curves.** Go back to the **Unit** tab and switch on **Show measured**. The panel now draws two curves on the same axes: the one the arithmetic predicts, and the one measured from the membrane simulation as the cell actually fires. Describe where the two agree and where they part company. Then answer this: is the measured curve the *right* one, with the predicted curve a rough approximation of it? Or is that the wrong way to describe how the two are related? Use what the reading says in §3.3.4 about Hodgkin and Huxley's model of a neuron sitting beside the model in §3.2.8.
+
+One caution, and it matters. §3.2.9 of the reading describes a much larger claim about what the simple model leaves out: that a neuron's branching input surface computes enough on its own that a single cortical cell may be better understood as a small network several layers deep. **The simulation in front of you cannot show that claim at all**, because the cell it models has no branching input surface. Say what the two curves do establish, and what they do not.
 
 **Q26 — Which panel answers which question.** Here are four questions about a single neuron. For each one, name the tab that can answer it, and say why the other tab is silent.
 - What will this cell do if a fourth input arrives at 20 spikes per second?
@@ -128,9 +130,12 @@ Four vehicles — **N1**, **N2**, **N3** and **N4** — are all bad at finding l
 - What happens to the vehicle if this connection changes sign?
 - Why can this cell not fire a thousand times a second?
 
+Then one more, which is the point of the four questions above. Those four make the three levels look like three separate compartments, each minding its own business. §3.3.9 of the reading says something stronger: the levels are *separable but not independent*, and the implementational level sets terms the levels above it have to respect. You produced an example of exactly that in Q21 and Q22 — an energy budget, which is an implementational fact, deciding how many neurons can be firing at once, which is a fact about the algorithm. Explain that example in your own words, and say what it costs the picture of three tidy compartments.
+
 **Q27 — The switch that did nothing.** On the **Unit** tab there is a toggle marked *biological / artificial*. Flip it. Every word on the panel changes and not one number does, because the same arithmetic describes a neuron and the unit at the heart of an artificial neural network. Now open the **Membrane** tab and ask the same question of it.
 - Where do the natural and the artificial version of this cell resemble each other, and where do they stop resembling each other? Be specific about which level each answer belongs to.
 - The reading has a term for one function running in two completely different physical materials. Give it, and say why a single cell is a better demonstration of it than a whole brain would be.
+- An action potential takes about a millisecond. A transistor switches in a small fraction of a billionth of a second. §3.3.9 of the reading says no amount of engineering care would close that gap, and gives the reason. Give the reason. Then say what follows for how a brain has to be organised, if it must answer in a few hundred milliseconds using parts that each take a millisecond.
 
 **Q28 — Turn it on the simulation.** Nothing in the Membrane tab plays back a recorded spike. The shape you have been watching all hour is calculated, moment by moment, from equations Hodgkin and Huxley wrote in 1952 — and when they first used those equations, the curve that came out had the right shape, height, duration and travelling speed, none of which they had fitted the equations to. Why does that matter more than if they had fitted them? What would you be entitled to conclude in each case?
 

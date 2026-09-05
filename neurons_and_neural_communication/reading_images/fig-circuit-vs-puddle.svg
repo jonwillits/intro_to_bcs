@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 372" width="780" height="372" font-family="Cambria, Calibri, Arial, sans-serif" role="img">
+<rect x="0" y="0" width="780" height="372" fill="#ffffff"/>
+<defs><clipPath id="clipL"><rect x="30" y="78" width="352" height="230"/></clipPath><clipPath id="clipR"><rect x="398" y="78" width="352" height="230"/></clipPath></defs>
+<rect x="30.0" y="78.0" width="352.0" height="230.0" rx="3" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.0"/>
+<text x="30.0" y="58.0" font-size="13.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">wired — one direction, particular cells</text>
+<g clip-path="url(#clipL)">
+<line x1="84.6" y1="184.1" x2="123.4" y2="140.7" stroke="#b8460a" stroke-width="2.0" stroke-linecap="round"/><polygon points="129.4,133.9 126.2,143.2 120.5,138.1" fill="#b8460a"/>
+<line x1="156.0" y1="122.2" x2="251.0" y2="123.6" stroke="#b8460a" stroke-width="2.0" stroke-linecap="round"/><polygon points="260.0,123.8 250.9,127.4 251.1,119.9" fill="#b8460a"/>
+<line x1="286.8" y1="135.8" x2="323.1" y2="175.5" stroke="#b8460a" stroke-width="2.0" stroke-linecap="round"/><polygon points="329.2,182.2 320.3,178.1 325.9,173.0" fill="#b8460a"/>
+<line x1="85.0" y1="207.6" x2="126.8" y2="251.8" stroke="#b8460a" stroke-width="2.0" stroke-linecap="round"/><polygon points="133.0,258.4 124.1,254.4 129.6,249.2" fill="#b8460a"/>
+<line x1="160.0" y1="269.5" x2="259.0" y2="266.7" stroke="#b8460a" stroke-width="2.0" stroke-linecap="round"/><polygon points="268.0,266.5 259.1,270.5 258.9,262.9" fill="#b8460a"/>
+<line x1="151.3" y1="133.3" x2="266.3" y2="248.3" stroke="#b8460a" stroke-width="2.0" stroke-linecap="round"/><polygon points="272.7,254.7 263.6,251.0 269.0,245.6" fill="#b8460a"/>
+<circle cx="216.0" cy="192.0" r="23.0" fill="none" stroke="#D50032" stroke-width="1.8"/>
+<circle cx="74.0" cy="196.0" r="14.0" fill="#f4f7fb" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="140.0" cy="122.0" r="14.0" fill="#f4f7fb" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="144.0" cy="270.0" r="14.0" fill="#f4f7fb" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="216.0" cy="192.0" r="14.0" fill="#f4f7fb" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="276.0" cy="124.0" r="14.0" fill="#f4f7fb" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="284.0" cy="266.0" r="14.0" fill="#f4f7fb" stroke="#1a1a1a" stroke-width="1.8"/>
+<circle cx="340.0" cy="194.0" r="14.0" fill="#f4f7fb" stroke="#1a1a1a" stroke-width="1.8"/>
+</g>
+<text x="206.0" y="330.0" font-size="12" fill="#D50032" text-anchor="middle" font-weight="normal" font-style="normal">the circled cell is the nearest cell to three of these, and hears from none of them</text>
+<rect x="398.0" y="78.0" width="352.0" height="230.0" rx="3" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.0"/>
+<text x="398.0" y="58.0" font-size="13.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">a puddle — every neighbor, every direction</text>
+<g clip-path="url(#clipR)">
+<circle cx="442.0" cy="196.0" r="40" fill="none" stroke="#5b6470" stroke-width="1.1" stroke-dasharray="3 5"/>
+<circle cx="442.0" cy="196.0" r="74" fill="none" stroke="#5b6470" stroke-width="1.1" stroke-dasharray="3 5"/>
+<circle cx="442.0" cy="196.0" r="108" fill="none" stroke="#5b6470" stroke-width="1.1" stroke-dasharray="3 5"/>
+<circle cx="442.0" cy="196.0" r="142" fill="none" stroke="#5b6470" stroke-width="1.1" stroke-dasharray="3 5"/>
+<circle cx="442.0" cy="196.0" r="176" fill="none" stroke="#5b6470" stroke-width="1.1" stroke-dasharray="3 5"/>
+<circle cx="442.0" cy="196.0" r="210" fill="none" stroke="#5b6470" stroke-width="1.1" stroke-dasharray="3 5"/>
+<line x1="442.0" y1="196.0" x2="508.0" y2="122.0" stroke="#5b6470" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="442.0" y1="196.0" x2="512.0" y2="270.0" stroke="#5b6470" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="508.0" y1="122.0" x2="584.0" y2="192.0" stroke="#5b6470" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="512.0" y1="270.0" x2="584.0" y2="192.0" stroke="#5b6470" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="584.0" y1="192.0" x2="644.0" y2="124.0" stroke="#5b6470" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="584.0" y1="192.0" x2="652.0" y2="266.0" stroke="#5b6470" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="644.0" y1="124.0" x2="708.0" y2="194.0" stroke="#5b6470" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="652.0" y1="266.0" x2="708.0" y2="194.0" stroke="#5b6470" stroke-width="1.5" stroke-linecap="round"/>
+<circle cx="442.0" cy="196.0" r="14.0" fill="#f4f7fb" stroke="#5b6470" stroke-width="1.8"/>
+<circle cx="508.0" cy="122.0" r="14.0" fill="#f4f7fb" stroke="#5b6470" stroke-width="1.8"/>
+<circle cx="512.0" cy="270.0" r="14.0" fill="#f4f7fb" stroke="#5b6470" stroke-width="1.8"/>
+<circle cx="584.0" cy="192.0" r="14.0" fill="#f4f7fb" stroke="#5b6470" stroke-width="1.8"/>
+<circle cx="644.0" cy="124.0" r="14.0" fill="#f4f7fb" stroke="#5b6470" stroke-width="1.8"/>
+<circle cx="652.0" cy="266.0" r="14.0" fill="#f4f7fb" stroke="#5b6470" stroke-width="1.8"/>
+<circle cx="708.0" cy="194.0" r="14.0" fill="#f4f7fb" stroke="#5b6470" stroke-width="1.8"/>
+</g>
+<text x="574.0" y="330.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="normal">activity spreads outward from wherever it began</text>
+<text x="390.0" y="356.0" font-size="12.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">Same cells, same positions in both panels. Only what joins them differs.</text>
+</svg>
