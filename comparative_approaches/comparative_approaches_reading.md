@@ -410,7 +410,7 @@ We focused on the cross-species and natural-artificial comparisons, because they
 
 We must be clear about what comparison can and cannot deliver. Done carefully, it licenses conclusions about origins, about mechanisms, and about the problems a capacity was a solution to. This is quite an accomplishment for a method that requires only looking at two things at once. But it does not settle what any creature is owed, and this chapter has repeatedly noted that the moral stakes bend the science in both directions. It also cannot reach all the way into another mind. Questions about what it is truly like to be another kind of mind, be it an octopus, an infant, or a machine, are difficult to answer with this method.
 
-Module 3 begins our narrative. It takes up the neuron, the first cell specialized for carrying signals quickly over distance. And it is the first module to give each of Marr’s three levels a section of its own. The questions will be the same ones Marr described. What problem is being solved by the neuron, by what procedure, in what physical stuff? And what else in the world solves it the same way.
+Module 3 begins our narrative. It takes up the neuron, the first cell specialized for carrying signals quickly over distance. And it is the first module to give each of Marr’s three levels a lecture of its own. The questions will be the same ones Marr described. What problem is being solved by the neuron, by what procedure, in what physical stuff? And what else in the world solves it the same way.
 
 ## Further Reading
 
