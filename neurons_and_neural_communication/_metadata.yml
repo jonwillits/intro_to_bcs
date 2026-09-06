@@ -11,3 +11,12 @@ format:
       - text: "Download reading (PDF)"
         href: neurons_and_neural_communication_reading.pdf
         icon: file-earmark-pdf
+      - text: "Slides — Lecture 1"
+        href: neurons_and_neural_communication_lecture_1.pdf
+        icon: file-earmark-slides
+      - text: "Slides — Lecture 2"
+        href: neurons_and_neural_communication_lecture_2.pdf
+        icon: file-earmark-slides
+      - text: "Slides — Lecture 3"
+        href: neurons_and_neural_communication_lecture_3.pdf
+        icon: file-earmark-slides

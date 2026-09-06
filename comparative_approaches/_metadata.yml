@@ -11,3 +11,12 @@ format:
       - text: "Download reading (PDF)"
         href: comparative_approaches_reading.pdf
         icon: file-earmark-pdf
+      - text: "Slides — Lecture 1"
+        href: comparative_approaches_lecture_1.pdf
+        icon: file-earmark-slides
+      - text: "Slides — Lecture 2"
+        href: comparative_approaches_lecture_2.pdf
+        icon: file-earmark-slides
+      - text: "Slides — Lecture 3"
+        href: comparative_approaches_lecture_3.pdf
+        icon: file-earmark-slides
