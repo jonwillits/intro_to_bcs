@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="Cambria, Calibri, Arial, sans-serif">
+<rect x="115" y="52" width="575" height="288" fill="#ffffff" stroke="#e2e6ec" stroke-width="1"/>
+<line x1="241.5" y1="103.8" x2="241.5" y2="268.0" stroke="#e2e6ec" stroke-width="1" stroke-dasharray="3 4"/>
+<line x1="241.5" y1="268.0" x2="529.0" y2="268.0" stroke="#e2e6ec" stroke-width="1" stroke-dasharray="3 4"/>
+<line x1="241.5" y1="103.8" x2="552.0" y2="103.8" stroke="#e2e6ec" stroke-width="1" stroke-dasharray="3 4"/>
+<circle cx="241.5" cy="103.8" r="6.5" fill="#13294B" opacity="0.35"/>
+<text x="241.5" y="89.8" font-size="15" fill="#1a1a1a" text-anchor="middle" opacity="0.35">Panic</text>
+<circle cx="552.0" cy="103.8" r="6.5" fill="#13294B" opacity="0.35"/>
+<text x="552.0" y="89.8" font-size="15" fill="#1a1a1a" text-anchor="middle" opacity="0.35">Excitement</text>
+<circle cx="241.5" cy="268.0" r="6.5" fill="#13294B" opacity="0.35"/>
+<text x="241.5" y="254.0" font-size="15" fill="#1a1a1a" text-anchor="middle" opacity="0.35">Gloom</text>
+<circle cx="373.8" cy="268.0" r="6.5" fill="#13294B" opacity="0.35"/>
+<text x="373.8" y="254.0" font-size="15" fill="#1a1a1a" text-anchor="middle" opacity="0.35">Boredom</text>
+<circle cx="529.0" cy="268.0" r="6.5" fill="#13294B" opacity="0.35"/>
+<text x="529.0" y="254.0" font-size="15" fill="#1a1a1a" text-anchor="middle" opacity="0.35">Contentment</text>
+<line x1="402.5" y1="196.0" x2="540.5" y2="138.4" stroke="#13294B" stroke-width="2.4"/>
+<polygon points="540.5,138.4 533.5,145.5 530.5,138.4" fill="#13294B"/>
+<text x="554.5" y="130.4" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">dopamine</text>
+<line x1="402.5" y1="196.0" x2="477.2" y2="270.9" stroke="#13294B" stroke-width="2.4"/>
+<polygon points="477.2,270.9 468.0,267.1 473.5,261.6" fill="#13294B"/>
+<text x="491.2" y="286.9" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">serotonin</text>
+<line x1="402.5" y1="196.0" x2="402.5" y2="121.1" stroke="#13294B" stroke-width="2.4"/>
+<polygon points="402.5,121.1 406.4,130.3 398.6,130.3" fill="#13294B"/>
+<text x="416.5" y="113.1" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">norepinephrine</text>
+<line x1="402.5" y1="196.0" x2="552.0" y2="207.5" stroke="#13294B" stroke-width="2.4"/>
+<polygon points="552.0,207.5 542.5,210.7 543.1,202.9" fill="#13294B"/>
+<text x="566.0" y="223.5" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">endorphins</text>
+<text x="402.5" y="40.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">each arrow is a direction, not a place</text>
+<text x="402.5" y="374.0" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Valence</text>
+<text x="111.0" y="360.0" font-size="13" fill="#5b6470" text-anchor="start" font-weight="normal">bad</text>
+<text x="694.0" y="360.0" font-size="13" fill="#5b6470" text-anchor="end" font-weight="normal">good</text>
+<text x="63.0" y="196.0" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold" transform="rotate(-90 63.0 196.0)">Arousal</text>
+<text x="85.0" y="336.0" font-size="13" fill="#5b6470" text-anchor="middle" transform="rotate(-90 85.0 336.0)">quiet</text>
+<text x="85.0" y="90.0" font-size="13" fill="#5b6470" text-anchor="middle" transform="rotate(-90 85.0 90.0)">activated</text>
+</svg>

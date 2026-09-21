@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 306" width="740" height="306" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="370.0" y="22.0" font-size="14" fill="#13294B" text-anchor="middle" font-weight="bold">One contingency, two routes to the same response</text>
+<rect x="24.0" y="104.0" width="132.0" height="80.0" fill="#e8eef6" stroke="#13294B" stroke-width="1.6" rx="4"/>
+<text x="90.0" y="134.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">a flavor is</text>
+<text x="90.0" y="148.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">followed by</text>
+<text x="90.0" y="162.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">sickness</text>
+<rect x="584.0" y="104.0" width="132.0" height="80.0" fill="#e8eef6" stroke="#13294B" stroke-width="1.6" rx="4"/>
+<text x="650.0" y="141.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">the flavor</text>
+<text x="650.0" y="155.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">is avoided</text>
+<line x1="160.0" y1="144.0" x2="184.8" y2="96.2" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="188.0,90.0 187.9,97.8 181.7,94.6" fill="#5b6470"/>
+<line x1="556.0" y1="90.0" x2="577.2" y2="137.6" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="580.0,144.0 574.0,139.0 580.4,136.2" fill="#5b6470"/>
+<line x1="160.0" y1="144.0" x2="185.3" y2="205.5" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="188.0,212.0 182.1,206.9 188.6,204.2" fill="#5b6470"/>
+<line x1="556.0" y1="212.0" x2="577.7" y2="150.6" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="580.0,144.0 581.0,151.8 574.4,149.4" fill="#5b6470"/>
+<text x="370.0" y="46.0" font-size="13" fill="#13294B" text-anchor="middle" font-weight="bold">selection across generations</text>
+<line x1="196.0" y1="80.0" x2="548.0" y2="80.0" stroke="#e2e6ec" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="196.0" y1="80.0" x2="546.0" y2="80.0" stroke="#13294B" stroke-width="2.0" stroke-linecap="butt"/>
+<polygon points="554.0,80.0 546.0,84.5 546.0,75.5" fill="#13294B"/>
+<line x1="208.0" y1="86.0" x2="208.0" y2="91.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="204.0" y="50.0" width="8.0" height="24.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.0" rx="1"/>
+<rect x="204.0" y="74.0" width="8.0" height="0.0" fill="#13294B" stroke="none" stroke-width="0.0" rx="1"/>
+<line x1="233.2" y1="86.0" x2="233.2" y2="91.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="229.2" y="50.0" width="8.0" height="24.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.0" rx="1"/>
+<rect x="229.2" y="72.2" width="8.0" height="1.8" fill="#13294B" stroke="none" stroke-width="0.0" rx="1"/>
+<line x1="258.5" y1="86.0" x2="258.5" y2="91.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="254.5" y="50.0" width="8.0" height="24.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.0" rx="1"/>
+<rect x="254.5" y="70.3" width="8.0" height="3.7" fill="#13294B" stroke="none" stroke-width="0.0" rx="1"/>
+<line x1="283.7" y1="86.0" x2="283.7" y2="91.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="279.7" y="50.0" width="8.0" height="24.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.0" rx="1"/>
+<rect x="279.7" y="68.5" width="8.0" height="5.5" fill="#13294B" stroke="none" stroke-width="0.0" rx="1"/>
+<line x1="308.9" y1="86.0" x2="308.9" y2="91.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="304.9" y="50.0" width="8.0" height="24.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.0" rx="1"/>
+<rect x="304.9" y="66.6" width="8.0" height="7.4" fill="#13294B" stroke="none" stroke-width="0.0" rx="1"/>
+<line x1="334.2" y1="86.0" x2="334.2" y2="91.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="330.2" y="50.0" width="8.0" height="24.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.0" rx="1"/>
+<rect x="330.2" y="64.8" width="8.0" height="9.2" fill="#13294B" stroke="none" stroke-width="0.0" rx="1"/>
+<line x1="359.4" y1="86.0" x2="359.4" y2="91.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="355.4" y="50.0" width="8.0" height="24.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.0" rx="1"/>
+<rect x="355.4" y="62.9" width="8.0" height="11.1" fill="#13294B" stroke="none" stroke-width="0.0" rx="1"/>
+<line x1="384.6" y1="86.0" x2="384.6" y2="91.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="380.6" y="50.0" width="8.0" height="24.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.0" rx="1"/>
+<rect x="380.6" y="61.1" width="8.0" height="12.9" fill="#13294B" stroke="none" stroke-width="0.0" rx="1"/>
+<line x1="409.8" y1="86.0" x2="409.8" y2="91.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="405.8" y="50.0" width="8.0" height="24.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.0" rx="1"/>
+<rect x="405.8" y="59.2" width="8.0" height="14.8" fill="#13294B" stroke="none" stroke-width="0.0" rx="1"/>
+<line x1="435.1" y1="86.0" x2="435.1" y2="91.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="431.1" y="50.0" width="8.0" height="24.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.0" rx="1"/>
+<rect x="431.1" y="57.4" width="8.0" height="16.6" fill="#13294B" stroke="none" stroke-width="0.0" rx="1"/>
+<line x1="460.3" y1="86.0" x2="460.3" y2="91.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="456.3" y="50.0" width="8.0" height="24.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.0" rx="1"/>
+<rect x="456.3" y="55.5" width="8.0" height="18.5" fill="#13294B" stroke="none" stroke-width="0.0" rx="1"/>
+<line x1="485.5" y1="86.0" x2="485.5" y2="91.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="481.5" y="50.0" width="8.0" height="24.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.0" rx="1"/>
+<rect x="481.5" y="53.7" width="8.0" height="20.3" fill="#13294B" stroke="none" stroke-width="0.0" rx="1"/>
+<line x1="510.8" y1="86.0" x2="510.8" y2="91.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="506.8" y="50.0" width="8.0" height="24.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.0" rx="1"/>
+<rect x="506.8" y="51.8" width="8.0" height="22.2" fill="#13294B" stroke="none" stroke-width="0.0" rx="1"/>
+<line x1="536.0" y1="86.0" x2="536.0" y2="91.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="532.0" y="50.0" width="8.0" height="24.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.0" rx="1"/>
+<rect x="532.0" y="50.0" width="8.0" height="24.0" fill="#13294B" stroke="none" stroke-width="0.0" rx="1"/>
+<text x="370.0" y="140.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">the bars are the share of the population that avoids the flavor</text>
+<text x="370.0" y="108.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">one generation per tick</text>
+<text x="370.0" y="124.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">no individual animal is changed by anything that happens to it</text>
+<line x1="196.0" y1="222.0" x2="548.0" y2="222.0" stroke="#e2e6ec" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="196.0" y1="222.0" x2="546.0" y2="222.0" stroke="#13294B" stroke-width="2.0" stroke-linecap="butt"/>
+<polygon points="554.0,222.0 546.0,226.5 546.0,217.5" fill="#13294B"/>
+<line x1="196.0" y1="216.0" x2="196.0" y2="228.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="548.0" y1="216.0" x2="548.0" y2="228.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<circle cx="196.0" cy="222.0" r="7.0" fill="#ffffff" stroke="#13294B" stroke-width="1.8"/>
+<circle cx="548.0" cy="222.0" r="7.0" fill="#13294B" stroke="#13294B" stroke-width="1.8"/>
+<text x="196.0" y="244.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">before</text>
+<text x="548.0" y="244.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">after</text>
+<text x="370.0" y="204.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">one lifetime, one experience</text>
+<text x="370.0" y="266.0" font-size="13" fill="#13294B" text-anchor="middle" font-weight="bold">learning within a lifetime</text>
+<text x="370.0" y="284.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">the same animal is different afterward</text>
+</svg>

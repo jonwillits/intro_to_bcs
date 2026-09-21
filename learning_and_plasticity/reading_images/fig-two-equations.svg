@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 322" width="740" height="322" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="370.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">One rule, written down twice</text>
+<text x="58.0" y="106.0" font-size="12" fill="#b8460a" text-anchor="start" font-weight="bold">Rescorla and Wagner, 1972</text>
+<text x="58.0" y="124.0" font-size="11" fill="#5b6470" text-anchor="start" font-weight="normal">the animal</text>
+<text x="286.0" y="112.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic" font-family="DejaVu Serif, Cambria, Georgia, serif">ΔV</text>
+<text x="330.0" y="112.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">=</text>
+<text x="372.0" y="112.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic" font-family="DejaVu Serif, Cambria, Georgia, serif">αβ</text>
+<text x="404.0" y="112.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">(</text>
+<text x="444.0" y="112.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic" font-family="DejaVu Serif, Cambria, Georgia, serif">λ</text>
+<text x="484.0" y="112.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">−</text>
+<text x="524.0" y="112.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">V</text>
+<text x="556.0" y="112.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">)</text>
+<text x="58.0" y="226.0" font-size="12" fill="#b8460a" text-anchor="start" font-weight="bold">Widrow and Hoff, 1960</text>
+<text x="58.0" y="244.0" font-size="11" fill="#5b6470" text-anchor="start" font-weight="normal">the circuit</text>
+<text x="286.0" y="232.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-style="italic" font-family="DejaVu Serif, Cambria, Georgia, serif">Δb<tspan font-size="15" dy="5">1</tspan></text>
+<text x="330.0" y="232.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">=</text>
+<text x="372.0" y="232.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic" font-family="DejaVu Serif, Cambria, Georgia, serif">η</text>
+<text x="404.0" y="232.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">(</text>
+<text x="444.0" y="232.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">t</text>
+<text x="484.0" y="232.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">−</text>
+<text x="524.0" y="232.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">o</text>
+<text x="556.0" y="232.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">)</text>
+<text x="596.0" y="232.0" font-size="21" fill="#1a1a1a" text-anchor="middle" font-style="italic">x<tspan font-size="15" dy="5">1</tspan></text>
+<text x="372.0" y="138.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">rate terms</text>
+<text x="444.0" y="138.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">what the outcome</text>
+<text x="444.0" y="150.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">will support</text>
+<text x="524.0" y="138.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">the strength</text>
+<text x="524.0" y="150.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">already present</text>
+<text x="372.0" y="260.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">learning rate</text>
+<text x="444.0" y="260.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">target</text>
+<text x="524.0" y="260.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">actual output</text>
+<text x="596.0" y="260.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">input</text>
+<line x1="372.0" y1="164.0" x2="372.0" y2="210.0" stroke="#FF5F05" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="4 4"/>
+<line x1="444.0" y1="164.0" x2="444.0" y2="210.0" stroke="#FF5F05" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="4 4"/>
+<line x1="524.0" y1="164.0" x2="524.0" y2="210.0" stroke="#FF5F05" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="4 4"/>
+<text x="196.0" y="176.0" font-size="11" fill="#b8460a" text-anchor="middle" font-weight="normal">the same three terms</text>
+<rect x="390.0" y="88.0" width="180.0" height="34.0" fill="none" stroke="#FF5F05" stroke-width="1.4" rx="6" stroke-dasharray="5 4"/>
+<rect x="390.0" y="208.0" width="180.0" height="34.0" fill="none" stroke="#FF5F05" stroke-width="1.4" rx="6" stroke-dasharray="5 4"/>
+<text x="480.0" y="78.0" font-size="11" fill="#b8460a" text-anchor="middle" font-weight="normal">prediction error</text>
+<text x="480.0" y="286.0" font-size="11" fill="#b8460a" text-anchor="middle" font-weight="normal">prediction error</text>
+<text x="370.0" y="302.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">the input term is 1 or 0 on a conditioning trial, which is why the animal version leaves it out</text>
+</svg>

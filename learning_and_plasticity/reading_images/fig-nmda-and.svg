@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 300" width="740" height="300" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="370.0" y="22.0" font-size="14" fill="#6B7280" text-anchor="middle" font-weight="bold">A truth table, built out of chemistry</text>
+<rect x="36.0" y="62.0" width="208.0" height="150.0" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.2" rx="6"/>
+<rect x="74.0" y="74.0" width="132.0" height="26.0" fill="#eef0f2" stroke="#6B7280" stroke-width="1.4" rx="3"/>
+<text x="140.0" y="91.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">sending terminal</text>
+<circle cx="98.0" cy="116.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="126.0" cy="116.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="154.0" cy="116.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="182.0" cy="116.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<text x="140.0" y="136.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">transmitter</text>
+<line x1="52.0" y1="154.0" x2="228.0" y2="154.0" stroke="#6B7280" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="52.0" y1="174.0" x2="228.0" y2="174.0" stroke="#6B7280" stroke-width="2.0" stroke-linecap="round"/>
+<rect x="127.0" y="152.0" width="26.0" height="24.0" fill="#ffffff" stroke="#6B7280" stroke-width="1.8" rx="2"/>
+<circle cx="140.0" cy="164.0" r="7.0" fill="#5b6470" stroke="#5b6470" stroke-width="1.4"/>
+<text x="140.0" y="168.0" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="normal">Mg</text>
+<text x="140.0" y="202.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">nothing passes</text>
+<text x="140.0" y="230.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">cell not depolarized: blocked</text>
+<rect x="268.0" y="62.0" width="208.0" height="150.0" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.2" rx="6"/>
+<rect x="306.0" y="74.0" width="132.0" height="26.0" fill="#eef0f2" stroke="#6B7280" stroke-width="1.4" rx="3"/>
+<text x="372.0" y="91.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">sending terminal</text>
+<circle cx="330.0" cy="116.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="358.0" cy="116.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="386.0" cy="116.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="414.0" cy="116.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<text x="372.0" y="136.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">transmitter</text>
+<line x1="284.0" y1="154.0" x2="460.0" y2="154.0" stroke="#6B7280" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="284.0" y1="174.0" x2="460.0" y2="174.0" stroke="#6B7280" stroke-width="2.0" stroke-linecap="round"/>
+<rect x="359.0" y="152.0" width="26.0" height="24.0" fill="#ffffff" stroke="#6B7280" stroke-width="1.8" rx="2"/>
+<line x1="364.0" y1="148.0" x2="364.0" y2="179.0" stroke="#6B7280" stroke-width="1.3" stroke-linecap="butt"/>
+<polygon points="364.0,184.0 361.2,179.0 366.8,179.0" fill="#6B7280"/>
+<line x1="372.0" y1="148.0" x2="372.0" y2="179.0" stroke="#6B7280" stroke-width="1.3" stroke-linecap="butt"/>
+<polygon points="372.0,184.0 369.2,179.0 374.8,179.0" fill="#6B7280"/>
+<line x1="380.0" y1="148.0" x2="380.0" y2="179.0" stroke="#6B7280" stroke-width="1.3" stroke-linecap="butt"/>
+<polygon points="380.0,184.0 377.2,179.0 382.8,179.0" fill="#6B7280"/>
+<circle cx="416.0" cy="164.0" r="7.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.4"/>
+<text x="416.0" y="168.0" font-size="8" fill="#5b6470" text-anchor="middle" font-weight="normal">Mg</text>
+<line x1="388.0" y1="162.0" x2="401.0" y2="163.4" stroke="#5b6470" stroke-width="1.0" stroke-linecap="butt"/>
+<polygon points="406.0,164.0 400.7,166.0 401.3,160.9" fill="#5b6470"/>
+<text x="372.0" y="202.0" font-size="10" fill="#6B7280" text-anchor="middle" font-weight="bold">calcium enters</text>
+<text x="372.0" y="230.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">cell depolarized: open</text>
+<text x="546.0" y="65.0" font-size="10" fill="#6B7280" text-anchor="middle" font-weight="bold">transmitter</text>
+<text x="614.0" y="65.0" font-size="10" fill="#6B7280" text-anchor="middle" font-weight="bold">depolarized</text>
+<text x="682.0" y="65.0" font-size="10" fill="#6B7280" text-anchor="middle" font-weight="bold">calcium</text>
+<rect x="512.0" y="74.0" width="204.0" height="27.0" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.0" rx="0"/>
+<text x="546.0" y="92.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">no</text>
+<text x="614.0" y="92.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">no</text>
+<text x="682.0" y="92.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">no</text>
+<rect x="512.0" y="101.0" width="204.0" height="27.0" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.0" rx="0"/>
+<text x="546.0" y="119.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">yes</text>
+<text x="614.0" y="119.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">no</text>
+<text x="682.0" y="119.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">no</text>
+<rect x="512.0" y="128.0" width="204.0" height="27.0" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.0" rx="0"/>
+<text x="546.0" y="146.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">no</text>
+<text x="614.0" y="146.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">yes</text>
+<text x="682.0" y="146.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">no</text>
+<rect x="512.0" y="155.0" width="204.0" height="27.0" fill="#eef0f2" stroke="#e2e6ec" stroke-width="1.0" rx="0"/>
+<text x="546.0" y="173.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">yes</text>
+<text x="614.0" y="173.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">yes</text>
+<text x="682.0" y="173.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="bold">yes</text>
+<rect x="512.0" y="74.0" width="204.0" height="108.0" fill="none" stroke="#6B7280" stroke-width="1.6" rx="0"/>
+<text x="614.0" y="204.0" font-size="13" fill="#6B7280" text-anchor="middle" font-weight="bold">AND</text>
+<text x="370.0" y="282.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">either condition alone does nothing; only both together open the channel</text>
+</svg>

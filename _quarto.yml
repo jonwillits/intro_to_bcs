@@ -44,8 +44,8 @@ project:
     - mind_and_brain/mind_and_brain_reading.md
     - comparative_approaches/comparative_approaches_reading.md
     - neurons_and_neural_communication/neurons_and_neural_communication_reading.md
-    - neural_circuits_affect_and_valence/index.qmd
-    - learning_and_plasticity/index.qmd
+    - neural_circuits_affect_and_valence/neural_circuits_affect_and_valence_reading.md
+    - learning_and_plasticity/learning_and_plasticity_reading.md
     - vertebrate_neural_architecture/index.qmd
     - pattern_recognition/index.qmd
     - perception_and_action/index.qmd
@@ -106,10 +106,10 @@ website:
         contents:
           - text: "3 · Neurons & Neural Communication"
             href: neurons_and_neural_communication/neurons_and_neural_communication_reading.md
-          - text: "4 · Neural Circuits, Affect & Valence — coming soon"
-            href: neural_circuits_affect_and_valence/index.qmd
-          - text: "5 · Learning & Plasticity — coming soon"
-            href: learning_and_plasticity/index.qmd
+          - text: "4 · Neural Circuits, Affect & Valence"
+            href: neural_circuits_affect_and_valence/neural_circuits_affect_and_valence_reading.md
+          - text: "5 · Learning & Plasticity"
+            href: learning_and_plasticity/learning_and_plasticity_reading.md
           - text: "6 · Vertebrate Neural Architecture — coming soon"
             href: vertebrate_neural_architecture/index.qmd
 

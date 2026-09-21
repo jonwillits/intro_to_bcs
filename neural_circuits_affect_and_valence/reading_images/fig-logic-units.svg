@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 286" width="740" height="286" font-family="Cambria, Calibri, Arial, sans-serif">
+<text x="370.0" y="22.0" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Identical wiring. One number changed.</text>
+<rect x="38.0" y="52.0" width="306.0" height="104.0" fill="none" stroke="#e2e6ec" rx="4"/>
+<text x="191.0" y="44.0" font-size="13" fill="#b8460a" text-anchor="middle" font-weight="bold">AND</text>
+<line x1="109.9" y1="83.8" x2="247.2" y2="101.1" stroke="#13294B" stroke-width="2.0"/>
+<polygon points="256.1,102.2 246.6,105.6 247.7,96.7" fill="#13294B"/>
+<line x1="109.9" y1="124.2" x2="247.2" y2="106.9" stroke="#13294B" stroke-width="2.0"/>
+<polygon points="256.1,105.8 247.7,111.3 246.6,102.4" fill="#13294B"/>
+<circle cx="96.0" cy="82.0" r="14.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="96.0" cy="126.0" r="14.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="270.0" cy="104.0" r="14.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<text x="96.0" y="86.0" font-size="13" fill="#1a1a1a" text-anchor="middle">x<tspan font-size="9" dy="3">1</tspan></text>
+<text x="96.0" y="130.0" font-size="13" fill="#1a1a1a" text-anchor="middle">x<tspan font-size="9" dy="3">2</tspan></text>
+<text x="270.0" y="108.0" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">y</text>
+<text x="183.0" y="84.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">w = 1</text>
+<text x="183.0" y="131.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">w = 1</text>
+<text x="270.0" y="139.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">threshold = 2</text>
+<text x="145.0" y="190.0" font-size="13" fill="#5b6470" text-anchor="middle">x<tspan font-size="9" dy="3">1</tspan></text>
+<text x="191.0" y="190.0" font-size="13" fill="#5b6470" text-anchor="middle">x<tspan font-size="9" dy="3">2</tspan></text>
+<text x="237.0" y="190.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">y</text>
+<line x1="122" y1="196" x2="260" y2="196" stroke="#e2e6ec" stroke-width="1"/>
+<line x1="214" y1="182" x2="214" y2="274" stroke="#e2e6ec" stroke-width="1"/>
+<text x="145.0" y="214.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">0</text>
+<text x="191.0" y="214.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">0</text>
+<text x="237.0" y="214.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">0</text>
+<text x="145.0" y="232.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">1</text>
+<text x="191.0" y="232.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">0</text>
+<text x="237.0" y="232.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">0</text>
+<text x="145.0" y="250.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">0</text>
+<text x="191.0" y="250.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">1</text>
+<text x="237.0" y="250.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">0</text>
+<text x="145.0" y="268.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">1</text>
+<text x="191.0" y="268.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">1</text>
+<text x="237.0" y="268.0" font-size="13" fill="#13294B" text-anchor="middle" font-weight="bold">1</text>
+<rect x="396.0" y="52.0" width="306.0" height="104.0" fill="none" stroke="#e2e6ec" rx="4"/>
+<text x="549.0" y="44.0" font-size="13" fill="#b8460a" text-anchor="middle" font-weight="bold">OR</text>
+<line x1="467.9" y1="83.8" x2="605.2" y2="101.1" stroke="#13294B" stroke-width="2.0"/>
+<polygon points="614.1,102.2 604.6,105.6 605.7,96.7" fill="#13294B"/>
+<line x1="467.9" y1="124.2" x2="605.2" y2="106.9" stroke="#13294B" stroke-width="2.0"/>
+<polygon points="614.1,105.8 605.7,111.3 604.6,102.4" fill="#13294B"/>
+<circle cx="454.0" cy="82.0" r="14.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="454.0" cy="126.0" r="14.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="628.0" cy="104.0" r="14.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<text x="454.0" y="86.0" font-size="13" fill="#1a1a1a" text-anchor="middle">x<tspan font-size="9" dy="3">1</tspan></text>
+<text x="454.0" y="130.0" font-size="13" fill="#1a1a1a" text-anchor="middle">x<tspan font-size="9" dy="3">2</tspan></text>
+<text x="628.0" y="108.0" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">y</text>
+<text x="541.0" y="84.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">w = 1</text>
+<text x="541.0" y="131.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">w = 1</text>
+<text x="628.0" y="139.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">threshold = 1</text>
+<text x="503.0" y="190.0" font-size="13" fill="#5b6470" text-anchor="middle">x<tspan font-size="9" dy="3">1</tspan></text>
+<text x="549.0" y="190.0" font-size="13" fill="#5b6470" text-anchor="middle">x<tspan font-size="9" dy="3">2</tspan></text>
+<text x="595.0" y="190.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">y</text>
+<line x1="480" y1="196" x2="618" y2="196" stroke="#e2e6ec" stroke-width="1"/>
+<line x1="572" y1="182" x2="572" y2="274" stroke="#e2e6ec" stroke-width="1"/>
+<text x="503.0" y="214.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">0</text>
+<text x="549.0" y="214.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">0</text>
+<text x="595.0" y="214.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">0</text>
+<text x="503.0" y="232.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">1</text>
+<text x="549.0" y="232.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">0</text>
+<text x="595.0" y="232.0" font-size="13" fill="#13294B" text-anchor="middle" font-weight="bold">1</text>
+<text x="503.0" y="250.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">0</text>
+<text x="549.0" y="250.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">1</text>
+<text x="595.0" y="250.0" font-size="13" fill="#13294B" text-anchor="middle" font-weight="bold">1</text>
+<text x="503.0" y="268.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">1</text>
+<text x="549.0" y="268.0" font-size="13" fill="#5b6470" text-anchor="middle" font-weight="normal">1</text>
+<text x="595.0" y="268.0" font-size="13" fill="#13294B" text-anchor="middle" font-weight="bold">1</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="Cambria, Calibri, Arial, sans-serif">
+<defs><pattern id="clockhatch" width="6" height="6" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="6" stroke="#8aa0bd" stroke-width="2.4"/></pattern></defs>
+<text x="160.0" y="32.0" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold">All of Earth’s history</text>
+<text x="720.0" y="32.0" font-size="11" fill="#5b6470" text-anchor="end" font-weight="normal">the window expanded below</text>
+<rect x="609.0" y="44" width="111.0" height="24" fill="#fdeee2"/>
+<line x1="160.0" y1="68.0" x2="720.0" y2="68.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="160.0" y1="68.0" x2="160.0" y2="74.0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="160.0" y="88.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">4.54</text>
+<line x1="226.6" y1="68.0" x2="226.6" y2="74.0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="226.6" y="88.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">4</text>
+<line x1="350.0" y1="68.0" x2="350.0" y2="74.0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="350.0" y="88.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">3</text>
+<line x1="473.3" y1="68.0" x2="473.3" y2="74.0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="473.3" y="88.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">2</text>
+<line x1="596.7" y1="68.0" x2="596.7" y2="74.0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="596.7" y="88.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">1</text>
+<line x1="720.0" y1="68.0" x2="720.0" y2="74.0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="720.0" y="88.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">now</text>
+<text x="440.0" y="106.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">billions of years ago</text>
+<line x1="609.0" y1="72" x2="160.0" y2="142" stroke="#e2e6ec" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="720.0" y1="72" x2="720.0" y2="142" stroke="#e2e6ec" stroke-width="1.2" stroke-dasharray="4 4"/>
+<text x="160.0" y="164.0" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold">The last 900 million years</text>
+<line x1="160.0" y1="188.0" x2="720.0" y2="188.0" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="160.0" y1="188.0" x2="160.0" y2="194.0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="160.0" y="208.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">900</text>
+<line x1="253.3" y1="188.0" x2="253.3" y2="194.0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="253.3" y="208.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">750</text>
+<line x1="346.7" y1="188.0" x2="346.7" y2="194.0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="346.7" y="208.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">600</text>
+<line x1="440.0" y1="188.0" x2="440.0" y2="194.0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="440.0" y="208.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">450</text>
+<line x1="533.3" y1="188.0" x2="533.3" y2="194.0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="533.3" y="208.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">300</text>
+<line x1="626.7" y1="188.0" x2="626.7" y2="194.0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="626.7" y="208.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">150</text>
+<line x1="720.0" y1="188.0" x2="720.0" y2="194.0" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="720.0" y="208.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">now</text>
+<text x="440.0" y="226.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">millions of years ago</text>
+<rect x="201.7" y="255.5" width="113.9" height="13" fill="url(#clockhatch)" stroke="#8aa0bd" stroke-width="1.2" rx="2"/>
+<text x="150.0" y="266.0" font-size="13" fill="#1a1a1a" text-anchor="end" font-weight="normal">Animals originate</text>
+<text x="258.9" y="246.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">molecular clocks</text>
+<line x1="324.9" y1="278.0" x2="324.9" y2="298.0" stroke="#13294B" stroke-width="2.6" stroke-dasharray="4 3"/>
+<circle cx="324.9" cy="288.0" r="4" fill="#ffffff" stroke="#13294B" stroke-width="2"/>
+<text x="334.9" y="292.0" font-size="11" fill="#5b6470" text-anchor="start" font-weight="normal">disputed chemical traces</text>
+<line x1="359.1" y1="326.0" x2="711.0" y2="326.0" stroke="#13294B" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="710.0,321.0 720.0,326.0 710.0,331.0" fill="#13294B"/>
+<circle cx="359.1" cy="326.0" r="4.5" fill="#13294B"/>
+<text x="351.1" y="330.0" font-size="13" fill="#1a1a1a" text-anchor="end" font-weight="normal">Sponges</text>
+<line x1="359.1" y1="360.0" x2="711.0" y2="360.0" stroke="#13294B" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="710.0,355.0 720.0,360.0 710.0,365.0" fill="#13294B"/>
+<rect x="359.1" y="354.5" width="12.4" height="11" fill="#13294B" rx="2"/>
+<line x1="359.1" y1="351.0" x2="359.1" y2="369.0" stroke="#13294B" stroke-width="1.6"/>
+<line x1="371.6" y1="351.0" x2="371.6" y2="369.0" stroke="#13294B" stroke-width="1.6"/>
+<text x="351.1" y="364.0" font-size="13" fill="#1a1a1a" text-anchor="end" font-weight="normal">Cnidarians</text>
+<line x1="374.7" y1="394.0" x2="711.0" y2="394.0" stroke="#13294B" stroke-width="2.2" stroke-linecap="round"/>
+<polygon points="710.0,389.0 720.0,394.0 710.0,399.0" fill="#13294B"/>
+<circle cx="374.7" cy="394.0" r="4.5" fill="#13294B"/>
+<text x="366.7" y="398.0" font-size="13" fill="#1a1a1a" text-anchor="end" font-weight="normal">Bilaterians</text>
+<line x1="359.1" y1="326.0" x2="359.1" y2="360.0" stroke="#5b6470" stroke-width="1.4" stroke-dasharray="3 3"/>
+<text x="359.1" y="310.0" font-size="11" fill="#5b6470" text-anchor="start" font-weight="normal">both about 580 — the record cannot order them</text>
+<rect x="115.0" y="416.0" width="26" height="12" fill="#13294B" rx="2"/>
+<text x="147.0" y="426.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">first accepted fossils</text>
+<rect x="309.0" y="416.0" width="26" height="12" fill="url(#clockhatch)" stroke="#8aa0bd" stroke-width="1.2" rx="2"/>
+<text x="341.0" y="426.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">molecular-clock estimate</text>
+<line x1="525.0" y1="413.0" x2="525.0" y2="431.0" stroke="#13294B" stroke-width="2.6" stroke-dasharray="4 3"/>
+<text x="537.0" y="426.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">disputed</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" width="680" height="340" font-family="Cambria, Calibri, Arial, sans-serif">
+<text x="340.0" y="26.0" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Two body plans, from above</text>
+<circle cx="175" cy="170" r="78" fill="none" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="175.0" y1="170.0" x2="253.0" y2="170.0" stroke="#e2e6ec" stroke-width="1"/>
+<circle cx="253.0" cy="170.0" r="4" fill="#13294B"/>
+<line x1="175.0" y1="170.0" x2="230.2" y2="225.2" stroke="#e2e6ec" stroke-width="1"/>
+<circle cx="230.2" cy="225.2" r="4" fill="#13294B"/>
+<line x1="175.0" y1="170.0" x2="175.0" y2="248.0" stroke="#e2e6ec" stroke-width="1"/>
+<circle cx="175.0" cy="248.0" r="4" fill="#13294B"/>
+<line x1="175.0" y1="170.0" x2="119.8" y2="225.2" stroke="#e2e6ec" stroke-width="1"/>
+<circle cx="119.8" cy="225.2" r="4" fill="#13294B"/>
+<line x1="175.0" y1="170.0" x2="97.0" y2="170.0" stroke="#e2e6ec" stroke-width="1"/>
+<circle cx="97.0" cy="170.0" r="4" fill="#13294B"/>
+<line x1="175.0" y1="170.0" x2="119.8" y2="114.8" stroke="#e2e6ec" stroke-width="1"/>
+<circle cx="119.8" cy="114.8" r="4" fill="#13294B"/>
+<line x1="175.0" y1="170.0" x2="175.0" y2="92.0" stroke="#e2e6ec" stroke-width="1"/>
+<circle cx="175.0" cy="92.0" r="4" fill="#13294B"/>
+<line x1="175.0" y1="170.0" x2="230.2" y2="114.8" stroke="#e2e6ec" stroke-width="1"/>
+<circle cx="230.2" cy="114.8" r="4" fill="#13294B"/>
+<text x="175.0" y="282.0" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Radial</text>
+<text x="175.0" y="300.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">much the same all the way around;</text>
+<text x="175.0" y="316.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">no part arrives anywhere first</text>
+<path d="M 480 234 q 58 -66 0 -128 q -58 62 0 128 Z" fill="none" stroke="#1a1a1a" stroke-width="2.4"/>
+<line x1="480" y1="106" x2="480" y2="234" stroke="#e2e6ec" stroke-width="1" stroke-dasharray="4 4"/>
+<circle cx="467" cy="124" r="4" fill="#13294B"/>
+<circle cx="493" cy="124" r="4" fill="#13294B"/>
+<circle cx="463" cy="146" r="4" fill="#13294B"/>
+<circle cx="497" cy="146" r="4" fill="#13294B"/>
+<text x="480.0" y="88.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">front</text>
+<text x="480.0" y="254.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">back</text>
+<text x="480.0" y="286.0" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Bilateral</text>
+<text x="480.0" y="304.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">a left and a right that mirror,</text>
+<text x="480.0" y="320.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">and so a front where sensors gather</text>
+</svg>
