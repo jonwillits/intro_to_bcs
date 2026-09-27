@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 748 336" width="748" height="336" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="374.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">Three structures, three kinds of delivery</text>
+<rect x="18.0" y="52.0" width="228.0" height="214.0" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1.2" rx="10"/>
+<text x="132.0" y="74.0" font-size="13" fill="#b8460a" text-anchor="middle" font-weight="bold">cerebellum</text>
+<rect x="260.0" y="52.0" width="228.0" height="214.0" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1.2" rx="10"/>
+<text x="374.0" y="74.0" font-size="13" fill="#b8460a" text-anchor="middle" font-weight="bold">basal ganglia</text>
+<rect x="502.0" y="52.0" width="228.0" height="214.0" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1.2" rx="10"/>
+<text x="616.0" y="74.0" font-size="13" fill="#b8460a" text-anchor="middle" font-weight="bold">pallium</text>
+<circle cx="170.0" cy="120.0" r="13.0" fill="#fdeee2" stroke="#FF5F05" stroke-width="1.8"/>
+<line x1="38.0" y1="104.0" x2="157.0" y2="115.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="38.0" y1="111.0" x2="157.0" y2="117.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="38.0" y1="118.0" x2="157.0" y2="119.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="38.0" y1="125.0" x2="157.0" y2="121.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="38.0" y1="132.0" x2="157.0" y2="123.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="38.0" y1="139.0" x2="157.0" y2="125.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<circle cx="64.0" cy="240.0" r="5.0" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.4"/>
+<line x1="64.0" y1="233.0" x2="161.0" y2="136.9" stroke="#FF5F05" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="166.0,132.0 163.4,139.3 158.6,134.5" fill="#FF5F05"/>
+<line x1="183.0" y1="120.0" x2="223.0" y2="120.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="230.0,120.0 223.0,123.5 223.0,116.5" fill="#5b6470"/>
+<circle cx="170.0" cy="170.0" r="13.0" fill="#fdeee2" stroke="#FF5F05" stroke-width="1.8"/>
+<line x1="38.0" y1="107.0" x2="157.0" y2="165.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="38.0" y1="114.0" x2="157.0" y2="167.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="38.0" y1="121.0" x2="157.0" y2="169.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="38.0" y1="128.0" x2="157.0" y2="171.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="38.0" y1="135.0" x2="157.0" y2="173.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="38.0" y1="142.0" x2="157.0" y2="175.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<circle cx="110.0" cy="240.0" r="5.0" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.4"/>
+<line x1="110.0" y1="233.0" x2="160.8" y2="186.7" stroke="#FF5F05" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="166.0,182.0 163.1,189.2 158.5,184.2" fill="#FF5F05"/>
+<line x1="183.0" y1="170.0" x2="223.0" y2="170.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="230.0,170.0 223.0,173.5 223.0,166.5" fill="#5b6470"/>
+<circle cx="170.0" cy="220.0" r="13.0" fill="#fdeee2" stroke="#FF5F05" stroke-width="1.8"/>
+<line x1="38.0" y1="110.0" x2="157.0" y2="215.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="38.0" y1="117.0" x2="157.0" y2="217.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="38.0" y1="124.0" x2="157.0" y2="219.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="38.0" y1="131.0" x2="157.0" y2="221.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="38.0" y1="138.0" x2="157.0" y2="223.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<line x1="38.0" y1="145.0" x2="157.0" y2="225.0" stroke="#e2e6ec" stroke-width="0.7" stroke-linecap="round"/>
+<circle cx="156.0" cy="240.0" r="5.0" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.4"/>
+<line x1="156.0" y1="233.0" x2="159.0" y2="232.7" stroke="#FF5F05" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="166.0,232.0 159.4,236.1 158.7,229.3" fill="#FF5F05"/>
+<line x1="183.0" y1="220.0" x2="223.0" y2="220.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="230.0,220.0 223.0,223.5 223.0,216.5" fill="#5b6470"/>
+<text x="36.0" y="98.0" font-size="11" fill="#5b6470" text-anchor="start" font-weight="normal">many ordinary inputs</text>
+<text x="132.0" y="260.0" font-size="11" fill="#b8460a" text-anchor="middle" font-weight="normal">one fiber to one cell</text>
+<circle cx="412.0" cy="120.0" r="13.0" fill="#fdeee2" stroke="#FF5F05" stroke-width="1.8"/>
+<line x1="286.0" y1="120.0" x2="390.0" y2="120.0" stroke="#e2e6ec" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="397.0,120.0 390.0,123.5 390.0,116.5" fill="#e2e6ec"/>
+<line x1="425.0" y1="120.0" x2="465.0" y2="120.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="472.0,120.0 465.0,123.5 465.0,116.5" fill="#5b6470"/>
+<circle cx="412.0" cy="170.0" r="13.0" fill="#fdeee2" stroke="#FF5F05" stroke-width="1.8"/>
+<line x1="286.0" y1="170.0" x2="390.0" y2="170.0" stroke="#e2e6ec" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="397.0,170.0 390.0,173.5 390.0,166.5" fill="#e2e6ec"/>
+<line x1="425.0" y1="170.0" x2="465.0" y2="170.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="472.0,170.0 465.0,173.5 465.0,166.5" fill="#5b6470"/>
+<circle cx="412.0" cy="220.0" r="13.0" fill="#fdeee2" stroke="#FF5F05" stroke-width="1.8"/>
+<line x1="286.0" y1="220.0" x2="390.0" y2="220.0" stroke="#e2e6ec" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="397.0,220.0 390.0,223.5 390.0,216.5" fill="#e2e6ec"/>
+<line x1="425.0" y1="220.0" x2="465.0" y2="220.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="472.0,220.0 465.0,223.5 465.0,216.5" fill="#5b6470"/>
+<circle cx="320.0" cy="236.0" r="9.0" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.6"/>
+<line x1="329.0" y1="230.0" x2="387.0" y2="131.2" stroke="#FF5F05" stroke-width="1.2" stroke-linecap="butt" stroke-dasharray="4 3"/>
+<polygon points="390.0,126.0 389.6,132.7 384.4,129.7" fill="#FF5F05"/>
+<line x1="329.0" y1="230.0" x2="385.5" y2="180.0" stroke="#FF5F05" stroke-width="1.2" stroke-linecap="butt" stroke-dasharray="4 3"/>
+<polygon points="390.0,176.0 387.5,182.2 383.5,177.7" fill="#FF5F05"/>
+<line x1="329.0" y1="230.0" x2="384.0" y2="226.4" stroke="#FF5F05" stroke-width="1.2" stroke-linecap="butt" stroke-dasharray="4 3"/>
+<polygon points="390.0,226.0 384.2,229.4 383.8,223.4" fill="#FF5F05"/>
+<text x="374.0" y="260.0" font-size="11" fill="#b8460a" text-anchor="middle" font-weight="normal">one signal to all of them</text>
+<rect x="532.0" y="99.0" width="168.0" height="26.0" fill="#ffffff" stroke="#FF5F05" stroke-width="1.3" rx="3"/>
+<rect x="532.0" y="139.0" width="168.0" height="26.0" fill="#fdeee2" stroke="#FF5F05" stroke-width="1.3" rx="3"/>
+<rect x="532.0" y="179.0" width="168.0" height="26.0" fill="#ffffff" stroke="#FF5F05" stroke-width="1.3" rx="3"/>
+<rect x="532.0" y="219.0" width="168.0" height="26.0" fill="#fdeee2" stroke="#FF5F05" stroke-width="1.3" rx="3"/>
+<line x1="572.0" y1="125.0" x2="572.0" y2="133.0" stroke="#FF5F05" stroke-width="1.2" stroke-linecap="butt"/>
+<polygon points="572.0,139.0 569.0,133.0 575.0,133.0" fill="#FF5F05"/>
+<line x1="660.0" y1="139.0" x2="660.0" y2="131.0" stroke="#FF5F05" stroke-width="1.2" stroke-linecap="butt"/>
+<polygon points="660.0,125.0 663.0,131.0 657.0,131.0" fill="#FF5F05"/>
+<line x1="572.0" y1="165.0" x2="572.0" y2="173.0" stroke="#FF5F05" stroke-width="1.2" stroke-linecap="butt"/>
+<polygon points="572.0,179.0 569.0,173.0 575.0,173.0" fill="#FF5F05"/>
+<line x1="660.0" y1="179.0" x2="660.0" y2="171.0" stroke="#FF5F05" stroke-width="1.2" stroke-linecap="butt"/>
+<polygon points="660.0,165.0 663.0,171.0 657.0,171.0" fill="#FF5F05"/>
+<line x1="572.0" y1="205.0" x2="572.0" y2="213.0" stroke="#FF5F05" stroke-width="1.2" stroke-linecap="butt"/>
+<polygon points="572.0,219.0 569.0,213.0 575.0,213.0" fill="#FF5F05"/>
+<line x1="660.0" y1="219.0" x2="660.0" y2="211.0" stroke="#FF5F05" stroke-width="1.2" stroke-linecap="butt"/>
+<polygon points="660.0,205.0 663.0,211.0 657.0,211.0" fill="#FF5F05"/>
+<line x1="510.0" y1="152.0" x2="522.0" y2="152.0" stroke="#e2e6ec" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="529.0,152.0 522.0,155.5 522.0,148.5" fill="#e2e6ec"/>
+<line x1="702.0" y1="192.0" x2="715.0" y2="192.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="722.0,192.0 715.0,195.5 715.0,188.5" fill="#5b6470"/>
+<text x="616.0" y="260.0" font-size="11" fill="#b8460a" text-anchor="middle" font-weight="bold">nothing delivered</text>
+<text x="374.0" y="326.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">the arrows below each structure are what has to be delivered to it, not what it computes</text>
+</svg>

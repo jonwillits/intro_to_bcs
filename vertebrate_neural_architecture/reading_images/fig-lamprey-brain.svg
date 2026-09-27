@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 748 372" width="748" height="372" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="374.0" y="22.0" font-size="14" fill="#13294B" text-anchor="middle" font-weight="bold">The brain of a lamprey, from the side</text>
+<path d="M 180.6 215.8 Q 173.8 168.2 218.0 158.0 Q 269.0 154.6 313.2 164.8 Q 350.6 171.6 377.8 147.8 Q 405.0 127.4 442.4 151.2 Q 483.2 168.2 530.8 175.0 L 636.2 192.0 L 636.2 212.4 L 530.8 215.8 Q 483.2 219.2 442.4 215.8 Q 405.0 212.4 367.6 222.6 Q 333.6 236.2 306.4 219.2 Q 252.0 209.0 180.6 215.8 Z" fill="#e8eef6" stroke="#13294B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="340.4" y1="229.4" x2="340.4" y2="151.2" stroke="#13294B" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="456.0" y1="229.4" x2="456.0" y2="151.2" stroke="#13294B" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="530.8" y1="229.4" x2="530.8" y2="151.2" stroke="#13294B" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="5 4"/>
+<text x="262.2" y="306.0" font-size="12" fill="#13294B" text-anchor="middle" font-weight="bold">forebrain</text>
+<text x="398.2" y="306.0" font-size="12" fill="#13294B" text-anchor="middle" font-weight="bold">midbrain</text>
+<text x="493.4" y="306.0" font-size="12" fill="#13294B" text-anchor="middle" font-weight="bold">hindbrain</text>
+<text x="583.5" y="306.0" font-size="12" fill="#13294B" text-anchor="middle" font-weight="bold">spinal cord</text>
+<circle cx="245.2" cy="175.0" r="3.2" fill="#13294B" stroke="#13294B" stroke-width="0.0"/>
+<line x1="245.2" y1="175.0" x2="138.0" y2="64.0" stroke="#e2e6ec" stroke-width="1.0" stroke-linecap="round"/>
+<text x="134.0" y="68.0" font-size="11" fill="#1a1a1a" text-anchor="end" font-weight="normal">pallium</text>
+<circle cx="258.8" cy="197.1" r="3.2" fill="#13294B" stroke="#13294B" stroke-width="0.0"/>
+<line x1="258.8" y1="197.1" x2="138.0" y2="88.0" stroke="#e2e6ec" stroke-width="1.0" stroke-linecap="round"/>
+<text x="134.0" y="92.0" font-size="11" fill="#1a1a1a" text-anchor="end" font-weight="normal">thalamus</text>
+<circle cx="279.2" cy="214.1" r="3.2" fill="#13294B" stroke="#13294B" stroke-width="0.0"/>
+<line x1="279.2" y1="214.1" x2="138.0" y2="112.0" stroke="#e2e6ec" stroke-width="1.0" stroke-linecap="round"/>
+<text x="134.0" y="116.0" font-size="11" fill="#1a1a1a" text-anchor="end" font-weight="normal">basal ganglia</text>
+<circle cx="320.0" cy="231.1" r="3.2" fill="#13294B" stroke="#13294B" stroke-width="0.0"/>
+<line x1="320.0" y1="231.1" x2="138.0" y2="136.0" stroke="#e2e6ec" stroke-width="1.0" stroke-linecap="round"/>
+<text x="134.0" y="140.0" font-size="11" fill="#1a1a1a" text-anchor="end" font-weight="normal">hypothalamus</text>
+<circle cx="398.2" cy="141.0" r="3.2" fill="#13294B" stroke="#13294B" stroke-width="0.0"/>
+<line x1="398.2" y1="141.0" x2="398.2" y2="108.0" stroke="#e2e6ec" stroke-width="1.0" stroke-linecap="round"/>
+<text x="398.2" y="102.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">tectum</text>
+<path d="M 340.4 264.0 L 340.4 272.0 L 530.8 272.0 L 530.8 264.0" fill="none" stroke="#5b6470" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="435.6" y="332.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">brainstem</text>
+<ellipse cx="483.2" cy="137.6" rx="28" ry="19" fill="none" stroke="#5b6470" stroke-width="1.6" stroke-dasharray="6 4"/>
+<line x1="509.2" y1="127.6" x2="596.0" y2="92.0" stroke="#e2e6ec" stroke-width="1.0" stroke-linecap="round"/>
+<text x="600.0" y="96.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">where a cerebellum sits</text>
+<text x="600.0" y="112.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">in jawed vertebrates</text>
+<text x="600.0" y="130.0" font-size="11" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="italic">a lamprey lacks this form</text>
+<text x="374.0" y="360.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">front at the left</text>
+</svg>

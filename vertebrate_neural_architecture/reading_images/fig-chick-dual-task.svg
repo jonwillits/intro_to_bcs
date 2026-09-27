@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 726 470" width="726" height="470" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="363.0" y="22.0" font-size="14" fill="#6B7280" text-anchor="middle" font-weight="bold">Two jobs at once, one on each side</text>
+<ellipse cx="363" cy="166" rx="38" ry="58" fill="#ffffff" stroke="#6B7280" stroke-width="1.8"/>
+<ellipse cx="363" cy="114" rx="26" ry="22" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<path d="M 358 94 L 363 82 L 368 94 Z" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="346.0" cy="108.0" r="5.0" fill="#ffffff" stroke="#6B7280" stroke-width="1.6"/>
+<circle cx="380.0" cy="108.0" r="5.0" fill="#ffffff" stroke="#6B7280" stroke-width="1.6"/>
+<text x="120.0" y="96.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">a hawk overhead</text>
+<path d="M 76 120 Q 120 104 164 120 Q 120 132 76 120 Z" fill="#6B7280" stroke="#6B7280" stroke-width="1.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="606.0" y="96.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">grain among pebbles</text>
+<circle cx="566.0" cy="118.0" r="4.0" fill="#ffffff" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="586.0" cy="118.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="606.0" cy="118.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="626.0" cy="118.0" r="4.0" fill="#ffffff" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="646.0" cy="118.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="566.0" cy="134.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="586.0" cy="134.0" r="4.0" fill="#ffffff" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="606.0" cy="134.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="626.0" cy="134.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="646.0" cy="134.0" r="4.0" fill="#ffffff" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="566.0" cy="150.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="586.0" cy="150.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="606.0" cy="150.0" r="4.0" fill="#ffffff" stroke="#6B7280" stroke-width="1.2"/>
+<circle cx="626.0" cy="150.0" r="4.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.2"/>
+<line x1="380.0" y1="104.0" x2="553.1" y2="125.2" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="560.0,126.0 552.7,128.3 553.4,122.0" fill="#5b6470"/>
+<line x1="346.0" y1="104.0" x2="176.9" y2="125.1" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="170.0,126.0 176.5,122.0 177.3,128.3" fill="#5b6470"/>
+<text x="459.0" y="124.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">right eye → left side</text>
+<text x="267.0" y="124.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">left eye → right side</text>
+<text x="459.0" y="138.0" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="normal">the fine discrimination</text>
+<text x="267.0" y="138.0" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="normal">watching for the predator</text>
+<ellipse cx="190" cy="340" rx="22" ry="30" fill="#fdf6ec" stroke="#6B7280" stroke-width="1.8"/>
+<text x="190.0" y="390.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">egg left in the light</text>
+<rect x="282.0" y="284.0" width="46.0" height="86.0" fill="#6B7280" stroke="#6B7280" stroke-width="1.4" rx="2"/>
+<line x1="274.0" y1="370.0" x2="340.0" y2="370.0" stroke="#e2e6ec" stroke-width="1.2" stroke-linecap="round"/>
+<text x="305.0" y="390.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">does both at once</text>
+<line x1="216.0" y1="340.0" x2="266.0" y2="343.6" stroke="#5b6470" stroke-width="1.2" stroke-linecap="butt"/>
+<polygon points="272.0,344.0 265.8,346.6 266.2,340.6" fill="#5b6470"/>
+<ellipse cx="470" cy="340" rx="22" ry="30" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<text x="470.0" y="390.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">egg kept dark</text>
+<rect x="562.0" y="330.0" width="46.0" height="40.0" fill="#c9ced6" stroke="#6B7280" stroke-width="1.4" rx="2"/>
+<line x1="554.0" y1="370.0" x2="620.0" y2="370.0" stroke="#e2e6ec" stroke-width="1.2" stroke-linecap="round"/>
+<text x="585.0" y="390.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">loses the discrimination</text>
+<line x1="496.0" y1="340.0" x2="546.0" y2="343.6" stroke="#5b6470" stroke-width="1.2" stroke-linecap="butt"/>
+<polygon points="552.0,344.0 545.8,346.6 546.2,340.6" fill="#5b6470"/>
+<text x="363.0" y="272.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">how well chicks from each egg do both tasks together</text>
+<text x="363.0" y="458.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">light through the shell reaches the right eye only, and strengthens the asymmetry</text>
+</svg>

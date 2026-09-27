@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 268" width="740" height="268" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="370.0" y="22.0" font-size="14" fill="#6B7280" text-anchor="middle" font-weight="bold">Three bulbs, then five</text>
+<text x="190.0" y="52.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="bold">three vesicles</text>
+<text x="540.0" y="52.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="bold">five vesicles</text>
+<ellipse cx="104" cy="110" rx="36" ry="32" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<text x="104.0" y="168.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">forebrain</text>
+<line x1="104.0" y1="142.0" x2="104.0" y2="156.0" stroke="#e2e6ec" stroke-width="1.0" stroke-linecap="round"/>
+<ellipse cx="176" cy="110" rx="36" ry="32" fill="#ffffff" stroke="#6B7280" stroke-width="1.8"/>
+<text x="176.0" y="184.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">midbrain</text>
+<line x1="176.0" y1="142.0" x2="176.0" y2="172.0" stroke="#e2e6ec" stroke-width="1.0" stroke-linecap="round"/>
+<ellipse cx="248" cy="110" rx="36" ry="32" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<text x="248.0" y="168.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">hindbrain</text>
+<line x1="248.0" y1="142.0" x2="248.0" y2="156.0" stroke="#e2e6ec" stroke-width="1.0" stroke-linecap="round"/>
+<path d="M 284 110 Q 320 110 330 148 L 330 196" fill="none" stroke="#6B7280" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="330.0" y="214.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">neural tube</text>
+<ellipse cx="430" cy="110" rx="30" ry="27" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<text x="430.0" y="170.0" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="normal">pallium and</text>
+<text x="430.0" y="184.0" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="normal">basal ganglia</text>
+<line x1="430.0" y1="138.0" x2="430.0" y2="158.0" stroke="#e2e6ec" stroke-width="1.0" stroke-linecap="round"/>
+<ellipse cx="496" cy="110" rx="30" ry="27" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<text x="496.0" y="204.0" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="normal">thalamus and</text>
+<text x="496.0" y="218.0" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="normal">hypothalamus</text>
+<line x1="496.0" y1="138.0" x2="496.0" y2="192.0" stroke="#e2e6ec" stroke-width="1.0" stroke-linecap="round"/>
+<ellipse cx="562" cy="110" rx="30" ry="27" fill="#ffffff" stroke="#6B7280" stroke-width="1.8"/>
+<text x="562.0" y="170.0" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="normal">midbrain</text>
+<line x1="562.0" y1="138.0" x2="562.0" y2="158.0" stroke="#e2e6ec" stroke-width="1.0" stroke-linecap="round"/>
+<ellipse cx="628" cy="110" rx="30" ry="27" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<text x="628.0" y="204.0" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="normal">cerebellum</text>
+<line x1="628.0" y1="138.0" x2="628.0" y2="192.0" stroke="#e2e6ec" stroke-width="1.0" stroke-linecap="round"/>
+<ellipse cx="688" cy="110" rx="26" ry="27" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<text x="688.0" y="170.0" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="normal">rest of</text>
+<text x="688.0" y="184.0" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="normal">hindbrain</text>
+<line x1="688.0" y1="138.0" x2="688.0" y2="158.0" stroke="#e2e6ec" stroke-width="1.0" stroke-linecap="round"/>
+<line x1="400.0" y1="86.0" x2="530.0" y2="86.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<text x="465.0" y="78.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">from the forebrain</text>
+<line x1="600.0" y1="86.0" x2="712.0" y2="86.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<text x="656.0" y="78.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">from the hindbrain</text>
+<line x1="352.0" y1="110.0" x2="384.0" y2="110.0" stroke="#5b6470" stroke-width="1.8" stroke-linecap="butt"/>
+<polygon points="392.0,110.0 384.0,114.0 384.0,106.0" fill="#5b6470"/>
+<text x="372.0" y="96.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">later</text>
+<text x="370.0" y="256.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">the midbrain is the one division that does not divide again</text>
+</svg>
