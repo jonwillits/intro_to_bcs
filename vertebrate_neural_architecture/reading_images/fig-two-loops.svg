@@ -50,8 +50,10 @@
 <line x1="462.0" y1="244.0" x2="462.0" y2="100.0" stroke="#5b6470" stroke-width="1.3" stroke-linecap="round"/>
 <line x1="462.0" y1="100.0" x2="462.0" y2="93.0" stroke="#5b6470" stroke-width="1.3" stroke-linecap="butt"/>
 <polygon points="462.0,86.0 465.4,93.0 458.6,93.0" fill="#5b6470"/>
-<text x="168.0" y="126.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">three parallel loops</text>
-<text x="552.0" y="126.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">three parallel loops</text>
+<text x="148.0" y="122.0" font-size="10" fill="#5b6470" text-anchor="end" font-weight="normal">three parallel</text>
+<text x="148.0" y="135.0" font-size="10" fill="#5b6470" text-anchor="end" font-weight="normal">loops</text>
+<text x="572.0" y="122.0" font-size="10" fill="#5b6470" text-anchor="start" font-weight="normal">three parallel</text>
+<text x="572.0" y="135.0" font-size="10" fill="#5b6470" text-anchor="start" font-weight="normal">loops</text>
 <line x1="120.0" y1="200.0" x2="120.0" y2="265.0" stroke="#FF5F05" stroke-width="1.6" stroke-linecap="butt"/>
 <polygon points="120.0,272.0 116.5,265.0 123.5,265.0" fill="#FF5F05"/>
 <text x="120.0" y="290.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">to brainstem motor centers</text>
