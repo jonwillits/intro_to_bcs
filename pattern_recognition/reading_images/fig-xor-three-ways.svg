@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="380.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">One network for exclusive or, read three ways</text>
+<text x="135.0" y="50.0" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">the network</text>
+<line x1="80.0" y1="230.0" x2="80.0" y2="190.0" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="80.0,182.0 84.5,190.0 75.5,190.0" fill="#1a1a1a"/>
+<text x="66.0" y="223.4" font-size="11" fill="#b8460a" text-anchor="middle" font-weight="bold">+1</text>
+<line x1="80.0" y1="230.0" x2="169.6" y2="185.6" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="176.8,182.0 171.6,189.6 167.6,181.5" fill="#1a1a1a"/>
+<text x="118.2" y="223.4" font-size="11" fill="#b8460a" text-anchor="middle" font-weight="bold">−1</text>
+<line x1="190.0" y1="230.0" x2="100.4" y2="185.6" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="93.2,182.0 102.4,181.5 98.4,189.6" fill="#1a1a1a"/>
+<text x="151.8" y="223.4" font-size="11" fill="#b8460a" text-anchor="middle" font-weight="bold">+1</text>
+<line x1="190.0" y1="230.0" x2="190.0" y2="190.0" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="190.0,182.0 194.5,190.0 185.5,190.0" fill="#1a1a1a"/>
+<text x="204.0" y="223.4" font-size="11" fill="#b8460a" text-anchor="middle" font-weight="bold">−1</text>
+<line x1="80.0" y1="140.0" x2="115.6" y2="104.6" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="121.2,99.0 118.7,107.8 112.4,101.4" fill="#1a1a1a"/>
+<line x1="190.0" y1="140.0" x2="154.4" y2="104.6" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="148.8,99.0 157.6,101.4 151.3,107.8" fill="#1a1a1a"/>
+<text x="94.0" y="122.0" font-size="11" fill="#b8460a" text-anchor="middle" font-weight="bold">+1</text>
+<text x="176.0" y="122.0" font-size="11" fill="#b8460a" text-anchor="middle" font-weight="bold">+1</text>
+<circle cx="80.0" cy="250.0" r="20.0" fill="#ffffff" stroke="#FF5F05" stroke-width="2.0"/>
+<text x="80.0" y="254.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="bold">smell A</text>
+<circle cx="190.0" cy="250.0" r="20.0" fill="#ffffff" stroke="#FF5F05" stroke-width="2.0"/>
+<text x="190.0" y="254.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="bold">smell B</text>
+<circle cx="80.0" cy="160.0" r="20.0" fill="#fdeee2" stroke="#FF5F05" stroke-width="2.0"/>
+<text x="80.0" y="164.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="bold">OR</text>
+<text x="50.0" y="164.0" font-size="10" fill="#5b6470" text-anchor="end" font-weight="normal">θ = 0.5</text>
+<circle cx="190.0" cy="160.0" r="20.0" fill="#fdeee2" stroke="#FF5F05" stroke-width="2.0"/>
+<text x="190.0" y="164.0" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">NOT-AND</text>
+<text x="220.0" y="164.0" font-size="10" fill="#5b6470" text-anchor="start" font-weight="normal">θ = −1.5</text>
+<circle cx="135.0" cy="78.0" r="20.0" fill="#fdeee2" stroke="#FF5F05" stroke-width="2.0"/>
+<text x="135.0" y="82.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="bold">AND</text>
+<text x="105.0" y="82.0" font-size="10" fill="#5b6470" text-anchor="end" font-weight="normal">θ = 1.5</text>
+<text x="385.0" y="50.0" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">as boundaries</text>
+<rect x="300.0" y="70.0" width="170.0" height="170.0" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.2" rx="2"/>
+<text x="385.0" y="256.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">smell A</text>
+<text x="290.0" y="155.0" font-size="11" fill="#5b6470" text-anchor="middle" transform="rotate(-90 290.0 155.0)">smell B</text>
+<polygon points="410.0,240.0 470.0,240.0 470.0,180.0 360.0,70.0 300.0,70.0 300.0,130.0" fill="#fdeee2" stroke="none" stroke-width="1.0"/>
+<line x1="300.0" y1="95.0" x2="445.0" y2="240.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="470.0" y1="215.0" x2="325.0" y2="70.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="325.0" cy="95.0" r="6.5" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="445.0" cy="215.0" r="6.5" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="325.0" cy="215.0" r="6.5" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="445.0" cy="95.0" r="6.5" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<text x="641.0" y="50.0" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">as a new space</text>
+<rect x="556.0" y="70.0" width="170.0" height="170.0" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.2" rx="2"/>
+<text x="641.0" y="256.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">OR unit</text>
+<text x="546.0" y="155.0" font-size="11" fill="#5b6470" text-anchor="middle" transform="rotate(-90 546.0 155.0)">NOT-AND unit</text>
+<line x1="725.0" y1="179.0" x2="617.0" y2="71.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<circle cx="701.0" cy="95.0" r="6.5" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<text x="701.0" y="119.0" font-size="10" fill="#b8460a" text-anchor="middle" font-weight="normal">both ripe</text>
+<text x="701.0" y="131.0" font-size="10" fill="#b8460a" text-anchor="middle" font-weight="normal">cases</text>
+<circle cx="581.0" cy="95.0" r="6.5" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<text x="593.0" y="113.0" font-size="10" fill="#5b6470" text-anchor="start" font-weight="normal">no fruit</text>
+<circle cx="701.0" cy="215.0" r="6.5" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<text x="689.0" y="205.0" font-size="10" fill="#5b6470" text-anchor="end" font-weight="normal">rotting</text>
+</svg>

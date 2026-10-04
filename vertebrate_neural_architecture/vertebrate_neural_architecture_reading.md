@@ -508,7 +508,7 @@ In Module 1, we taught multiple realizability, the idea that the same function c
 
 ## Close — Old Problems, New Parts
 
-Nothing in this chapter is a new problem. An animal that has to keep breathing while it changes course, end up doing one thing when several are proposed, and hold on to some of what it learns while updating the rest, is an animal facing the same three demands we met in Module 4 and Module 5. What changed between those chapters and this one is not the demands. It is what meets them.
+Nothing in this chapter is a new problem. An animal that has to keep breathing while it changes course, end up doing one thing when several are proposed, and hold on to some of what it learns while updating the rest, is an animal facing the same three demands we described in Module 4 and Module 5. What changed between those chapters and this one is not the demands. It is what meets them.
 
 That is the first thing worth carrying out of the chapter, because the three levels have not behaved like this before. The computational level has barely moved. The demands on a Cambrian animal are the demands on a lamprey, and on a mouse, and they would be the demands on anything that has to move through a world with other animals in it. Meanwhile the implementational level has been rebuilt over and over: a cerebellum arrives with the jawed fishes, an output nucleus divides in two, a pallium acquires six layers in one lineage and clusters in another, and the whole plan is scaled up independently in sharks, in bony fishes, in birds and in mammals. A problem can stand still for half a billion years while the machinery that answers it is remade several times over.
 

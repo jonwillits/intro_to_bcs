@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="380.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">A feature space for two kinds of smell receptor</text>
+<rect x="250.0" y="44.0" width="236.0" height="236.0" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.2" rx="2"/>
+<text x="368.0" y="296.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">response of receptor A</text>
+<text x="240.0" y="162.0" font-size="11" fill="#5b6470" text-anchor="middle" transform="rotate(-90 240.0 162.0)">response of receptor B</text>
+<circle cx="393.3" cy="270.6" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="326.3" cy="213.5" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="385.8" cy="258.3" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="367.8" cy="219.8" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="330.2" cy="218.0" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="354.6" cy="232.3" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="332.5" cy="186.6" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="391.4" cy="270.6" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="381.8" cy="168.3" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="320.1" cy="188.0" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="320.7" cy="146.9" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="341.4" cy="204.0" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="328.0" cy="203.5" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="329.5" cy="224.4" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="398.1" cy="256.0" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="259.4" cy="201.2" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="330.5" cy="186.0" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="328.7" cy="201.9" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="345.2" cy="167.7" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="321.2" cy="208.8" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="394.5" cy="181.1" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="304.7" cy="126.1" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="358.8" cy="215.5" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="298.9" cy="188.2" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="309.4" cy="229.8" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="295.2" cy="212.9" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="399.2" cy="93.0" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="367.7" cy="100.9" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="388.4" cy="139.3" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="454.6" cy="126.5" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="395.0" cy="108.9" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="430.9" cy="132.3" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="414.4" cy="161.2" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="385.1" cy="144.8" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="355.4" cy="177.6" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="346.4" cy="138.6" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="391.0" cy="141.1" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="398.4" cy="172.3" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="393.9" cy="124.0" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="419.4" cy="157.3" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="384.1" cy="193.1" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="380.9" cy="198.7" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="352.8" cy="97.5" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="328.8" cy="106.8" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="406.4" cy="140.9" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="410.4" cy="115.1" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="428.4" cy="138.4" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="378.2" cy="149.9" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="366.1" cy="132.7" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="372.2" cy="98.5" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="339.0" cy="164.9" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<circle cx="367.1" cy="195.5" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<line x1="250.0" y1="46.4" x2="483.6" y2="280.0" stroke="#1a1a1a" stroke-width="2.2" stroke-linecap="round"/>
+<text x="478.0" y="62.0" font-size="13" fill="#b8460a" text-anchor="end" font-weight="bold">eel</text>
+<text x="260.0" y="270.0" font-size="13" fill="#b8460a" text-anchor="start" font-weight="bold">sucker</text>
+<circle cx="526.0" cy="104.0" r="4.2" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<text x="538.0" y="108.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal">a sniff of eel</text>
+<circle cx="526.0" cy="128.0" r="4.2" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<text x="538.0" y="132.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal">a sniff of sucker</text>
+<line x1="516.0" y1="154.0" x2="536.0" y2="154.0" stroke="#1a1a1a" stroke-width="2.2" stroke-linecap="round"/>
+<text x="544.0" y="158.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal">one straight boundary</text>
+<text x="516.0" y="194.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="italic">A real fish has many more</text>
+<text x="516.0" y="210.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="italic">axes: one for each kind</text>
+<text x="516.0" y="226.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="italic">of smell receptor.</text>
+</svg>

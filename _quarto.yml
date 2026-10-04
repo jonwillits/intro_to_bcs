@@ -47,7 +47,7 @@ project:
     - neural_circuits_affect_and_valence/neural_circuits_affect_and_valence_reading.md
     - learning_and_plasticity/learning_and_plasticity_reading.md
     - vertebrate_neural_architecture/vertebrate_neural_architecture_reading.md
-    - pattern_recognition/index.qmd
+    - pattern_recognition/pattern_recognition_reading.md
     - perception_and_action/index.qmd
     - spatial_cognition/index.qmd
     - memory_and_generative_models/index.qmd
@@ -115,8 +115,8 @@ website:
 
       - section: "Perceiving & Modeling the World"
         contents:
-          - text: "7 · Pattern Recognition — coming soon"
-            href: pattern_recognition/index.qmd
+          - text: "7 · Pattern Recognition"
+            href: pattern_recognition/pattern_recognition_reading.md
           - text: "8 · Perception & Action — coming soon"
             href: perception_and_action/index.qmd
           - text: "9 · Spatial Cognition — coming soon"

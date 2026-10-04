@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 318" width="760" height="318" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="380.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">Two problems no single straight line can solve</text>
+<rect x="96.0" y="52.0" width="210.0" height="210.0" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.2" rx="2"/>
+<text x="201.0" y="278.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">smell A: absent to present</text>
+<text x="86.0" y="157.0" font-size="11" fill="#5b6470" text-anchor="middle" transform="rotate(-90 86.0 157.0)">smell B: absent to present</text>
+<circle cx="126.0" cy="82.0" r="7.0" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<text x="126.0" y="68.0" font-size="12" fill="#b8460a" text-anchor="middle" font-weight="normal">ripe</text>
+<circle cx="276.0" cy="232.0" r="7.0" fill="#FF5F05" stroke="#FF5F05" stroke-width="1.5"/>
+<text x="276.0" y="254.0" font-size="12" fill="#b8460a" text-anchor="middle" font-weight="normal">ripe</text>
+<circle cx="126.0" cy="232.0" r="7.0" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<text x="126.0" y="254.0" font-size="12" fill="#b8460a" text-anchor="middle" font-weight="normal">no fruit</text>
+<circle cx="276.0" cy="82.0" r="7.0" fill="#ffffff" stroke="#FF5F05" stroke-width="1.5"/>
+<text x="276.0" y="68.0" font-size="12" fill="#b8460a" text-anchor="middle" font-weight="normal">rotting</text>
+<line x1="96.0" y1="119.5" x2="238.5" y2="262.0" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="7 5"/>
+<line x1="96.0" y1="194.5" x2="238.5" y2="52.0" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="7 5"/>
+<text x="201.0" y="42.0" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">exclusive or</text>
+<rect x="454.0" y="52.0" width="210.0" height="210.0" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.2" rx="2"/>
+<text x="559.0" y="278.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">strength of chemical A</text>
+<text x="444.0" y="157.0" font-size="11" fill="#5b6470" text-anchor="middle" transform="rotate(-90 444.0 157.0)">strength of chemical B</text>
+<ellipse cx="563.2" cy="152.8" rx="44.0" ry="32.0" fill="#fdeee2" stroke="#FF5F05" stroke-width="2.0" transform="rotate(-20.0 563.2 152.8)"/>
+<text x="563.2" y="156.8" font-size="12" fill="#b8460a" text-anchor="middle" font-weight="bold">just right</text>
+<text x="654.0" y="250.0" font-size="11" fill="#5b6470" text-anchor="end" font-weight="normal" font-style="italic">too little or too much</text>
+<line x1="506.5" y1="262.0" x2="464.5" y2="52.0" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-dasharray="7 5"/>
+<text x="559.0" y="42.0" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">the island</text>
+</svg>
