@@ -48,7 +48,7 @@ project:
     - learning_and_plasticity/learning_and_plasticity_reading.md
     - vertebrate_neural_architecture/vertebrate_neural_architecture_reading.md
     - pattern_recognition/pattern_recognition_reading.md
-    - perception_and_action/index.qmd
+    - perception_and_action/perception_and_action_reading.md
     - spatial_cognition/index.qmd
     - memory_and_generative_models/index.qmd
     - social_cognition/index.qmd
@@ -106,7 +106,7 @@ website:
         contents:
           - text: "3 · Neurons & Neural Communication"
             href: neurons_and_neural_communication/neurons_and_neural_communication_reading.md
-          - text: "4 · Neural Circuits, Affect & Valence"
+          - text: "4 · Neural Circuits, Valence & Affect"
             href: neural_circuits_affect_and_valence/neural_circuits_affect_and_valence_reading.md
           - text: "5 · Learning & Plasticity"
             href: learning_and_plasticity/learning_and_plasticity_reading.md
@@ -117,8 +117,8 @@ website:
         contents:
           - text: "7 · Pattern Recognition"
             href: pattern_recognition/pattern_recognition_reading.md
-          - text: "8 · Perception & Action — coming soon"
-            href: perception_and_action/index.qmd
+          - text: "8 · Perception & Action"
+            href: perception_and_action/perception_and_action_reading.md
           - text: "9 · Spatial Cognition — coming soon"
             href: spatial_cognition/index.qmd
           - text: "10 · Memory, Imagination & Generative Models — coming soon"

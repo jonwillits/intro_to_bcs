@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" width="760" height="250" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="380.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">Two tones heard as one stream, or as two</text>
+<rect x="30.0" y="40.0" width="330.0" height="170.0" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1.0" rx="6"/>
+<text x="195.0" y="62.0" font-size="13" fill="#b8460a" text-anchor="middle" font-weight="bold">slow: one stream</text>
+<rect x="56.0" y="86.0" width="22.3" height="12.0" fill="#FF5F05" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="92.0" y="154.0" width="22.3" height="12.0" fill="#ffffff" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="128.0" y="86.0" width="22.3" height="12.0" fill="#FF5F05" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="200.0" y="86.0" width="22.3" height="12.0" fill="#FF5F05" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="236.0" y="154.0" width="22.3" height="12.0" fill="#ffffff" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="272.0" y="86.0" width="22.3" height="12.0" fill="#FF5F05" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<polyline points="67.2,92.0 103.2,160.0 139.2,92.0 211.2,92.0 247.2,160.0 283.2,92.0" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="50.0" y1="196.0" x2="332.0" y2="196.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="butt"/>
+<polygon points="340.0,196.0 332.0,200.5 332.0,191.5" fill="#5b6470"/>
+<text x="330.0" y="191.0" font-size="11" fill="#5b6470" text-anchor="end" font-weight="normal">time</text>
+<text x="40.0" y="126.0" font-size="11" fill="#5b6470" text-anchor="middle" transform="rotate(-90 40.0 126.0)">pitch</text>
+<rect x="400.0" y="40.0" width="330.0" height="170.0" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1.0" rx="6"/>
+<text x="565.0" y="62.0" font-size="13" fill="#b8460a" text-anchor="middle" font-weight="bold">fast: two streams</text>
+<rect x="426.0" y="86.0" width="11.2" height="12.0" fill="#FF5F05" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="444.0" y="154.0" width="11.2" height="12.0" fill="#ffffff" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="462.0" y="86.0" width="11.2" height="12.0" fill="#FF5F05" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="498.0" y="86.0" width="11.2" height="12.0" fill="#FF5F05" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="516.0" y="154.0" width="11.2" height="12.0" fill="#ffffff" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="534.0" y="86.0" width="11.2" height="12.0" fill="#FF5F05" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="570.0" y="86.0" width="11.2" height="12.0" fill="#FF5F05" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="588.0" y="154.0" width="11.2" height="12.0" fill="#ffffff" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="606.0" y="86.0" width="11.2" height="12.0" fill="#FF5F05" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="642.0" y="86.0" width="11.2" height="12.0" fill="#FF5F05" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="660.0" y="154.0" width="11.2" height="12.0" fill="#ffffff" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<rect x="678.0" y="86.0" width="11.2" height="12.0" fill="#FF5F05" stroke="#b8460a" stroke-width="1.5" rx="2"/>
+<polyline points="431.6,92.0 467.6,92.0 503.6,92.0 539.6,92.0 575.6,92.0 611.6,92.0 647.6,92.0 683.6,92.0" fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="449.6,160.0 521.6,160.0 593.6,160.0 665.6,160.0" fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+<text x="720.0" y="78.0" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">high stream</text>
+<text x="720.0" y="146.0" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">low stream</text>
+<line x1="420.0" y1="196.0" x2="702.0" y2="196.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="butt"/>
+<polygon points="710.0,196.0 702.0,200.5 702.0,191.5" fill="#5b6470"/>
+<text x="700.0" y="191.0" font-size="11" fill="#5b6470" text-anchor="end" font-weight="normal">time</text>
+<text x="410.0" y="126.0" font-size="11" fill="#5b6470" text-anchor="middle" transform="rotate(-90 410.0 126.0)">pitch</text>
+<text x="380.0" y="234.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">filled bars, high tone; open bars, low tone</text>
+</svg>

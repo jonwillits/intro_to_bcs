@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#5b6470" stroke-width="2"/></pattern></defs>
+<text x="380.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">Recognizing a new view of a novel object</text>
+<ellipse cx="190.0" cy="165.0" rx="120.0" ry="43.2" fill="none" stroke="#5b6470" stroke-width="1.2" transform="rotate(0.0 190.0 165.0)"/>
+<ellipse cx="190.0" cy="165.0" rx="43.2" ry="93.6" fill="none" stroke="#5b6470" stroke-width="1.2" transform="rotate(0.0 190.0 165.0)" stroke-dasharray="4 4"/>
+<polyline points="189.5,155.1 201.1,159.4 202.1,160.9 187.9,165.8 198.5,185.4 181.0,173.2 169.8,155.3" fill="none" stroke="#1a1a1a" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="189.5" cy="155.1" r="2.4" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.5"/>
+<circle cx="201.1" cy="159.4" r="2.4" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.5"/>
+<circle cx="202.1" cy="160.9" r="2.4" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.5"/>
+<circle cx="187.9" cy="165.8" r="2.4" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.5"/>
+<circle cx="198.5" cy="185.4" r="2.4" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.5"/>
+<circle cx="181.0" cy="173.2" r="2.4" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.5"/>
+<circle cx="169.8" cy="155.3" r="2.4" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.5"/>
+<polyline points="263.9,199.0 258.8,200.4 253.4,201.7 248.0,202.8 242.3,203.9 236.5,204.8 230.6,205.7 224.5,206.4 218.4,207.0 212.2,207.5 205.9,207.8 199.5,208.1 193.2,208.2 186.8,208.2 180.5,208.1 174.1,207.8 167.8,207.5 161.6,207.0 155.5,206.4 149.4,205.7 143.5,204.8 137.7,203.9 132.0,202.8 126.6,201.7 121.2,200.4 116.1,199.0" fill="none" stroke="#FF5F05" stroke-width="6.0" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="106.6,196.1 102.2,194.4 97.9,192.7 94.0,190.9 90.3,189.0 86.9,187.1 83.7,185.1 80.9,183.0 78.4,180.9 76.2,178.7 74.3,176.5 72.8,174.3 71.6,172.0 70.7,169.8 70.2,167.5 70.0,165.2 70.1,162.9 70.6,160.6 71.5,158.3 72.6,156.0" fill="none" stroke="#FF5F05" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 4"/>
+<polyline points="307.4,156.0 308.5,158.3 309.4,160.6 309.9,162.9 310.0,165.2 309.8,167.5 309.3,169.8 308.4,172.0 307.2,174.3 305.7,176.5 303.8,178.7 301.6,180.9 299.1,183.0 296.3,185.1 293.1,187.1 289.7,189.0 286.0,190.9 282.1,192.7 277.8,194.4 273.4,196.1" fill="none" stroke="#FF5F05" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="7 4"/>
+<circle cx="263.9" cy="199.0" r="7.0" fill="#1a1a1a" stroke="#ffffff" stroke-width="1.8"/>
+<circle cx="116.1" cy="199.0" r="7.0" fill="#1a1a1a" stroke="#ffffff" stroke-width="1.8"/>
+<text x="190.0" y="230.2" font-size="12" fill="#b8460a" text-anchor="middle" font-weight="bold">between</text>
+<text x="64.7" y="191.5" font-size="12" fill="#b8460a" text-anchor="middle" font-weight="bold">beyond</text>
+<text x="216.0" y="73.4" font-size="12" fill="#b8460a" text-anchor="start" font-weight="bold">at right angles</text>
+<text x="190.0" y="44.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">two learned views (black dots) on one circle around the object</text>
+<line x1="450.0" y1="236.0" x2="730.0" y2="236.0" stroke="#5b6470" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="450.0" y1="56.0" x2="450.0" y2="236.0" stroke="#5b6470" stroke-width="1.3" stroke-linecap="round"/>
+<line x1="445.0" y1="236.0" x2="450.0" y2="236.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<text x="441.0" y="240.0" font-size="11" fill="#5b6470" text-anchor="end" font-weight="normal">0%</text>
+<line x1="445.0" y1="146.0" x2="450.0" y2="146.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<text x="441.0" y="150.0" font-size="11" fill="#5b6470" text-anchor="end" font-weight="normal">25%</text>
+<line x1="445.0" y1="56.0" x2="450.0" y2="56.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<text x="441.0" y="60.0" font-size="11" fill="#5b6470" text-anchor="end" font-weight="normal">50%</text>
+<text x="402.0" y="146.0" font-size="12" fill="#5b6470" text-anchor="middle" transform="rotate(-90 402.0 146.0)">errors on new views</text>
+<rect x="476.0" y="188.1" width="56.0" height="47.9" fill="#FF5F05" stroke="#b8460a" stroke-width="1.4" rx="1"/>
+<text x="504.0" y="181.1" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">13%</text>
+<text x="504.0" y="254.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">between</text>
+<rect x="564.0" y="156.8" width="56.0" height="79.2" fill="#fdeee2" stroke="#b8460a" stroke-width="1.4" rx="1"/>
+<text x="592.0" y="149.8" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">22%</text>
+<text x="592.0" y="254.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">beyond</text>
+<rect x="652.0" y="62.1" width="56.0" height="173.9" fill="url(#hatch)" stroke="#b8460a" stroke-width="1.4" rx="1"/>
+<text x="680.0" y="55.1" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">48%</text>
+<text x="680.0" y="254.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">at right angles</text>
+<text x="590.0" y="290.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">four observers; data from Bülthoff and Edelman (1992)</text>
+</svg>

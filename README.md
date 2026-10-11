@@ -6,14 +6,11 @@ In a more traditional cognitive science class, the course is more “interdiscip
 Organizationally, the first three modules (0,1, and 2) set the stage for what the course will cover and how. After that, most of these modules are organized around a three level structure. The first sub-module covers the computational level perspective on the topic, talking about the functional problem(s) the organism faced and how the new developments solved that problem. The second submodule covers the algorithmic/data structure level, talking about the topic at something like the cognitive psychology level, discussing the representations and processes that are needed to perform the function. The third submodule discusses the biological (or artificial) implementation of these algorithms and data structures. The lists below outline the general topic of each module's lectures.
 
 0. Course Overview
-- What is Brain and Cognitive Science: the interdisciplinary, computational study of mind and brain, and what each constituent discipline contributes
-- Course Materials
-- Rules and Expectations
-- How to Do Well in This Class
+- Course Overview
 
 1. Mind and Brain
-- Mind vs. Brain — philosophy of mind and philosophy of science, arriving at "different levels of analysis" as the modal view of the field
-- Marr's Three Levels — and how they organize the rest of the course (computational/evolutionary, algorithmic/cognitive & AI, implementational/neuroscience)
+- The Mind–Brain Relationship — philosophy of mind and philosophy of science, arriving at "different levels of analysis" as the modal view of the field
+- Levels of Analysis — and how they organize the rest of the course (computational/evolutionary, algorithmic/cognitive & AI, implementational/neuroscience)
 
 2. Comparative Approaches
 - The Comparative Method
@@ -25,25 +22,25 @@ Organizationally, the first three modules (0,1, and 2) set the stage for what th
 - Algorithmic: How Neurons Process Information
 - Implementational: The Biology of Neurons
 
-4. Neural Circuits, Affect, & Valence
-- Computational: The first nervous systems (jellyfish, anenomea, and worms) and their value
-- Algorithmic: Algorithms and data structures for logical computation and affect
-- Implementational: Simple neural circuits in biological organisms
+4. Neural Circuits, Valence, & Affect
+- Computational: The First Nervous Systems and Their Value
+- Algorithmic: Circuits That Compute Value
+- Implementational: The Biology of Neural Circuits
 
 5. Learning and Plasticity
-- Computational: The evolutionary benefits of learning and plasticity
-- Algorithmic: Different learning algorithms: associative learning, error-driven learning, and reinforcement learning
-- Implementational: Learning and plasticity in biological organisms
+- Computational: The Evolutionary Advantage of Learning
+- Algorithmic: Algorithms for Changing Neural Weights
+- Implementational: The Biology of Neural Learning
 
 6. Vertebrate Neural Architecture
-- Computational: The evolutionary benefits of the vertebrate brain and its oldest structures
-- Algorithmic: TBD
-- Implementational: Brain structures and how they implement various functions
+- Computational: Why Build Specialists
+- Algorithmic: The Division of Labor
+- Implementational: The Vertebrate Brain
   
 7. Pattern Recognition
-- Computational: The evolutionary benefits of advanced pattern recognition systems
-- Algorithmic: Neural networks and pattern recognition
-- Implementational: Pattern recognition in the cortex
+- Computational: The Pattern Recognition Problem
+- Algorithmic: Neural Networks and Pattern Recognition
+- Implementational: Pattern Recognition in the Cortex
   
 8. Perception and Action
 - Computational: The evolution of vertebrate (and mammal and primate) perceptual and motor systems and their evolutionary benefits

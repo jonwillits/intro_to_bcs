@@ -1,4 +1,4 @@
-# 4. Neural Circuits, Affect, and Valence
+# 4. Neural Circuits, Valence, and Affect
 
 This module is about what happens when neurons are wired together. One neuron settles one small question. An arrangement of them steers an animal through a world, decides what in that world is worth approaching, and holds a state that outlasts the moment that caused it. While reading, look for the beginnings of answers to these questions:
 

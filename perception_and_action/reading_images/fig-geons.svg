@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" width="760" height="250" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="380.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">A few geons, and two objects built from them</text>
+<rect x="14.0" y="38.0" width="412.0" height="196.0" fill="#f4f7fb" stroke="#e2e6ec" stroke-width="1.0" rx="6"/>
+<text x="220.0" y="60.0" font-size="13" fill="#b8460a" text-anchor="middle" font-weight="bold">geons</text>
+<polygon points="34.0,130.0 98.0,130.0 98.0,190.0 34.0,190.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="34.0,130.0 55.6,112.0 119.6,112.0 98.0,130.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="98.0,130.0 119.6,112.0 119.6,172.0 98.0,190.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<text x="72.0" y="218.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">brick</text>
+<path d="M 130.0 110.0 L 130.0 190.0 A 28.0 9.0 0 0 0 186.0 190.0 L 186.0 110.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="158.0" cy="110.0" rx="28.0" ry="9.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" transform="rotate(0.0 158.0 110.0)"/>
+<text x="158.0" y="218.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">cylinder</text>
+<path d="M 250.0 98.0 L 218.0 190.0 A 32.0 10.0 0 0 0 282.0 190.0 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 218.0 190.0 A 32.0 10.0 0 0 1 282.0 190.0" fill="none" stroke="#1a1a1a" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+<text x="250.0" y="218.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">cone</text>
+<polygon points="312.0,190.0 382.0,190.0 312.0,126.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="312.0,126.0 336.0,106.0 406.0,170.0 382.0,190.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="312.0" y1="190.0" x2="336.0" y2="170.0" stroke="#1a1a1a" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="3 3"/>
+<line x1="336.0" y1="170.0" x2="406.0" y2="170.0" stroke="#1a1a1a" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="3 3"/>
+<line x1="336.0" y1="170.0" x2="336.0" y2="106.0" stroke="#1a1a1a" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="3 3"/>
+<text x="358.0" y="218.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">wedge</text>
+<line x1="436.0" y1="136.0" x2="462.0" y2="136.0" stroke="#5b6470" stroke-width="1.6" stroke-linecap="butt"/>
+<polygon points="470.0,136.0 462.0,140.5 462.0,131.5" fill="#5b6470"/>
+<path d="M 560.0 114.0 C 608.0 106.0 608.0 184.0 560.0 176.0" fill="none" stroke="#1a1a1a" stroke-width="13.0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 560.0 114.0 C 608.0 106.0 608.0 184.0 560.0 176.0" fill="none" stroke="#fdeee2" stroke-width="9.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 478.0 92.0 L 478.0 188.0 A 42.0 12.0 0 0 0 562.0 188.0 L 562.0 92.0" fill="#fdeee2" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="520.0" cy="92.0" rx="42.0" ry="12.0" fill="#fdeee2" stroke="#1a1a1a" stroke-width="1.8" transform="rotate(0.0 520.0 92.0)"/>
+<text x="534.0" y="218.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">mug: two cylinders</text>
+<path d="M 626.0 122.0 L 696.0 122.0 A 8 18 0 0 1 696.0 158.0 L 626.0 158.0 A 8 18 0 0 1 626.0 122.0 Z" fill="#fdeee2" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 696.0 122.0 L 730.0 110.0 A 10 30 0 0 1 730.0 170.0 L 696.0 158.0 Z" fill="#fdeee2" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="730.0" cy="140.0" rx="10.0" ry="30.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8" transform="rotate(0.0 730.0 140.0)"/>
+<ellipse cx="626.0" cy="140.0" rx="8.0" ry="18.0" fill="#fdeee2" stroke="#1a1a1a" stroke-width="1.8" transform="rotate(0.0 626.0 140.0)"/>
+<text x="682.0" y="192.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">flashlight:</text>
+<text x="682.0" y="207.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">cylinder and cone</text>
+</svg>
