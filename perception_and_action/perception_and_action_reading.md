@@ -28,7 +28,7 @@ We also treated the fish as if it were holding still. But it is not. To follow a
 
 This module is about the two things we set aside in Module 7. First, the senses that deliver patterns to the brain. And second, the movement of the animal that has those senses. Much of what is known about how senses work comes from mammals, monkeys, and human beings. So we will focus on where the evidence is, well ahead of where our evolutionary story has reached so far. We will also discuss human sensory systems because they are of interest and, unlike much of what we have discussed so far (how neurons work, how Hebbian learning works, etc.), have changed a lot since the last common ancestor humans share with fish. But the fish stays with us throughout, and we come back to it whenever a point can be made with a fish [](#t-levels-perception).
 
-## §8.1 — Computational: The Problems Senses Solve
+## §8.1 — Computational: The Problems That Senses Solve
 
 ### §8.1.1 — What a Sense Is For
 
