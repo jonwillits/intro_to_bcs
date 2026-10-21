@@ -55,9 +55,9 @@ One line on Part 1's first panel matters for everything you do here. A screen gi
 
 **Step 2 — Home across bare ground.** For this step the range is bare: no log, no rocks, no stump, no tree, and the nest is a plain spot on the ground that you will not see again once you leave it. Beetles appear one at a time, each a few meters from the last. After the last one, walk back to where you started and press **“Here is my nest”**. Eight trials in moonlight: three with two beetles, three with three, and two with four, in an order your seed sets. With nothing on the ground to steer by, the only way back is path integration. Keep track of your own turns and distances as you go. Each return ends where you press the button, or after two minutes.
 
-After **“Commit my trials”**, the reveal shows each trial from above: your path out in amber with a numbered dot at each beetle, your return dashed in blue, the nest a green dot, where you pressed the button a blue ring, and where each program ended a red square. Under each overhead are the rows for the outward path, your error, and your time in each view, then the four programs with their errors and their distances from you. Under the eight trials is a plot of your error against the length of the outward path, with the dots colored by beetle count. Fill in the table from the rows.
+After **“Commit my trials”**, the reveal shows each trial from above: your path out in amber with a numbered dot at each beetle, your return dashed in blue, the nest a green dot, where you pressed the button a blue ring, and where each program ended a red square. Under each overhead are the rows for the outward path, your error, and your time in each view, then one row for each of the four programs. A program's row carries two numbers. The first, under *error*, is how far the program ended from the true nest. The second, under *from you*, is how far the program's endpoint was from yours, which can be large even when the program's error is small. When a question asks for a program's error, report the first number; when a question asks which program ended nearest you, look for the smallest second number. Under the eight trials is a plot of your error against the length of the outward path, with the dots colored by beetle count. Fill in the table from the rows, taking the running-sum program's *error*, not its distance from you.
 
-| Trial | Beetles | Outward path, m | Your error, m | Running sum only, m |
+| Trial | Beetles | Outward path, m | Your error, m | Running sum only, its error, m |
 |---|---|---|---|---|
 | 1 | | | | |
 | 2 | | | | |
@@ -73,7 +73,7 @@ After **“Commit my trials”**, the reveal shows each trial from above: your p
 
 **Step 3 — Home by moonlight.** The range is as it was: the fallen log, the two rocks, and the stump near the nest, and the tall tree in view from anywhere. Four trials of three beetles, in moonlight throughout, with the nest out of view from the start. Now you have two things to go by, your running sum and the landmarks. Use whatever helps. Do at least one trial in the view you did not use in Step 2.
 
-| Trial | Your error, m | Nearest program to you | Its error, m |
+| Trial | Your error, m | Nearest program to you (smallest *from you*) | That program's error, m |
 |---|---|---|---|
 | 1 | | | |
 | 2 | | | |

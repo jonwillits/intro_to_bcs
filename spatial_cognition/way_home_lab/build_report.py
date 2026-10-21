@@ -53,8 +53,8 @@ def table(header, rows, widths):
 RATS = ['H', '(label)', '(label)', '(label)', '(label)', '(label)']
 
 TABLES = {
-    'Q2': table(['Trial', 'Beetles', 'Outward path, m', 'Your error, m', 'Running sum only, m'], [[str(i), '', '', '', ''] for i in range(1, 9)], [1200, 1400, 2200, 2200, 2360]),
-    'Q4': table(['Trial', 'Your error, m', 'Nearest program to you', 'Its error, m'], [[str(i), '', '', ''] for i in range(1, 5)], [1200, 2200, 3600, 2360]),
+    'Q2': table(['Trial', 'Beetles', 'Outward path, m', 'Your error, m', 'Running sum only, its error, m'], [[str(i), '', '', '', ''] for i in range(1, 9)], [1200, 1400, 2200, 2200, 2360]),
+    'Q4': table(['Trial', 'Your error, m', 'Nearest program to you (smallest from you)', 'That program’s error, m'], [[str(i), '', '', ''] for i in range(1, 5)], [1200, 2200, 3600, 2360]),
     'Q7': table(['Trial', 'Landmarks moved', 'Your score', 'Running sum only', 'Landmarks only', 'Averaging', 'Following one'], [[str(i), '', '', '', '', '', ''] for i in range(1, 5)], [900, 1500, 1300, 1500, 1500, 1300, 1360]),
     'Q9': table(['Test', 'Ended at the east arm (the place)', 'Ended at the west arm (the same turn)'], [['rich room, 4 training trials', '', ''], ['rich room, 64 training trials', '', ''], ['plain enclosure, 4 training trials', '', '']], [3400, 2980, 2980]),
     'Q11': table(['Rat', 'Hidden platform: learns it?', 'Cues removed just before the choice: finds it?'], [[r, '', ''] for r in RATS], [1800, 3500, 4060]),
