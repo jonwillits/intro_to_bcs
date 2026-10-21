@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 302" width="760" height="302" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<defs><pattern id="bhatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="5" height="5" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="5" stroke="#1f5fbf" stroke-width="2.2"/></pattern></defs>
+<text x="380.0" y="22.0" font-size="14" fill="#6B7280" text-anchor="middle" font-weight="bold">Two maps, and a sudden switch between them</text>
+<line x1="58.0" y1="49.0" x2="695.0" y2="49.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="703.0,49.0 695.0,53.5 695.0,44.5" fill="#5b6470"/>
+<text x="58.0" y="42.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal">square</text>
+<text x="703.0" y="42.0" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">circle</text>
+<text x="380.0" y="42.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">the box, changed step by step</text>
+<rect x="60.0" y="58.0" width="56.0" height="56.0" rx="0.0" ry="0.0" fill="#eef0f2" stroke="#1a1a1a" stroke-width="2.2"/>
+<text x="88.0" y="90.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">1</text>
+<rect x="177.0" y="58.0" width="56.0" height="56.0" rx="5.6" ry="5.6" fill="#eef0f2" stroke="#1a1a1a" stroke-width="2.2"/>
+<text x="205.0" y="90.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">2</text>
+<rect x="294.0" y="58.0" width="56.0" height="56.0" rx="11.2" ry="11.2" fill="#eef0f2" stroke="#1a1a1a" stroke-width="2.2"/>
+<text x="322.0" y="90.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">3</text>
+<rect x="411.0" y="58.0" width="56.0" height="56.0" rx="16.8" ry="16.8" fill="#eef0f2" stroke="#1a1a1a" stroke-width="2.2"/>
+<text x="439.0" y="90.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">4</text>
+<rect x="528.0" y="58.0" width="56.0" height="56.0" rx="22.4" ry="22.4" fill="#eef0f2" stroke="#1a1a1a" stroke-width="2.2"/>
+<text x="556.0" y="90.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">5</text>
+<circle cx="673.0" cy="86.0" r="28.0" fill="#eef0f2" stroke="#1a1a1a" stroke-width="2.2"/>
+<text x="673.0" y="90.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">6</text>
+<text x="24.0" y="134.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal">the same two cells’ fields</text>
+<rect x="50.0" y="140.0" width="76.0" height="76.0" rx="0.0" ry="0.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.3"/>
+<circle cx="104.7" cy="194.7" r="9.9" fill="url(#bhatch)" stroke="#1f5fbf" stroke-width="1.6" stroke-dasharray="4 2.5"/>
+<circle cx="71.3" cy="161.3" r="9.9" fill="#D50032" stroke="#D50032" stroke-width="1.6"/>
+<rect x="167.0" y="140.0" width="76.0" height="76.0" rx="7.6" ry="7.6" fill="#ffffff" stroke="#5b6470" stroke-width="1.3"/>
+<circle cx="221.7" cy="194.7" r="9.9" fill="url(#bhatch)" stroke="#1f5fbf" stroke-width="1.6" stroke-dasharray="4 2.5"/>
+<circle cx="188.3" cy="161.3" r="9.9" fill="#D50032" stroke="#D50032" stroke-width="1.6"/>
+<rect x="284.0" y="140.0" width="76.0" height="76.0" rx="15.2" ry="15.2" fill="#ffffff" stroke="#5b6470" stroke-width="1.3"/>
+<circle cx="338.7" cy="194.7" r="9.9" fill="url(#bhatch)" stroke="#1f5fbf" stroke-width="1.6" stroke-dasharray="4 2.5"/>
+<circle cx="305.3" cy="161.3" r="9.9" fill="#D50032" stroke="#D50032" stroke-width="1.6"/>
+<rect x="401.0" y="140.0" width="76.0" height="76.0" rx="22.8" ry="22.8" fill="#ffffff" stroke="#5b6470" stroke-width="1.3"/>
+<circle cx="452.7" cy="164.3" r="9.9" fill="url(#bhatch)" stroke="#1f5fbf" stroke-width="1.6" stroke-dasharray="4 2.5"/>
+<circle cx="426.8" cy="193.2" r="9.9" fill="#D50032" stroke="#D50032" stroke-width="1.6"/>
+<rect x="518.0" y="140.0" width="76.0" height="76.0" rx="30.4" ry="30.4" fill="#ffffff" stroke="#5b6470" stroke-width="1.3"/>
+<circle cx="569.7" cy="164.3" r="9.9" fill="url(#bhatch)" stroke="#1f5fbf" stroke-width="1.6" stroke-dasharray="4 2.5"/>
+<circle cx="543.8" cy="193.2" r="9.9" fill="#D50032" stroke="#D50032" stroke-width="1.6"/>
+<circle cx="673.0" cy="178.0" r="38.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.3"/>
+<circle cx="686.7" cy="164.3" r="9.9" fill="url(#bhatch)" stroke="#1f5fbf" stroke-width="1.6" stroke-dasharray="4 2.5"/>
+<circle cx="660.8" cy="193.2" r="9.9" fill="#D50032" stroke="#D50032" stroke-width="1.6"/>
+<line x1="380.5" y1="136.0" x2="380.5" y2="240.0" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 4"/>
+<polyline points="50.0,225.0 50.0,231.0 360.0,231.0 360.0,225.0" fill="none" stroke="#6B7280" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="401.0,225.0 401.0,231.0 711.0,231.0 711.0,225.0" fill="none" stroke="#6B7280" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="205.0" y="247.0" font-size="13" fill="#6B7280" text-anchor="middle" font-weight="bold">the square’s map</text>
+<text x="556.0" y="247.0" font-size="13" fill="#6B7280" text-anchor="middle" font-weight="bold">a different map</text>
+<circle cx="250.0" cy="268.0" r="8.0" fill="#D50032" stroke="#D50032" stroke-width="1.6"/>
+<text x="264.0" y="272.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">cell 1 (red, solid)</text>
+<circle cx="430.0" cy="268.0" r="8.0" fill="url(#bhatch)" stroke="#1f5fbf" stroke-width="1.6" stroke-dasharray="4 2.5"/>
+<text x="444.0" y="272.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">cell 2 (blue, hatched)</text>
+<text x="380.0" y="294.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">schematic, after the morph-box experiment of Wills et al. (2005); field positions illustrative</text>
+</svg>

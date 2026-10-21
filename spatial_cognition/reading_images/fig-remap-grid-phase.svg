@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<defs><clipPath id="room0"><rect x="80" y="64" width="240" height="240"/></clipPath><clipPath id="room1"><rect x="440" y="64" width="240" height="240"/></clipPath></defs>
+<text x="380.0" y="22.0" font-size="14" fill="#6B7280" text-anchor="middle" font-weight="bold">After remapping, the place field still lands on the grid</text>
+<text x="200.0" y="52.0" font-size="13" fill="#6B7280" text-anchor="middle" font-weight="bold">room A</text>
+<rect x="80.0" y="64.0" width="240.0" height="240.0" fill="#ffffff" stroke="none" stroke-width="0.0" rx="0"/>
+<g clip-path="url(#room0)">
+<circle cx="69.0" cy="26.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="135.0" cy="26.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="201.0" cy="26.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="267.0" cy="26.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="333.0" cy="26.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="36.0" cy="84.0" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="102.0" cy="84.0" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="168.0" cy="84.0" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="234.0" cy="84.0" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="300.0" cy="84.0" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="366.0" cy="84.0" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="69.0" cy="141.2" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="135.0" cy="141.2" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="201.0" cy="141.2" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="267.0" cy="141.2" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="333.0" cy="141.2" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="36.0" cy="198.3" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="102.0" cy="198.3" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="168.0" cy="198.3" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="234.0" cy="198.3" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="300.0" cy="198.3" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="366.0" cy="198.3" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="69.0" cy="255.5" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="135.0" cy="255.5" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="201.0" cy="255.5" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="267.0" cy="255.5" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="333.0" cy="255.5" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="36.0" cy="312.6" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="102.0" cy="312.6" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="168.0" cy="312.6" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="234.0" cy="312.6" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="300.0" cy="312.6" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="366.0" cy="312.6" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="69.0" cy="369.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="135.0" cy="369.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="201.0" cy="369.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="267.0" cy="369.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="333.0" cy="369.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+</g>
+<circle cx="135.0" cy="141.2" r="16.0" fill="#6B7280" stroke="#1a1a1a" stroke-width="1.6"/>
+<rect x="80.0" y="64.0" width="240.0" height="240.0" fill="none" stroke="#1a1a1a" stroke-width="1.8" rx="0"/>
+<text x="560.0" y="52.0" font-size="13" fill="#6B7280" text-anchor="middle" font-weight="bold">room B</text>
+<rect x="440.0" y="64.0" width="240.0" height="240.0" fill="#ffffff" stroke="none" stroke-width="0.0" rx="0"/>
+<g clip-path="url(#room1)">
+<circle cx="393.0" cy="50.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="459.0" cy="50.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="525.0" cy="50.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="591.0" cy="50.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="657.0" cy="50.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="723.0" cy="50.8" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="426.0" cy="108.0" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="492.0" cy="108.0" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="558.0" cy="108.0" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="624.0" cy="108.0" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="690.0" cy="108.0" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="393.0" cy="165.2" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="459.0" cy="165.2" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="525.0" cy="165.2" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="591.0" cy="165.2" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="657.0" cy="165.2" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="723.0" cy="165.2" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="426.0" cy="222.3" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="492.0" cy="222.3" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="558.0" cy="222.3" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="624.0" cy="222.3" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="690.0" cy="222.3" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="393.0" cy="279.5" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="459.0" cy="279.5" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="525.0" cy="279.5" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="591.0" cy="279.5" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="657.0" cy="279.5" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="723.0" cy="279.5" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="426.0" cy="336.6" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="492.0" cy="336.6" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="558.0" cy="336.6" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="624.0" cy="336.6" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<circle cx="690.0" cy="336.6" r="17.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+</g>
+<circle cx="624.0" cy="222.3" r="16.0" fill="#6B7280" stroke="#1a1a1a" stroke-width="1.6"/>
+<rect x="440.0" y="64.0" width="240.0" height="240.0" fill="none" stroke="#1a1a1a" stroke-width="1.8" rx="0"/>
+<text x="380.0" y="178.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">the rat is</text>
+<text x="380.0" y="193.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">moved</text>
+<line x1="350.0" y1="206.0" x2="402.0" y2="206.0" stroke="#5b6470" stroke-width="1.6" stroke-linecap="butt"/>
+<polygon points="410.0,206.0 402.0,210.5 402.0,201.5" fill="#5b6470"/>
+<circle cx="230.0" cy="334.0" r="9.0" fill="#eef0f2" stroke="#5b6470" stroke-width="1.0" stroke-dasharray="3 2.5"/>
+<text x="246.0" y="338.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">where the grid cell fires</text>
+<circle cx="450.0" cy="334.0" r="9.0" fill="#6B7280" stroke="#1a1a1a" stroke-width="1.6"/>
+<text x="466.0" y="338.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">the place cell’s field</text>
+<text x="380.0" y="368.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">our drawing, adapted from Whittington et al. (2020), Fig. 6A (CC BY 4.0)</text>
+</svg>

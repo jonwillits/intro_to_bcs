@@ -49,7 +49,7 @@ project:
     - vertebrate_neural_architecture/vertebrate_neural_architecture_reading.md
     - pattern_recognition/pattern_recognition_reading.md
     - perception_and_action/perception_and_action_reading.md
-    - spatial_cognition/index.qmd
+    - spatial_cognition/spatial_cognition_reading.md
     - memory_and_generative_models/index.qmd
     - social_cognition/index.qmd
     - planning_and_decisionmaking/index.qmd
@@ -119,8 +119,8 @@ website:
             href: pattern_recognition/pattern_recognition_reading.md
           - text: "8 · Perception & Action"
             href: perception_and_action/perception_and_action_reading.md
-          - text: "9 · Spatial Cognition — coming soon"
-            href: spatial_cognition/index.qmd
+          - text: "9 · Spatial Cognition"
+            href: spatial_cognition/spatial_cognition_reading.md
           - text: "10 · Memory, Imagination & Generative Models — coming soon"
             href: memory_and_generative_models/index.qmd
 

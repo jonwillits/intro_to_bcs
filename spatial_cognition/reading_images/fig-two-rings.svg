@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 404" width="760" height="404" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="380.0" y="22.0" font-size="14" fill="#6B7280" text-anchor="middle" font-weight="bold">A heading ring in the fish hindbrain</text>
+<polygon points="168.0,128.0 165.6,150.0 167.4,180.0 166.0,220.0 164.0,260.0 162.0,292.0 159.5,310.0 150.0,322.0 150.0,322.0 140.5,310.0 138.0,292.0 136.0,260.0 134.0,220.0 132.6,180.0 134.4,150.0 132.0,128.0" fill="#eef0f2" stroke="#5b6470" stroke-width="0.9" stroke-linejoin="round"/>
+<polygon points="157.0,70.0 167.0,76.0 175.0,86.0 177.0,100.0 172.0,114.0 168.0,128.0 164.0,150.0 161.0,180.0 158.0,220.0 156.0,260.0 154.0,292.0 151.5,310.0 148.5,310.0 146.0,292.0 144.0,260.0 142.0,220.0 139.0,180.0 136.0,150.0 132.0,128.0 128.0,114.0 123.0,100.0 125.0,86.0 133.0,76.0 143.0,70.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5" stroke-linejoin="round"/>
+<ellipse cx="128.0" cy="92.0" rx="8.0" ry="12.0" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0" transform="rotate(-20.0 128.0 92.0)"/>
+<ellipse cx="172.0" cy="92.0" rx="8.0" ry="12.0" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0" transform="rotate(20.0 172.0 92.0)"/>
+<line x1="150.0" y1="74.0" x2="150.0" y2="190.0" stroke="#5b6470" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="3 3"/>
+<circle cx="150.0" cy="116.0" r="6.5" fill="none" stroke="#6B7280" stroke-width="2.4"/>
+<line x1="155.0" y1="116.0" x2="459.1" y2="60.4" stroke="#5b6470" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="4 4"/>
+<line x1="155.0" y1="116.0" x2="385.4" y2="323.9" stroke="#5b6470" stroke-width="0.9" stroke-linecap="round" stroke-dasharray="4 4"/>
+<circle cx="486.0" cy="210.0" r="152.0" fill="none" stroke="#5b6470" stroke-width="0.9" stroke-dasharray="4 4"/>
+<text x="116.0" y="114.0" font-size="11" fill="#6B7280" text-anchor="end" font-weight="normal">front of</text>
+<text x="116.0" y="128.0" font-size="11" fill="#6B7280" text-anchor="end" font-weight="normal">the hindbrain</text>
+<line x1="118.0" y1="117.0" x2="141.0" y2="117.0" stroke="#6B7280" stroke-width="0.9" stroke-linecap="round"/>
+<text x="150.0" y="352.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">larval zebrafish,</text>
+<text x="150.0" y="367.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">seen from above</text>
+<line x1="486.0" y1="66.0" x2="486.0" y2="354.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="5 4"/>
+<text x="492.0" y="350.0" font-size="11" fill="#5b6470" text-anchor="start" font-weight="normal">midline</text>
+<line x1="508.8" y1="125.0" x2="463.7" y2="293.1" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="455.0" y1="290.7" x2="472.4" y2="295.4" stroke="#1a1a1a" stroke-width="2.8" stroke-linecap="butt"/>
+<line x1="548.2" y1="272.2" x2="425.2" y2="149.2" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="431.6" y1="142.8" x2="418.8" y2="155.6" stroke="#1a1a1a" stroke-width="2.8" stroke-linecap="butt"/>
+<line x1="401.0" y1="232.8" x2="569.1" y2="187.7" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="571.4" y1="196.4" x2="566.7" y2="179.0" stroke="#1a1a1a" stroke-width="2.8" stroke-linecap="butt"/>
+<circle cx="511.9" cy="113.4" r="11.0" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<line x1="515.8" y1="98.9" x2="519.4" y2="85.4" stroke="#6B7280" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="521.2,78.6 523.3,86.4 515.5,84.4" fill="#6B7280"/>
+<circle cx="556.7" cy="139.3" r="11.0" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<line x1="567.3" y1="128.7" x2="577.2" y2="118.8" stroke="#6B7280" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="582.2,113.8 580.0,121.6 574.4,116.0" fill="#6B7280"/>
+<circle cx="582.6" cy="184.1" r="11.0" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<line x1="597.1" y1="180.2" x2="610.6" y2="176.6" stroke="#6B7280" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="617.4,174.8 611.6,180.5 609.6,172.7" fill="#6B7280"/>
+<circle cx="582.6" cy="235.9" r="11.0" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<line x1="597.1" y1="239.8" x2="610.6" y2="243.4" stroke="#6B7280" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="617.4,245.2 609.6,247.3 611.6,239.5" fill="#6B7280"/>
+<circle cx="556.7" cy="280.7" r="11.0" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<line x1="567.3" y1="291.3" x2="577.2" y2="301.2" stroke="#6B7280" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="582.2,306.2 574.4,304.0 580.0,298.4" fill="#6B7280"/>
+<circle cx="511.9" cy="306.6" r="11.0" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<line x1="515.8" y1="321.1" x2="519.4" y2="334.6" stroke="#6B7280" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="521.2,341.4 515.5,335.6 523.3,333.6" fill="#6B7280"/>
+<circle cx="460.1" cy="306.6" r="11.0" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<line x1="456.2" y1="321.1" x2="452.6" y2="334.6" stroke="#6B7280" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="450.8,341.4 448.7,333.6 456.5,335.6" fill="#6B7280"/>
+<circle cx="415.3" cy="280.7" r="11.0" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<line x1="404.7" y1="291.3" x2="394.8" y2="301.2" stroke="#6B7280" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="389.8,306.2 392.0,298.4 397.6,304.0" fill="#6B7280"/>
+<circle cx="389.4" cy="235.9" r="11.0" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<line x1="374.9" y1="239.8" x2="361.4" y2="243.4" stroke="#6B7280" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="354.6,245.2 360.4,239.5 362.4,247.3" fill="#6B7280"/>
+<circle cx="389.4" cy="184.1" r="11.0" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<line x1="374.9" y1="180.2" x2="361.4" y2="176.6" stroke="#6B7280" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="354.6,174.8 362.4,172.7 360.4,180.5" fill="#6B7280"/>
+<circle cx="415.3" cy="139.3" r="11.0" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<line x1="404.7" y1="128.7" x2="394.8" y2="118.8" stroke="#6B7280" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="389.8,113.8 397.6,116.0 392.0,121.6" fill="#6B7280"/>
+<circle cx="460.1" cy="113.4" r="11.0" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<line x1="456.2" y1="98.9" x2="452.6" y2="85.4" stroke="#6B7280" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="450.8,78.6 456.5,84.4 448.7,86.4" fill="#6B7280"/>
+<circle cx="672.0" cy="112.0" r="11.0" fill="#eef0f2" stroke="#6B7280" stroke-width="1.8"/>
+<line x1="687.0" y1="112.0" x2="701.0" y2="112.0" stroke="#6B7280" stroke-width="1.7" stroke-linecap="butt"/>
+<polygon points="708.0,112.0 701.0,116.0 701.0,108.0" fill="#6B7280"/>
+<text x="660.0" y="140.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">a cell, and the</text>
+<text x="660.0" y="155.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">direction it</text>
+<text x="660.0" y="170.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">prefers</text>
+<line x1="664.0" y1="252.0" x2="702.0" y2="252.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="702.0" y1="260.0" x2="702.0" y2="244.0" stroke="#1a1a1a" stroke-width="2.8" stroke-linecap="butt"/>
+<text x="660.0" y="280.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">its output,</text>
+<text x="660.0" y="295.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">inhibiting the</text>
+<text x="660.0" y="310.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">opposite cell</text>
+<text x="380.0" y="394.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">our drawing, adapted from Petrucco et al. (2023), Fig. 6e (CC BY 4.0)</text>
+</svg>
