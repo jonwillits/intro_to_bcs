@@ -57,7 +57,7 @@ TABLES = {
     'Q4': table(['Trial', 'Your error, m', 'Nearest program to you (smallest from you)', 'That program’s error, m'], [[str(i), '', '', ''] for i in range(1, 5)], [1200, 2200, 3600, 2360]),
     'Q7': table(['Trial', 'Landmarks moved', 'Your score', 'Running sum only', 'Landmarks only', 'Averaging', 'Following one'], [[str(i), '', '', '', '', '', ''] for i in range(1, 5)], [900, 1500, 1300, 1500, 1500, 1300, 1360]),
     'Q9': table(['Test', 'Ended at the east arm (the place)', 'Ended at the west arm (the same turn)'], [['rich room, 4 training trials', '', ''], ['rich room, 64 training trials', '', ''], ['plain enclosure, 4 training trials', '', '']], [3400, 2980, 2980]),
-    'Q11': table(['Rat', 'Hidden platform: learns it?', 'Cues removed just before the choice: finds it?'], [[r, '', ''] for r in RATS], [1800, 3500, 4060]),
+    'Q11': table(['Rat', 'Hidden platform: learns it? (last four test trials all under 20 s)', 'Cues removed just before the choice: finds it? (at least five of eight under 20 s)'], [[r, '', ''] for r in RATS], [1800, 3500, 4060]),
     'Q12': table(['Rat', 'Lamp in place', 'Lamp switched off', 'Lamp moved across the room'], [[r, '', '', ''] for r in RATS], [1800, 2400, 2400, 2760]),
     'Q24': table(['Habitat', 'Average rate, one every … s', 'Best setting, s', 'Beetles per minute at the best setting'], [['rich', '', '', ''], ['poor', '', '', '']], [1400, 2800, 2200, 2960]),
 }

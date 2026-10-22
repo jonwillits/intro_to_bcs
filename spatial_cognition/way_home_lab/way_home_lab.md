@@ -131,7 +131,9 @@ One caution before you start. These rats follow their programs every time, so th
 
 **Step 4 — The water maze.** Switch to the water maze with the platform hidden, and run H and every hidden rat. The result rows give the test trials, how many found the platform within 60 s, the mean time, and the probe's share of time in the platform's quarter, with one row per test trial under them. Then tick **Remove the cues just before the choice** and run them again. Then untick it and run H once more with **Platform** set to *visible*.
 
-| Rat | Hidden platform: learns it? | Cues removed just before the choice: finds it? |
+The per-trial times will look noisy, because every swim has some wandering in it, so use a count rather than an impression. A rat that swims straight to the platform from the rim takes about 5 s; a rat that searches at random seldom reaches it within 20 s. So count, in the rows under the summary, how many of the eight test trials took **under 20 s**. For *learns it*, with the platform hidden, write *yes* when the last four test trials are all under 20 s, and *no* otherwise; a rat that has learned the place swims straight to it on every late trial, while a rat that has not keeps wandering on some. For *finds it*, with the cues removed, write *yes* when at least five of the eight test trials are under 20 s, and *no* otherwise. One or two quick trials do not count as finding it, since even a random search gets lucky now and then. A rat whose count sits right on the line can be run again: pressing **“Run the test”** draws a fresh set of trials, and two runs tell you more than one.
+
+| Rat | Hidden platform: learns it? (last four test trials all under 20 s) | Cues removed just before the choice: finds it? (at least five of eight under 20 s) |
 |---|---|---|
 | H | | |
 | (label) | | |
