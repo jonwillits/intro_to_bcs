@@ -537,7 +537,7 @@ Five places to go next, chosen because each one takes up a thread this chapter c
 
 **discounting** — Counting an outcome for less the further in the future it lies, by applying a factor slightly below one for every step of delay.
 
-**disposition** — A lasting change whose use is settled at the moment it is laid down, so that the change itself fixes what the animal will now be more likely to do.
+**disposition** — A learned change in a tendency to respond. What a disposition does still depends on later circumstances, such as hunger, and a disposition can come from a single occasion.
 
 **eligibility trace** — A fading mark left on whatever was recently active, so that a signal arriving later can find the connections that were involved.
 
@@ -561,7 +561,7 @@ Five places to go next, chosen because each one takes up a thread this chapter c
 
 **intrinsic excitability** — How readily a cell fires at all, which can itself be lastingly changed, so that the same arriving input carries the cell further than it did before.
 
-**learning** — A lasting change in what an animal does, produced by experience, and resting on an internal state that experience can modify.
+**learning** — A change, caused by experience and outlasting it, through which information from the experience can guide later processing or behavior. The information may take the form of an altered tendency to respond, or of content that remains available for later use.
 
 **learning rate** — A small number setting how much of the available change a rule takes on any one occasion. A high rate follows the most recent occasion; a low rate averages over many.
 

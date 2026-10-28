@@ -50,7 +50,7 @@ project:
     - pattern_recognition/pattern_recognition_reading.md
     - perception_and_action/perception_and_action_reading.md
     - spatial_cognition/spatial_cognition_reading.md
-    - memory_and_generative_models/index.qmd
+    - memory_and_generative_models/memory_and_generative_models_reading.md
     - social_cognition/index.qmd
     - planning_and_decisionmaking/index.qmd
     - language/index.qmd
@@ -72,6 +72,9 @@ website:
         href: index.qmd
       - text: "Interactive Labs"
         href: "https://jonwillits.github.io/bcogapp/"
+        target: _blank
+      - text: "Practice Questions"
+        href: "https://jonwillits.github.io/bcog100_practice/"
         target: _blank
     right:
       - icon: github
@@ -121,8 +124,8 @@ website:
             href: perception_and_action/perception_and_action_reading.md
           - text: "9 · Spatial Cognition"
             href: spatial_cognition/spatial_cognition_reading.md
-          - text: "10 · Memory, Imagination & Generative Models — coming soon"
-            href: memory_and_generative_models/index.qmd
+          - text: "10 · Memory, Imagination & Generative Models"
+            href: memory_and_generative_models/memory_and_generative_models_reading.md
 
       - section: "Social & Symbolic Minds"
         contents:
