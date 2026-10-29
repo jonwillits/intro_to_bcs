@@ -28,7 +28,7 @@ On a typical night, it might experience something like the following. Under one 
 
 Some of what happened over the night is relevant to what the animal should do the next night. For example, the animal might infer that at the first log, it would find no beetles, since it already ate them all. But it might infer that there will be beetles at the second log. It might also infer that staying away from the clearing for a while would be safer, since something large was moving there.
 
-None of the facts the animal might infer is about what *usually* happens at logs or clearings. Each is a fact about one night. And how the animal should use each fact depends on other facts that will be true that night. What the animal should do depends on how hungry it is the next night. It also depends on whether another animal finds the second log first, and on whether the large animal is still nearby.
+None of the facts the animal might infer is about what *usually* happens at logs or clearings. Each is a fact about one night. And how the animal should use each fact depends on other facts that will be true the next night. What the animal should do depends on how hungry it is the next night. It also depends on whether another animal finds the second log first, and on whether the large animal is still nearby.
 
 In Module 5, we described learning that changes the weights of connections, and with them how an animal responds to later events. Learning of that kind changes a tendency to respond. A rat that was sick once after eating a new food avoids that food afterward. But a rat with only that tendency has no information about where or when it ate the food. Experience can also leave information that an animal can access later, and combine with whatever it then needs. Information of this second kind would let the animal on its night use what happened in ways it cannot yet foresee. At the end of Module 9, we noted that a structure in the brain that represents the layout of places also represents which thing was where.
 
@@ -42,7 +42,7 @@ Most of what is known about memory for particular occasions comes from research 
 
 Many animals benefit from using information about something that happened in the past. Some food is used up when it is eaten. It is replaced later, at a rate the animal does not control. An animal may encounter a danger at a particular place only once, and must learn from that one encounter. And some animals leave food in a place and come back for it later.
 
-In each case, the animal can make better choices later, if it learned something on the earlier occasion. The animal encounters the information before the circumstances in which it will matter. At the time it can do the learning, the animal may not know when or how it will use what it learned. Take the example we described above, of the early mammal’s night. The animal cannot know, on the night it eats the beetles under a log’s bark, whether it will be hungry when it next passes that log. So it cannot know whether it will need to remember that beetles were there.
+In each case, the animal can make better choices later, if it learned something on the earlier occasion. The animal encounters the information before the circumstances in which it will matter. At the time it can do the learning, the animal may not know when or how it will use what it learned. Take the example we described above, of an early mammal’s night. The animal cannot know, on the night it eats the beetles under a log’s bark, whether it will be hungry when it next passes that log. So it cannot know whether it will need to remember that beetles were there.
 
 The world contains two kinds of facts. Some facts are true night after night. Beetles are usually found under loose bark. Other facts are true for one night only. The beetles under *this* log’s bark were eaten last night. The place where food is usually found may have been emptied the night before. So on a particular night, the usual place may not be the best place to look.
 
@@ -76,7 +76,7 @@ Mammals stand out from reptiles, amphibians, and fish for their long period of d
 
 The young of many species also play, and play is part of how young animals learn and explore. In one survey of play across the animal kingdom, animals that play tended to have active lives, moderate-to-high metabolic rates, and plentiful food. In Module 9, we described how children explore more than adults. The young of many other species, from parrots and crows to monkeys, are also more exploratory than adults, or less wary of new things. An animal with a long youth encounters many things early in life that may be useful much later.
 
-A mother whose young stay in a nest has to leave them to find food, and then come back home. The young of many small mammals stay in a nest. Most mammals whose young are born immature nurse them at long intervals. Their milk tends to be more concentrated than the milk of species that nurse often. So the mother can be away between feeds, and she returns to the nest. Each night, an early mammal mother would have foraged out from the nest and back, as we described the early mammal doing in Module 9. Her young would have stayed in the nest. The nest is a fixed home, and she returns again and again to the same places around it.
+A mother whose young stay in a nest has to leave them to find food, and then come back home. The young of many small mammals stay in a nest. Most mammals whose young are born immature nurse them at long intervals. Their milk tends to be more concentrated than the milk of species that nurse often. So the mother can be away between feeds, and she returns to the nest. Each night, an early mammal mother would have foraged out from the nest and back, as we described early mammals doing in Module 9. Her young would have stayed in the nest. The nest is a fixed home, and she returns again and again to the same places around it.
 
 To power their warm bodies and feed their offspring, mammals need to gather a lot of food. Much of what small mammals eat, such as insects, seeds, fruit, and nectar, is used up where it is found. If it is replenished at all, this happens only later. So mammals need to remember where food has run out, and where it has not. Some mammals also carry food away and hide it, a behavior called caching. For example, gray squirrels bury each nut in a separate place and dig the nuts up months later. A caching animal later returns to food it hid on one occasion, which requires remembering where it hid that food.
 
@@ -150,8 +150,8 @@ In Module 7, we described generalization, a response that transfers to new membe
 
 | Kind of memory | How long | What it lets an animal do | An example from this module |
 |---|---|---|---|
-| Sensory memory | About a second | Use what was just sensed, for the moment it takes to use it | The rustle the early mammal just heard |
-| Working memory | Seconds to minutes in people; in some animal research, the length of one occasion | Use what a task needs while the task is being done | Digits repeated back in order; the arms of a maze a rat has already entered; the logs the early mammal has already searched that night |
+| Sensory memory | About a second | Use what was just sensed, for the moment it takes to use it | The rustle an early mammal just heard |
+| Working memory | Seconds to minutes in people; in some animal research, the length of one occasion | Use what a task needs while the task is being done | Digits repeated back in order; the arms of a maze a rat has already entered; the logs an early mammal has already searched that night |
 | Procedural memory | Days to a lifetime | Do something without recalling the occasions on which it was learned | Running a familiar route through a maze |
 | Semantic memory | Days to a lifetime | Use what is generally true across many occasions | Beetles are usually found under loose bark |
 | Episodic memory | Days to a lifetime | Recall what happened on one occasion, where, and when | Where a person parked the car on one particular day |
@@ -161,7 +161,7 @@ In Module 7, we described generalization, a response that transfers to new membe
 
 People shown a brief display, one researcher wrote in 1960, “enigmatically insist that they have seen more than they can remember afterwards”. In the researcher’s study, observers saw up to twelve letters and digits, in up to three rows, for a twentieth of a second. Asked for all of them, they reported about four, on average 4.3.
 
-The researcher then asked for only part of the display. Just after the display ended, a high, middle, or low tone indicated which row to write down. Observers could not know in advance which row would be cued. So the researcher could use their score on that row to estimate how much of the whole display they could have reported. On average, at least nine of the twelve letters were available. When the tone was delayed, the extra letters were lost within about a second.
+The researcher then asked for only part of the display. Just after the display ended, a high, middle, or low tone indicated which row to write down. Observers could not know in advance which row would be cued. So the researcher could use their score on that row to estimate how much of the whole display they could have reported. On average, at least nine of the twelve letters and digits were available. When the tone was delayed, the extra letters and digits were lost within about a second.
 
 The researcher proposed, tentatively, that the display leaves a brief visual image. An observer can report whatever part of the image they attend to before it fades. Sensory memory is a store of this kind.
 
@@ -179,7 +179,7 @@ Researchers disagree about what working memory is. On one account, working memor
 
 A system, animal or machine, can make a state last in two ways. In Module 4, we deferred “the difference between a state held in activity and a state held in a changed connection”. In the first way, units that excite one another continue to fire after their input stops, like the ring attractor we described in Module 9. In the second way, activity changes the connections among units, and the change appears only in how the units respond to the next input. A state in continuing activity ends when the activity stops, while a changed connection remains after the activity has stopped. Both ways have been proposed for working memory.
 
-The name *working memory* is also used in two senses, which differ in how long the task lasts. In the first sense, the task lasts seconds to minutes, as when a person repeats back digits. The digits are lost within about half a minute unless rehearsed. In the second sense, used in research with animals, the task is one occasion. The researcher who developed the radial maze we described in §10.1.1 called the rats’ memory for which arms they had entered working memory. The rats remembered those arms across delays of up to 20 minutes, the longest tested, with no sign of forgetting. At the start of each new test, the rats treated every arm as not yet entered. The early mammal’s list of logs already searched in one night is working memory in this second sense, a list for one occasion.
+The name *working memory* is also used in two senses, which differ in how long the task lasts. In the first sense, the task lasts seconds to minutes, as when a person repeats back digits. The digits are lost within about half a minute unless rehearsed. In the second sense, used in research with animals, the task is one occasion. The researcher who developed the radial maze we described in §10.1.1 called the rats’ memory for which arms they had entered working memory. The rats remembered those arms across delays of up to 20 minutes, the longest tested, with no sign of forgetting. At the start of each new test, the rats treated every arm as not yet entered. An early mammal’s list of logs already searched in one night is working memory in this second sense, a list for one occasion.
 
 ### §10.2.4 — What Tulving Meant
 
@@ -201,7 +201,7 @@ Nicola Clayton and Anthony Dickinson, who ran the scrub-jay study in 1998, did n
 
 Several species now pass behavioral tests of this kind, and no researcher claims to have shown that an animal re-lives an occasion. Researchers disagree about what follows. Tulving wrote that episodic memory is “probably unique to humans”. Two other researchers call re-living the past and imagining the future *mental time travel*. They concluded that there is “as yet no convincing evidence” of it in animals. Others define memory for occasions by separate features, such as what, where, when, and order, and compare species feature by feature. Still others reply that a human-only conclusion follows from a definition that no animal could satisfy. And Robyn Fivush, who studies children’s memory, concludes that memory for what, where, and when “appears to be available across species and across human development”.
 
-The early mammal probably remembered particular occasions, such as which logs it had already searched on which night. Researchers would call such memory episodic-like. Whether it re-lived those nights is probably undetectable from its behavior.
+Our description of early mammals is a reconstruction, from bones, genes, and living relatives. Even so, early mammals probably remembered particular occasions, such as which logs they had already searched on which night. Researchers would call such memory episodic-like. Whether they re-lived those nights is probably undetectable from their behavior.
 
 ### §10.2.6 — Knowing Without Being Able to Say
 
@@ -251,7 +251,7 @@ A computer finds a stored item by its address, a number for the place where the 
 
 A content-addressable memory satisfies the first requirement we described in §10.1.3, recall of a whole occasion from part of it. John Hopfield gave an example in 1982. A memory containing the reference “H. A. Kramers & G. H. Wannier Phys. Rev. 60, 252 (1941)” should retrieve all of it from “& Wannier, (1941)”.
 
-In Module 7, we described **auto-association**, storing patterns in the connections among a circuit’s own units. Part of a stored pattern can then reactivate the rest. Recovering a whole stored pattern from part of it is **pattern completion**. Hopfield’s network, an artificial neural network, is a machine version of both. Its units are on or off, and every unit is connected to every other by symmetric connections. A Hebbian rule sets the connections, strengthening a connection when its two units agree in a stored pattern and weakening it when they disagree.
+In Module 7, we described **auto-association**, storing patterns in the connections among a circuit’s own cells. Part of a stored pattern can then reactivate the rest. Recovering a whole stored pattern from part of it is **pattern completion**. Hopfield’s network, an artificial neural network, is a machine version of both. Its units are on or off, and every unit is connected to every other by symmetric connections. A Hebbian rule sets the connections, strengthening a connection when its two units agree in a stored pattern and weakening it when they disagree.
 
 Hopfield showed that whenever a unit switches on or off, a quantity he called energy can only fall. So the network settles into a stable state, and the stored patterns are among its stable states [](#f-energy). In one test, the network started from a pattern that differed from a stored one in five or fewer units. It reached the stored pattern more than 90% of the time.
 
@@ -267,7 +267,7 @@ Much of what is learned is later forgotten. In the 1880s, Hermann Ebbinghaus lea
 
 Much forgetting comes from other learning. **Interference** is the effect of other learning on recalling something. In *retroactive* interference, new learning makes old learning harder to recall. In *proactive* interference, old learning makes new learning harder to recall.
 
-People and networks differ in how much interference affects them. As we described in Module 7, people who learn a list of pairs, and then a new list in which the same first items have new partners, can still recall more than half of the first pairs. A standard network trained the same way recalls none of them. This collapse is **catastrophic interference**, a drastic loss of old learning when a network learns new patterns after old ones. It happens because the new learning moves weights that the old patterns depended on, as we described in Module 7. The overloaded network we described in §10.2.8 undergoes a related collapse, since it can then retrieve none of its stored patterns. An animal must add each night’s events to everything it learned before, so it has the same problem.
+People and networks differ in how much interference affects them. People who learn a list of pairs, and then a new list in which the same first items have new partners, can still recall more than half of the first pairs. A standard network trained the same way recalls none of them. This collapse is **catastrophic interference**, a drastic loss of old learning when a network learns new patterns after old ones. It happens because the new learning moves weights that the old patterns depended on, as we described in Module 7. The overloaded network we described in §10.2.8 undergoes a related collapse, since it can then retrieve none of its stored patterns. An animal must add each night’s events to everything it learned before, so it has the same problem.
 
 ### §10.2.10 — Two Learners at Two Speeds
 
@@ -420,7 +420,7 @@ Eleanor Maguire and her colleagues proposed that the hippocampus provides a spat
 
 ### §10.3.3 — The Semantic Hub
 
-One patient could still remind his wife where to turn on a route he had not traveled recently. Then he pointed at some sheep and asked, “What are those things?” He had **semantic dementia**, a degenerative disease that wastes the front and underside of both temporal lobes. Patients gradually lose knowledge of what things are, whether the task uses pictures, words, or sounds. Specific knowledge is lost before general knowledge, and knowledge of rare and atypical things goes first. The first of these is the same order of loss as in the damaged network model we described in §10.2.10. The people we described in §10.2 who drew camels without humps had this disease. Early in the disease, memory for recent events, finding the way, and skills are spared.
+One patient could still remind his wife where to turn on a route he had not traveled recently. Then he pointed at some sheep and asked, “What are those things?” He had **semantic dementia**, a degenerative disease that wastes the front and underside of both temporal lobes. Patients gradually lose knowledge of what things are, whether the task uses pictures, words, or sounds. Specific knowledge is lost before general knowledge, and knowledge of rare and atypical things goes first. Losing specific knowledge before general knowledge is the same order of loss as in the damaged network model we described in §10.2.10. The people we described in §10.2 who drew camels without humps had this disease. Early in the disease, memory for recent events, finding the way, and skills are spared.
 
 Karalyn Patterson and her colleagues proposed how such knowledge is organized [](#f-hub-spoke). A concept’s shape, color, sound, actions, and name are represented in the regions that process each kind of information, called spokes. A **semantic hub** in the front of both temporal lobes links them all, whatever the kind of information. On this account, a hub is needed because similar things often share few sensory properties. By shape alone, a pear is more like a light bulb than a banana. With only direct links between spokes, the pear would be represented as more like the bulb. A hub that every spoke reaches can come to represent pears and bananas as alike. A separate control network, in frontal, parietal, and posterior temporal cortex, selects the knowledge each task needs.
 
@@ -525,15 +525,15 @@ The standard taxonomy sorts long-term memory by kind, according to what patients
 
 Elisabeth Murray, Steven Wise, and Kim Graham sort memory instead by what each system represents, and by the ancestor in which it first appeared. Reinforcement memory dates to early animals. Navigation memory, in the hippocampus, dates to early vertebrates. Biased-competition memory dates to early mammals. Manual-foraging memory dates to early primates. Feature and goal memory dates to *anthropoid primates*, the group that includes monkeys, apes, and human beings. Social-subjective memory, of oneself and others, dates to the human line. They call the scheme an *evolutionary accretion model*, since each system was added to those before it.
 
-Murray, Wise, and Graham are the research group, described in §10.2, who conclude that only humans have explicit memory. On their account, explicit memory arises when a human representation of oneself becomes part of what is remembered. They describe the accretion model as a “first word” rather than a “last word”. It has not replaced the standard taxonomy.
+Murray, Wise, and Graham are the research group, described in §10.2, who conclude that only humans have explicit memory. That conclusion is a minority view. On their account, explicit memory arises when a human representation of oneself becomes part of what is remembered. They describe the accretion model as a “first word” rather than a “last word”. It has not replaced the standard taxonomy.
 
 The machines we described in §10.2 mostly store what they learn in the weights of one network, sometimes with one added store. The brain, on either scheme, has several systems, with different contents and different speeds of learning. This contrast, one network against several systems, may be the largest difference we have found between memory in machines and memory in animals.
 
 ## Close — Information for a Use Not Yet Known
 
-At the beginning of this module, the early mammal was back in its nest before dawn. It had emptied one log of beetles, found a second log with beetles still under its bark, and frozen at the edge of a clearing where something large moved. We can now say what it would take for the animal to use that night on the next night.
+At the beginning of this module, an early mammal was back in its nest before dawn. It had emptied one log of beetles, found a second log with beetles still under its bark, and frozen at the edge of a clearing where something large moved. We can now say what it would take for the animal to use that night on the next night.
 
-Experience can change an animal in two ways, and the two can coexist. It can change a tendency to respond, as in the learning we described in Module 5. And it can leave accessible content, information that can be accessed later and combined with whatever the animal then needs. The early mammal needs both. It needs learned tendencies to respond, such as avoiding a food that once made it sick. And it needs information about which log it emptied, for a choice that will depend on how hungry it is the next night.
+Experience can change an animal in two ways, and the two can coexist. It can change a tendency to respond, as in the learning we described in Module 5. And it can leave accessible content, information that can be accessed later and combined with whatever the animal then needs. Early mammals need both. They need learned tendencies to respond, such as avoiding a food that once made them sick. And they need information about which logs they emptied, for a choice that will depend on how hungry they are the next night.
 
 In people, remembering turned out not to reproduce a copy. On the evidence for reconstructive memory, people reconstruct an occasion from general knowledge and a few specific details. Reconstruction is why people form false memories, such as words they never heard, and why a witness can be confident and wrong. On one proposal, the same processes let people, and perhaps other animals, construct occasions that have not happened.
 
@@ -567,7 +567,7 @@ Eight places to go next, several of which argue with one another.
 
 **amnesia** — A severe loss of memory caused by damage to the brain or by disease.
 
-**aphantasia** — Reduced or absent voluntary visual imagery.
+**aphantasia** — Reduced or absent voluntary imagery.
 
 **auto-association** — Storing patterns in the connections among a circuit’s own cells, so that part of a stored pattern can reactivate the rest.
 
@@ -581,7 +581,7 @@ Eight places to go next, several of which argue with one another.
 
 **content-addressable memory** — A memory that finds a stored item from part of the item itself, rather than from an address.
 
-**declarative memory** — Memory that is available to consciousness and can be expressed in language, such as semantic and episodic memory. Also called explicit memory.
+**declarative memory** — Memory that is available to consciousness and can be expressed by language, such as semantic and episodic memory. Also called explicit memory.
 
 **default mode network** — A set of brain regions that are more active when a person is not engaged by the outside world than during demanding tasks.
 
@@ -625,7 +625,7 @@ Eight places to go next, several of which argue with one another.
 
 **model-free** — Choosing an action by repeating what has worked in that situation before, with no model of what the action leads to.
 
-**nondeclarative memory** — Memory expressed in performance rather than recollection, such as skills, habits, and priming. Also called implicit memory.
+**nondeclarative memory** — Memory expressed in performance rather than recollection, such as priming. Also called implicit memory.
 
 **pattern completion** — Recovering a whole stored pattern from part of it.
 
@@ -641,7 +641,7 @@ Eight places to go next, several of which argue with one another.
 
 **rehearsal** — Repeating items to oneself, so that they are not lost from working memory.
 
-**replay** — Running a stored occasion again, after the occasion itself is over. In rats, sequences of place cells from a run recur, much faster than the run, during sleep and rest.
+**replay** — Running a stored occasion again, after the occasion itself is over.
 
 **schema** — Knowledge of how a kind of situation usually unfolds, without the details of any one occasion. Bartlett meant something broader: general knowledge from many past experiences, active and changing whenever a person remembers.
 

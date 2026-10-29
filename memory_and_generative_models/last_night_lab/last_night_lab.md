@@ -6,7 +6,7 @@ In this lab you take three positions. In Parts 1, 2, and 3 you are the subject o
 
 Two things run through every part. The first is the rule of the lab, which you met in Labs 6 to 9: nothing a memory test would tell you is shown until you commit your answers. In Part 1 you do not learn what was on a list, or what the lists were for, until the last test is done. In Part 3 you do not see the room again until every question is answered. In Part 4 nothing about how a night went is shown until the week is over. The second is a distinction we have kept since Lab 7. You and the animal you drive are the only ones in this lab that may learn, choose, and remember. The foragers of Part 5 are programs given your nights, and a line on their panel reads the same.
 
-Rats stand in for the early mammal of the reading, as they did in Lab 9. Most of what is known about memory for one night in a small mammal comes from rats in a radial maze (§10.1.1).
+Rats stand in for the early mammals of the reading, as they did in Lab 9. Most of what is known about memory for one night in a small mammal comes from rats in a radial maze (§10.1.1).
 
 Plan on about 90 minutes. The lab is built to be left and returned to, and the next section says how.
 
@@ -161,7 +161,7 @@ This is a version of an experiment by Brewer and Treyens, who left people waitin
 
 ### Goal
 
-In §10.1.1 we described the two kinds of fact the early mammal has to work with, and in §10.1.3 we said what any system that learns about particular occasions must be able to do: recall a whole occasion from part of it, and distinguish two similar occasions, such as two nights at the same log. In §10.1.4 we described animals whose behavior depended on one occasion after it was over, and in §10.2.5 we said that researchers credit such animals with episodic-like memory on behavior alone, since re-living the occasion is probably undetectable from what an animal does.
+In §10.1.1 we described the two kinds of fact early mammals have to work with, and in §10.1.3 we said what any system that learns about particular occasions must be able to do: recall a whole occasion from part of it, and distinguish two similar occasions, such as two nights at the same log. In §10.1.4 we described animals whose behavior depended on one occasion after it was over, and in §10.2.5 we said that researchers credit such animals with episodic-like memory on behavior alone, since re-living the occasion is probably undetectable from what an animal does.
 
 Part 4 puts those problems to you, as the animal. You are the small mammal of Lab 9, back in its range at night. Out from your nest there are ten logs: seven with loose bark and three that are smooth. Each log looks different from every other, in its length, its thickness, its branch stubs, and its moss. Two rules hold through the whole part, and a fixed line beside the view repeats them. **The usual fact**: logs with loose bark have beetles under them unless the beetles have recently been eaten, and smooth logs never have beetles. **The refill rule**: after you empty a log, it is still empty the next night, and the night after that it has beetles again.
 
