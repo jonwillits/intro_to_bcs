@@ -12,3 +12,12 @@ format:
       - text: "Download reading (PDF)"
         href: social_cognition_reading.pdf
         icon: file-earmark-pdf
+      - text: "Slides — Lecture 1"
+        href: social_cognition_lecture_1.pdf
+        icon: file-earmark-slides
+      - text: "Slides — Lecture 2"
+        href: social_cognition_lecture_2.pdf
+        icon: file-earmark-slides
+      - text: "Slides — Lecture 3"
+        href: social_cognition_lecture_3.pdf
+        icon: file-earmark-slides
