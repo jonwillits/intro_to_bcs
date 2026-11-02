@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="380.0" y="22.0" font-size="14" fill="#6B7280" text-anchor="middle" font-weight="bold">The mentalizing network</text>
+<path d="M238.0,186.0 C242.0,204.0 240.0,216.0 244.0,230.0 L260.0,230.0 C258.0,214.0 264.0,202.0 268.0,184.0 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="290.0" cy="186.0" rx="36.0" ry="20.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.4" transform="rotate(-8.0 290.0 186.0)"/>
+<path d="M76.0,128.0 C77.3,117.7 81.3,96.0 92.0,84.0 C102.7,72.0 120.3,62.0 140.0,56.0 C159.7,50.0 187.5,47.3 210.0,48.0 C232.5,48.7 257.5,52.0 275.0,60.0 C292.5,68.0 305.5,82.3 315.0,96.0 C324.5,109.7 331.2,129.0 332.0,142.0 C332.8,155.0 328.0,166.3 320.0,174.0 C312.0,181.7 299.0,184.3 284.0,188.0 C269.0,191.7 248.3,195.3 230.0,196.0 C211.7,196.7 188.7,194.7 174.0,192.0 C159.3,189.3 149.3,185.0 142.0,180.0 C134.7,175.0 131.0,166.3 130.0,162.0 C129.0,157.7 139.3,155.7 136.0,154.0 C132.7,152.3 118.7,153.3 110.0,152.0 C101.3,150.7 89.7,150.0 84.0,146.0 C78.3,142.0 74.7,138.3 76.0,128.0 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="162.0" cy="174.0" rx="22.0" ry="12.0" fill="#dcdfe3" stroke="#1a1a1a" stroke-width="1.0" transform="rotate(12.0 162.0 174.0)"/>
+<ellipse cx="260.0" cy="138.0" rx="26.0" ry="20.0" fill="#555b64" stroke="#1a1a1a" stroke-width="1.0" transform="rotate(-10.0 260.0 138.0)"/>
+<path d="M76.0,128.0 C77.3,117.7 81.3,96.0 92.0,84.0 C102.7,72.0 120.3,62.0 140.0,56.0 C159.7,50.0 187.5,47.3 210.0,48.0 C232.5,48.7 257.5,52.0 275.0,60.0 C292.5,68.0 305.5,82.3 315.0,96.0 C324.5,109.7 331.2,129.0 332.0,142.0 C332.8,155.0 328.0,166.3 320.0,174.0 C312.0,181.7 299.0,184.3 284.0,188.0 C269.0,191.7 248.3,195.3 230.0,196.0 C211.7,196.7 188.7,194.7 174.0,192.0 C159.3,189.3 149.3,185.0 142.0,180.0 C134.7,175.0 131.0,166.3 130.0,162.0 C129.0,157.7 139.3,155.7 136.0,154.0 C132.7,152.3 118.7,153.3 110.0,152.0 C101.3,150.7 89.7,150.0 84.0,146.0 C78.3,142.0 74.7,138.3 76.0,128.0 Z" fill="none" stroke="#1a1a1a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M134.0,156.0 Q180.0,146.0 220.0,140.0 Q240.0,136.0 248.0,124.0" fill="none" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M216.0,49.0 Q196.0,96.0 188.0,142.0" fill="none" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M150.0,170.0 Q210.0,162.0 246.0,150.0" fill="none" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="648.0" cy="182.0" rx="34.0" ry="20.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.4" transform="rotate(-8.0 648.0 182.0)"/>
+<path d="M576.0,164.0 C586.0,186.0 590.0,206.0 596.0,230.0 L614.0,230.0 C610.0,206.0 614.0,186.0 612.0,164.0 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M436.0,128.0 C437.0,117.0 441.3,96.0 452.0,84.0 C462.7,72.0 480.3,62.0 500.0,56.0 C519.7,50.0 547.5,47.3 570.0,48.0 C592.5,48.7 617.5,52.0 635.0,60.0 C652.5,68.0 665.5,82.3 675.0,96.0 C684.5,109.7 691.5,129.7 692.0,142.0 C692.5,154.3 687.3,164.0 678.0,170.0 C668.7,176.0 652.3,177.7 636.0,178.0 C619.7,178.3 598.3,173.3 580.0,172.0 C561.7,170.7 542.3,171.3 526.0,170.0 C509.7,168.7 495.3,167.3 482.0,164.0 C468.7,160.7 453.7,156.0 446.0,150.0 C438.3,144.0 435.0,139.0 436.0,128.0 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="468.0" cy="108.0" rx="22.0" ry="30.0" fill="#555b64" stroke="#1a1a1a" stroke-width="1.0" transform="rotate(20.0 468.0 108.0)"/>
+<ellipse cx="626.0" cy="94.0" rx="24.0" ry="18.0" fill="#dcdfe3" stroke="#1a1a1a" stroke-width="1.0" transform="rotate(-15.0 626.0 94.0)"/>
+<path d="M436.0,128.0 C437.0,117.0 441.3,96.0 452.0,84.0 C462.7,72.0 480.3,62.0 500.0,56.0 C519.7,50.0 547.5,47.3 570.0,48.0 C592.5,48.7 617.5,52.0 635.0,60.0 C652.5,68.0 665.5,82.3 675.0,96.0 C684.5,109.7 691.5,129.7 692.0,142.0 C692.5,154.3 687.3,164.0 678.0,170.0 C668.7,176.0 652.3,177.7 636.0,178.0 C619.7,178.3 598.3,173.3 580.0,172.0 C561.7,170.7 542.3,171.3 526.0,170.0 C509.7,168.7 495.3,167.3 482.0,164.0 C468.7,160.7 453.7,156.0 446.0,150.0 C438.3,144.0 435.0,139.0 436.0,128.0 Z" fill="none" stroke="#1a1a1a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M510.0,138.0 C500.0,104.0 570.0,92.0 616.0,116.0 C626.0,126.0 618.0,134.0 606.0,128.0 C570.0,108.0 522.0,116.0 522.0,142.0 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M496.0,146.0 Q480.0,90.0 560.0,80.0 Q620.0,80.0 634.0,68.0" fill="none" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+<text x="202.0" y="252.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">side view</text>
+<text x="562.0" y="252.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">inner view</text>
+<line x1="270.0" y1="122.0" x2="310.0" y2="72.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="314.0" y="68.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">temporoparietal junction</text>
+<line x1="150.0" y1="184.0" x2="110.0" y2="216.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="106.0" y="228.0" font-size="11" fill="#1a1a1a" text-anchor="end" font-weight="normal">anterior temporal lobe</text>
+<line x1="456.0" y1="130.0" x2="420.0" y2="206.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="418.0" y="218.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">medial prefrontal cortex</text>
+<line x1="638.0" y1="84.0" x2="680.0" y2="48.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="684.0" y="46.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">precuneus</text>
+<text x="74.0" y="40.0" font-size="10" fill="#5b6470" text-anchor="start" font-weight="normal">front</text>
+<text x="434.0" y="40.0" font-size="10" fill="#5b6470" text-anchor="start" font-weight="normal">front</text>
+<rect x="230.0" y="266.0" width="16.0" height="12.0" fill="#555b64" stroke="#1a1a1a" stroke-width="1.0" rx="2"/>
+<text x="252.0" y="276.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">core: active across tasks</text>
+<rect x="420.0" y="266.0" width="16.0" height="12.0" fill="#dcdfe3" stroke="#1a1a1a" stroke-width="1.0" rx="2"/>
+<text x="442.0" y="276.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">active in some tasks</text>
+<text x="380.0" y="296.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">schematic; drawn from Schurz and colleagues (2014) and Frith and Frith (2006)</text>
+</svg>

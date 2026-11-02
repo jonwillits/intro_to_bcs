@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 238" width="760" height="238" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="380.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">The Maxi story</text>
+<rect x="12.0" y="36.0" width="176.0" height="172.0" fill="#ffffff" stroke="#cfd5dc" stroke-width="1.2" rx="4"/>
+<text x="24.0" y="53.0" font-size="12" fill="#b8460a" text-anchor="middle" font-weight="bold">1</text>
+<line x1="20.0" y1="146.0" x2="180.0" y2="146.0" stroke="#cfd5dc" stroke-width="1.2" stroke-linecap="round"/>
+<rect x="86.0" y="100.0" width="36.0" height="46.0" fill="#d5e3f4" stroke="#1a1a1a" stroke-width="1.5" rx="2"/>
+<line x1="104.0" y1="103.0" x2="104.0" y2="143.0" stroke="#1a1a1a" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="100.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<circle cx="108.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<text x="104.0" y="159.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">blue</text>
+<rect x="140.0" y="100.0" width="36.0" height="46.0" fill="#d8ecd3" stroke="#1a1a1a" stroke-width="1.5" rx="2"/>
+<line x1="158.0" y1="103.0" x2="158.0" y2="143.0" stroke="#1a1a1a" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="154.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<circle cx="162.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<text x="158.0" y="159.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">green</text>
+<circle cx="46.0" cy="88.0" r="8.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<polygon points="38.0,97.0 54.0,97.0 54.0,124.0 38.0,124.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="42.0" y1="125.0" x2="41.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="50.0" y1="125.0" x2="51.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="46.0" y="160.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Maxi</text>
+<rect x="97.0" y="114.0" width="14.0" height="8.0" fill="#6b4a32" stroke="#1a1a1a" stroke-width="0.9" rx="1"/>
+<path d="M58.0,106.0 Q78.0,82.0 92.1,107.0" fill="none" stroke="#FF5F05" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="96.0,114.0 88.2,109.2 96.0,104.8" fill="#FF5F05"/>
+<text x="100.0" y="184.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Maxi puts the chocolate</text>
+<text x="100.0" y="197.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">in the blue cupboard</text>
+<rect x="196.0" y="36.0" width="176.0" height="172.0" fill="#ffffff" stroke="#cfd5dc" stroke-width="1.2" rx="4"/>
+<text x="208.0" y="53.0" font-size="12" fill="#b8460a" text-anchor="middle" font-weight="bold">2</text>
+<line x1="204.0" y1="146.0" x2="364.0" y2="146.0" stroke="#cfd5dc" stroke-width="1.2" stroke-linecap="round"/>
+<rect x="270.0" y="100.0" width="36.0" height="46.0" fill="#d5e3f4" stroke="#1a1a1a" stroke-width="1.5" rx="2"/>
+<line x1="288.0" y1="103.0" x2="288.0" y2="143.0" stroke="#1a1a1a" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="284.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<circle cx="292.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<text x="288.0" y="159.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">blue</text>
+<rect x="324.0" y="100.0" width="36.0" height="46.0" fill="#d8ecd3" stroke="#1a1a1a" stroke-width="1.5" rx="2"/>
+<line x1="342.0" y1="103.0" x2="342.0" y2="143.0" stroke="#1a1a1a" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="338.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<circle cx="346.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<text x="342.0" y="159.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">green</text>
+<circle cx="230.0" cy="88.0" r="8.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<polygon points="224.0,97.0 236.0,97.0 243.0,126.0 217.0,126.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="226.0" y1="125.0" x2="225.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="234.0" y1="125.0" x2="235.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="230.0" y="160.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">mother</text>
+<rect x="335.0" y="114.0" width="14.0" height="8.0" fill="#6b4a32" stroke="#1a1a1a" stroke-width="0.9" rx="1"/>
+<path d="M288.0,96.0 Q316.0,64.0 335.0,87.8" fill="none" stroke="#FF5F05" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="340.0,94.0 331.5,90.6 338.5,84.9" fill="#FF5F05"/>
+<text x="284.0" y="184.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">His mother moves it</text>
+<text x="284.0" y="197.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">to the green cupboard</text>
+<rect x="380.0" y="36.0" width="176.0" height="172.0" fill="#ffffff" stroke="#cfd5dc" stroke-width="1.2" rx="4"/>
+<text x="392.0" y="53.0" font-size="12" fill="#b8460a" text-anchor="middle" font-weight="bold">3</text>
+<line x1="388.0" y1="146.0" x2="548.0" y2="146.0" stroke="#cfd5dc" stroke-width="1.2" stroke-linecap="round"/>
+<rect x="454.0" y="100.0" width="36.0" height="46.0" fill="#d5e3f4" stroke="#1a1a1a" stroke-width="1.5" rx="2"/>
+<line x1="472.0" y1="103.0" x2="472.0" y2="143.0" stroke="#1a1a1a" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="468.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<circle cx="476.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<text x="472.0" y="159.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">blue</text>
+<rect x="508.0" y="100.0" width="36.0" height="46.0" fill="#d8ecd3" stroke="#1a1a1a" stroke-width="1.5" rx="2"/>
+<line x1="526.0" y1="103.0" x2="526.0" y2="143.0" stroke="#1a1a1a" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="522.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<circle cx="530.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<text x="526.0" y="159.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">green</text>
+<rect x="519.0" y="114.0" width="14.0" height="8.0" fill="#6b4a32" stroke="#1a1a1a" stroke-width="0.9" rx="1"/>
+<circle cx="414.0" cy="88.0" r="8.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<polygon points="406.0,97.0 422.0,97.0 422.0,124.0 406.0,124.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="410.0" y1="125.0" x2="409.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="418.0" y1="125.0" x2="419.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="414.0" y="160.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Maxi</text>
+<line x1="386.0" y1="116.0" x2="392.0" y2="116.0" stroke="#FF5F05" stroke-width="1.6" stroke-linecap="butt"/>
+<polygon points="400.0,116.0 392.0,120.5 392.0,111.5" fill="#FF5F05"/>
+<text x="468.0" y="184.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Maxi comes back</text>
+<rect x="564.0" y="36.0" width="176.0" height="172.0" fill="#ffffff" stroke="#cfd5dc" stroke-width="1.2" rx="4"/>
+<text x="576.0" y="53.0" font-size="12" fill="#b8460a" text-anchor="middle" font-weight="bold">4</text>
+<line x1="572.0" y1="146.0" x2="732.0" y2="146.0" stroke="#cfd5dc" stroke-width="1.2" stroke-linecap="round"/>
+<rect x="638.0" y="100.0" width="36.0" height="46.0" fill="#d5e3f4" stroke="#1a1a1a" stroke-width="1.5" rx="2"/>
+<line x1="656.0" y1="103.0" x2="656.0" y2="143.0" stroke="#1a1a1a" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="652.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<circle cx="660.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<text x="656.0" y="159.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">blue</text>
+<rect x="692.0" y="100.0" width="36.0" height="46.0" fill="#d8ecd3" stroke="#1a1a1a" stroke-width="1.5" rx="2"/>
+<line x1="710.0" y1="103.0" x2="710.0" y2="143.0" stroke="#1a1a1a" stroke-width="1.0" stroke-linecap="round"/>
+<circle cx="706.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<circle cx="714.0" cy="123.0" r="1.6" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.0"/>
+<text x="710.0" y="159.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">green</text>
+<rect x="703.0" y="114.0" width="14.0" height="8.0" fill="#6b4a32" stroke="#1a1a1a" stroke-width="0.9" rx="1"/>
+<circle cx="598.0" cy="88.0" r="8.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<polygon points="590.0,97.0 606.0,97.0 606.0,124.0 590.0,124.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="594.0" y1="125.0" x2="593.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="602.0" y1="125.0" x2="603.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="598.0" y="160.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Maxi</text>
+<text x="598.0" y="74.0" font-size="26" fill="#b8460a" text-anchor="middle" font-weight="bold">?</text>
+<text x="652.0" y="184.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Where will Maxi look</text>
+<text x="652.0" y="197.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">for the chocolate?</text>
+<text x="380.0" y="228.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">after Wimmer and Perner (1983), Table 1</text>
+</svg>

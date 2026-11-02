@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250" width="640" height="250" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="320.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">One moment from a film of moving shapes</text>
+<line x1="150.0" y1="62.0" x2="380.0" y2="62.0" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="150.0" y1="62.0" x2="150.0" y2="202.0" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="150.0" y1="202.0" x2="380.0" y2="202.0" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="380.0" y1="62.0" x2="380.0" y2="110.0" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="380.0" y1="160.0" x2="380.0" y2="202.0" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="380.0" y1="110.0" x2="414.0" y2="140.0" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round"/>
+<text x="220.0" y="188.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">house</text>
+<polygon points="400.0,135.0 352.0,105.0 352.0,165.0" fill="#fdeee2" stroke="#1a1a1a" stroke-width="2.0" stroke-linejoin="round"/>
+<text x="328.0" y="187.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">large triangle</text>
+<polygon points="516.0,150.0 487.0,133.0 487.0,167.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="2.0" stroke-linejoin="round"/>
+<circle cx="544.0" cy="128.0" r="12.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="2.0"/>
+<line x1="452.0" y1="142.0" x2="474.0" y2="142.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="456.0" y1="150.0" x2="476.0" y2="150.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="460.0" y1="158.0" x2="478.0" y2="158.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="500.0" y1="120.0" x2="522.0" y2="120.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="504.0" y1="128.0" x2="524.0" y2="128.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="508.0" y1="136.0" x2="526.0" y2="136.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="round"/>
+<text x="502.0" y="186.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">small triangle</text>
+<text x="566.0" y="146.0" font-size="11" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="italic">disc</text>
+<text x="320.0" y="240.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">a schematic redrawing; after Heider and Simmel (1944)</text>
+</svg>

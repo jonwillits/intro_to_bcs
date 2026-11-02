@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250" width="640" height="250" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="320.0" y="22.0" font-size="14" fill="#13294B" text-anchor="middle" font-weight="bold">The hawk–dove game</text>
+<text x="400.0" y="44.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">opponent</text>
+<text x="325.0" y="64.0" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">hawk</text>
+<text x="475.0" y="64.0" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">dove</text>
+<text x="138.0" y="130.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">animal</text>
+<text x="138.0" y="145.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">in the row</text>
+<text x="236.0" y="105.0" font-size="13" fill="#1a1a1a" text-anchor="end" font-weight="bold">hawk</text>
+<text x="236.0" y="157.0" font-size="13" fill="#1a1a1a" text-anchor="end" font-weight="bold">dove</text>
+<rect x="250.0" y="74.0" width="150.0" height="52.0" fill="#e8eef6" stroke="#1a1a1a" stroke-width="1.4" rx="0"/>
+<text x="325.0" y="106.0" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="normal">½(<tspan font-style="italic">V</tspan> − <tspan font-style="italic">W</tspan>)</text>
+<rect x="400.0" y="74.0" width="150.0" height="52.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.4" rx="0"/>
+<text x="475.0" y="106.0" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="normal"><tspan font-style="italic">V</tspan></text>
+<rect x="250.0" y="126.0" width="150.0" height="52.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.4" rx="0"/>
+<text x="325.0" y="158.0" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="normal">0</text>
+<rect x="400.0" y="126.0" width="150.0" height="52.0" fill="#e8eef6" stroke="#1a1a1a" stroke-width="1.4" rx="0"/>
+<text x="475.0" y="158.0" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="normal">½<tspan font-style="italic">V</tspan> − <tspan font-style="italic">L</tspan></text>
+<text x="150.0" y="212.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal"><tspan font-style="italic">V</tspan> = value of the resource</text>
+<text x="330.0" y="212.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal"><tspan font-style="italic">W</tspan> = cost of an injury</text>
+<text x="490.0" y="212.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal"><tspan font-style="italic">L</tspan> = cost of a long display</text>
+<text x="320.0" y="240.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">payoff to the animal in the row; after Maynard Smith (1976), p. 43</text>
+</svg>

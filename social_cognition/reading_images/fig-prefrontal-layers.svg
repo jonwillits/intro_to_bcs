@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="380.0" y="22.0" font-size="14" fill="#6B7280" text-anchor="middle" font-weight="bold">When the parts of the prefrontal cortex appeared</text>
+<line x1="40.0" y1="272.0" x2="40.0" y2="64.0" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="40.0" y1="250.0" x2="66.0" y2="232.0" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+<circle cx="40.0" cy="250.0" r="7.0" fill="#dcdfe3" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="54.0" y="270.0" font-size="12" fill="#6B7280" text-anchor="start" font-weight="bold">early mammals</text>
+<text x="72.0" y="228.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">agranular medial and</text>
+<text x="72.0" y="241.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">orbital areas</text>
+<line x1="40.0" y1="170.0" x2="66.0" y2="152.0" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+<circle cx="40.0" cy="170.0" r="7.0" fill="#a3a9b1" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="54.0" y="190.0" font-size="12" fill="#6B7280" text-anchor="start" font-weight="bold">primates</text>
+<text x="72.0" y="148.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">frontal eye field and</text>
+<text x="72.0" y="161.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">granular orbital areas</text>
+<line x1="40.0" y1="90.0" x2="66.0" y2="72.0" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+<circle cx="40.0" cy="90.0" r="7.0" fill="#555b64" stroke="#1a1a1a" stroke-width="1.4"/>
+<text x="54.0" y="110.0" font-size="12" fill="#6B7280" text-anchor="start" font-weight="bold">monkeys and apes</text>
+<text x="72.0" y="68.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">granular lateral, dorsomedial,</text>
+<text x="72.0" y="81.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">and frontopolar areas</text>
+<path d="M272.0,132.0 C272.7,124.3 278.0,108.7 286.0,100.0 C294.0,91.3 305.5,84.7 320.0,80.0 C334.5,75.3 355.0,72.3 373.0,72.0 C391.0,71.7 412.2,73.3 428.0,78.0 C443.8,82.7 459.0,91.0 468.0,100.0 C477.0,109.0 481.3,122.3 482.0,132.0 C482.7,141.7 479.7,151.0 472.0,158.0 C464.3,165.0 450.0,170.0 436.0,174.0 C422.0,178.0 402.3,181.3 388.0,182.0 C373.7,182.7 359.7,181.0 350.0,178.0 C340.3,175.0 334.3,168.7 330.0,164.0 C325.7,159.3 328.3,152.3 324.0,150.0 C319.7,147.7 311.0,150.7 304.0,150.0 C297.0,149.3 287.3,149.0 282.0,146.0 C276.7,143.0 271.3,139.7 272.0,132.0 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="272.0,132.0 286.0,100.0 320.0,80.0 338.0,76.0 326.0,96.0 320.0,114.0 324.0,136.0 324.0,150.0 304.0,150.0 282.0,146.0" fill="#555b64" stroke="none" stroke-width="1.0" stroke-linejoin="round"/>
+<polygon points="338.0,76.0 348.0,75.0 336.0,96.0 332.0,116.0 336.0,140.0 324.0,150.0 324.0,136.0 320.0,114.0 326.0,96.0" fill="#a3a9b1" stroke="none" stroke-width="1.0" stroke-linejoin="round"/>
+<path d="M272.0,132.0 C272.7,124.3 278.0,108.7 286.0,100.0 C294.0,91.3 305.5,84.7 320.0,80.0 C334.5,75.3 355.0,72.3 373.0,72.0 C391.0,71.7 412.2,73.3 428.0,78.0 C443.8,82.7 459.0,91.0 468.0,100.0 C477.0,109.0 481.3,122.3 482.0,132.0 C482.7,141.7 479.7,151.0 472.0,158.0 C464.3,165.0 450.0,170.0 436.0,174.0 C422.0,178.0 402.3,181.3 388.0,182.0 C373.7,182.7 359.7,181.0 350.0,178.0 C340.3,175.0 334.3,168.7 330.0,164.0 C325.7,159.3 328.3,152.3 324.0,150.0 C319.7,147.7 311.0,150.7 304.0,150.0 C297.0,149.3 287.3,149.0 282.0,146.0 C276.7,143.0 271.3,139.7 272.0,132.0 Z" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="380.0" y1="73.0" x2="360.0" y2="142.0" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M348.0,75.0 Q332.0,100.0 338.0,114.0 Q334.0,128.0 338.0,144.0" fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="284.0" y1="120.0" x2="328.0" y2="116.0" stroke="#ffffff" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M328.0,152.0 Q378.0,144.0 418.0,134.0" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M512.0,132.0 C512.7,124.0 518.0,108.7 526.0,100.0 C534.0,91.3 545.5,84.7 560.0,80.0 C574.5,75.3 595.0,72.3 613.0,72.0 C631.0,71.7 652.2,73.3 668.0,78.0 C683.8,82.7 699.0,91.0 708.0,100.0 C717.0,109.0 721.0,122.3 722.0,132.0 C723.0,141.7 721.3,151.7 714.0,158.0 C706.7,164.3 691.5,168.0 678.0,170.0 C664.5,172.0 648.0,170.7 633.0,170.0 C618.0,169.3 602.2,167.7 588.0,166.0 C573.8,164.3 559.0,163.0 548.0,160.0 C537.0,157.0 528.0,152.7 522.0,148.0 C516.0,143.3 511.3,140.0 512.0,132.0 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="512.0,132.0 526.0,100.0 560.0,80.0 592.0,74.0 588.0,94.0 556.0,100.0 538.0,120.0 534.0,140.0 520.0,146.0" fill="#555b64" stroke="none" stroke-width="1.0" stroke-linejoin="round"/>
+<polygon points="588.0,94.0 604.0,98.0 600.0,114.0 578.0,120.0 564.0,136.0 566.0,154.0 552.0,158.0 538.0,142.0 538.0,120.0 556.0,100.0" fill="#dcdfe3" stroke="none" stroke-width="1.0" stroke-linejoin="round"/>
+<polygon points="520.0,146.0 534.0,140.0 538.0,142.0 552.0,158.0 548.0,160.0 522.0,148.0" fill="#a3a9b1" stroke="none" stroke-width="1.0" stroke-linejoin="round"/>
+<polygon points="552.0,158.0 566.0,154.0 582.0,164.0 570.0,165.0" fill="#dcdfe3" stroke="none" stroke-width="1.0" stroke-linejoin="round"/>
+<path d="M512.0,132.0 C512.7,124.0 518.0,108.7 526.0,100.0 C534.0,91.3 545.5,84.7 560.0,80.0 C574.5,75.3 595.0,72.3 613.0,72.0 C631.0,71.7 652.2,73.3 668.0,78.0 C683.8,82.7 699.0,91.0 708.0,100.0 C717.0,109.0 721.0,122.3 722.0,132.0 C723.0,141.7 721.3,151.7 714.0,158.0 C706.7,164.3 691.5,168.0 678.0,170.0 C664.5,172.0 648.0,170.7 633.0,170.0 C618.0,169.3 602.2,167.7 588.0,166.0 C573.8,164.3 559.0,163.0 548.0,160.0 C537.0,157.0 528.0,152.7 522.0,148.0 C516.0,143.3 511.3,140.0 512.0,132.0 Z" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M574.0,132.0 C572.0,110.0 618.0,104.0 658.0,114.0 C668.0,118.0 666.0,128.0 654.0,126.0 C618.0,116.0 586.0,120.0 584.0,136.0 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="620.0" y1="73.0" x2="614.0" y2="96.0" stroke="#1a1a1a" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M548.0,104.0 Q588.0,90.0 658.0,104.0" fill="none" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+<text x="377.0" y="200.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">side view</text>
+<text x="617.0" y="200.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">inner view</text>
+<text x="272.0" y="62.0" font-size="10" fill="#5b6470" text-anchor="start" font-weight="normal">front</text>
+<text x="512.0" y="62.0" font-size="10" fill="#5b6470" text-anchor="start" font-weight="normal">front</text>
+<text x="360.0" y="58.0" font-size="10" fill="#5b6470" text-anchor="middle" font-weight="normal">motor areas</text>
+<line x1="360.0" y1="61.0" x2="360.0" y2="84.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<rect x="268.0" y="218.0" width="16.0" height="12.0" fill="#dcdfe3" stroke="#1a1a1a" stroke-width="1.0" rx="2"/>
+<text x="290.0" y="228.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">agranular, shared with rodents</text>
+<rect x="268.0" y="236.0" width="16.0" height="12.0" fill="#a3a9b1" stroke="#1a1a1a" stroke-width="1.0" rx="2"/>
+<text x="290.0" y="246.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">granular, new with primates</text>
+<rect x="504.0" y="218.0" width="16.0" height="12.0" fill="#555b64" stroke="#1a1a1a" stroke-width="1.0" rx="2"/>
+<text x="526.0" y="228.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">granular, new with monkeys and apes</text>
+<rect x="504.0" y="236.0" width="16.0" height="12.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.0" rx="2"/>
+<text x="526.0" y="246.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">not prefrontal</text>
+<text x="380.0" y="292.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">schematic macaque hemispheres; drawn from the account in Preuss and Wise (2022)</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 290" width="640" height="290" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="320.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">Passing a false-belief task, by age</text>
+<rect x="249.7" y="44.0" width="100.3" height="180.0" fill="#fdeee2" stroke="none" stroke-width="0.0" rx="0"/>
+<text x="299.8" y="58.0" font-size="10" fill="#b8460a" text-anchor="middle" font-weight="normal" font-style="italic">no different</text>
+<text x="299.8" y="70.0" font-size="10" fill="#b8460a" text-anchor="middle" font-weight="normal" font-style="italic">from chance</text>
+<line x1="92.0" y1="224.0" x2="522.0" y2="224.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="84.0" y="228.0" font-size="11" fill="#5b6470" text-anchor="end" font-weight="normal">0</text>
+<line x1="92.0" y1="179.0" x2="522.0" y2="179.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="84.0" y="183.0" font-size="11" fill="#5b6470" text-anchor="end" font-weight="normal">25</text>
+<line x1="92.0" y1="134.0" x2="522.0" y2="134.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="84.0" y="138.0" font-size="11" fill="#5b6470" text-anchor="end" font-weight="normal">50</text>
+<line x1="92.0" y1="89.0" x2="522.0" y2="89.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="84.0" y="93.0" font-size="11" fill="#5b6470" text-anchor="end" font-weight="normal">75</text>
+<line x1="92.0" y1="44.0" x2="522.0" y2="44.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="84.0" y="48.0" font-size="11" fill="#5b6470" text-anchor="end" font-weight="normal">100</text>
+<line x1="92.0" y1="134.0" x2="522.0" y2="134.0" stroke="#5b6470" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="5 4"/>
+<text x="530.0" y="138.0" font-size="11" fill="#5b6470" text-anchor="start" font-weight="normal">chance</text>
+<line x1="92.0" y1="44.0" x2="92.0" y2="224.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="92.0" y1="224.0" x2="92.0" y2="229.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="92.0" y="242.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">30</text>
+<line x1="178.0" y1="224.0" x2="178.0" y2="229.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="178.0" y="242.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">36</text>
+<line x1="264.0" y1="224.0" x2="264.0" y2="229.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="264.0" y="242.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">42</text>
+<line x1="350.0" y1="224.0" x2="350.0" y2="229.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="350.0" y="242.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">48</text>
+<line x1="436.0" y1="224.0" x2="436.0" y2="229.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="436.0" y="242.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">54</text>
+<line x1="522.0" y1="224.0" x2="522.0" y2="229.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="522.0" y="242.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">60</text>
+<text x="307.0" y="262.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">age in months</text>
+<text x="48.0" y="134.0" font-size="12" fill="#1a1a1a" text-anchor="middle" transform="rotate(-90 48.0 134.0)">percent correct</text>
+<path d="M92.0,191.6 L99.2,190.1 L106.3,188.6 L113.5,187.1 L120.7,185.4 L127.8,183.8 L135.0,182.1 L142.2,180.3 L149.3,178.5 L156.5,176.6 L163.7,174.7 L170.8,172.7 L178.0,170.7 L185.2,168.7 L192.3,166.6 L199.5,164.4 L206.7,162.3 L213.8,160.0 L221.0,157.8 L228.2,155.5 L235.3,153.2 L242.5,150.9 L249.7,148.5 L256.8,146.1 L264.0,143.7 L271.2,141.3 L278.3,138.9 L285.5,136.4 L292.7,134.0 L299.8,131.6 L307.0,129.1 L314.2,126.7 L321.3,124.3 L328.5,121.9 L335.7,119.5 L342.8,117.1 L350.0,114.8 L357.2,112.5 L364.3,110.2 L371.5,108.0 L378.7,105.7 L385.8,103.6 L393.0,101.4 L400.2,99.3 L407.3,97.3 L414.5,95.3 L421.7,93.3 L428.8,91.4 L436.0,89.5 L443.2,87.7 L450.3,85.9 L457.5,84.2 L464.7,82.6 L471.8,80.9 L479.0,79.4 L486.2,77.9 L493.3,76.4 L500.5,75.0 L507.7,73.6 L514.8,72.3 L522.0,71.0" fill="none" stroke="#FF5F05" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="292.7" cy="134.0" r="4.5" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="300.7" y="152.0" font-size="11" fill="#1a1a1a" text-anchor="start" font-weight="normal">50% at 44 months</text>
+<text x="320.0" y="282.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">a curve through values stated in Wellman, Cross, and Watson (2001), pp. 662–664</text>
+</svg>

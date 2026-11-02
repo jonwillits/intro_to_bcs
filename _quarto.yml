@@ -51,7 +51,7 @@ project:
     - perception_and_action/perception_and_action_reading.md
     - spatial_cognition/spatial_cognition_reading.md
     - memory_and_generative_models/memory_and_generative_models_reading.md
-    - social_cognition/index.qmd
+    - social_cognition/social_cognition_reading.md
     - planning_and_decisionmaking/index.qmd
     - language/index.qmd
     - symbolic_cognition/index.qmd
@@ -129,8 +129,8 @@ website:
 
       - section: "Social & Symbolic Minds"
         contents:
-          - text: "11 · Social Cognition — coming soon"
-            href: social_cognition/index.qmd
+          - text: "11 · Social Cognition"
+            href: social_cognition/social_cognition_reading.md
           - text: "12 · Planning & Decision-Making — coming soon"
             href: planning_and_decisionmaking/index.qmd
           - text: "13 · Language — coming soon"

@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 238" width="760" height="238" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="380.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">The Sally–Anne task</text>
+<rect x="12.0" y="36.0" width="176.0" height="172.0" fill="#ffffff" stroke="#cfd5dc" stroke-width="1.2" rx="4"/>
+<text x="24.0" y="53.0" font-size="12" fill="#b8460a" text-anchor="middle" font-weight="bold">1</text>
+<rect x="74.0" y="122.0" width="104.0" height="6.0" fill="#e6e0d6" stroke="#1a1a1a" stroke-width="1.2" rx="1"/>
+<line x1="82.0" y1="128.0" x2="82.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="170.0" y1="128.0" x2="170.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="83.0,100.0 117.0,100.0 112.0,122.0 88.0,122.0" fill="#f1e3c8" stroke="#1a1a1a" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="86.6" y1="107.3" x2="113.4" y2="107.3" stroke="#5b6470" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="88.2" y1="114.7" x2="111.8" y2="114.7" stroke="#5b6470" stroke-width="0.9" stroke-linecap="round"/>
+<text x="100.0" y="142.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">basket</text>
+<rect x="135.0" y="100.0" width="34.0" height="22.0" fill="#e6e9ee" stroke="#1a1a1a" stroke-width="1.5" rx="1"/>
+<rect x="132.0" y="94.0" width="40.0" height="6.0" fill="#e6e9ee" stroke="#1a1a1a" stroke-width="1.5" rx="1"/>
+<text x="152.0" y="142.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">box</text>
+<circle cx="32.0" cy="90.9" r="7.6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<polygon points="26.3,99.5 37.7,99.5 44.4,127.0 19.6,127.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="28.2" y1="126.0" x2="27.2" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="35.8" y1="126.0" x2="36.8" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="32.0" y="160.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Sally</text>
+<circle cx="58.0" cy="90.9" r="7.6" fill="#fdeee2" stroke="#1a1a1a" stroke-width="1.6"/>
+<polygon points="52.3,99.5 63.7,99.5 70.3,127.0 45.6,127.0" fill="#fdeee2" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="54.2" y1="126.0" x2="53.2" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="61.8" y1="126.0" x2="62.8" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="58.0" y="160.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Anne</text>
+<circle cx="100.0" cy="92.0" r="4.2" fill="#FF5F05" stroke="#1a1a1a" stroke-width="1.2"/>
+<line x1="100.0" y1="92.0" x2="100.0" y2="98.0" stroke="#FF5F05" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="100.0,104.0 96.5,98.0 103.5,98.0" fill="#FF5F05"/>
+<text x="100.0" y="184.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Sally puts her marble</text>
+<text x="100.0" y="197.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">in her basket and leaves</text>
+<rect x="196.0" y="36.0" width="176.0" height="172.0" fill="#ffffff" stroke="#cfd5dc" stroke-width="1.2" rx="4"/>
+<text x="208.0" y="53.0" font-size="12" fill="#b8460a" text-anchor="middle" font-weight="bold">2</text>
+<rect x="258.0" y="122.0" width="104.0" height="6.0" fill="#e6e0d6" stroke="#1a1a1a" stroke-width="1.2" rx="1"/>
+<line x1="266.0" y1="128.0" x2="266.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="354.0" y1="128.0" x2="354.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="267.0,100.0 301.0,100.0 296.0,122.0 272.0,122.0" fill="#f1e3c8" stroke="#1a1a1a" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="270.6" y1="107.3" x2="297.4" y2="107.3" stroke="#5b6470" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="272.2" y1="114.7" x2="295.8" y2="114.7" stroke="#5b6470" stroke-width="0.9" stroke-linecap="round"/>
+<text x="284.0" y="142.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">basket</text>
+<rect x="319.0" y="100.0" width="34.0" height="22.0" fill="#e6e9ee" stroke="#1a1a1a" stroke-width="1.5" rx="1"/>
+<rect x="316.0" y="94.0" width="40.0" height="6.0" fill="#e6e9ee" stroke="#1a1a1a" stroke-width="1.5" rx="1"/>
+<text x="336.0" y="142.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">box</text>
+<circle cx="242.0" cy="90.9" r="7.6" fill="#fdeee2" stroke="#1a1a1a" stroke-width="1.6"/>
+<polygon points="236.3,99.5 247.7,99.5 254.3,127.0 229.7,127.0" fill="#fdeee2" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="238.2" y1="126.0" x2="237.2" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="245.8" y1="126.0" x2="246.8" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="242.0" y="160.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Anne</text>
+<circle cx="294.0" cy="76.0" r="4.2" fill="#FF5F05" stroke="#1a1a1a" stroke-width="1.2"/>
+<path d="M284.0,104.0 Q282.0,82.0 284.6,80.7" fill="none" stroke="#FF5F05" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="290.0,78.0 286.2,83.8 283.1,77.6" fill="#FF5F05"/>
+<text x="284.0" y="184.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Anne takes the marble</text>
+<text x="284.0" y="197.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">out of the basket</text>
+<rect x="380.0" y="36.0" width="176.0" height="172.0" fill="#ffffff" stroke="#cfd5dc" stroke-width="1.2" rx="4"/>
+<text x="392.0" y="53.0" font-size="12" fill="#b8460a" text-anchor="middle" font-weight="bold">3</text>
+<rect x="442.0" y="122.0" width="104.0" height="6.0" fill="#e6e0d6" stroke="#1a1a1a" stroke-width="1.2" rx="1"/>
+<line x1="450.0" y1="128.0" x2="450.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="538.0" y1="128.0" x2="538.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="451.0,100.0 485.0,100.0 480.0,122.0 456.0,122.0" fill="#f1e3c8" stroke="#1a1a1a" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="454.6" y1="107.3" x2="481.4" y2="107.3" stroke="#5b6470" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="456.2" y1="114.7" x2="479.8" y2="114.7" stroke="#5b6470" stroke-width="0.9" stroke-linecap="round"/>
+<text x="468.0" y="142.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">basket</text>
+<rect x="503.0" y="100.0" width="34.0" height="22.0" fill="#e6e9ee" stroke="#1a1a1a" stroke-width="1.5" rx="1"/>
+<rect x="500.0" y="94.0" width="40.0" height="6.0" fill="#e6e9ee" stroke="#1a1a1a" stroke-width="1.5" rx="1"/>
+<text x="520.0" y="142.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">box</text>
+<circle cx="426.0" cy="90.9" r="7.6" fill="#fdeee2" stroke="#1a1a1a" stroke-width="1.6"/>
+<polygon points="420.3,99.5 431.7,99.5 438.4,127.0 413.6,127.0" fill="#fdeee2" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="422.2" y1="126.0" x2="421.2" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="429.8" y1="126.0" x2="430.8" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="426.0" y="160.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Anne</text>
+<circle cx="520.0" cy="88.0" r="4.2" fill="#FF5F05" stroke="#1a1a1a" stroke-width="1.2"/>
+<line x1="520.0" y1="88.0" x2="520.0" y2="94.0" stroke="#FF5F05" stroke-width="1.4" stroke-linecap="butt"/>
+<polygon points="520.0,100.0 516.5,94.0 523.5,94.0" fill="#FF5F05"/>
+<text x="468.0" y="184.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Anne puts the marble</text>
+<text x="468.0" y="197.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">in her box</text>
+<rect x="564.0" y="36.0" width="176.0" height="172.0" fill="#ffffff" stroke="#cfd5dc" stroke-width="1.2" rx="4"/>
+<text x="576.0" y="53.0" font-size="12" fill="#b8460a" text-anchor="middle" font-weight="bold">4</text>
+<rect x="626.0" y="122.0" width="104.0" height="6.0" fill="#e6e0d6" stroke="#1a1a1a" stroke-width="1.2" rx="1"/>
+<line x1="634.0" y1="128.0" x2="634.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="722.0" y1="128.0" x2="722.0" y2="146.0" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="635.0,100.0 669.0,100.0 664.0,122.0 640.0,122.0" fill="#f1e3c8" stroke="#1a1a1a" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="638.6" y1="107.3" x2="665.4" y2="107.3" stroke="#5b6470" stroke-width="0.9" stroke-linecap="round"/>
+<line x1="640.2" y1="114.7" x2="663.8" y2="114.7" stroke="#5b6470" stroke-width="0.9" stroke-linecap="round"/>
+<text x="652.0" y="142.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">basket</text>
+<rect x="687.0" y="100.0" width="34.0" height="22.0" fill="#e6e9ee" stroke="#1a1a1a" stroke-width="1.5" rx="1"/>
+<rect x="684.0" y="94.0" width="40.0" height="6.0" fill="#e6e9ee" stroke="#1a1a1a" stroke-width="1.5" rx="1"/>
+<text x="704.0" y="142.0" font-size="11" fill="#5b6470" text-anchor="middle" font-weight="normal">box</text>
+<circle cx="584.0" cy="90.9" r="7.6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6"/>
+<polygon points="578.3,99.5 589.7,99.5 596.4,127.0 571.6,127.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="580.2" y1="126.0" x2="579.2" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="587.8" y1="126.0" x2="588.8" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="584.0" y="160.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Sally</text>
+<circle cx="610.0" cy="90.9" r="7.6" fill="#fdeee2" stroke="#1a1a1a" stroke-width="1.6"/>
+<polygon points="604.3,99.5 615.7,99.5 622.4,127.0 597.6,127.0" fill="#fdeee2" stroke="#1a1a1a" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="606.2" y1="126.0" x2="605.2" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<line x1="613.8" y1="126.0" x2="614.8" y2="146.0" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+<text x="610.0" y="160.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Anne</text>
+<circle cx="704.0" cy="110.0" r="4.2" fill="#FF5F05" stroke="#1a1a1a" stroke-width="1.2"/>
+<text x="678.0" y="88.0" font-size="26" fill="#b8460a" text-anchor="middle" font-weight="bold">?</text>
+<text x="652.0" y="184.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Sally comes back. Where</text>
+<text x="652.0" y="197.0" font-size="11" fill="#1a1a1a" text-anchor="middle" font-weight="normal">will she look for her marble?</text>
+<text x="380.0" y="228.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">after Baron-Cohen, Leslie, and Frith (1985), Fig. 1</text>
+</svg>
