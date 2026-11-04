@@ -21,3 +21,7 @@ format:
       - text: "Slides — Lecture 3"
         href: social_cognition_lecture_3.pdf
         icon: file-earmark-slides
+      - text: "Interactive lab"
+        href: "https://jonwillits.github.io/bcogapp/#/m11-social"
+        icon: box-arrow-up-right
+        target: _blank
