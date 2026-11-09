@@ -12,3 +12,12 @@ format:
       - text: "Download reading (PDF)"
         href: planning_and_decisionmaking_reading.pdf
         icon: file-earmark-pdf
+      - text: "Slides — Lecture 1"
+        href: planning_and_decisionmaking_lecture_1.pdf
+        icon: file-earmark-slides
+      - text: "Slides — Lecture 2"
+        href: planning_and_decisionmaking_lecture_2.pdf
+        icon: file-earmark-slides
+      - text: "Slides — Lecture 3"
+        href: planning_and_decisionmaking_lecture_3.pdf
+        icon: file-earmark-slides
