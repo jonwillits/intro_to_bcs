@@ -21,3 +21,7 @@ format:
       - text: "Slides — Lecture 3"
         href: planning_and_decisionmaking_lecture_3.pdf
         icon: file-earmark-slides
+      - text: "Interactive lab"
+        href: "https://jonwillits.github.io/bcogapp/#/m12-planning"
+        icon: box-arrow-up-right
+        target: _blank
