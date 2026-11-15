@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 214" width="720" height="214" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#5b6470" stroke-width="2"/></pattern></defs>
+<text x="360.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">How often 25 children overregularized irregular past-tense verbs</text>
+<line x1="60.0" y1="46.0" x2="60.0" y2="150.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="60.0" y="168.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">0%</text>
+<line x1="120.0" y1="46.0" x2="120.0" y2="150.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="120.0" y="168.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">10%</text>
+<line x1="180.0" y1="46.0" x2="180.0" y2="150.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="180.0" y="168.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">20%</text>
+<line x1="240.0" y1="46.0" x2="240.0" y2="150.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="240.0" y="168.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">30%</text>
+<line x1="300.0" y1="46.0" x2="300.0" y2="150.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="300.0" y="168.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">40%</text>
+<line x1="360.0" y1="46.0" x2="360.0" y2="150.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="360.0" y="168.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">50%</text>
+<line x1="420.0" y1="46.0" x2="420.0" y2="150.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="420.0" y="168.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">60%</text>
+<line x1="480.0" y1="46.0" x2="480.0" y2="150.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="480.0" y="168.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">70%</text>
+<line x1="540.0" y1="46.0" x2="540.0" y2="150.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="540.0" y="168.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">80%</text>
+<line x1="600.0" y1="46.0" x2="600.0" y2="150.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="600.0" y="168.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">90%</text>
+<line x1="660.0" y1="46.0" x2="660.0" y2="150.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="660.0" y="168.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">100%</text>
+<line x1="60.0" y1="150.0" x2="660.0" y2="150.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<text x="360.0" y="186.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">irregular past-tense forms overregularized</text>
+<circle cx="60.0" cy="138.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="60.0" cy="127.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="60.0" cy="116.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="60.0" cy="105.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="60.0" cy="94.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="60.0" cy="83.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="65.4" cy="72.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="69.0" cy="61.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="69.0" cy="50.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="71.4" cy="105.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="71.4" cy="94.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="74.4" cy="83.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="75.0" cy="72.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="75.6" cy="61.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="81.6" cy="83.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="87.0" cy="127.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="92.4" cy="127.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="94.2" cy="116.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="95.4" cy="105.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="96.0" cy="94.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="96.6" cy="83.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="106.8" cy="127.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="112.2" cy="127.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<circle cx="138.0" cy="138.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<line x1="138.0" y1="132.0" x2="138.0" y2="112.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="138.0" y="108.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">April, 13.0%</text>
+<circle cx="204.0" cy="138.0" r="5.0" fill="#FF5F05" stroke="#ffffff" stroke-width="1.0"/>
+<line x1="204.0" y1="132.0" x2="204.0" y2="112.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="204.0" y="108.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Abe, 24.0%</text>
+<line x1="75.0" y1="42.0" x2="75.0" y2="150.0" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="round"/>
+<text x="79.0" y="50.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">median 2.5%</text>
+<line x1="85.4" y1="56.0" x2="85.4" y2="150.0" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="89.4" y="66.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">mean 4.2%</text>
+<rect x="650.0" y="70.0" width="10.0" height="80.0" fill="url(#hatch)" stroke="#5b6470" stroke-width="1.0" rx="0"/>
+<text x="644.0" y="84.0" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">a stage in which <tspan font-style="italic">goed</tspan> replaced <tspan font-style="italic">went</tspan></text>
+<text x="644.0" y="99.0" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">would sit here</text>
+<text x="360.0" y="206.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">data from Marcus et al. (1992), Table 2; each dot is one child’s everyday speech</text>
+</svg>

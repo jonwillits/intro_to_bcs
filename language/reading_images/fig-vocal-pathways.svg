@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="360.0" y="22.0" font-size="14" fill="#6B7280" text-anchor="middle" font-weight="bold">Vocal pathways in a songbird, and their proposed match in a human brain</text>
+<text x="180.0" y="50.0" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">songbird</text>
+<rect x="20.0" y="64.0" width="110.0" height="40.0" fill="#eef0f2" stroke="#1a1a1a" stroke-width="1.6" rx="4"/>
+<text x="75.0" y="88.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">HVC</text>
+<rect x="190.0" y="64.0" width="110.0" height="40.0" fill="#eef0f2" stroke="#1a1a1a" stroke-width="1.6" rx="4"/>
+<text x="245.0" y="88.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">RA</text>
+<line x1="130.0" y1="84.0" x2="180.0" y2="84.0" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="butt"/>
+<polygon points="188.0,84.0 180.0,88.5 180.0,79.5" fill="#1a1a1a"/>
+<rect x="20.0" y="140.0" width="70.0" height="36.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.6" rx="4"/>
+<text x="55.0" y="162.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">Area X</text>
+<rect x="100.0" y="140.0" width="70.0" height="36.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.6" rx="4"/>
+<text x="135.0" y="162.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">thalamus</text>
+<rect x="180.0" y="140.0" width="70.0" height="36.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.6" rx="4"/>
+<text x="215.0" y="162.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">LMAN</text>
+<line x1="55.0" y1="104.0" x2="55.0" y2="130.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt" stroke-dasharray="4 3"/>
+<polygon points="55.0,138.0 50.5,130.0 59.5,130.0" fill="#5b6470"/>
+<line x1="90.0" y1="158.0" x2="90.0" y2="158.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt" stroke-dasharray="4 3"/>
+<polygon points="98.0,158.0 90.0,162.5 90.0,153.5" fill="#5b6470"/>
+<line x1="170.0" y1="158.0" x2="170.0" y2="158.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt" stroke-dasharray="4 3"/>
+<polygon points="178.0,158.0 170.0,162.5 170.0,153.5" fill="#5b6470"/>
+<line x1="220.0" y1="140.0" x2="220.0" y2="114.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt" stroke-dasharray="4 3"/>
+<polygon points="220.0,106.0 224.5,114.0 215.5,114.0" fill="#5b6470"/>
+<text x="135.0" y="194.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">learning loop</text>
+<rect x="220.0" y="214.0" width="120.0" height="34.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" rx="4"/>
+<text x="280.0" y="228.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">brainstem</text>
+<text x="280.0" y="242.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">vocal neurons</text>
+<line x1="282.0" y1="104.0" x2="282.0" y2="204.0" stroke="#6B7280" stroke-width="5.0" stroke-linecap="round"/>
+<line x1="282.0" y1="198.0" x2="282.0" y2="205.0" stroke="#6B7280" stroke-width="2.0" stroke-linecap="butt"/>
+<polygon points="282.0,213.0 276.0,205.0 288.0,205.0" fill="#6B7280"/>
+<text x="290.0" y="150.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">direct</text>
+<text x="290.0" y="164.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">connection</text>
+<text x="214.0" y="236.0" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">syrinx ←</text>
+<text x="540.0" y="50.0" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">human (proposed)</text>
+<rect x="380.0" y="64.0" width="110.0" height="40.0" fill="#eef0f2" stroke="#1a1a1a" stroke-width="1.6" rx="4"/>
+<text x="435.0" y="81.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">premotor cortex</text>
+<text x="435.0" y="95.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">and Broca’s area</text>
+<rect x="550.0" y="64.0" width="110.0" height="40.0" fill="#eef0f2" stroke="#1a1a1a" stroke-width="1.6" rx="4"/>
+<text x="605.0" y="81.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">laryngeal</text>
+<text x="605.0" y="95.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">motor cortex</text>
+<line x1="490.0" y1="84.0" x2="540.0" y2="84.0" stroke="#1a1a1a" stroke-width="1.6" stroke-linecap="butt"/>
+<polygon points="548.0,84.0 540.0,88.5 540.0,79.5" fill="#1a1a1a"/>
+<rect x="380.0" y="140.0" width="70.0" height="36.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.6" rx="4"/>
+<text x="415.0" y="155.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">anterior</text>
+<text x="415.0" y="169.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">striatum</text>
+<rect x="460.0" y="140.0" width="70.0" height="36.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.6" rx="4"/>
+<text x="495.0" y="162.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">thalamus</text>
+<rect x="540.0" y="140.0" width="70.0" height="36.0" fill="#ffffff" stroke="#5b6470" stroke-width="1.6" rx="4"/>
+<text x="575.0" y="155.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">frontal</text>
+<text x="575.0" y="169.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">cortex</text>
+<line x1="415.0" y1="104.0" x2="415.0" y2="130.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt" stroke-dasharray="4 3"/>
+<polygon points="415.0,138.0 410.5,130.0 419.5,130.0" fill="#5b6470"/>
+<line x1="450.0" y1="158.0" x2="450.0" y2="158.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt" stroke-dasharray="4 3"/>
+<polygon points="458.0,158.0 450.0,162.5 450.0,153.5" fill="#5b6470"/>
+<line x1="530.0" y1="158.0" x2="530.0" y2="158.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt" stroke-dasharray="4 3"/>
+<polygon points="538.0,158.0 530.0,162.5 530.0,153.5" fill="#5b6470"/>
+<line x1="580.0" y1="140.0" x2="580.0" y2="114.0" stroke="#5b6470" stroke-width="1.4" stroke-linecap="butt" stroke-dasharray="4 3"/>
+<polygon points="580.0,106.0 584.5,114.0 575.5,114.0" fill="#5b6470"/>
+<text x="495.0" y="194.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">learning loop</text>
+<rect x="580.0" y="214.0" width="120.0" height="34.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" rx="4"/>
+<text x="640.0" y="228.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">brainstem</text>
+<text x="640.0" y="242.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">vocal neurons</text>
+<line x1="642.0" y1="104.0" x2="642.0" y2="204.0" stroke="#6B7280" stroke-width="5.0" stroke-linecap="round"/>
+<line x1="642.0" y1="198.0" x2="642.0" y2="205.0" stroke="#6B7280" stroke-width="2.0" stroke-linecap="butt"/>
+<polygon points="642.0,213.0 636.0,205.0 648.0,205.0" fill="#6B7280"/>
+<text x="650.0" y="150.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">direct</text>
+<text x="650.0" y="164.0" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">connection</text>
+<text x="574.0" y="236.0" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">larynx ←</text>
+<text x="360.0" y="272.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">axons from motor cortex to each brainstem vocal neuron: up to hundreds in songbirds and people; one to three in mice</text>
+<text x="360.0" y="292.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">after Jarvis (2019), Fig. 3; the human mapping is Jarvis’s proposal</text>
+</svg>

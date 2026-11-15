@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" width="720" height="290" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="360" y="22" font-size="14" fill="#6B7280" text-anchor="middle" font-weight="bold">Two streams for speech, on one influential model</text>
+<g transform="translate(200 44) scale(1.050)">
+<defs><clipPath id="clipSS"><path d="M6,82 C7.3,71.7 11.3,50 22,38 C32.7,26 50.3,16 70,10 C89.7,4 117.5,1.3 140,2 C162.5,2.7 187.5,6 205,14 C222.5,22 235.5,36.3 245,50 C254.5,63.7 261.2,83 262,96 C262.8,109 258,120.3 250,128 C242,135.7 229,138.3 214,142 C199,145.7 178.3,149.3 160,150 C141.7,150.7 118.7,148.7 104,146 C89.3,143.3 79.3,139 72,134 C64.7,129 61,120.3 60,116 C59,111.7 69.3,109.7 66,108 C62.7,106.3 48.7,107.3 40,106 C31.3,104.7 19.7,104 14,100 C8.3,96 4.7,92.3 6,82 Z"/></clipPath></defs>
+<path d="M168,140 C172,158 170,170 174,184 L190,184 C188,168 194,156 198,138 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="220" cy="140" rx="36" ry="20" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.4" transform="rotate(-8 220 140)"/>
+<path d="M6,82 C7.3,71.7 11.3,50 22,38 C32.7,26 50.3,16 70,10 C89.7,4 117.5,1.3 140,2 C162.5,2.7 187.5,6 205,14 C222.5,22 235.5,36.3 245,50 C254.5,63.7 261.2,83 262,96 C262.8,109 258,120.3 250,128 C242,135.7 229,138.3 214,142 C199,145.7 178.3,149.3 160,150 C141.7,150.7 118.7,148.7 104,146 C89.3,143.3 79.3,139 72,134 C64.7,129 61,120.3 60,116 C59,111.7 69.3,109.7 66,108 C62.7,106.3 48.7,107.3 40,106 C31.3,104.7 19.7,104 14,100 C8.3,96 4.7,92.3 6,82 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<g clip-path="url(#clipSS)">
+<ellipse cx="150" cy="96" rx="22" ry="6" fill="#a3a9b1" stroke="#1a1a1a" stroke-width="1" transform="rotate(-8 150 96)"/>
+<ellipse cx="170" cy="106" rx="16" ry="6" fill="#dcdfe3" stroke="#1a1a1a" stroke-width="1" transform="rotate(-10 170 106)"/>
+</g>
+<path d="M6,82 C7.3,71.7 11.3,50 22,38 C32.7,26 50.3,16 70,10 C89.7,4 117.5,1.3 140,2 C162.5,2.7 187.5,6 205,14 C222.5,22 235.5,36.3 245,50 C254.5,63.7 261.2,83 262,96 C262.8,109 258,120.3 250,128 C242,135.7 229,138.3 214,142 C199,145.7 178.3,149.3 160,150 C141.7,150.7 118.7,148.7 104,146 C89.3,143.3 79.3,139 72,134 C64.7,129 61,120.3 60,116 C59,111.7 69.3,109.7 66,108 C62.7,106.3 48.7,107.3 40,106 C31.3,104.7 19.7,104 14,100 C8.3,96 4.7,92.3 6,82 Z" fill="none" stroke="#1a1a1a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M64,110 Q110,100 150,94 Q170,90 178,78" fill="none" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M146,3 Q126,50 118,96" fill="none" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path d="M365.9,153.2 Q336.5,182.6 298.1,177.6" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="288.2,176.3 298.9,171.6 297.3,183.5" fill="#1a1a1a"/>
+<path d="M378.5,146.9 Q405.8,128 400.4,125.3" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 4"/>
+<polygon points="393.2,121.7 402.6,120.8 398.1,129.7" fill="#1a1a1a"/>
+<path d="M393.2,121.7 Q336.5,104.9 287,124.3" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 4"/>
+<polygon points="277.7,128 284.8,118.8 289.2,129.9" fill="#1a1a1a"/>
+<line x1="357.5" y1="144.8" x2="540" y2="130" stroke="#5b6470" stroke-width="1" stroke-linecap="round"/>
+<text x="544" y="134" font-size="12" fill="#1a1a1a" text-anchor="start">auditory cortex</text>
+<line x1="315.5" y1="180.5" x2="300" y2="250" stroke="#5b6470" stroke-width="1" stroke-linecap="round"/>
+<text x="300" y="264" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="bold">ventral stream: sound to meaning, in both hemispheres</text>
+<line x1="315.5" y1="111.2" x2="190" y2="58" stroke="#5b6470" stroke-width="1" stroke-linecap="round"/>
+<text x="186" y="54" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="bold">dorsal stream (dashed):</text>
+<text x="186" y="69" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="bold">sound to the movements</text>
+<text x="186" y="84" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="bold">of speaking, mainly left</text>
+<text x="360" y="282" font-size="12" fill="#5b6470" text-anchor="middle" font-style="italic">schematic, after Hickok and Poeppel (2007), Fig. 1b; left hemisphere, locations approximate</text>
+</svg>

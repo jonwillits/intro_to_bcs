@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 314" width="720" height="314" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="360.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">Occupation words in embeddings, against the share of women in each occupation</text>
+<line x1="120.0" y1="240.0" x2="600.0" y2="240.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="112.0" y="244.0" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">−0.15</text>
+<line x1="120.0" y1="206.7" x2="600.0" y2="206.7" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="112.0" y="210.7" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">−0.10</text>
+<line x1="120.0" y1="173.3" x2="600.0" y2="173.3" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="112.0" y="177.3" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">−0.05</text>
+<line x1="120.0" y1="140.0" x2="600.0" y2="140.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="112.0" y="144.0" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">0.00</text>
+<line x1="120.0" y1="106.7" x2="600.0" y2="106.7" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="112.0" y="110.7" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">0.05</text>
+<line x1="120.0" y1="73.3" x2="600.0" y2="73.3" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="112.0" y="77.3" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">0.10</text>
+<line x1="120.0" y1="40.0" x2="600.0" y2="40.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="112.0" y="44.0" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">0.15</text>
+<line x1="120.0" y1="40.0" x2="120.0" y2="240.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="120.0" y1="240.0" x2="600.0" y2="240.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<text x="64.0" y="140.0" font-size="12" fill="#1a1a1a" text-anchor="middle" transform="rotate(-90 64.0 140.0)">closer to words for</text>
+<text x="78.0" y="140.0" font-size="12" fill="#1a1a1a" text-anchor="middle" transform="rotate(-90 78.0 140.0)">men (−) or women (+)</text>
+<line x1="120.0" y1="240.0" x2="120.0" y2="245.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="120.0" y="258.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">−100</text>
+<line x1="240.0" y1="240.0" x2="240.0" y2="245.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="240.0" y="258.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">−50</text>
+<line x1="360.0" y1="240.0" x2="360.0" y2="245.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="360.0" y="258.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">0</text>
+<line x1="480.0" y1="240.0" x2="480.0" y2="245.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="480.0" y="258.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">50</text>
+<line x1="600.0" y1="240.0" x2="600.0" y2="245.0" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="600.0" y="258.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">100</text>
+<text x="360.0" y="276.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">percentage of women minus percentage of men in the occupation, 2015</text>
+<line x1="120.0" y1="140.0" x2="600.0" y2="140.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="360.0" y1="40.0" x2="360.0" y2="240.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line x1="120.0" y1="196.0" x2="592.8" y2="100.5" stroke="#FF5F05" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="125.8" cy="217.5" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<text x="132.8" y="233.5" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">carpenter</text>
+<circle cx="130.1" cy="220.5" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="146.1" cy="154.3" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="147.5" cy="162.0" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="146.1" cy="179.2" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="145.1" cy="193.0" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="159.1" cy="185.9" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="154.7" cy="142.2" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="176.9" cy="189.3" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="182.7" cy="169.4" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="184.6" cy="184.2" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="187.1" cy="164.4" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="193.3" cy="175.1" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="194.3" cy="187.9" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="194.8" cy="188.9" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="202.0" cy="174.5" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="218.9" cy="202.4" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<text x="211.9" y="206.4" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">engineer</text>
+<circle cx="232.9" cy="208.1" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="235.8" cy="218.5" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<text x="242.8" y="222.5" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">mechanic</text>
+<circle cx="236.7" cy="179.8" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="243.0" cy="177.1" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="253.6" cy="162.0" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="253.6" cy="166.1" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="263.3" cy="153.6" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="264.2" cy="187.6" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="272.4" cy="123.4" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="277.3" cy="144.9" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="288.4" cy="152.6" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="288.4" cy="162.7" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="288.4" cy="171.4" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="303.8" cy="133.8" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="303.8" cy="176.1" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="306.2" cy="148.6" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="309.6" cy="155.3" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="310.6" cy="169.1" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="310.6" cy="170.1" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="312.0" cy="176.5" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="314.4" cy="163.4" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="320.2" cy="161.7" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="322.1" cy="173.1" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="328.4" cy="162.0" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="338.1" cy="140.5" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="345.8" cy="133.4" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="351.6" cy="142.5" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="356.9" cy="125.4" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="359.8" cy="157.7" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="359.8" cy="160.3" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="365.1" cy="142.2" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="382.4" cy="183.9" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="387.3" cy="121.7" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="389.2" cy="121.0" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="388.7" cy="166.1" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="401.2" cy="173.8" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="402.2" cy="136.5" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="403.2" cy="143.9" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="415.7" cy="161.7" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="449.5" cy="122.0" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="465.4" cy="147.9" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="477.0" cy="83.4" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<text x="484.0" y="87.4" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">housekeeper</text>
+<circle cx="480.4" cy="113.9" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="487.6" cy="111.3" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="505.0" cy="141.8" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<circle cx="522.3" cy="96.8" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<text x="529.3" y="100.8" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">dancer</text>
+<circle cx="530.5" cy="70.9" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<text x="523.5" y="74.9" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">librarian</text>
+<circle cx="533.9" cy="46.4" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<text x="526.9" y="50.4" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">nurse</text>
+<circle cx="570.6" cy="151.9" r="4.0" fill="#f7b48a" stroke="#FF5F05" stroke-width="1.0"/>
+<text x="563.6" y="155.9" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">secretary</text>
+<circle cx="360.0" cy="147.5" r="5.0" fill="#ffffff" stroke="#1a1a1a" stroke-width="2.0"/>
+<line x1="364.0" y1="152.5" x2="412.8" y2="198.7" stroke="#5b6470" stroke-width="1.0" stroke-linecap="round"/>
+<text x="417.6" y="202.7" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">equal numbers of men and women:</text>
+<text x="417.6" y="217.7" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">the fitted line still leans toward men</text>
+<text x="360.0" y="306.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">values read from Garg et al. (2018), Fig. 1, and approximate; one embedding, trained on Google News text</text>
+</svg>

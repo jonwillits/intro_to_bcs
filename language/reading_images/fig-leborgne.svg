@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="360" y="22" font-size="14" fill="#6B7280" text-anchor="middle" font-weight="bold">Leborgne’s brain: what Broca could see, and what MRI showed</text>
+<g transform="translate(40 60) scale(1.050)">
+<defs><clipPath id="clipLe"><path d="M6,82 C7.3,71.7 11.3,50 22,38 C32.7,26 50.3,16 70,10 C89.7,4 117.5,1.3 140,2 C162.5,2.7 187.5,6 205,14 C222.5,22 235.5,36.3 245,50 C254.5,63.7 261.2,83 262,96 C262.8,109 258,120.3 250,128 C242,135.7 229,138.3 214,142 C199,145.7 178.3,149.3 160,150 C141.7,150.7 118.7,148.7 104,146 C89.3,143.3 79.3,139 72,134 C64.7,129 61,120.3 60,116 C59,111.7 69.3,109.7 66,108 C62.7,106.3 48.7,107.3 40,106 C31.3,104.7 19.7,104 14,100 C8.3,96 4.7,92.3 6,82 Z"/></clipPath></defs>
+<path d="M168,140 C172,158 170,170 174,184 L190,184 C188,168 194,156 198,138 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="220" cy="140" rx="36" ry="20" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.4" transform="rotate(-8 220 140)"/>
+<path d="M6,82 C7.3,71.7 11.3,50 22,38 C32.7,26 50.3,16 70,10 C89.7,4 117.5,1.3 140,2 C162.5,2.7 187.5,6 205,14 C222.5,22 235.5,36.3 245,50 C254.5,63.7 261.2,83 262,96 C262.8,109 258,120.3 250,128 C242,135.7 229,138.3 214,142 C199,145.7 178.3,149.3 160,150 C141.7,150.7 118.7,148.7 104,146 C89.3,143.3 79.3,139 72,134 C64.7,129 61,120.3 60,116 C59,111.7 69.3,109.7 66,108 C62.7,106.3 48.7,107.3 40,106 C31.3,104.7 19.7,104 14,100 C8.3,96 4.7,92.3 6,82 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<g clip-path="url(#clipLe)">
+<ellipse cx="58" cy="92" rx="16" ry="10" fill="#555b64" stroke="none" stroke-width="0" transform="rotate(-10 58 92)" fill-opacity="0.90"/>
+<ellipse cx="80" cy="90" rx="12" ry="9" fill="#a3a9b1" stroke="none" stroke-width="0" transform="rotate(-10 80 90)"/>
+<ellipse cx="96" cy="112" rx="18" ry="6" fill="#dcdfe3" stroke="none" stroke-width="0" transform="rotate(-8 96 112)"/>
+<ellipse cx="150" cy="70" rx="14" ry="9" fill="#dcdfe3" stroke="none" stroke-width="0" transform="rotate(10 150 70)"/>
+</g>
+<path d="M6,82 C7.3,71.7 11.3,50 22,38 C32.7,26 50.3,16 70,10 C89.7,4 117.5,1.3 140,2 C162.5,2.7 187.5,6 205,14 C222.5,22 235.5,36.3 245,50 C254.5,63.7 261.2,83 262,96 C262.8,109 258,120.3 250,128 C242,135.7 229,138.3 214,142 C199,145.7 178.3,149.3 160,150 C141.7,150.7 118.7,148.7 104,146 C89.3,143.3 79.3,139 72,134 C64.7,129 61,120.3 60,116 C59,111.7 69.3,109.7 66,108 C62.7,106.3 48.7,107.3 40,106 C31.3,104.7 19.7,104 14,100 C8.3,96 4.7,92.3 6,82 Z" fill="none" stroke="#1a1a1a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M64,110 Q110,100 150,94 Q170,90 178,78" fill="none" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M146,3 Q126,50 118,96" fill="none" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="76" cy="88" rx="20" ry="11" fill="none" stroke="#1a1a1a" stroke-width="1.4" transform="rotate(-10 76 88)" stroke-dasharray="4 3"/>
+</g>
+<line x1="100.9" y1="156.6" x2="70" y2="230" stroke="#5b6470" stroke-width="1" stroke-linecap="round"/>
+<text x="70" y="244" font-size="12" fill="#1a1a1a" text-anchor="middle">damage on the surface</text>
+<line x1="130.3" y1="146.1" x2="170" y2="52" stroke="#5b6470" stroke-width="1" stroke-linecap="round"/>
+<text x="174" y="50" font-size="12" fill="#1a1a1a" text-anchor="start">Broca’s area today (dashed)</text>
+<text x="178.6" y="270" font-size="12" fill="#5b6470" text-anchor="middle">what Broca could see: the outer surface</text>
+<ellipse cx="478" cy="150" rx="58" ry="86" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" transform="rotate(0 478 150)"/>
+<ellipse cx="602" cy="150" rx="62" ry="88" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.6" transform="rotate(0 602 150)"/>
+<text x="478" y="56" font-size="12" fill="#5b6470" text-anchor="middle">left</text>
+<text x="602" y="56" font-size="12" fill="#5b6470" text-anchor="middle">right</text>
+<ellipse cx="452" cy="154" rx="9" ry="26" fill="#555b64" stroke="#1a1a1a" stroke-width="1" transform="rotate(0 452 154)"/>
+<ellipse cx="478" cy="160" rx="12" ry="18" fill="#555b64" stroke="#1a1a1a" stroke-width="1" transform="rotate(0 478 160)"/>
+<ellipse cx="496" cy="132" rx="9" ry="12" fill="#555b64" stroke="#1a1a1a" stroke-width="1" transform="rotate(0 496 132)"/>
+<ellipse cx="470" cy="110" rx="22" ry="8" fill="#555b64" stroke="#1a1a1a" stroke-width="1" transform="rotate(0 470 110)"/>
+<ellipse cx="632" cy="154" rx="9" ry="26" fill="#dcdfe3" stroke="#1a1a1a" stroke-width="1" transform="rotate(0 632 154)"/>
+<ellipse cx="606" cy="160" rx="12" ry="18" fill="#dcdfe3" stroke="#1a1a1a" stroke-width="1" transform="rotate(0 606 160)"/>
+<ellipse cx="588" cy="132" rx="9" ry="12" fill="#dcdfe3" stroke="#1a1a1a" stroke-width="1" transform="rotate(0 588 132)"/>
+<line x1="408" y1="192" x2="452" y2="154" stroke="#5b6470" stroke-width="1" stroke-linecap="round"/>
+<text x="404" y="196" font-size="12" fill="#1a1a1a" text-anchor="end">insula</text>
+<line x1="408" y1="226" x2="478" y2="160" stroke="#5b6470" stroke-width="1" stroke-linecap="round"/>
+<text x="404" y="230" font-size="12" fill="#1a1a1a" text-anchor="end">putamen</text>
+<line x1="408" y1="122" x2="496" y2="132" stroke="#5b6470" stroke-width="1" stroke-linecap="round"/>
+<text x="404" y="126" font-size="12" fill="#1a1a1a" text-anchor="end">caudate</text>
+<line x1="408" y1="88" x2="470" y2="110" stroke="#5b6470" stroke-width="1" stroke-linecap="round"/>
+<text x="404" y="92" font-size="12" fill="#1a1a1a" text-anchor="end">long fiber bundle</text>
+<text x="540" y="270" font-size="12" fill="#5b6470" text-anchor="middle">what MRI showed: damage deep below the surface</text>
+<text x="360" y="292" font-size="12" fill="#5b6470" text-anchor="middle" font-style="italic">schematic, after Dronkers et al. (2007); dark shading marks the most damage</text>
+</svg>

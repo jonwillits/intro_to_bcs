@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 276" width="720" height="276" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="360" y="22" font-size="14" fill="#6B7280" text-anchor="middle" font-weight="bold">Language mainly in the right hemisphere, by strength of handedness</text>
+<line x1="110" y1="204" x2="650" y2="204" stroke="#e3e6ea" stroke-width="1" stroke-linecap="round"/>
+<text x="102" y="208" font-size="12" fill="#5b6470" text-anchor="end">0%</text>
+<line x1="110" y1="164" x2="650" y2="164" stroke="#e3e6ea" stroke-width="1" stroke-linecap="round"/>
+<text x="102" y="168" font-size="12" fill="#5b6470" text-anchor="end">10%</text>
+<line x1="110" y1="124" x2="650" y2="124" stroke="#e3e6ea" stroke-width="1" stroke-linecap="round"/>
+<text x="102" y="128" font-size="12" fill="#5b6470" text-anchor="end">20%</text>
+<line x1="110" y1="84" x2="650" y2="84" stroke="#e3e6ea" stroke-width="1" stroke-linecap="round"/>
+<text x="102" y="88" font-size="12" fill="#5b6470" text-anchor="end">30%</text>
+<line x1="110" y1="44" x2="650" y2="44" stroke="#e3e6ea" stroke-width="1" stroke-linecap="round"/>
+<text x="102" y="48" font-size="12" fill="#5b6470" text-anchor="end">40%</text>
+<line x1="110" y1="44" x2="110" y2="204" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="110" y1="204" x2="650" y2="204" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<text x="60" y="124" font-size="12" fill="#1a1a1a" text-anchor="middle" transform="rotate(-90 60 124)">percentage with language mainly on the right</text>
+<line x1="140" y1="125.2" x2="140" y2="66.8" stroke="#5b6470" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="140" cy="96" r="5.5" fill="#6B7280" stroke="#ffffff" stroke-width="1.2"/>
+<text x="140" y="60.8" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="bold">27%</text>
+<text x="140" y="220" font-size="12" fill="#5b6470" text-anchor="middle">n = 37</text>
+<line x1="220" y1="130.8" x2="220" y2="61.2" stroke="#5b6470" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="220" cy="96" r="5.5" fill="#6B7280" stroke="#ffffff" stroke-width="1.2"/>
+<text x="220" y="55.2" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="bold">27%</text>
+<text x="220" y="220" font-size="12" fill="#5b6470" text-anchor="middle">n = 26</text>
+<line x1="300" y1="139.4" x2="300" y2="92.6" stroke="#5b6470" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="300" cy="116" r="5.5" fill="#6B7280" stroke="#ffffff" stroke-width="1.2"/>
+<text x="300" y="86.6" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="bold">22%</text>
+<text x="300" y="220" font-size="12" fill="#5b6470" text-anchor="middle">n = 50</text>
+<line x1="380" y1="189.5" x2="380" y2="130.5" stroke="#5b6470" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="380" cy="160" r="5.5" fill="#6B7280" stroke="#ffffff" stroke-width="1.2"/>
+<text x="380" y="124.5" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="bold">11%</text>
+<text x="380" y="220" font-size="12" fill="#5b6470" text-anchor="middle">n = 18</text>
+<line x1="460" y1="183" x2="460" y2="145" stroke="#5b6470" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="460" cy="164" r="5.5" fill="#6B7280" stroke="#ffffff" stroke-width="1.2"/>
+<text x="460" y="139" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="bold">10%</text>
+<text x="460" y="220" font-size="12" fill="#5b6470" text-anchor="middle">n = 40</text>
+<line x1="540" y1="193.7" x2="540" y2="166.3" stroke="#5b6470" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="540" cy="180" r="5.5" fill="#6B7280" stroke="#ffffff" stroke-width="1.2"/>
+<text x="540" y="160.3" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="bold">6%</text>
+<text x="540" y="220" font-size="12" fill="#5b6470" text-anchor="middle">n = 48</text>
+<line x1="620" y1="195.6" x2="620" y2="180.4" stroke="#5b6470" stroke-width="1.4" stroke-linecap="round"/>
+<circle cx="620" cy="188" r="5.5" fill="#6B7280" stroke="#ffffff" stroke-width="1.2"/>
+<text x="620" y="174.4" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="bold">4%</text>
+<text x="620" y="220" font-size="12" fill="#5b6470" text-anchor="middle">n = 107</text>
+<text x="140" y="238" font-size="12" fill="#1a1a1a" text-anchor="middle">most strongly</text>
+<text x="140" y="252" font-size="12" fill="#1a1a1a" text-anchor="middle">left-handed</text>
+<text x="620" y="238" font-size="12" fill="#1a1a1a" text-anchor="middle">most strongly</text>
+<text x="620" y="252" font-size="12" fill="#1a1a1a" text-anchor="middle">right-handed</text>
+<text x="380" y="245" font-size="12" fill="#5b6470" text-anchor="middle" font-style="italic">handedness groups</text>
+<text x="360" y="268" font-size="12" fill="#5b6470" text-anchor="middle" font-style="italic">data from Knecht et al. (2000), Fig. 3; bars show ± one standard error</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 292" width="720" height="292" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="360.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">Two rules for turning a statement into a yes-or-no question</text>
+<text x="40.0" y="52.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="italic">In a simple sentence, the two rules give the same question.</text>
+<text x="60.0" y="80.0" font-size="15" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="italic">The dog <tspan fill="#b8460a" font-weight="bold">is</tspan> hungry.</text>
+<text x="250.0" y="80.0" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="normal">→</text>
+<text x="290.0" y="80.0" font-size="15" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="italic"><tspan fill="#b8460a" font-weight="bold">Is</tspan> the dog <tspan fill="#5b6470">__</tspan> hungry?</text>
+<text x="40.0" y="122.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="italic">When the subject (in brackets) contains a clause, the rules come apart.</text>
+<text x="60.0" y="150.0" font-size="15" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="italic"><tspan fill="#b8460a" font-style="normal">[</tspan>The dog that <tspan font-weight="bold">is</tspan> in the corner<tspan fill="#b8460a" font-style="normal">]</tspan> <tspan fill="#b8460a" font-weight="bold">is</tspan> hungry.</text>
+<text x="40.0" y="196.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="bold">front the first <tspan font-style="italic">is</tspan></text>
+<text x="220.0" y="196.0" font-size="14" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="italic"><tspan font-weight="bold">* Is</tspan> the dog that <tspan fill="#5b6470">__</tspan> in the corner is hungry?</text>
+<text x="690.0" y="196.0" font-size="12" fill="#5b6470" text-anchor="end" font-weight="bold">not English</text>
+<text x="40.0" y="232.0" font-size="12" fill="#b8460a" text-anchor="start" font-weight="bold">front the main clause’s <tspan font-style="italic">is</tspan></text>
+<text x="220.0" y="232.0" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="italic"><tspan fill="#b8460a" font-weight="bold">Is</tspan> the dog that is in the corner <tspan fill="#5b6470">__</tspan> hungry?</text>
+<text x="690.0" y="232.0" font-size="12" fill="#b8460a" text-anchor="end" font-weight="bold">English</text>
+<text x="40.0" y="262.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="italic">* marks a sentence that English speakers reject; __ marks where the verb was</text>
+<text x="360.0" y="284.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">after Pullum and Scholz (2002) and Crain and Thornton (2006)</text>
+</svg>

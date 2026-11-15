@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" width="720" height="270" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#5b6470" stroke-width="2"/></pattern></defs>
+<text x="360.0" y="22.0" font-size="14" fill="#13294B" text-anchor="middle" font-weight="bold">What vervets on the ground did after hearing a recorded alarm call</text>
+<line x1="92.0" y1="204.0" x2="692.0" y2="204.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="84.0" y="208.0" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">0%</text>
+<line x1="92.0" y1="164.0" x2="692.0" y2="164.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="84.0" y="168.0" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">20%</text>
+<line x1="92.0" y1="124.0" x2="692.0" y2="124.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="84.0" y="128.0" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">40%</text>
+<line x1="92.0" y1="84.0" x2="692.0" y2="84.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="84.0" y="88.0" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">60%</text>
+<line x1="92.0" y1="44.0" x2="692.0" y2="44.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="84.0" y="48.0" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">80%</text>
+<line x1="92.0" y1="44.0" x2="92.0" y2="204.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="92.0" y1="204.0" x2="692.0" y2="204.0" stroke="#5b6470" stroke-width="1.2" stroke-linecap="round"/>
+<text x="42.0" y="124.0" font-size="12" fill="#1a1a1a" text-anchor="middle" transform="rotate(-90 42.0 124.0)">percentage of trials</text>
+<rect x="128.0" y="119.8" width="38.0" height="84.2" fill="#13294B" stroke="#13294B" stroke-width="1.2" rx="0"/>
+<text x="147.0" y="113.8" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">42%</text>
+<rect x="174.0" y="161.9" width="38.0" height="42.1" fill="#c9d6e8" stroke="#13294B" stroke-width="1.2" rx="0"/>
+<text x="193.0" y="155.9" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">21%</text>
+<rect x="220.0" y="193.5" width="38.0" height="10.5" fill="url(#hatch)" stroke="#13294B" stroke-width="1.2" rx="0"/>
+<text x="239.0" y="187.5" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">5%</text>
+<text x="193.0" y="222.0" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="normal">leopard alarm</text>
+<text x="193.0" y="237.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">19 trials</text>
+<rect x="328.0" y="175.4" width="38.0" height="28.6" fill="#13294B" stroke="#13294B" stroke-width="1.2" rx="0"/>
+<text x="347.0" y="169.4" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">14%</text>
+<rect x="374.0" y="104.0" width="38.0" height="100.0" fill="#c9d6e8" stroke="#13294B" stroke-width="1.2" rx="0"/>
+<text x="393.0" y="98.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">50%</text>
+<rect x="420.0" y="146.9" width="38.0" height="57.1" fill="url(#hatch)" stroke="#13294B" stroke-width="1.2" rx="0"/>
+<text x="439.0" y="140.9" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">29%</text>
+<text x="393.0" y="222.0" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="normal">eagle alarm</text>
+<text x="393.0" y="237.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">14 trials</text>
+<rect x="528.0" y="182.9" width="38.0" height="21.1" fill="#13294B" stroke="#13294B" stroke-width="1.2" rx="0"/>
+<text x="547.0" y="176.9" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">11%</text>
+<rect x="574.0" y="182.9" width="38.0" height="21.1" fill="#c9d6e8" stroke="#13294B" stroke-width="1.2" rx="0"/>
+<text x="593.0" y="176.9" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">11%</text>
+<rect x="620.0" y="56.6" width="38.0" height="147.4" fill="url(#hatch)" stroke="#13294B" stroke-width="1.2" rx="0"/>
+<text x="639.0" y="50.6" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">74%</text>
+<text x="593.0" y="222.0" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="normal">snake alarm</text>
+<text x="593.0" y="237.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal">19 trials</text>
+<rect x="162.0" y="31.0" width="14.0" height="12.0" fill="#13294B" stroke="#13294B" stroke-width="1.2" rx="1"/>
+<text x="182.0" y="41.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal">ran into a tree</text>
+<rect x="332.0" y="31.0" width="14.0" height="12.0" fill="#c9d6e8" stroke="#13294B" stroke-width="1.2" rx="1"/>
+<text x="352.0" y="41.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal">looked up</text>
+<rect x="502.0" y="31.0" width="14.0" height="12.0" fill="url(#hatch)" stroke="#13294B" stroke-width="1.2" rx="1"/>
+<text x="522.0" y="41.0" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal">looked down</text>
+<text x="360.0" y="262.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">data from Seyfarth, Cheney, and Marler (1980), Table 1; trials in which at least one monkey responded</text>
+</svg>

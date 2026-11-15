@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 194" width="720" height="194" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="360.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">An illustration of attention: where the word <tspan font-style="italic">it</tspan> might draw its information</text>
+<text x="30.5" y="140.0" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">The</text>
+<text x="86.0" y="140.0" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">restaurant</text>
+<text x="155.5" y="140.0" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">refused</text>
+<text x="197.0" y="140.0" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">to</text>
+<text x="231.5" y="140.0" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">serve</text>
+<text x="266.0" y="140.0" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">me</text>
+<text x="286.5" y="140.0" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">a</text>
+<text x="310.5" y="140.0" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">ham</text>
+<text x="359.0" y="140.0" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">sandwich</text>
+<text x="421.5" y="140.0" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="italic">because</text>
+<text x="463.0" y="140.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold" font-style="italic">it</text>
+<text x="478.0" y="140.0" font-size="14" fill="#5b6470" text-anchor="start" font-weight="normal" font-style="italic">only cooks vegetarian food.</text>
+<path d="M463.0,122.0 Q246.8,-5.2 30.5,122.0" fill="none" stroke="#f7b48a" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M463.0,122.0 Q274.5,7.1 86.0,122.0" fill="none" stroke="#FF5F05" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M463.0,122.0 Q309.2,22.3 155.5,122.0" fill="none" stroke="#f7b48a" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M463.0,122.0 Q330.0,31.5 197.0,122.0" fill="none" stroke="#f7b48a" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M463.0,122.0 Q347.2,39.1 231.5,122.0" fill="none" stroke="#f7b48a" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M463.0,122.0 Q364.5,46.7 266.0,122.0" fill="none" stroke="#f7b48a" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M463.0,122.0 Q374.8,51.2 286.5,122.0" fill="none" stroke="#f7b48a" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M463.0,122.0 Q386.8,56.5 310.5,122.0" fill="none" stroke="#f7b48a" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M463.0,122.0 Q411.0,67.1 359.0,122.0" fill="none" stroke="#FF5F05" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M463.0,122.0 Q442.2,80.9 421.5,122.0" fill="none" stroke="#f7b48a" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360.0" y="166.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">thicker lines stand for larger weights; the weights are invented, not measured in a trained model</text>
+<text x="360.0" y="186.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">after Prince (2026), ch. 12</text>
+</svg>

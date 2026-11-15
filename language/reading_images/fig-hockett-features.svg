@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 366" width="720" height="366" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="360.0" y="22.0" font-size="14" fill="#13294B" text-anchor="middle" font-weight="bold">Hockett’s thirteen features, in three animal signaling systems and in language</text>
+<rect x="556.0" y="34.0" width="60.0" height="282.5" fill="#f3f6fa" stroke="none" stroke-width="0.0" rx="4"/>
+<text x="352.0" y="48.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">bee</text>
+<text x="352.0" y="62.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">dancing</text>
+<text x="430.0" y="48.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">gibbon</text>
+<text x="430.0" y="62.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">calls</text>
+<text x="508.0" y="48.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">western</text>
+<text x="508.0" y="62.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">meadowlark song</text>
+<text x="586.0" y="48.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="bold">human</text>
+<text x="586.0" y="62.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="bold">language</text>
+<text x="664.0" y="48.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">a sign</text>
+<text x="664.0" y="62.0" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="normal">language*</text>
+<text x="308.0" y="88.5" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">1  vocal-auditory channel</text>
+<circle cx="352.0" cy="84.0" r="6.0" fill="#ffffff" stroke="#13294B" stroke-width="1.5"/>
+<circle cx="430.0" cy="84.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="508.0" cy="84.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="586.0" cy="84.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="664.0" cy="84.0" r="6.0" fill="#ffffff" stroke="#13294B" stroke-width="1.5"/>
+<text x="308.0" y="107.0" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">2  broadcast transmission, directional reception</text>
+<line x1="312.0" y1="93.2" x2="698.0" y2="93.2" stroke="#e3e6ea" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="352.0" cy="102.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="430.0" cy="102.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="508.0" cy="102.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="586.0" cy="102.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="664.0" cy="102.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<text x="308.0" y="125.5" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">3  rapid fading</text>
+<line x1="312.0" y1="111.8" x2="698.0" y2="111.8" stroke="#e3e6ea" stroke-width="0.8" stroke-linecap="round"/>
+<text x="352.0" y="126.0" font-size="14" fill="#5b6470" text-anchor="middle" font-weight="bold">?</text>
+<circle cx="430.0" cy="121.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="508.0" cy="121.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="586.0" cy="121.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="664.0" cy="121.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<text x="308.0" y="144.0" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">4  interchangeability</text>
+<line x1="312.0" y1="130.2" x2="698.0" y2="130.2" stroke="#e3e6ea" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="352.0" cy="139.5" r="6.0" fill="#ffffff" stroke="#13294B" stroke-width="1.4"/>
+<path d="M352.0,133.5 A6.0,6.0 0 0,0 352.0,145.5 Z" fill="#13294B"/>
+<circle cx="430.0" cy="139.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<text x="508.0" y="144.5" font-size="14" fill="#5b6470" text-anchor="middle" font-weight="bold">?</text>
+<circle cx="586.0" cy="139.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="664.0" cy="139.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<text x="308.0" y="162.5" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">5  total feedback</text>
+<line x1="312.0" y1="148.8" x2="698.0" y2="148.8" stroke="#e3e6ea" stroke-width="0.8" stroke-linecap="round"/>
+<text x="352.0" y="163.0" font-size="14" fill="#5b6470" text-anchor="middle" font-weight="bold">?</text>
+<circle cx="430.0" cy="158.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="508.0" cy="158.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="586.0" cy="158.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="664.0" cy="158.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<text x="308.0" y="181.0" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">6  specialization</text>
+<line x1="312.0" y1="167.2" x2="698.0" y2="167.2" stroke="#e3e6ea" stroke-width="0.8" stroke-linecap="round"/>
+<text x="352.0" y="181.5" font-size="14" fill="#5b6470" text-anchor="middle" font-weight="bold">?</text>
+<circle cx="430.0" cy="176.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="508.0" cy="176.5" r="6.0" fill="#ffffff" stroke="#13294B" stroke-width="1.4"/>
+<path d="M508.0,170.5 A6.0,6.0 0 0,0 508.0,182.5 Z" fill="#13294B"/>
+<circle cx="586.0" cy="176.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="664.0" cy="176.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<text x="308.0" y="199.5" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">7  semanticity</text>
+<line x1="312.0" y1="185.8" x2="698.0" y2="185.8" stroke="#e3e6ea" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="352.0" cy="195.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="430.0" cy="195.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="508.0" cy="195.0" r="6.0" fill="#ffffff" stroke="#13294B" stroke-width="1.4"/>
+<path d="M508.0,189.0 A6.0,6.0 0 0,0 508.0,201.0 Z" fill="#13294B"/>
+<circle cx="586.0" cy="195.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="664.0" cy="195.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<text x="308.0" y="218.0" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">8  arbitrariness</text>
+<line x1="312.0" y1="204.2" x2="698.0" y2="204.2" stroke="#e3e6ea" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="352.0" cy="213.5" r="6.0" fill="#ffffff" stroke="#13294B" stroke-width="1.5"/>
+<circle cx="430.0" cy="213.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="508.0" cy="213.5" r="6.0" fill="#ffffff" stroke="#13294B" stroke-width="1.4"/>
+<path d="M508.0,207.5 A6.0,6.0 0 0,0 508.0,219.5 Z" fill="#13294B"/>
+<circle cx="586.0" cy="213.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="664.0" cy="213.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<text x="308.0" y="236.5" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">9  discreteness</text>
+<line x1="312.0" y1="222.8" x2="698.0" y2="222.8" stroke="#e3e6ea" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="352.0" cy="232.0" r="6.0" fill="#ffffff" stroke="#13294B" stroke-width="1.5"/>
+<circle cx="430.0" cy="232.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<text x="508.0" y="237.0" font-size="14" fill="#5b6470" text-anchor="middle" font-weight="bold">?</text>
+<circle cx="586.0" cy="232.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="664.0" cy="232.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<text x="308.0" y="255.0" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">10  displacement</text>
+<line x1="312.0" y1="241.2" x2="698.0" y2="241.2" stroke="#e3e6ea" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="352.0" cy="250.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="430.0" cy="250.5" r="6.0" fill="#ffffff" stroke="#13294B" stroke-width="1.5"/>
+<text x="508.0" y="255.5" font-size="14" fill="#5b6470" text-anchor="middle" font-weight="bold">?</text>
+<circle cx="586.0" cy="250.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="664.0" cy="250.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<text x="308.0" y="273.5" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">11  productivity</text>
+<line x1="312.0" y1="259.8" x2="698.0" y2="259.8" stroke="#e3e6ea" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="352.0" cy="269.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="430.0" cy="269.0" r="6.0" fill="#ffffff" stroke="#13294B" stroke-width="1.5"/>
+<text x="508.0" y="274.0" font-size="14" fill="#5b6470" text-anchor="middle" font-weight="bold">?</text>
+<circle cx="586.0" cy="269.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="664.0" cy="269.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<text x="308.0" y="292.0" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">12  traditional transmission</text>
+<line x1="312.0" y1="278.2" x2="698.0" y2="278.2" stroke="#e3e6ea" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="352.0" cy="287.5" r="6.0" fill="#ffffff" stroke="#13294B" stroke-width="1.4"/>
+<path d="M352.0,281.5 A6.0,6.0 0 0,0 352.0,293.5 Z" fill="#13294B"/>
+<text x="430.0" y="292.5" font-size="14" fill="#5b6470" text-anchor="middle" font-weight="bold">?</text>
+<text x="508.0" y="292.5" font-size="14" fill="#5b6470" text-anchor="middle" font-weight="bold">?</text>
+<circle cx="586.0" cy="287.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="664.0" cy="287.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<text x="308.0" y="310.5" font-size="12" fill="#1a1a1a" text-anchor="end" font-weight="normal">13  duality of patterning</text>
+<line x1="312.0" y1="296.8" x2="698.0" y2="296.8" stroke="#e3e6ea" stroke-width="0.8" stroke-linecap="round"/>
+<circle cx="352.0" cy="306.0" r="6.0" fill="#ffffff" stroke="#13294B" stroke-width="1.5"/>
+<circle cx="430.0" cy="306.0" r="6.0" fill="#ffffff" stroke="#13294B" stroke-width="1.5"/>
+<text x="508.0" y="311.0" font-size="14" fill="#5b6470" text-anchor="middle" font-weight="bold">?</text>
+<circle cx="586.0" cy="306.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="664.0" cy="306.0" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<circle cx="120.0" cy="336.5" r="6.0" fill="#13294B" stroke="#13294B" stroke-width="1.2"/>
+<text x="132.0" y="340.5" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal">present</text>
+<circle cx="218.2" cy="336.5" r="6.0" fill="#ffffff" stroke="#13294B" stroke-width="1.5"/>
+<text x="230.2" y="340.5" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal">absent</text>
+<circle cx="309.8" cy="336.5" r="6.0" fill="#ffffff" stroke="#13294B" stroke-width="1.4"/>
+<path d="M309.8,330.5 A6.0,6.0 0 0,0 309.8,342.5 Z" fill="#13294B"/>
+<text x="321.8" y="340.5" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal">in part, or doubtfully</text>
+<text x="507.0" y="341.5" font-size="14" fill="#5b6470" text-anchor="middle" font-weight="bold">?</text>
+<text x="519.0" y="340.5" font-size="12" fill="#5b6470" text-anchor="start" font-weight="normal">doubtful or unknown</text>
+<text x="360.0" y="358.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">after Hockett (1960), pp. 94–95; *the sign-language column is our addition</text>
+</svg>

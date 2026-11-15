@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 312" width="720" height="312" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#5b6470" stroke-width="2"/></pattern></defs>
+<text x="360" y="22" font-size="14" fill="#6B7280" text-anchor="middle" font-weight="bold">The language network beside the multiple-demand network</text>
+<g transform="translate(200 44) scale(1.050)">
+<defs><clipPath id="clipTN"><path d="M6,82 C7.3,71.7 11.3,50 22,38 C32.7,26 50.3,16 70,10 C89.7,4 117.5,1.3 140,2 C162.5,2.7 187.5,6 205,14 C222.5,22 235.5,36.3 245,50 C254.5,63.7 261.2,83 262,96 C262.8,109 258,120.3 250,128 C242,135.7 229,138.3 214,142 C199,145.7 178.3,149.3 160,150 C141.7,150.7 118.7,148.7 104,146 C89.3,143.3 79.3,139 72,134 C64.7,129 61,120.3 60,116 C59,111.7 69.3,109.7 66,108 C62.7,106.3 48.7,107.3 40,106 C31.3,104.7 19.7,104 14,100 C8.3,96 4.7,92.3 6,82 Z"/></clipPath></defs>
+<path d="M168,140 C172,158 170,170 174,184 L190,184 C188,168 194,156 198,138 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="220" cy="140" rx="36" ry="20" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.4" transform="rotate(-8 220 140)"/>
+<path d="M6,82 C7.3,71.7 11.3,50 22,38 C32.7,26 50.3,16 70,10 C89.7,4 117.5,1.3 140,2 C162.5,2.7 187.5,6 205,14 C222.5,22 235.5,36.3 245,50 C254.5,63.7 261.2,83 262,96 C262.8,109 258,120.3 250,128 C242,135.7 229,138.3 214,142 C199,145.7 178.3,149.3 160,150 C141.7,150.7 118.7,148.7 104,146 C89.3,143.3 79.3,139 72,134 C64.7,129 61,120.3 60,116 C59,111.7 69.3,109.7 66,108 C62.7,106.3 48.7,107.3 40,106 C31.3,104.7 19.7,104 14,100 C8.3,96 4.7,92.3 6,82 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<g clip-path="url(#clipTN)">
+<ellipse cx="70" cy="88" rx="20" ry="9" fill="#555b64" stroke="#1a1a1a" stroke-width="1" transform="rotate(-10 70 88)"/>
+<ellipse cx="46" cy="98" rx="14" ry="6" fill="#555b64" stroke="#1a1a1a" stroke-width="1" transform="rotate(6 46 98)"/>
+<ellipse cx="78" cy="52" rx="16" ry="7" fill="#555b64" stroke="#1a1a1a" stroke-width="1" transform="rotate(-14 78 52)"/>
+<ellipse cx="100" cy="124" rx="24" ry="7" fill="#555b64" stroke="#1a1a1a" stroke-width="1" transform="rotate(-6 100 124)"/>
+<ellipse cx="180" cy="108" rx="26" ry="9" fill="#555b64" stroke="#1a1a1a" stroke-width="1" transform="rotate(-18 180 108)"/>
+<ellipse cx="92" cy="66" rx="23" ry="7.5" fill="url(#hatch)" stroke="#1a1a1a" stroke-width="1" transform="rotate(10 92 66)"/>
+<ellipse cx="18" cy="70" rx="12" ry="11" fill="url(#hatch)" stroke="#1a1a1a" stroke-width="1" transform="rotate(0 18 70)"/>
+<ellipse cx="115" cy="42" rx="8" ry="19" fill="url(#hatch)" stroke="#1a1a1a" stroke-width="1" transform="rotate(22 115 42)"/>
+<ellipse cx="80" cy="104" rx="15" ry="7" fill="url(#hatch)" stroke="#1a1a1a" stroke-width="1" transform="rotate(-8 80 104)"/>
+<ellipse cx="198" cy="54" rx="27" ry="8" fill="url(#hatch)" stroke="#1a1a1a" stroke-width="1" transform="rotate(30 198 54)"/>
+</g>
+<path d="M6,82 C7.3,71.7 11.3,50 22,38 C32.7,26 50.3,16 70,10 C89.7,4 117.5,1.3 140,2 C162.5,2.7 187.5,6 205,14 C222.5,22 235.5,36.3 245,50 C254.5,63.7 261.2,83 262,96 C262.8,109 258,120.3 250,128 C242,135.7 229,138.3 214,142 C199,145.7 178.3,149.3 160,150 C141.7,150.7 118.7,148.7 104,146 C89.3,143.3 79.3,139 72,134 C64.7,129 61,120.3 60,116 C59,111.7 69.3,109.7 66,108 C62.7,106.3 48.7,107.3 40,106 C31.3,104.7 19.7,104 14,100 C8.3,96 4.7,92.3 6,82 Z" fill="none" stroke="#1a1a1a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M64,110 Q110,100 150,94 Q170,90 178,78" fill="none" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M146,3 Q126,50 118,96" fill="none" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="150" y="245" width="14" height="12" fill="#555b64" stroke="none" stroke-width="1.2" rx="1"/>
+<text x="170" y="255" font-size="12" fill="#5b6470" text-anchor="start">language network: responds to sentences more than to nonwords</text>
+<rect x="150" y="265" width="14" height="12" fill="url(#hatch)" stroke="none" stroke-width="1.2" rx="1"/>
+<text x="170" y="275" font-size="12" fill="#5b6470" text-anchor="start">multiple-demand network: responds more as many kinds of task get harder</text>
+<line x1="180" y1="202" x2="273.5" y2="136.4" stroke="#5b6470" stroke-width="1" stroke-linecap="round"/>
+<text x="176" y="206" font-size="12" fill="#1a1a1a" text-anchor="end">inferior frontal</text>
+<line x1="230" y1="228" x2="305" y2="174.2" stroke="#5b6470" stroke-width="1" stroke-linecap="round"/>
+<text x="226" y="232" font-size="12" fill="#1a1a1a" text-anchor="end">anterior temporal</text>
+<line x1="520" y1="210" x2="389" y2="157.4" stroke="#5b6470" stroke-width="1" stroke-linecap="round"/>
+<text x="524" y="214" font-size="12" fill="#1a1a1a" text-anchor="start">posterior temporal</text>
+<line x1="520" y1="68" x2="407.9" y2="100.7" stroke="#5b6470" stroke-width="1" stroke-linecap="round"/>
+<text x="524" y="72" font-size="12" fill="#1a1a1a" text-anchor="start">intraparietal (multiple-demand)</text>
+<line x1="180" y1="56" x2="296.6" y2="113.3" stroke="#5b6470" stroke-width="1" stroke-linecap="round"/>
+<text x="176" y="60" font-size="12" fill="#1a1a1a" text-anchor="end">inferior frontal sulcus</text>
+<text x="176" y="74" font-size="12" fill="#1a1a1a" text-anchor="end">(multiple-demand)</text>
+<text x="360" y="304" font-size="12" fill="#5b6470" text-anchor="middle" font-style="italic">schematic, after Fedorenko et al. (2024), Fig. 2, and Duncan (2010); positions are averages</text>
+</svg>

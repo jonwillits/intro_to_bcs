@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 274" width="720" height="274" font-family="Cambria, Calibri, Arial, DejaVu Sans, sans-serif">
+<text x="360.0" y="22.0" font-size="14" fill="#b8460a" text-anchor="middle" font-weight="bold">Candidates for a spoken word, as its sounds arrive one at a time</text>
+<text x="176.0" y="56.0" font-size="12" fill="#5b6470" text-anchor="end" font-weight="normal">sounds heard so far:</text>
+<text x="222.0" y="56.0" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">p</text>
+<line x1="190.0" y1="64.0" x2="190.0" y2="218.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="286.0" y="56.0" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">r</text>
+<line x1="254.0" y1="64.0" x2="254.0" y2="218.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="350.0" y="56.0" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">ɑ</text>
+<line x1="318.0" y1="64.0" x2="318.0" y2="218.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="414.0" y="56.0" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">d</text>
+<line x1="382.0" y1="64.0" x2="382.0" y2="218.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="478.0" y="56.0" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">ʌ</text>
+<line x1="446.0" y1="64.0" x2="446.0" y2="218.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="542.0" y="56.0" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">k</text>
+<line x1="510.0" y1="64.0" x2="510.0" y2="218.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="606.0" y="56.0" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">t</text>
+<line x1="574.0" y1="64.0" x2="574.0" y2="218.0" stroke="#e3e6ea" stroke-width="1.0" stroke-linecap="round"/>
+<text x="176.0" y="89.0" font-size="14" fill="#1a1a1a" text-anchor="end" font-weight="normal"><tspan font-style="italic">trot</tspan></text>
+<line x1="216.0" y1="80.0" x2="228.0" y2="92.0" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="216.0" y1="92.0" x2="228.0" y2="80.0" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+<text x="176.0" y="113.0" font-size="14" fill="#1a1a1a" text-anchor="end" font-weight="normal"><tspan font-style="italic">possible</tspan></text>
+<rect x="190.0" y="103.0" width="64.0" height="14.0" fill="#f7b48a" stroke="none" stroke-width="1.2" rx="0"/>
+<line x1="280.0" y1="104.0" x2="292.0" y2="116.0" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="280.0" y1="116.0" x2="292.0" y2="104.0" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+<text x="176.0" y="137.0" font-size="14" fill="#1a1a1a" text-anchor="end" font-weight="normal"><tspan font-style="italic">priest</tspan></text>
+<rect x="190.0" y="127.0" width="128.0" height="14.0" fill="#f7b48a" stroke="none" stroke-width="1.2" rx="0"/>
+<line x1="344.0" y1="128.0" x2="356.0" y2="140.0" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="344.0" y1="140.0" x2="356.0" y2="128.0" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+<text x="176.0" y="161.0" font-size="14" fill="#1a1a1a" text-anchor="end" font-weight="normal"><tspan font-style="italic">progress</tspan></text>
+<rect x="190.0" y="151.0" width="192.0" height="14.0" fill="#f7b48a" stroke="none" stroke-width="1.2" rx="0"/>
+<line x1="408.0" y1="152.0" x2="420.0" y2="164.0" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="408.0" y1="164.0" x2="420.0" y2="152.0" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+<text x="176.0" y="185.0" font-size="14" fill="#1a1a1a" text-anchor="end" font-weight="normal"><tspan font-style="italic">produce</tspan></text>
+<rect x="190.0" y="175.0" width="256.0" height="14.0" fill="#f7b48a" stroke="none" stroke-width="1.2" rx="0"/>
+<line x1="472.0" y1="176.0" x2="484.0" y2="188.0" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+<line x1="472.0" y1="188.0" x2="484.0" y2="176.0" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+<text x="176.0" y="209.0" font-size="14" fill="#b8460a" text-anchor="end" font-weight="bold"><tspan font-style="italic">product</tspan></text>
+<rect x="190.0" y="199.0" width="448.0" height="14.0" fill="#FF5F05" stroke="none" stroke-width="1.2" rx="0"/>
+<text x="648.0" y="210.0" font-size="12" fill="#b8460a" text-anchor="start" font-weight="normal">recognized</text>
+<text x="414.0" y="238.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">× marks the sound at which a candidate stops fitting</text>
+<text x="360.0" y="266.0" font-size="12" fill="#5b6470" text-anchor="middle" font-weight="normal" font-style="italic">after McClelland and Elman (1986), Fig. 26; sounds written in a simplified phonetic spelling</text>
+</svg>
