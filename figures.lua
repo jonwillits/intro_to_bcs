@@ -242,6 +242,11 @@ local function collect(doc)
       if #t.caption.long == 0 then return end     -- uncaptioned tables are unnumbered
       local cap = t.caption.long[1]
       local id = (cap.content and peek_table_id(cap.content)) or nil
+      -- Pandoc 3.x (seen with 3.9) parses the trailing {#t-xxx} itself and
+      -- moves it onto the table's attributes, so it never reaches the caption.
+      if not id and t.identifier and t.identifier:sub(1, #TBL_PREFIX) == TBL_PREFIX then
+        id = t.identifier
+      end
       id = id or (TBL_PREFIX .. "anon-" .. (#tbl_order + 1))
       if tbls[id] then problem('duplicate table id "' .. id .. '"'); return end
       tbls[id] = { id = id, refs = 0 }
