@@ -12,3 +12,12 @@ format:
       - text: "Download reading (PDF)"
         href: language_reading.pdf
         icon: file-earmark-pdf
+      - text: "Slides — Lecture 1"
+        href: language_lecture_1.pdf
+        icon: file-earmark-slides
+      - text: "Slides — Lecture 2"
+        href: language_lecture_2.pdf
+        icon: file-earmark-slides
+      - text: "Slides — Lecture 3"
+        href: language_lecture_3.pdf
+        icon: file-earmark-slides
